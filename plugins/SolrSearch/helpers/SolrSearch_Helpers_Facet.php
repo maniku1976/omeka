@@ -36,6 +36,10 @@ class SolrSearch_Helpers_Facet
 
         }
 
+        foreach ($facets as $facet) {
+          echo $facet;
+        }
+
         return $facets;
 
     }

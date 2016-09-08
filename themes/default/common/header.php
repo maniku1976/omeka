@@ -121,7 +121,7 @@
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('collections')); ?>">
         <?php echo __('Kirjeiden vastaanottajat'); ?></a>
         <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>">Esipuhe</a>
-        <a id="infobtn">Ohjeita</a>
+        <a id="infobtn">Tietoja</a>
         <span style="float:right;">
           <a id="searchbtn"><?php echo __('Laajennettu haku'); ?></a>
           <?php echo search_form(); ?>

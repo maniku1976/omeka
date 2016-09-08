@@ -67,23 +67,19 @@ class SolrSearch_Helpers_Index
       if ($field->label == 'XML File') {
         $text->text = $contents;
         $text->location = $xml->text->body->div->opener->dateline->placeName;
-        $text->date = $xml->text->body->div->opener->dateline->date;
-        $text->type = $xml->text->body->div->attributes()[0];
       }
 
       // Set text field.
       if ($field->is_indexed && $field->label == 'XML File') {
         $doc->setMultiValue($field->indexKey(), $text->text);
         $doc->setMultiValue($field->indexKey(), $text->location);
-        $doc->setMultiValue($field->indexKey(), $text->date);
-        $doc->setMultiValue($field->indexKey(), $text->type);
       } else if ($field->is_indexed && $field->label != 'XML File') {
         $doc->setMultiValue($field->indexKey(), $text->text);
       }
 
       // Set string field.
       if ($field->is_facet && $field->label == 'XML File') {
-        $doc->setMultiValue($field->facetKey(), $text->type);
+        $doc->setMultiValue($field->facetKey(), $text->location);
       } else if ($field->is_facet && $field->label != 'XML File') {
         $doc->setMultiValue($field->facetKey(), $text->text);
       }
@@ -119,6 +115,24 @@ class SolrSearch_Helpers_Index
     $doc->setField('title', $title);
 
     // Elements:
+
+    foreach ($item->getFiles() as $file) {
+      if ($file->getExtension() == 'xml') {
+
+      // Get writing location from xml as facet
+        $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
+        $field = new SolrSearchField();
+        $field->label = 'Location';
+        $field->element_id = 150;
+        $field->slug = 150;
+        $field->is_indexed = 1;
+        $field->is_facet = 1;
+        $field->text = $xml->text->body->div->opener->dateline->placeName;
+        $doc->setMultiValue($field->indexKey(), $field->text);
+        $doc->setMultiValue($field->facetKey(), $field->text);
+      }
+    }
+
     self::indexItem($fields, $item, $doc);
 
     // Tags:
