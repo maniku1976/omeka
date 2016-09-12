@@ -32,12 +32,10 @@ class SolrSearch_Helpers_Facet
             // Collapse into an array of pairs.
             foreach ($matches['field'] as $i => $field) {
                 $facets[] = array($field, $matches['value'][$i]);
+
             }
 
-        }
 
-        foreach ($facets as $facet) {
-          echo $facet;
         }
 
         return $facets;
@@ -87,7 +85,6 @@ class SolrSearch_Helpers_Facet
 
         // Get the current facets.
         $facets = self::parseFacets();
-
         // Add the facet, if it's not already present.
         if (!in_array(array($field, $value), $facets)) {
             $facets[] = array($field, $value);

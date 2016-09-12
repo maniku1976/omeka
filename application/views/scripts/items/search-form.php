@@ -28,12 +28,13 @@ $formAttributes['method'] = 'GET';
                   'sort' => 'orderBySet'));
 
               $table_options = array_diff($table_options,
-                ['Kattavuus', 'Laji', 'Formaatti', 'Julkaisija', 'Oikeudet', 'Muu tekijä', 'Lähde']);
+                ['Aihe', 'Kuvaus', 'Kattavuus', 'Laji', 'Formaatti', 'Julkaisija', 'Oikeudet',
+                'Muu tekijä', 'Lähde', 'Suhde']);
 
               $table_options = str_replace('Valitse', 'Valitse hakukenttä', $table_options);
               $table_options = str_replace('Aikamääre', 'Kirjoitusvuosi', $table_options);
               $table_options = str_replace('Tekijä', 'Kirjoittaja', $table_options);
-              $table_options = str_replace('Nimeke', 'Otsikko', $table_options);
+              $table_options = str_replace('Nimeke', 'Vastaanottaja', $table_options);
 
               $label_table_options = label_table_options(array(
                   'contains' => __('sisältää'),

@@ -116,7 +116,7 @@ class SolrSearch_Helpers_Index
 
     // Elements:
 
-    foreach ($item->getFiles() as $file) {
+    /*foreach ($item->getFiles() as $file) {
       if ($file->getExtension() == 'xml') {
 
       // Get writing location from xml as facet
@@ -127,11 +127,11 @@ class SolrSearch_Helpers_Index
         $field->slug = 150;
         $field->is_indexed = 1;
         $field->is_facet = 1;
-        $field->text = $xml->text->body->div->opener->dateline->placeName;
+        $field->text = (string)$xml->text->body->div->opener->dateline->placeName;
         $doc->setMultiValue($field->indexKey(), $field->text);
         $doc->setMultiValue($field->facetKey(), $field->text);
       }
-    }
+    }*/
 
     self::indexItem($fields, $item, $doc);
 
