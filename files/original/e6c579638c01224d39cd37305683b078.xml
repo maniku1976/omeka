@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Frans Johan Rabbe</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-09-05">05.09.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Rabbe</surname>
+                                <forename>Frans Johan</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl></bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n=""></placeName>
+                        <date when=""></date>
+                    </dateline>
+                </opener>
+                <p><hi rend="underline">Neljäs Runo</hi></p>
+                <p><add>Se innehållsförteçkningen.)</add></p>
+                <lg>
+                    <l>Tuopa Aino neito nuori,</l> 
+                    <l>Sisar nuoren Joukahaisen</l> 
+                    <l>Läksi luutoa lehosta, <add>3: 3. lehtimetsästä.</add> </l>
+                    <l>Vastaksia varvikosta; <add>4: 1. vastan, vihdan aineita.</add></l>
+                    <l>Taittoi vastan taatollensa, <add>5: 2. vihdan.</add></l>  
+                    <l>Toisen taittoi maammollensa,</l> 
+                    <l>Kokoeli kolmannenki</l> 
+                    <l>Verevälle veijollensa.<add>8: 2. veljellensä.</add></l>
+                </lg> 
+                <lg>
+                    <l>Jo astui kohin kotia,</l> 
+                    <l>Lepikköä leuhautti,</l> 
+                    <l>Tuli vanha Väinämöinen;</l> 
+                    <l>Näki neitosen lehossa,</l> 
+                    <l>Hienohelman heinikössä</l> 
+                    <l>Sanan virkkoi, noin nimesi:</l> 
+                    <l>"Eläpä muille neiti nuori</l> 
+                    <l>Kun minulle neiti nuori</l> 
+                    <l>Kanna kaulan helmilöitä,</l>
+                </lg>    
+            </div>
+        </body>
+    </text>
+</TEI>
