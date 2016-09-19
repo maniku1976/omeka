@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Carl Niklas Keckman</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-09-15">15.9.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+                        <idno>20:5</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Keckman</surname>
+                                <forename>Carl Niklas Keckman</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>113</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fi-FI" usage="100">suomi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1833-08-17">17.8.1833</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak020_005a" />
+                <p><hi rend="underline">Kajanista 17 Elokuussa 1833.</hi></p>
+                <p>Rehellinen Veljeni ja Ystäväni!  Viimme Heinäkuun lopulla sain Kesäkuun 28 päivänä Tukhulmista kirjotetun kirjasi
+                    ja päivällä jälestä toisenki, jonka olit Helsingistä kirjoittanut Toukokuun 24 päivänä. Olipa aika hyvästi, että
+                    velkani tuli niin selvitetyksi. Jo vähän pelkäsinki tästä velasta, sillä en ollut saanut pienintäkään tietoa,
+                    mitenkä kirjani, jotka täältä lähetin jo Toukokuun alussa Sinulle ja Lindforsille olivat tulleet käsiin, ennenkun
+                    vasta 16:tenä Heinäkuussa sain Lindforsilta tiedoksi, että Bankki oli tullut sovitetuksi. Häntä ja Grönlundia,
+                    joka oli lainannut rahaa tähän tarpeeseen, koska en saanutkaan palkkaa ensimmäisestä puolesta virkavuodestani,
+                    kiitin minä ja saan nyt kiittää Sinua, sekä muusta huolestasi tässä asiassa, että takuunki menosta. Paljo senlaisilla
+                    asioilla tulee toisia vaivaamaan, liiatenki joka itte asuupi niin etäällä, kun minä Helsingistä, vaan mitäpä
+                    tuohon tekee. Toivoisin ma Jumalan avulla vuoden, kahden päästä pääseväni selväksi koko velasta, koska nyt 24
+                    päivänä viimme kuussa olen tullut määrätyksi varsinaiseksi Läänin ja Linnan Lääkäriksi tänne. On kyllä kaunis palkka
+                    Ruunulta minulle tuleva vaan kylläpä täällä tarvitteeki, kun näin Suomen perukalla pitää aikansa viettää,</p>
+                <table>
+                    <row>
+                        <cell>
+                            <lg>
+                                <l>Joss' on päivät päätä vailla</l>
+                                <l>Illat ilman alkuaki</l>
+                                <l>Aamuhetket aatkelimmat</l>
+                                <l>Pimeimmän yön perästä</l>
+                                <l>Kaupunki on Kajanissa</l>
+                                <l>Koivukoskelle kohattu</l>
+                                <l>Ämmän äyräälle äriän</l>
+                                <l>Pahanlaisen partahalle</l>
+                                <l>Jok' on kaunis kahtannulta</l>
+                                <l>Siivo siskojen seassa</l>
+                                <l>Kauniin muita kaupungeita</l>
+                            </lg>
+                        </cell>
+                        <cell>
+                            <lg>
+                                <l>Siin on huonet siellä täällä</l>
+                                <l>Komeimmat kartanotki</l>
+                                <l>Mik' on kartano katoton</l>
+                                <l>Mikä kaikella katolla</l>
+                                <l>Miss' on seinät seisomassa</l>
+                                <l>Missä kaatuneet kaulle</l>
+                                <l>Tahi muuten mullistunna</l>
+                                <l>Sioiltansa pullistunna</l>
+                                <l>Akkunat on avarimmat</l>
+                                <l>Lasit aivan laaulliset</l>
+                                <l>Puolet ruutoja pu'onna</l>
+                            </lg>
+                        </cell>
+                    </row>
+                </table>
+                <pb n="2" facs="lnak020_005b" />
+                <table>
+                    <row>
+                        <cell>
+                            <lg>
+                                <l>Säpäleiksi särettynä</l>
+                                <l>Jottapa Jumalan ilma</l>
+                                <l>Saisi ilman estämättä</l>
+                                <l>Kuleksella kunki luona</l>
+                                <l>Latomassa lahjojansa</l>
+                                <l>Kaut kaikista parahat</l>
+                                <l>Kaksi pitkin kaupunkia</l>
+                                <l>Neljä poikite polosen</l>
+                                <l>Ylehen likalokaiset</l>
+                                <l>Saviset ja saastaiset</l>
+                                <l>Jott' ei jaksa jalka käyä</l>
+                                <l>Eikä kestä kengän varsi</l>
+                                <l>Saven saamatta sisähän</l>
+                                <l>Lian julki juoksematta</l>
+                                <l>Vielä siat siirteleksen</l>
+                                <l>Pitkin kaukungin katuja</l>
+                                <l>Karja ammoopi alati</l>
+                                <l>Lammas lauma määkileepi</l>
+                                <l>Joita muuan muukalainen</l>
+                                <l>Alamaasta matkustanut</l>
+                                <l>Tullut tänne tuvillemme</l>
+                                <l>Katto kaupungin väeksi</l>
+                                <l>Tervehteli porvareiksi</l>
+                                <l>Näin nyt on asiat täällä</l>
+                                <l>Elo meillä ennallinen</l>
+                                <l>Vaikk' en saatakkaan sanoa</l>
+                                <l>Enkä panna paperille</l>
+                                <l>Itek arvele alusta</l>
+                                <l>Mitä puuttuu puheestani</l>
+                            </lg>
+                        </cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p>Epätasaiset säät ovat tänä kesänäki paljon huolettaneet näiden paikkakuntain asukkaita. Enimiten on
+                    nyt kauvan aikaa ollut kylmiä ja sateisiä säitä. Touvot jotka keväistä alkain nostit kauniin oljen,
+                    ovat myöhistyneet, josta syystä peljätään taasenki tulevan huonon vuoden. Muutin paikoin peukovat
+                    tuppihallan panneen ohralaihot peräti. Jos vaan katovuosi vielä kohtaa tätä maata, niin ollaan aivan
+                    surkiassa tilassa. Taudit jotka tähän asti kulkivat murhajan tavoin ovat nyt kyllä väsäyneet ja pian
+                    peräti hälvenneet, mutta arvattavasti kiintyvät jällen, jos ruokaa ei saada. Sitte Juhannusta olen
+                    saanut olla hyvässä rauhassa niiltä ja toivoisin saavani ikuisesti.</p>
+                <pb n="3" facs="lnak020_005c" />
+                <p>Suomalaisia Runoja, Sananlaskuja, Arvutuksia j.m. olen aikaa myöten kokoillut täälläki. Ilman viidettä
+                    Osaa Kanteleesta on minulla uusia runoja vanhoista ja nykysistä asioista noin 18 Kirjotus Arkkia. Tulevana
+                    syksynä olen aikonut järjestyttää niitä präntättaviksi, koska Seura hyvatahtoisesti rupiaa präntti
+                    kulunkiin. Lähetä siis ensi postissa niitä runoja, kun sinun luonasi vielä on pranttäämättä tänne,
+                    niin minä sitte Joulun edellä lähetän ne sinulta takasin siinä järjestyksessä, jossa luulisin olevan
+                    paraimman präntätä niitä. Olisi kyllä sievempi lähettää näitäki täältä sinne, vaan en tiedä, jos sinulla
+                    olisi aikaa korjuuttaa niitä präntinalaisiksi ja ja pelkään vielä kirjoitukseniki muutamissa paikoissa
+                    olevan niin sekalaisen, ettei siitä toinen helpolla saa selvää, koska minun piti kirjoittaa niitä
+                    laulajan suusta kyllä pikasesti.</p>
+                <p>Mitenkä kävisi tuo, jos Seura pranttäyttäisi uudestansa kaikki Suomen Runot, jotka sen arvon ovat
+                    ansainneet, ja niitä koottaisi järjestykseen, niin että, mitä Wäinämöisestä, Ilmarisesta, Lemminkäisestä
+                    j.m. on eripaikoissa löyttävä, lyötäisi taikka jatkettaisi yhteen ja Leçtiones variantes pantaisi ala
+                    kuhunkiin paikkaan taikka loppulehtilöihin. Sihenki työhön olisin mielelläni rupiava, Vaikka se kyllä
+                    tarvitsisi parempatakin auctoria, vaan luulisin tuon käyvän joksiki, jos sinä sitte ennen präntäämistä
+                    niihi vähä korjaisit ja parantailit niissä paikoissa, joissa olisin erehtynyt. Lemminkäisen runot koin
+                    sillä tavalla yhteen lyödä ja siitä</p>
+                <pb n="4" facs="lnak020_005d" />
+                <p>tuli noin kaksi täysinäistä arkkia, jotka Ingmanni täällä ollessaan kirjotti ittelleen, niin että häneltä
+                    saat nähdä, minkä mukaan toisiaki runoja samalla lailla luulisin tarvihtavan yhdistää.</p>
+                <p>Jos tämä työ ei käy laatuun, niin heitetään se sitte ja präntatään, mitä vielä on pränttäämättä, erittäin.
+                    Kun nyt lähetät tänne sinulla olevia runoja, niin olisi hyvä, jos saisit yhdessä lähetetyksi mitä v. Beçker
+                    on koonnut ja ei vielä ole präntätyt. Ei hän nyt mahtaisi tuota vastoin ollakkaan, koska minä rehellisesti
+                    tahtoisin esipuheessa taikka muuten nimittää mitä häneltä on tullut.</p>
+                <p>Niitä outoja sanoja Suomen runoissa, jotka jo vuoden takoa sain sinulta kirjoitettuna olen nyt käynyt läpi
+                    ja kokenut selvittää, mitä olen tainnut. Vaan en ole ennättänyt vielä muuta kun viisi arkkia. Syksyllä enemmän.</p>
+                <p>Koska minua on kutsuttu Foudin luoksi puoliselle, jossa ite Maaherraki on restitutkinnossa, on on nyt
+                    kyllä kiiret, sillä partaki on vielä ajamatta. Terveisiä paljon Ilmonille ja muille. Jos kirjotat niin
+                    kirjota kuinka Gottlundiki Ruotsissa elää, sillä hänen tapasi epäilemättä</p>
+                <p>Veljesi ja rehellinen ystäväsi</p>
+                <p>Elias Lönnrot.</p>
+
+            </div>
+        </body>
+    </text>
+</TEI>
