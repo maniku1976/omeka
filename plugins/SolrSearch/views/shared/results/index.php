@@ -144,6 +144,7 @@
       <!-- Highlighting. -->
       <?php if (get_option('solr_search_hl')): ?>
         <ul class="hl">
+          <!-- Make field labels visible in search results -->
           <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
           <?php $prop = str_replace('44_t', 'Kieli', $prop);
             $prop = str_replace('51_t', 'Laji', $prop);

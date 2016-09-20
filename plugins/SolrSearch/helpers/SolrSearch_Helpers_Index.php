@@ -116,7 +116,7 @@ class SolrSearch_Helpers_Index
     foreach ($item->getFiles() as $file) {
       if ($file->getExtension() == 'xml') {
 
-      // Get writing location and recipient from xml for indexing
+      // Get writing location and recipient from xml and create fields for indexing
         $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
         $locField = new SolrSearchField();
         $rcField = new SolrSearchField();
