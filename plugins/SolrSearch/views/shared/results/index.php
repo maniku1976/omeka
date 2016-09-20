@@ -39,13 +39,17 @@
       <li>
         <!-- Facet label. -->
         <?php $label = SolrSearch_Helpers_Facet::keyToLabel($f[0]); ?>
-        <?php $label = str_replace('XML File', 'Paikka', $label);
+        <?php
+        $label = str_replace('XML File', 'Kirjoituspaikka', $label);
         $label = str_replace('Language', 'Kieli', $label);
         $label = str_replace('Type', 'Laji', $label);
         ?>
         <span class="applied-facet-label"><?php echo $label; ?></span> >
-        <span class="applied-facet-value"><?php echo $f[1]; ?></span>
-
+        <?php if ($label == 'Kirjoituspaikka'): ?>
+          <span class="applied-facet-value"><?php echo ucfirst($f[1]); ?></span>
+        <?php else: ?>
+          <span class="applied-facet-value"><?php echo $f[1]; ?></span>
+        <?php endif; ?>
         <!-- Remove link. -->
         <?php $url = SolrSearch_Helpers_Facet::removeFacet($f[0], $f[1]); ?>
         (<a href="<?php echo $url; ?>">poista</a>)
@@ -140,11 +144,21 @@
       <!-- Highlighting. -->
       <?php if (get_option('solr_search_hl')): ?>
         <ul class="hl">
-          <?php foreach($results->highlighting->{$doc->id} as $field): ?>
+          <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
+          <?php $prop = str_replace('44_t', 'Kieli', $prop);
+            $prop = str_replace('51_t', 'Laji', $prop);
+            $prop = str_replace('40_t', 'Kirjoitusaika', $prop);
+            $prop = str_replace('50_t', 'Otsikko', $prop);
+            $prop = str_replace('46_t', 'Signum', $prop);
+            $prop = str_replace('64_t', 'Teksti', $prop);
+            $prop = str_replace('70_t', 'Kirjoituspaikka', $prop);
+            $prop = str_replace('75_t', 'Vastaanottaja', $prop);
+            ?>
             <?php foreach($field as $hl): ?>
-              <li class="snippet"><?php echo strip_tags($hl, '<em>'); ?></li>
+              <li class="snippet"><?php echo '<b>'.$prop.'</b>'.": ".strip_tags($hl, '<em>'); ?></li>
             <?php endforeach; ?>
           <?php endforeach; ?>
+
         </ul>
       <?php endif; ?>
 

@@ -70,10 +70,7 @@ class SolrSearch_Helpers_Index
       }
 
       // Set text field.
-      if ($field->is_indexed && $field->label == 'XML File') {
-        $doc->setMultiValue($field->indexKey(), $text->text);
-        $doc->setMultiValue($field->indexKey(), $text->location);
-      } else if ($field->is_indexed && $field->label != 'XML File') {
+      if ($field->is_indexed) {
         $doc->setMultiValue($field->indexKey(), $text->text);
       }
 
@@ -116,22 +113,29 @@ class SolrSearch_Helpers_Index
 
     // Elements:
 
-    /*foreach ($item->getFiles() as $file) {
+    foreach ($item->getFiles() as $file) {
       if ($file->getExtension() == 'xml') {
 
-      // Get writing location from xml as facet
+      // Get writing location and recipient from xml for indexing
         $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
-        $field = new SolrSearchField();
-        $field->label = 'Location';
-        $field->element_id = 150;
-        $field->slug = 150;
-        $field->is_indexed = 1;
-        $field->is_facet = 1;
-        $field->text = (string)$xml->text->body->div->opener->dateline->placeName;
-        $doc->setMultiValue($field->indexKey(), $field->text);
-        $doc->setMultiValue($field->facetKey(), $field->text);
+        $locField = new SolrSearchField();
+        $rcField = new SolrSearchField();
+
+        $locField->slug = 70;
+        $locField->is_indexed = 1;
+        $locField->is_facet = 0;
+        $locField->text = (string)$xml->text->body->div->opener->dateline->placeName;
+
+        $rcField->slug = 75;
+        $rcField->is_indexed = 1;
+        $rcField->is_facet = 0;
+        $rcField->text = (string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->surname.
+        ", ".(string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->forename;
+
+        $doc->setMultiValue($locField->indexKey(), $locField->text);
+        $doc->setMultiValue($rcField->indexKey(), $rcField->text);
       }
-    }*/
+    }
 
     self::indexItem($fields, $item, $doc);
 
