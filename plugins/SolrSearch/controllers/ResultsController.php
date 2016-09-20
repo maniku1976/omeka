@@ -129,7 +129,7 @@ class SolrSearch_ResultsController
             } else if (strpos($query, 'ä') !== false) {
               $query4 = str_replace('ä', '\u00E6', $query);
               $query .= " OR {$query4}";
-            } 
+            }
 
             $query = str_replace(':', ' ', $query);
             $to_remove = array('[', ']');
@@ -144,7 +144,7 @@ class SolrSearch_ResultsController
         $facet = $this->_request->facet;
 
         // Form the composite Solr query.
-        if (!empty($facet)) $query .= " AND {$facet}";
+        if (!empty($facet)) $query = "({$query})". " AND {$facet}";
 
         // Limit the query to public items if required
         /*if($limitToPublicItems) {

@@ -44,7 +44,7 @@
         $label = str_replace('Language', 'Kieli', $label);
         $label = str_replace('Type', 'Laji', $label);
         ?>
-        <span class="applied-facet-label"><?php echo $label; ?></span> >
+        <span class="applied-facet-label"><?php echo $label; ?></span>
         <?php if ($label == 'Kirjoituspaikka'): ?>
           <span class="applied-facet-value"><?php echo ucfirst($f[1]); ?></span>
         <?php else: ?>

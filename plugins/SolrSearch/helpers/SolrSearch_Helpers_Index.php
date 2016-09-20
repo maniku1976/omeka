@@ -66,7 +66,7 @@ class SolrSearch_Helpers_Index
       // If item has an attached xml file, replace field value (file url) with xml file contents
       if ($field->label == 'XML File') {
         $text->text = $contents;
-        $text->location = $xml->text->body->div->opener->dateline->placeName;
+        $text->location = (string)$xml->text->body->div->opener->dateline->placeName;
       }
 
       // Set text field.
@@ -116,15 +116,17 @@ class SolrSearch_Helpers_Index
     foreach ($item->getFiles() as $file) {
       if ($file->getExtension() == 'xml') {
 
-      // Get writing location and recipient from xml and create fields for indexing
+      // Get writing location and recipient from xml and create fields for indexing:
         $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
         $locField = new SolrSearchField();
-        $rcField = new SolrSearchField();
 
         $locField->slug = 70;
         $locField->is_indexed = 1;
         $locField->is_facet = 0;
         $locField->text = (string)$xml->text->body->div->opener->dateline->placeName;
+        /*$doc->setMultiValue($locField->indexKey(), $locField->text);*/
+
+        $rcField = new SolrSearchField();
 
         $rcField->slug = 75;
         $rcField->is_indexed = 1;
@@ -132,7 +134,6 @@ class SolrSearch_Helpers_Index
         $rcField->text = (string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->surname.
         ", ".(string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->forename;
 
-        $doc->setMultiValue($locField->indexKey(), $locField->text);
         $doc->setMultiValue($rcField->indexKey(), $rcField->text);
       }
     }
