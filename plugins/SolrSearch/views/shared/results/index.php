@@ -37,15 +37,18 @@
     <!-- Get the applied facets. -->
     <?php foreach (SolrSearch_Helpers_Facet::parseFacets() as $f): ?>
       <li>
-
         <!-- Facet label. -->
         <?php $label = SolrSearch_Helpers_Facet::keyToLabel($f[0]); ?>
+        <?php $label = str_replace('XML File', 'Paikka', $label);
+        $label = str_replace('Language', 'Kieli', $label);
+        $label = str_replace('Type', 'Laji', $label);
+        ?>
         <span class="applied-facet-label"><?php echo $label; ?></span> >
         <span class="applied-facet-value"><?php echo $f[1]; ?></span>
 
         <!-- Remove link. -->
         <?php $url = SolrSearch_Helpers_Facet::removeFacet($f[0], $f[1]); ?>
-        (<a href="<?php echo $url; ?>">remove</a>)
+        (<a href="<?php echo $url; ?>">poista</a>)
 
       </li>
     <?php endforeach; ?>
