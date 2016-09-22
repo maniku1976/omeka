@@ -149,6 +149,7 @@
           <?php $prop = str_replace('44_t', 'Kieli', $prop);
             $prop = str_replace('51_t', 'Laji', $prop);
             $prop = str_replace('40_t', 'Kirjoitusaika', $prop);
+            $prop = str_replace('43_t', 'Kirjeen numero', $prop);
             $prop = str_replace('50_t', 'Otsikko', $prop);
             $prop = str_replace('46_t', 'Signum', $prop);
             $prop = str_replace('64_t', 'Teksti', $prop);

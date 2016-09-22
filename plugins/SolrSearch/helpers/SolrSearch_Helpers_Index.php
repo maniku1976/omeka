@@ -124,7 +124,7 @@ class SolrSearch_Helpers_Index
         $locField->is_indexed = 1;
         $locField->is_facet = 0;
         $locField->text = (string)$xml->text->body->div->opener->dateline->placeName;
-        /*$doc->setMultiValue($locField->indexKey(), $locField->text);*/
+        $doc->setMultiValue($locField->indexKey(), $locField->text);
 
         $rcField = new SolrSearchField();
 
