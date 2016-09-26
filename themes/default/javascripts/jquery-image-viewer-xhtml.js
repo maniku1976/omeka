@@ -79,12 +79,6 @@ $(document).ready(function() {
       return false;
     }
 
-    // Get current and previous picture, show previous picture, hide others
-    $('.pic:eq(' + i + ')').hide();
-    if ($('.pic:eq(' + i + ')').prev()) {
-      $('.pic:eq(' + i + ')').prev().show().prevAll().hide();
-    }
-
     // Get current and previous page
     var currentPage = $('#exhibit2b').find('.page:eq(' + i + ')');
     var prevPage = currentPage.prev();
