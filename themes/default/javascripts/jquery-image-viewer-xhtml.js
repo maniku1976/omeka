@@ -62,7 +62,6 @@ $(document).ready(function() {
       // Show next picture, hide others, if next page is not for same picture as current
       if (nextClass.slice(0, -1) != currentClass.slice(0, -1)) {
         nextPic.show().siblings('.pic').hide();
-        //
         // increase picture count by 1
         j++;
       }
@@ -105,7 +104,7 @@ $(document).ready(function() {
         j--;
       }
     }
-    Decrease page count by 1
+    //Decrease page count by 1
     i--;
   });
 
