@@ -3,6 +3,7 @@
     <?php if ($showElementSetHeadings): ?>
     <h2><?php echo html_escape(__($setName)); ?></h2>
     <?php endif; ?>
+    <!-- Better Finnish names for some metadata fields -->
     <?php foreach ($setElements as $elementName => $elementInfo):
         $elementName = str_replace('Aikamääre', 'Kirjoitusaika', $elementName);
 	      $elementName = str_replace('Nimeke', 'Otsikko', $elementName);

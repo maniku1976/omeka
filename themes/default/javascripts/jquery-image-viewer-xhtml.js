@@ -1,15 +1,18 @@
-// Käsin rakennetun viewerin + XML-transkription zoomaus-, sivutus- ym. toiminnot
+// Jquery viewer and transcription, functions
 
 $(document).ready(function() {
 
-  // Lataa kommentit listasta ja tekee jokaiselle popupin
-  $.each(comments, function(key, value) {
+  // Popup comments in transcription
+
+  $.each(comments, function(key, value) { // Loop through comments.js as key/value pairs
+    // Find first occurrence of key, get substring from start of key to following space
     var first = $('#exhibit2b').text().indexOf(key);
     if (first >= 0) {
       var last = first + key.length;
       var ext = $('#exhibit2b').text().indexOf(' ', last);
       var ending = $('#exhibit2b').text().substring(last, ext);
 
+      // Key followed by specific characters
       if (ending.indexOf(",") >= 0) {
         ending = ending.substring(0, ending.indexOf(","));
       } else if (ending.indexOf(".") >= 0) {
@@ -22,6 +25,7 @@ $(document).ready(function() {
 
       var str = key + ending;
 
+      // Insert popup
       $('#exhibit2b')
       .html($('#exhibit2b')
       .html()
@@ -30,69 +34,83 @@ $(document).ready(function() {
   });
 
 
-  // Kuvien & sivujen näyttö. Aluksi näytetään ensimmäinen kuva & vastavaan sivun transkriptio
+  // Hide all but first picture
   $('.pic').not('.pic:first').hide();
 
+  // Needs different variables page and picture counts
   var i = 0;
   var j = 0;
 
-  // Selaus eteenpäin
+  // Browse forward
   $('#nextPic').click(function() {
 
     if (i == $('#exhibit2b').find('.page').length-1) {
       return false;
     }
 
+    // Get current and next page/picture
     var currentPage = $('#exhibit2b').find('.page:eq(' + i + ')');
     var nextPage = currentPage.next();
     var currentPic = $('.pic:eq(' + j + ')');
     var nextPic = currentPic.next();
 
     if (nextPage) {
+      // Show next page, hide others
       nextPage.show().siblings('.page').hide();
       var nextClass = nextPage.find('.pb').attr('class');
       var currentClass = currentPage.find('.pb').attr('class');
+      // Show next picture, hide others, if next page is not for same picture as current
       if (nextClass.slice(0, -1) != currentClass.slice(0, -1)) {
         nextPic.show().siblings('.pic').hide();
+        //
+        // increase picture count by 1
         j++;
       }
     }
 
+    // increase page count by 1
     i++;
 
   });
 
-  // Selaus taaksepäin
+  // Browse backwards
   $('#prevPic').click(function() {
 
     if (i == 0) {
       return false;
     }
 
+    // Get current and previous picture, show previous picture, hide others
     $('.pic:eq(' + i + ')').hide();
     if ($('.pic:eq(' + i + ')').prev()) {
       $('.pic:eq(' + i + ')').prev().show().prevAll().hide();
     }
 
+    // Get current and previous page
     var currentPage = $('#exhibit2b').find('.page:eq(' + i + ')');
     var prevPage = currentPage.prev();
     var currentPic = $('.pic:eq(' + j + ')');
     var prevPic = currentPic.prev();
 
     if (prevPage) {
+      // Show previous page, hide others
       prevPage.show().siblings('.page').hide();
       var prevClass = prevPage.find('.pb').attr('class');
       var currentClass = currentPage.find('.pb').attr('class');
+      // Show previous picture, hide others, if previous page is not for same picture
+      // as current one
       if (prevClass.slice(0, -1) != currentClass.slice(0, -1)) {
         prevPic.show().siblings('.pic').hide();
+        // Decrease picture count by 1
         j--;
       }
     }
-
+    Decrease page count by 1
     i--;
   });
 
-  // Estä sivun skrollaus kuvaa zoomatessa
+  // Prevent page scrolling when zooming image
+
   $('#picframe').mouseenter(function() {
     $('body').bind('mousewheel', function() {
       return false;
@@ -104,18 +122,22 @@ $(document).ready(function() {
     });
   });
 
-  // Kuvan zoomaus
-  var scale = 1;
-  var xLast = 0;
-  var yLast = 0;
-  var xImage = 0;
-  var yImage = 0;
+  // Image zooming, calculations in
+
+  // Initialize image scale to 1, location measurements to 0
+  var scale = 1; // scale of image
+  var xLast = 0; // last x location on screen
+  var yLast = 0; // last y location on screen
+  var xImage = 0; // last x location on image
+  var yImage = 0; // last y location on image
   var xScreen, yScreen;
 
+  // Mousewheel detection from jquery.mousewheel.min.js, bind to image display frame
   $('#picframe').bind('mousewheel', function(e, delta) {
 
-    // Nykyinen piste ruudulla, vaakasuuntainen laskettava eri tavalla riippuen siitä, onko koko sivu päällä vai ei.
+    // Find current location on screen
     if ($('#picframe').hasClass('fullscreen')) {
+      // Different x calculation if fullscreen on.
       xScreen = e.pageX - ($(this).width()/2) + ($('.pic').width()/2);
       yScreen = e.pageY - $(this).offset().top;
     } else {
@@ -123,11 +145,11 @@ $(document).ready(function() {
       yScreen = e.pageY - $(this).offset().top;
     }
 
-    // Nykyinen piste kuvalla tämänhetkisessä koossa.
+    // Find current location on image at current scale
     xImage = xImage + ((xScreen - xLast) / scale);
     yImage = yImage + ((yScreen - yLast) / scale);
 
-    // Uusi koko
+    // Determine new scale
     if (delta > 0) {
       scale += 0.2;
     } else {
@@ -135,15 +157,15 @@ $(document).ready(function() {
     }
     scale = scale < 1 ? 1 : (scale > 20 ? 20 : scale);
 
-    // Piste, johon kuvaa siirretään
+    // Determine location on screen at new scale
     var xNew = (xScreen - xImage) / scale;
     var yNew = (yScreen - yImage) / scale;
 
-    // Tallennetaan tämänhetkinen piste ruudulla.
+    // Save current screen location
     xLast = xScreen;
     yLast = yScreen;
 
-    // Zoomaus
+    // Redraw image
     $('.pic')
     .css('transform', 'scale(' + scale + ')' + 'translate(' + xNew + 'px, ' + yNew + 'px' + ')')
     .css('transform-origin', xImage + 'px ' + yImage + 'px')
@@ -151,7 +173,7 @@ $(document).ready(function() {
 
   });
 
-  // Kuvan liikuttaminen.
+  // Draggable image, from jquery-ui.js
   $('.pic').draggable({
      drag: function(e) {
     	if ($('#picframe').hasClass('fullscreen')) {
@@ -164,7 +186,7 @@ $(document).ready(function() {
      }
   });
 
-  // Palauttaa kuvan alkuperäisen koon ja paikan kehyksessä.
+  // Re-center image and reset image scale, otherwise calculations in zooming incorrect
   $('#origSize').click(function() {
     $('.pic').css({'transform':'', 'left': '', 'top': ''});
     scale = 1;
@@ -174,7 +196,8 @@ $(document).ready(function() {
     yImage = 0;
   });
 
-  // Koko sivun näkymä, piilotetaan koko sivu-painike ja metadata-painike, nollataan skaalaukset.
+  // Fullscreen view, hide fullscreen and metadata buttons; re-center image reset image
+  // scale, otherwise calculations in zooming incorrect
   $('#fullScreen').click(function() {
     $('#picframe').addClass('fullscreen');
     $('#fullScreen').hide();
@@ -192,7 +215,8 @@ $(document).ready(function() {
     yImage = 0;
   });
 
-  // Sulkee koko sivun näkymän, nollaa kuvan koko- ja paikkamuutokset
+  // Exit fullscreen view; re-center image reset image
+  // scale, otherwise calculations in zooming incorrect
   $('#closeFull').click(function() {
     $('#picframe').removeClass('fullscreen');
     $('#fullScreen').show();
@@ -207,7 +231,7 @@ $(document).ready(function() {
     yImage = 0;
   });
 
-  // Metadata-paneelin näyttäminen
+  // Show metadata menu
   $('#metadata').click(function() {
     if ($('#infopanel').is(':hidden')) {
       $('#infopanel').slideDown('fast');

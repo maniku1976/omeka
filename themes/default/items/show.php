@@ -1,10 +1,10 @@
 <?php
+/* Load scripts */
 queue_js_file('jquery-1.12.4.min');
 queue_js_file('jquery-ui');
 queue_js_file('jquery.mousewheel.min');
 queue_js_file('comments');
 queue_js_file('page-formatting-xhtml');
-queue_js_file('togglesHTML');
 queue_js_file('toggles-xhtml');
 queue_js_file('uv-image-viewer-xhtml');
 queue_js_file('jquery-image-viewer-xhtml');
@@ -14,6 +14,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
 <h1><?php echo metadata('item', array('Dublin Core', 'Title')); ?>
   <span style="float:right;">
     <?php
+    // Link for the TEI file attached to each item
     $files = $item->Files;
     foreach ($files as $file):
       if ($file->getExtension() == 'xml'):
@@ -35,16 +36,20 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     ?>
   </div>
   <div id="exhibit3b">
+    <!-- Buttons for showing/hiding transcription markings and comments -->
     <span style="display:inline;">
       <input type="checkbox" onclick="toggleMarkingsXML()" checked/>Merkinnät&nbsp;&nbsp;
       <input type="checkbox" onclick="toggleCommentsXML()" checked/>Kommentit
     </span>
+    <!-- Buttons for moving back and forth in pictures and transcription-->
     <span style="float:right;">
       <a id="btPrevXML" style="cursor:pointer;font-size:20px;">&#8592;</a>
       <a id="btNextXML" style="cursor:pointer;font-size:20px;">&#8594;</a>
     </span>
+    <!-- Frame for displaying transcription -->
     <div class="textFrame">
       <?php
+      // Load TEI file attached to item, load XSL stylesheet, transform TEI to XHTML
       $files = $item->Files;
       foreach ($files as $file):
         if ($file->getExtension() == 'xml'):
@@ -65,8 +70,10 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
 <h2 style="font-weight:bold;">2. Käsin rakennettu viewer (jquery + lisäosia) + PHP-käännetty XML-transkriptio</h2>
 <div id="exhibit2">
   <div id="exhibit2a">
+    <!-- Frame for displaying pictures -->
     <div id="picframe">
-	<span id="buttons">
+      <!-- Buttons for metadata menu, enter/exit fullscreen, reset image size -->
+	     <span id="buttons">
             <a id="origSize" title="Alkuperäinen koko" style="cursor:pointer;font-size:22px;
             border-bottom:none;">&#8594;&#8592;&nbsp;&nbsp;</a>
             <a id="fullScreen" title="Koko sivun näkymä" style="cursor:pointer;font-size:22px;
@@ -76,6 +83,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
             <a id="metadata" title="Metadata" style="cursor: pointer;font-size:20px;border-bottom:none;">?</a>
       </span>
       <?php
+      // Fetch images attached to each item
       $files = $item->Files;
       foreach ($files as $file):
         if ($file->getExtension() == 'jpg'):
@@ -84,6 +92,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
         endif;
       endforeach; ?>
     </div>
+    <!-- Metadata panel; some Finnish metadata titles replaced -->
     <div id="infopanel">
       <?php
       $texts = all_element_texts('item');
@@ -94,16 +103,20 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     </div>
   </div>
   <div id="exhibit2b">
+    <!-- Buttons for showing/hiding transcription markings and comments. -->
     <span id="span1">
       <input type="checkbox" onclick="toggleMarkingsHTML2()" checked/>Merkinnät&nbsp;&nbsp;
       <input type="checkbox" onclick="toggleCommentsHTML2()" checked/>Kommentit
     </span>
+    <!-- Buttons for moving back and forth in pictures/transcription -->
     <span id="span2">
       <a id="prevPic" style="cursor:pointer;font-size:20px;">&#8592;&nbsp;</a>
       <a id="nextPic" style="cursor:pointer;font-size:20px;">&#8594;</a>
     </span>
+    <!-- Frame for displaying transcription -->
     <div class="textFrame">
       <?php
+      // Load TEI file attached to item, load XSL stylesheet, transform TEI to XHTML
       $files = $item->Files;
       foreach ($files as $file):
         if ($file->getExtension() == 'xml'):

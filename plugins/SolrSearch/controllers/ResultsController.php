@@ -117,6 +117,9 @@ class SolrSearch_ResultsController
         // Also, clean it up some.
         if (!empty($query)) {
 
+            // Lönnrot's special characters. If query involves words that
+            // are present in transcriptions both with and without special
+            // character, construct OR query containing both alternatives
             if (strpos($query, 'ae') !== false) {
               $query1 = str_replace('ae', '\u00E6', $query);
               $query .= " OR {$query1}";
@@ -144,6 +147,9 @@ class SolrSearch_ResultsController
         $facet = $this->_request->facet;
 
         // Form the composite Solr query.
+        // Add round brackets around query: needed when query involves special
+        // characters, in order for it to be interpreted correctly.
+        // '(a OR b) AND c' versus 'a OR b AND c'
         if (!empty($facet)) $query = "({$query})". " AND {$facet}";
 
         // Limit the query to public items if required

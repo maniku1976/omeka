@@ -28,6 +28,7 @@ class CollectionsController extends Omeka_Controller_AbstractActionController
      */
     public function browseAction()
     {
+        // Sort collections list by collection title
         if (!$this->_getParam('sort_field')) {
             $this->_setParam('sort_field', 'Dublin Core,Title');
             $this->_setParam('sort_dir', 'a');

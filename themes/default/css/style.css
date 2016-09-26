@@ -2370,7 +2370,7 @@ th {
     float: none;
   }
 
-  /* Jquery-image-viewer ja XML-tranksriptio */
+  /* Jquery image viewer and transcription from XML */
 
   #exhibit2 {
     margin-top: 60px;
@@ -2392,6 +2392,8 @@ th {
     left: 49.5%;
     color: #469649;
   }
+
+  /* Jquery image viewer */
 
   #picframe {
     overflow: hidden;
@@ -2422,6 +2424,8 @@ th {
     object-fit: contain;
     border-style: none !important;
   }
+
+  /* Metada menu */
 
   #infopanel {
     padding-top: 20px;
@@ -2455,7 +2459,7 @@ th {
     float:right;
   }
 
-  /* UV-plugin ja XML-transkriptio */
+  /* UV plugin and transcription from XML */
 
   #exhibit3 {
     width:100%;
@@ -2477,6 +2481,8 @@ th {
     float:left;
   }
 
+  /* Frame for displaying transcription on items show.php */
+
   .textFrame {
     width: 100%;
     height: 770px;
@@ -2486,7 +2492,7 @@ th {
     border-radius: 5px;
   }
 
-  /* Lisäykset ja poistot */
+  /* Additions and deletions in transcription */
 
   span.del {
     text-decoration: line-through;
@@ -2505,7 +2511,7 @@ th {
     cursor: pointer;
   }
 
-  /* Tooltip popup-kommenteille */
+  /* Tooltip for popup comments */
 
   a.bt {
     font-size: 1em;
@@ -2589,9 +2595,13 @@ th {
     box-shadow: 5px 5px 8px #CCC;
   }
 
+ /* Hide TEI opener element */
+
   p#opener {
     display: none !important;
   }
+
+  /* Frontpage lists */
 
   #frontpage-nav ul {
     list-style-type: none;
@@ -2608,6 +2618,8 @@ th {
     float: right;
   }
 
+  /* Item lists */
+
   #item-main-list {
     width: 100%;
     height: 650px;
@@ -2618,6 +2630,8 @@ th {
     border: 0.5px solid;
     border-radius: 5px;
   }
+
+  /* Main header buttons */
 
   #searchbtn {
     font-size: 18px !important;
@@ -2631,6 +2645,8 @@ th {
     font-size: 18px !important;
     cursor: pointer;
   }
+
+  /* Dropdown menu for instructions links in main header */
 
   #instructions {
     background-color: #e9e3f9;

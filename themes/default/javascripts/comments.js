@@ -1,3 +1,5 @@
+/* List of commented words/terms/phrases for popups */
+
 var comments = {
    'Ridvala': 'Nykykirjoitusmuodossa Ritvala. Paikkakunta Hämeessä.',
    'Ticklén': 'Johan Fredrik Ticklén (1802 - 1844). Raahen piirilääkäri, kirjastoamanuenssi.',

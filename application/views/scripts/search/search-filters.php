@@ -1,3 +1,4 @@
+<!-- Some English titles replaced with Finnish ones -->
 <div id="<?php echo $options['id']; ?>">
 <ul>
     <?php echo $query; ?>

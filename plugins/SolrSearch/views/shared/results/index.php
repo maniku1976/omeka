@@ -1,3 +1,4 @@
+<!-- Some English titles and labels displayed in search results replaced with Finnish -->
 <?php
 
 /**
@@ -23,7 +24,7 @@
     <span class="float-wrap">
       <input type="text" title="<?php echo __('Hae hakusanoilla') ?>" name="q" value="<?php
         echo array_key_exists('q', $_GET) ? $_GET['q'] : '';
-      ?>" placeholder="Hae kirjeitä"/>
+      ?>" placeholder="Hae kirjeitä"/> <!-- add placeholder in input field -->
     </span>
   </form>
 </div>
@@ -45,6 +46,7 @@
         $label = str_replace('Type', 'Laji', $label);
         ?>
         <span class="applied-facet-label"><?php echo $label; ?></span>
+        <!-- Capitalize specific labels in search results view -->
         <?php if ($label == 'Kirjoituspaikka'): ?>
           <span class="applied-facet-value"><?php echo ucfirst($f[1]); ?></span>
         <?php else: ?>
@@ -90,6 +92,7 @@
 
             <!-- Facet link. -->
             <a href="<?php echo $url; ?>" class="facet-value">
+              <!-- Capitalize values in specific facets -->
               <?php if ($label == 'Kirjoituspaikka') {
                 $value = ucfirst($value);
               } ?>
@@ -132,6 +135,7 @@
                 if (empty($title)) {
                     $title = '<i>' . __('Nimetön') . '</i>';
                 }
+                // Display date along with title in search results
                 $date = '40_t';
                 echo $title.", ".date('j.n.Y', strtotime($doc->$date));
             ?></a>
@@ -145,7 +149,10 @@
       <?php if (get_option('solr_search_hl')): ?>
         <ul class="hl">
           <!-- Make field labels visible in search results -->
+          <!-- Get search result object field labels ($prop) as well as values ($field) to display
+               which field a specific result was found in -->
           <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
+          <!-- replace field label codes with proper Finnish labels for display-->
           <?php $prop = str_replace('44_t', 'Kieli', $prop);
             $prop = str_replace('51_t', 'Laji', $prop);
             $prop = str_replace('40_t', 'Kirjoitusaika', $prop);
@@ -157,6 +164,7 @@
             $prop = str_replace('75_t', 'Vastaanottaja', $prop);
             ?>
             <?php foreach($field as $hl): ?>
+              <!-- Display field label before highlighted search result -->
               <li class="snippet"><?php echo '<b>'.$prop.'</b>'.": ".strip_tags($hl, '<em>'); ?></li>
             <?php endforeach; ?>
           <?php endforeach; ?>

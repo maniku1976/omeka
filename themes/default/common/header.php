@@ -107,12 +107,14 @@
 
 <header role="banner">
   <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
+  <!-- Site title and SKS logo with link -->
   <div id="site-title" style="width:98%;height:10%;">
     <?php echo link_to_home_page(); ?>
      <a href="http://www.finlit.fi" target="_blank">
       <img width="200px" style="float:right;margin-right:16px;" src="http://localhost/sks_header_logo.png" />
     </a>
   </div>
+  <!-- main header links-->
   <div id="search-container" role="search">
     <span style="width:99%;float:left;margin-right:16px;margin-top:20px;margin-bottom:0;">
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('items')); ?>">
@@ -122,17 +124,20 @@
         <?php echo __('Kirjeiden vastaanottajat'); ?></a>
         <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>">Esipuhe</a>
         <a id="infobtn">Tietoja</a>
+        <!-- Extended search and Solr text search -->
         <span style="float:right;">
           <a id="searchbtn"><?php echo __('Laajennettu haku'); ?></a>
           <?php echo search_form(); ?>
         </span>
       </span>
     </div>
+    <!-- Extended search form in dropdown -->
     <div id="ext-search" style="display: none;">
       <?php echo $this->partial('items/search-form.php',
           array('formAttributes' =>
               array('id'=>'advanced-search-form'))); ?>
     </div>
+    <!-- Instruction links, dropdown -->
     <div id="instructions" style="display: none;">
       <ul>
         <li><a href="<?php echo html_escape(url('ohjeet/merkinnat')); ?>">Transkriptioiden merkinnät</a></li>
@@ -142,6 +147,7 @@
 
   <div class="menu-button button">Menu</div>
 
+  <!-- Vertical navigation panel hidden -->
   <div id="wrap">
     <!--<nav id="primary-nav" role="navigation">
     <?php echo public_nav_main(array('role' => 'navigation')); ?>

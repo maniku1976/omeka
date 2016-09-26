@@ -1,137 +1,142 @@
-  // Merkintöjen näyttäminen/piilottaminen PHP-käännetyssä XML-transkriptiossa (UV-plugin)
 
-        
-  function toggleMarkingsXML() {
+    // Show/hide markings (deletion, addition, underline) in transcription attached
+    // to UniversalViewer. Find elements by class name and change css styles as necessary
 
-     var doc = document.getElementById('exhibit3b');
+    function toggleMarkingsXML() {
 
-     var elems = doc.getElementsByClassName('del');
-     for (var i = 0; i < elems.length; i++) {
-        if (elems[i].style.textDecoration == "none" || elems[i].style.color == "#292929") {
-           elems[i].style.textDecoration = "line-through";
-           elems[i].style.color = "#f22b0e"
-        } else {
-           elems[i].style.textDecoration = "none";
-           elems[i].style.color = "#292929";
-        }
-     }
+       var doc = document.getElementById('exhibit3b');
 
-     var elems1 = doc.getElementsByClassName('sup');
-     for (var i = 0; i < elems1.length; i++) {
-        if (elems1[i].style.verticalAlign == "baseline" || elems1[i].style.color == "#292929") {
-           elems1[i].style.verticalAlign = "super";
-	   elems1[i].style.color = "#3361a1";
-        } else {
-           elems1[i].style.verticalAlign = "baseline";
-           elems1[i].style.color = "#292929";
-        }
-     }
+       var elems = doc.getElementsByClassName('del');
+       for (var i = 0; i < elems.length; i++) {
+          if (elems[i].style.textDecoration == "none" || elems[i].style.color == "#292929") {
+             elems[i].style.textDecoration = "line-through";
+             elems[i].style.color = "#f22b0e"
+          } else {
+             elems[i].style.textDecoration = "none";
+             elems[i].style.color = "#292929";
+          }
+       }
 
-     var elems2 = doc.getElementsByClassName('underline');
-     for (var i = 0; i < elems2.length; i++) {
-        if (elems2[i].style.textDecoration == "none") {
-           elems2[i].style.textDecoration = "underline";
-        } else {
-           elems2[i].style.textDecoration = "none";
-        }
-     }
-  }
+       var elems1 = doc.getElementsByClassName('sup');
+       for (var i = 0; i < elems1.length; i++) {
+          if (elems1[i].style.verticalAlign == "baseline" || elems1[i].style.color == "#292929") {
+             elems1[i].style.verticalAlign = "super";
+  	   elems1[i].style.color = "#3361a1";
+          } else {
+             elems1[i].style.verticalAlign = "baseline";
+             elems1[i].style.color = "#292929";
+          }
+       }
 
-  function toggleCommentsXML() {
-     
-     $(document).ready(function() {
-       
-        function classExists() {
-           if ($('#exhibit3b').find('.comm').hasClass('tooltip bt')) {
-               return true;
-           } else {
-              return false;
-           }
-        }
+       var elems2 = doc.getElementsByClassName('underline');
+       for (var i = 0; i < elems2.length; i++) {
+          if (elems2[i].style.textDecoration == "none") {
+             elems2[i].style.textDecoration = "underline";
+          } else {
+             elems2[i].style.textDecoration = "none";
+          }
+       }
+    }
 
-        if (classExists()) {
-           $('#exhibit3b').find('.comm')
-           .removeClass('tooltip bt')
-           .css({'color':'#444444', 'border-bottom':'none'})
-           .hover(function() { $(this).css('text-decoration', 'none'); })
-           .find('span').hide();
-        } else {
-           $('#exhibit3b').find('.comm')
-           .addClass('tooltip bt')
-           .css({'color':'','border-bottom':''})
-           .hover(function() { $(this).css('text-decoration', ''); })
-           .find('span')
-           .css('display', '');
-        }      
-     });
-  }
+    // Show/hide comments in transcription attached to UniversalViewer
+    function toggleCommentsXML() {
 
-// Merkintöjen näyttäminen/piilottaminen PHP-käännetyssä XML-transkriptiossa (jquery-viewer)
+       $(document).ready(function() {
 
-  function toggleMarkingsHTML2() {
+          // Method to check if comment (class 'comm') has tooltip class
+          function classExists() {
+             if ($('#exhibit3b').find('.comm').hasClass('tooltip bt')) {
+                 return true;
+             } else {
+                return false;
+             }
+          }
 
-     var doc = document.getElementById('exhibit2b');
+          // If comment has tooltip class = popups are displayed, remove tooltip class
+          if (classExists()) {
+             $('#exhibit3b').find('.comm')
+             .removeClass('tooltip bt')
+             .css({'color':'#444444', 'border-bottom':'none'})
+             .hover(function() { $(this).css('text-decoration', 'none'); })
+             .find('span').hide();
+          // if comment doesn't have tooltip class = popups are hidden, add the class
+          } else {
+             $('#exhibit3b').find('.comm')
+             .addClass('tooltip bt')
+             .css({'color':'','border-bottom':''})
+             .hover(function() { $(this).css('text-decoration', ''); })
+             .find('span')
+             .css('display', '');
+          }
+       });
+    }
 
-     var elems = doc.getElementsByClassName('del');
-     for (var i = 0; i < elems.length; i++) {
-        if (elems[i].style.textDecoration == "none" || elems[i].style.color == "#444444") {
-           elems[i].style.textDecoration = "line-through";
-           elems[i].style.color = "#f22b0e"
-        } else {
-           elems[i].style.textDecoration = "none";
-           elems[i].style.color = "#444444";           
-        }
-     }
+  // Show/hide markings and comments in transcription attached to jQuery image viewer;
+  // functions identical to above
 
-     var elems1 = doc.getElementsByClassName('sup');
-     for (var i = 0; i < elems1.length; i++) {
-        if (elems1[i].style.verticalAlign == "baseline" || elems1[i].style.color == "#444444") {
-           elems1[i].style.verticalAlign = "super";
-	   elems1[i].style.color = "#3361a1";
-        } else {
-           elems1[i].style.verticalAlign = "baseline";
-           elems1[i].style.color = "#444444";
-        }
-     }
+    function toggleMarkingsHTML2() {
 
-     var elems2 = doc.getElementsByClassName('underline');
-     for (var i = 0; i < elems2.length; i++) {
-        if (elems2[i].style.textDecoration == "none") {
-           elems2[i].style.textDecoration = "underline";
-        } else {
-           elems2[i].style.textDecoration = "none";
-        }
-     }
-  }
+       var doc = document.getElementById('exhibit2b');
 
-  // Piilota/näytä kommentit
-  function toggleCommentsHTML2() {
-     
-     $(document).ready(function() {
-       
-        function classExists() {
-           if ($('#exhibit2b').find('.comm').hasClass('tooltip bt')) {
-               return true;
-           } else {
-              return false;
-           }
-        }
+       var elems = doc.getElementsByClassName('del');
+       for (var i = 0; i < elems.length; i++) {
+          if (elems[i].style.textDecoration == "none" || elems[i].style.color == "#444444") {
+             elems[i].style.textDecoration = "line-through";
+             elems[i].style.color = "#f22b0e"
+          } else {
+             elems[i].style.textDecoration = "none";
+             elems[i].style.color = "#444444";
+          }
+       }
 
-        if (classExists()) {
-           $('#exhibit2b').find('.comm')
-           .removeClass('tooltip bt')
-           .css({'color':'#444444','border-bottom':'none'})
-           .hover(function() { $(this).css('text-decoration', 'none'); })
-           .find('span').hide();
-        } else {
-           $('#exhibit2b').find('.comm')
-           .addClass('tooltip bt')
-           .css({'color':'','border-bottom':''})
-           .hover(function() { $(this).css('text-decoration', ''); })
-           .find('span')
-           .css('display', '');
-        }
-        
-     });
-  }
+       var elems1 = doc.getElementsByClassName('sup');
+       for (var i = 0; i < elems1.length; i++) {
+          if (elems1[i].style.verticalAlign == "baseline" || elems1[i].style.color == "#444444") {
+             elems1[i].style.verticalAlign = "super";
+  	   elems1[i].style.color = "#3361a1";
+          } else {
+             elems1[i].style.verticalAlign = "baseline";
+             elems1[i].style.color = "#444444";
+          }
+       }
 
+       var elems2 = doc.getElementsByClassName('underline');
+       for (var i = 0; i < elems2.length; i++) {
+          if (elems2[i].style.textDecoration == "none") {
+             elems2[i].style.textDecoration = "underline";
+          } else {
+             elems2[i].style.textDecoration = "none";
+          }
+       }
+    }
+
+    // Piilota/näytä kommentit
+    function toggleCommentsHTML2() {
+
+       $(document).ready(function() {
+
+          function classExists() {
+             if ($('#exhibit2b').find('.comm').hasClass('tooltip bt')) {
+                 return true;
+             } else {
+                return false;
+             }
+          }
+
+          if (classExists()) {
+             $('#exhibit2b').find('.comm')
+             .removeClass('tooltip bt')
+             .css({'color':'#444444','border-bottom':'none'})
+             .hover(function() { $(this).css('text-decoration', 'none'); })
+             .find('span').hide();
+          } else {
+             $('#exhibit2b').find('.comm')
+             .addClass('tooltip bt')
+             .css({'color':'','border-bottom':''})
+             .hover(function() { $(this).css('text-decoration', ''); })
+             .find('span')
+             .css('display', '');
+          }
+
+       });
+    }

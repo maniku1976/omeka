@@ -1,3 +1,4 @@
+<!-- Some English titles replaced with Finnish ones -->
 <?php
 $pageTitle = __('Haku') . ' ' . __('(yhteensä %s kpl)', $total_results);
 echo head(array('title' => $pageTitle, 'bodyclass' => 'search'));

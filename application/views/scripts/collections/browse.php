@@ -1,3 +1,4 @@
+<!-- Some English titles replaced with Finnish ones -->
 <?php
 $pageTitle = __('Kirjeiden vastaanottajat');
 echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
@@ -6,6 +7,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
 <?php echo pagination_links(); ?>
 
 <?php
+/* Sort options for collections: title, added date */
 $sortLinks[__('Nimi')] = 'Dublin Core,Title';
 $sortLinks[__('Lisätty')] = 'added';
 ?>
@@ -18,8 +20,10 @@ $sortLinks[__('Lisätty')] = 'added';
 
 <div class="collection">
 
+    <!-- Link to separate collection page replaced with link to items in the collection -->
     <h2><?php echo link_to_items_browse(metadata('collection', array('Dublin Core', 'Title')), array('collection' => metadata('collection', 'id'))); ?></h2>
     <?php if ($collectionImage = record_image('collection', 'square_thumbnail')): ?>
+        <!-- Link to separate collection page removed from collection thumbnail -->
         <div class="image"><?php echo $collectionImage; ?></div>
     <?php endif; ?>
 

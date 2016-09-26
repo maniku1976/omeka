@@ -55,17 +55,21 @@ class SolrSearch_Helpers_Index
       $field = $fields->findByText($text);
       foreach ($item->getFiles() as $file) {
         if ($file->getExtension() == 'xml') {
+          // Fetch TEI file for indexing, reads it into string
           $contents = file_get_contents("http://localhost/files/original/".metadata($file,'filename'));
+          // Cut out teiHeader and opener elements
           $cut = strpos($contents, '</opener>') + strlen('</opener>');
           $end = strlen($contents);
           $contents = substr($contents, $cut, $end);
+          // Fetch TEI file as object, needed for access to specific elements
           $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
         }
       }
 
-      // If item has an attached xml file, replace field value (file url) with xml file contents
       if ($field->label == 'XML File') {
+        // Replace indexed text value of TEI file url field with contents of TEI file
         $text->text = $contents;
+        // Append writing location element from TEI file fetched as object for indexing
         $text->location = (string)$xml->text->body->div->opener->dateline->placeName;
       }
 
@@ -74,7 +78,8 @@ class SolrSearch_Helpers_Index
         $doc->setMultiValue($field->indexKey(), $text->text);
       }
 
-      // Set string field.
+      // Set string field. For TEI file url field, place only writing location
+      // as facet
       if ($field->is_facet && $field->label == 'XML File') {
         $doc->setMultiValue($field->facetKey(), $text->location);
       } else if ($field->is_facet && $field->label != 'XML File') {
@@ -116,25 +121,29 @@ class SolrSearch_Helpers_Index
     foreach ($item->getFiles() as $file) {
       if ($file->getExtension() == 'xml') {
 
-      // Get writing location and recipient from xml and create fields for indexing:
+      // Load TEI file again as object
         $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
+
+        // Create new Solr search field from writing location element for indexing
         $locField = new SolrSearchField();
 
-        $locField->slug = 70;
-        $locField->is_indexed = 1;
-        $locField->is_facet = 0;
-        $locField->text = (string)$xml->text->body->div->opener->dateline->placeName;
-        $doc->setMultiValue($locField->indexKey(), $locField->text);
+        $locField->slug = 70; // needed for indexing key below
+        $locField->is_indexed = 1; // field is indexed
+        $locField->is_facet = 0; // field is not facet
+        $locField->text = (string)$xml->text->body->div->opener->dateline->placeName; //field text value
+        $doc->setMultiValue($locField->indexKey(), $locField->text); //append to Solr search document
 
+        // Create new Solr search field for letter recipient element for indexing
         $rcField = new SolrSearchField();
 
-        $rcField->slug = 75;
-        $rcField->is_indexed = 1;
-        $rcField->is_facet = 0;
+        $rcField->slug = 75; // slug for indexing key below
+        $rcField->is_indexed = 1; // field is indexed
+        $rcField->is_facet = 0; // field is not facet
+        // field text value
         $rcField->text = (string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->surname.
         ", ".(string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->forename;
 
-        $doc->setMultiValue($rcField->indexKey(), $rcField->text);
+        $doc->setMultiValue($rcField->indexKey(), $rcField->text); //append to Solr search document
       }
     }
 

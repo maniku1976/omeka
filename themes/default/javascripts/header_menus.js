@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+   /* Open/close extended search form */
    $('#searchbtn').click(function() {
 
      if ($('#ext-search').is(':hidden')) {
@@ -13,6 +14,7 @@ $(document).ready(function() {
      }
    });
 
+   /* Open/close instruction links menu */
    $('#infobtn').click(function() {
 
      if ($('#instructions').is(':hidden')) {
@@ -22,6 +24,7 @@ $(document).ready(function() {
      }
    });
 
+   /* Add placeholder attribute in Solr search input box */
    $('#query').attr('placeholder', 'Hae kirjeitä');
 
 });

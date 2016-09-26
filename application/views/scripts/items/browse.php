@@ -1,3 +1,4 @@
+<!-- Some English titles replaced with Finnish ones-->
 <?php
 $pageTitle = __('Selaa kirjeitä');
 echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
@@ -17,6 +18,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 
 <?php
 
+/* Sort options for items: writing date, title, writer */
 $sortLinks[__('Kirjoitusaika')] = 'Dublin Core,Date';
 $sortLinks[__('Otsikko')] = 'Dublin Core,Title';
 $sortLinks[__('Kirjoittaja')] = 'Dublin Core,Creator';
@@ -41,6 +43,7 @@ $sortLinks[__('Kirjoittaja')] = 'Dublin Core,Creator';
     <?php if ($date = metadata('item', array('Dublin Core', 'Date'), array('snippet'=>250))): ?>
     <div class="item-date">
         <?php
+          /* Display writing date for each item, format d.m.yyyy */
           echo "Kirjoitusaika: ".date('j.n.Y', strtotime($date)); ?>
     </div>
     <?php endif; ?>
