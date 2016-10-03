@@ -89,4 +89,13 @@
       <span style="background-color:grey;color:grey;" title="puuttuu"><xsl:text>gap</xsl:text></span>
     </xsl:template>
 
+    <xsl:template match="tei:rs[@type = 'ident']">
+      <xsl:variable name="nr">
+        <xsl:value-of select="current()" />
+      </xsl:variable>
+      <a style="background-color:#e7d6ff;" target="_blank" href="http://localhost/items/browse?advanced[0][element_id]=43&amp;advanced[0][type]=contains&amp;advanced[0][terms]={$nr}&amp;submit_search=Hae">
+        <xsl:apply-templates />
+      </a>
+    </xsl:template>
+
   </xsl:stylesheet>
