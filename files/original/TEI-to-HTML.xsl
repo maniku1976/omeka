@@ -47,9 +47,7 @@
 
     <xsl:template match="tei:unclear">
       <span class="unclear" title="epäselvä kohta">
-        <xsl:text>{{</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>}}</xsl:text>
       </span>
     </xsl:template>
 
@@ -86,7 +84,7 @@
     </xsl:template>
 
     <xsl:template match="tei:gap">
-      <span style="background-color:grey;color:grey;" title="puuttuu"><xsl:text>gap</xsl:text></span>
+      <span class="gap" title="tyhjä kohta tekstissä"><xsl:text>gap</xsl:text></span>
     </xsl:template>
 
     <xsl:template match="tei:rs[@type = 'ident']">

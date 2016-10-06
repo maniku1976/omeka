@@ -2492,7 +2492,7 @@ th {
     border-radius: 5px;
   }
 
-  /* Additions and deletions in transcription */
+  /* Additions, deletions, underlinings, unclear parts and gaps in transcription */
 
   span.del {
     text-decoration: line-through;
@@ -2506,9 +2506,19 @@ th {
     cursor: pointer;
   }
 
-  .underline {
+  span.underline {
     text-decoration: underline;
     cursor: pointer;
+  }
+
+  span.unclear {
+    color: #058305;
+    cursor: pointer;
+  }
+
+  span.gap {
+    background-color:grey;
+    color:grey;
   }
 
   /* Tooltip for popup comments */
