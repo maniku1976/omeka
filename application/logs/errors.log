@@ -11214,3 +11214,34 @@ convert: no decode delegate for this image format `/tmp/ba4dc1c87d73b3de8c1b895c
 convert: no images defined `/tmp/fullsize_ba4dc1c87d73b3de8c1b895c62bf187f.jpg' @ error/convert.c/ConvertImageCommand/3210.
 
 2016-10-03T12:36:43+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-06T12:13:12+03:00 ERR (3): exception 'Omeka_Navigation_Page_Uri_Exception' with message 'Virheellinen URI Omeka_Navigation_Page_Uri objekti:http:///items/browse' in /var/www/omeka/application/libraries/Omeka/Navigation/Page/Uri.php:128
+Stack trace:
+#0 /var/www/omeka/application/libraries/Omeka/Navigation/Page/Uri.php(39): Omeka_Navigation_Page_Uri->_normalizeHref('/items/browse')
+#1 /var/www/omeka/application/libraries/Omeka/Navigation.php(465): Omeka_Navigation_Page_Uri->setHref('/items/browse')
+#2 /var/www/omeka/application/libraries/Omeka/Navigation.php(69): Omeka_Navigation->_normalizePageRecursive(Array)
+#3 /var/www/omeka/application/libraries/Zend/Navigation/Container.php(172): Omeka_Navigation->addPage(Array)
+#4 /var/www/omeka/application/libraries/Zend/Navigation/Container.php(187): Zend_Navigation_Container->addPages(Array)
+#5 /var/www/omeka/application/libraries/Omeka/Navigation.php(48): Zend_Navigation_Container->setPages(Array)
+#6 /var/www/omeka/application/libraries/globals.php(2757): Omeka_Navigation->loadAsOption('public_navigati...')
+#7 /var/www/omeka/themes/default/common/header.php(153): public_nav_main(Array)
+#8 /var/www/omeka/application/libraries/Omeka/View.php(117): include('/var/www/omeka/...')
+#9 /var/www/omeka/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/var/www/omeka/...')
+#10 /var/www/omeka/application/libraries/Zend/View/Helper/Partial.php(109): Zend_View_Abstract->render('common/header.p...')
+#11 [internal function]: Zend_View_Helper_Partial->partial('common/header.p...', Array)
+#12 /var/www/omeka/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#13 /var/www/omeka/application/libraries/globals.php(1656): Zend_View_Abstract->__call('partial', Array)
+#14 /var/www/omeka/application/libraries/globals.php(1656): Omeka_View->partial('common/header.p...', Array)
+#15 /var/www/omeka/application/libraries/globals.php(1670): common('header', Array)
+#16 /var/www/omeka/themes/default/index.php(1): head(Array)
+#17 /var/www/omeka/application/libraries/Omeka/View.php(117): include('/var/www/omeka/...')
+#18 /var/www/omeka/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/var/www/omeka/...')
+#19 /var/www/omeka/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(912): Zend_View_Abstract->render('index.php')
+#20 /var/www/omeka/application/controllers/IndexController.php(16): Zend_Controller_Action_Helper_ViewRenderer->renderScript('index.php')
+#21 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): IndexController->indexAction()
+#22 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#23 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#24 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#25 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#26 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#27 /var/www/omeka/index.php(23): Omeka_Application->run()
+#28 {main}

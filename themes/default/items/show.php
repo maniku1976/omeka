@@ -11,8 +11,12 @@ queue_js_file('jquery-image-viewer-xhtml');
 
 echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'bodyclass' => 'item show')); ?>
 
-<h1><?php echo metadata('item', array('Dublin Core', 'Title')); ?>
-  <span style="float:right;">
+<h1 style="margin-bottom:1em;margin-top:1em;">
+  <?php
+  $date = date('j.n.Y', strtotime(metadata('item', array('Dublin Core', 'Date'))));
+  echo metadata('item', array('Dublin Core', 'Title')).", "
+  .$date; ?>
+  <!--<span style="float:right;">
     <?php
     // Link for the TEI file attached to each item
     $files = $item->Files;
@@ -22,7 +26,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
         <span class="xml">XML</span></a>';
       endif;
     endforeach; ?>
-  </span>
+  </span>-->
 </h1>
 
 <h2 style="font-weight:bold;">1. UV-plugin, PHP-käännetty XML-transkriptio</h2>
@@ -37,9 +41,13 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   </div>
   <div id="exhibit3b">
     <!-- Buttons for showing/hiding transcription markings and comments -->
-    <span style="display:inline;">
+    <span style="display:inline;float:left;">
       <input type="checkbox" onclick="toggleMarkingsXML()" checked/>Merkinnät&nbsp;&nbsp;
-      <input type="checkbox" onclick="toggleCommentsXML()" checked/>Kommentit
+      <input type="checkbox" onclick="toggleCommentsXML()" checked/>Kommentit&nbsp;&nbsp;&nbsp;
+      <!--<?php echo '<a style="color:#444444;border-bottom:none;" href="http://localhost/files/original/'
+      .metadata($file,'filename').'">&#128190; Lataa TEI-tiedosto</a>';?>-->
+      <?php echo '<a style="color:#444444;border-bottom:none;" href="'
+      .metadata('item', array('Item Type Metadata', 'XML File')).'">&#128190; Lataa TEI-tiedosto</a>';?>
     </span>
     <!-- Buttons for moving back and forth in pictures and transcription-->
     <span style="float:right;">
@@ -106,7 +114,9 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     <!-- Buttons for showing/hiding transcription markings and comments. -->
     <span id="span1">
       <input type="checkbox" onclick="toggleMarkingsHTML2()" checked/>Merkinnät&nbsp;&nbsp;
-      <input type="checkbox" onclick="toggleCommentsHTML2()" checked/>Kommentit
+      <input type="checkbox" onclick="toggleCommentsHTML2()" checked/>Kommentit&nbsp;&nbsp;&nbsp;
+      <?php echo '<a style="color:#444444;border-bottom:none;" href="http://localhost/files/original/'
+      .metadata($file,'filename').'">&#128190; Lataa TEI-tiedosto</a>';?>
     </span>
     <!-- Buttons for moving back and forth in pictures/transcription -->
     <span id="span2">
