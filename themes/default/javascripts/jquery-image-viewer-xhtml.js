@@ -233,4 +233,9 @@ $(document).ready(function() {
     }
   });
 
+  // Block right-clicking on images to prevent download
+  $('.pic').on('contextmenu', function() {
+    return false;
+  });
+
 });
