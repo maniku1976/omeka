@@ -21,7 +21,16 @@ $sortLinks[__('Lisätty')] = 'added';
 <div class="collection">
 
     <!-- Link to separate collection page replaced with link to items in the collection -->
-    <h2><?php echo link_to_items_browse(metadata('collection', array('Dublin Core', 'Title')), array('collection' => metadata('collection', 'id'))); ?></h2>
+    <h2>
+      <?php echo link_to_items_browse(metadata('collection', array('Dublin Core', 'Title')), array('collection' => metadata('collection', 'id'))); ?>
+      <?php $count = metadata($collection, 'total_items');
+        if ($count == 1):
+          echo ' ('.$count.' kirje)';
+        else:
+          echo ' ('.$count.' kirjettä)';
+        endif;
+      ?>
+    </h2>
     <?php if ($collectionImage = record_image('collection', 'square_thumbnail')): ?>
         <!-- Link to separate collection page removed from collection thumbnail -->
         <div class="image"><?php echo $collectionImage; ?></div>

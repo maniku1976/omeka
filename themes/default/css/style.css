@@ -1847,12 +1847,20 @@ th {
     border: 1px solid #ccc;
   }
 
+  div.collection {
+    margin-left: 1em;
+  }
+
+  li.collection {
+    font-size: 18px;
+    text-align: right;
+  }
   .collection {
     clear: both;
-    border-color: #ccc;
+    /*border-color: #ccc;
     border-top-width: 0.0625em;
-    border-top-style: solid;
-    padding-top: 1.4375em;
+    border-top-style: solid;*/
+    padding-top: 0.5em;
   }
 
   .collection .element {
