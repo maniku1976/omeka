@@ -1848,13 +1848,14 @@ th {
   }
 
   div.collection {
-    margin-left: 1em;
+    margin-left: 2em;
   }
 
   li.collection {
     font-size: 18px;
     text-align: right;
   }
+
   .collection {
     clear: both;
     /*border-color: #ccc;
@@ -1874,7 +1875,7 @@ th {
     clear: both;
     overflow: hidden;
     padding: 20px;
-    border-top: 1px solid #000;
+    border-top: 1px dotted #444444;
   }
   footer p {
     float: left;
@@ -2234,9 +2235,10 @@ th {
     float: right;
   }
   #sort-links ul {
-    margin-top: 1.125em;
-    padding-top: 0.75em;
+    /*margin-top: 1.125em;
+    padding-top: 0.75em;*/
   }
+
   #sort-links span, #sort-links li {
     padding: 0.375em 0 0.375em 20px;
     margin-right: 0;
@@ -2645,8 +2647,8 @@ th {
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
-    border: 0.5px solid;
-    border-radius: 5px;
+    border: 0.5px solid #888888;
+    border-radius: 2px;
   }
 
   /* Main header buttons */
