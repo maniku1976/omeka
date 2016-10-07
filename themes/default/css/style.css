@@ -1766,7 +1766,7 @@ th {
     width:100%;
   }
   #collection-items .item {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px dotted #ccc;
     padding: 20px 0;
     overflow: hidden;
     width: 100%;
@@ -1780,9 +1780,9 @@ th {
 
   .browse .item {
     overflow: hidden;
-    border-bottom: 1px solid #ccc;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    border-bottom: 1px dotted #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   .browse .item:last-of-type {
     border-bottom: 0;
@@ -1817,7 +1817,7 @@ th {
   }
 
   .items-list li {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px dotted #ccc;
     margin-bottom: 1.33333em;
   }
 

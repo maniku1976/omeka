@@ -92,6 +92,4 @@ class SolrSearch_Helpers_View
         $record = get_db()->getTable($doc->model)->find($doc->modelid);
         return SolrSearch_Helpers_Index::getUri($record);
     }
-
-
 }
