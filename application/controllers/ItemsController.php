@@ -183,7 +183,7 @@ class ItemsController extends Omeka_Controller_AbstractActionController
         parent::browseAction();
     }
 
-    // Sort items list by writing date
+    // Sort items list by writing date in ascending order
     protected function _getBrowseDefaultSort()
     {
         return array('Dublin Core,Date', 'a');

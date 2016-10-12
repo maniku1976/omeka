@@ -1333,10 +1333,10 @@ th {
     padding-left: 0;
     float: left;
     margin: 12px 0;
-    height: 48px;
+    height: 40px;
     display: block;
     overflow: auto;
-    line-height: 48px;
+    line-height: 40px;
   }
   .pagination li {
     list-style-type: none;
@@ -1607,6 +1607,12 @@ th {
     margin-top: 3em;
   }
 
+  #search-container span {
+    width: auto;
+    display: inline-block;
+    margin-top: 1.2em;
+  }
+
   #search-container a {
     font-size: .875em;
     text-decoration: none;
@@ -1641,6 +1647,7 @@ th {
     text-indent: -9999px;
     float:left;
   }
+
   #search-container button:after {
     font-family: "FontAwesome";
     content: "\f002";
@@ -1653,15 +1660,15 @@ th {
     height: 25px;
     line-height: 25px;
   }
+
   #search-container input[type=text] {
     border: 1px solid #000;
-    padding: 5px 0 5px 10px;
+    padding: 2px 0 2px 10px;
     margin-right: 10px;
     float:left;
-    width: 80%;
+    width: auto;
+    height: auto;
   }
-
-
 
   #search-form.with-advanced input[type=text] {
     padding: 5px 5px 5px 10px;
@@ -1787,10 +1794,13 @@ th {
 
   .browse .item {
     overflow: hidden;
-    border-bottom: 1px dotted #ccc;
+    /*border-bottom: 1px dotted #ccc;*/
     padding-top: 1em;
     padding-bottom: 1em;
+    width: 49%;
+    float: left;
   }
+
   .browse .item:last-of-type {
     border-bottom: 0;
   }
@@ -2302,7 +2312,7 @@ th {
   /* @group ----- Advanced Search Form ----- */
   #advanced-search-form {
     position: absolute;
-    right: 15em;
+    right: 14em;
     top: 6.8em;
     width: 25%;
     border: solid 0.5px;
@@ -2654,11 +2664,11 @@ th {
     width: 100%;
     height: 650px;
     overflow: auto;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-bottom: 1em;
-    border: 0.5px solid #888888;
-    border-radius: 2px;
+    border: 0.5px dotted #888888;
+    border-radius: 3px;
   }
 
   /* Main header buttons */

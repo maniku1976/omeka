@@ -10,8 +10,12 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
     <?php echo public_nav_items(); ?>
 </nav>-->
 
+<?php if ($total_results == 1): ?>
+  <?php echo item_search_filters()." ( $total_results kirje)"; ?>
+<?php elseif ($total_results > 1): ?>
+  <?php echo item_search_filters()." ( $total_results kirjettä)"; ?>
+<?php endif; ?>
 
-<?php echo item_search_filters()." ( $total_results kirjettä)"; ?>
 <?php echo pagination_links(); ?>
 
 

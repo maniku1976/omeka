@@ -24,7 +24,8 @@ $(document).ready(function() {
      }
    });
 
-   /* Add placeholder attribute in Solr search input box */
-   $('#query').attr('placeholder', 'Hae kirjeitä');
+   /* Add placeholder and title attributes in Solr search input box */
+   $('#query').attr('placeholder', 'Hae kirjeitä (katkaisu: *)');
+   $('#query').attr('title', 'Huom. katkaisumerkki: * (esim. mehil*)');
 
 });
