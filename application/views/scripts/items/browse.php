@@ -10,13 +10,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
     <?php echo public_nav_items(); ?>
 </nav>-->
 
-<?php if ($total_results == 1): ?>
-  <?php echo item_search_filters()." ( $total_results kirje)"; ?>
-<?php elseif ($total_results > 1): ?>
-  <?php echo item_search_filters()." ( $total_results kirjettä)"; ?>
-<?php endif; ?>
 
-<?php echo pagination_links(); ?>
 
 
 <?php if ($total_results > 0): ?>
@@ -28,10 +22,20 @@ $sortLinks[__('Kirjoitusaika')] = 'Dublin Core,Date';
 $sortLinks[__('Otsikko')] = 'Dublin Core,Title';
 $sortLinks[__('Kirjoittaja')] = 'Dublin Core,Creator';
 ?>
+
+<div style="float:left;font-size:18px;display:inline-block">
+  <?php echo item_search_filters(); ?>
+  <span style="font-size: 20px;"><?php if ($total_results == 1): ?>
+    <?php echo "($total_results kirje)"; ?>
+  <?php elseif ($total_results > 1): ?>
+    <?php echo "($total_results kirjettä)"; ?>
+  <?php endif; ?></span>
+</div>
 <div id="sort-links">
     <span class="sort-label"><?php echo __('Järjestä: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>
 
+<?php echo pagination_links(); ?>
 <?php endif; ?>
 
 <div id="item-main-list">

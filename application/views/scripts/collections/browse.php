@@ -52,7 +52,7 @@ $sortLinks[__('Lisätty')] = 'added';
         </div>
       <?php endif; ?>
 
-      <p class="view-items-link"><?php echo link_to_items_browse(__('Kokoelman kirjeet', metadata('collection', array('Dublin Core', 'Title'))), array('collection' => metadata('collection', 'id'))); ?></p>
+      <p class="view-items-link">&#8594; <?php echo link_to_items_browse(__('Kokoelman kirjeet', metadata('collection', array('Dublin Core', 'Title'))), array('collection' => metadata('collection', 'id'))); ?></p>
 
       <?php fire_plugin_hook('public_collections_browse_each', array('view' => $this, 'collection' => $collection)); ?>
 

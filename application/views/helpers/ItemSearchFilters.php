@@ -51,7 +51,7 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                                 metadata(
                                     $collection,
                                     array('Dublin Core', 'Title'),
-                                    array('no_escape' => true),
+                                    array('no_escape' => true)
                                 )
                             );
                         }
@@ -82,7 +82,6 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
         }
 
         $displayArray = apply_filters('item_search_filters', $displayArray, array('request_array' => $requestArray));
-
         // Advanced needs a separate array from $displayValue because it's
         // possible for "Specific Fields" to have multiple values due to
         // the ability to add fields.
@@ -106,7 +105,7 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
 
         $html = '';
         if (!empty($displayArray) || !empty($advancedArray)) {
-            $html .= '<div id="item-filters">';
+            $html .= '<span id="item-filters">';
             $html .= '<ul>';
             foreach($displayArray as $name => $query) {
                 $class = html_escape(strtolower(str_replace(' ', '-', $name)));
@@ -118,7 +117,7 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                 }
             }
             $html .= '</ul>';
-            $html .= '</div>';
+            $html .= '</span>';
         }
         return $html;
     }
