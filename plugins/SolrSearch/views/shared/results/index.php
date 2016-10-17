@@ -168,7 +168,7 @@
               $prop = str_replace('43_t', 'Kirjeen numero', $prop);
               $prop = str_replace('50_t', 'Otsikko', $prop);
               $prop = str_replace('46_t', 'Signum', $prop);
-              $prop = str_replace('64_t', 'Teksti', $prop);
+              $prop = str_replace('52_t', 'Teksti', $prop);
               $prop = str_replace('70_t', 'Kirjoituspaikka', $prop);
               $prop = str_replace('75_t', 'Vastaanottaja', $prop);
               ?>

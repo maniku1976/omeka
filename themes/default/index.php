@@ -2,7 +2,11 @@
 
 <div id="primary">
   <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
-    <p><?php echo $homepageText; ?></p>
+    <p>
+      <img src="http://localhost/uploads/lonnrot.jpg" align="left" width="250px"
+      style="margin-right: 20px; margin-top: 15px;">
+      <?php echo $homepageText; ?>
+    </p>
   <?php endif; ?>
   <?php if (get_theme_option('Display Featured Item') == 1): ?>
     <!-- Featured Item -->

@@ -11264,3 +11264,534 @@ Stack trace:
 #14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
 #15 /var/www/omeka/index.php(23): Omeka_Application->run()
 #16 {main}
+2016-10-15T17:46:33+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `collect...')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `collect...')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `collect...')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `collect...', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/CollectionsController.php(37): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): CollectionsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/index.php(23): Omeka_Application->run()
+#16 {main}
+2016-10-15T17:47:39+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `collect...')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `collect...')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `collect...')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `collect...', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/CollectionsController.php(37): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): CollectionsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/index.php(23): Omeka_Application->run()
+#16 {main}
+2016-10-15T17:48:03+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `items`....')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `items`....')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `items`....')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `items`....', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/ItemsController.php(183): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): ItemsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T17:48:09+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `collect...')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `collect...')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `collect...')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `collect...', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/CollectionsController.php(37): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): CollectionsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T18:00:02+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `collect...')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `collect...')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `collect...')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `collect...', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/CollectionsController.php(37): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): CollectionsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T18:02:46+03:00 ERR (3): Omeka_Plugin_Exception: At least one graphic processor (GD or ImageMagick) is required to use the UniversalViewer. in /var/www/omeka/plugins/UniversalViewer/UniversalViewerPlugin.php:66
+Stack trace:
+#0 /var/www/omeka/application/libraries/Omeka/Plugin/Broker.php(145): UniversalViewerPlugin->hookInstall(Array)
+#1 /var/www/omeka/application/libraries/Omeka/Plugin/Installer.php(130): Omeka_Plugin_Broker->callHook('install', Array, Object(Plugin))
+#2 /var/www/omeka/application/controllers/PluginsController.php(97): Omeka_Plugin_Installer->install(Object(Plugin))
+#3 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): PluginsController->installAction()
+#4 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('installAction')
+#5 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#10 {main}
+2016-10-15T18:04:01+03:00 ERR (3): Omeka_Plugin_Exception: At least one graphic processor (GD or ImageMagick) is required to use the UniversalViewer. in /var/www/omeka/plugins/UniversalViewer/UniversalViewerPlugin.php:66
+Stack trace:
+#0 /var/www/omeka/application/libraries/Omeka/Plugin/Broker.php(145): UniversalViewerPlugin->hookInstall(Array)
+#1 /var/www/omeka/application/libraries/Omeka/Plugin/Installer.php(130): Omeka_Plugin_Broker->callHook('install', Array, Object(Plugin))
+#2 /var/www/omeka/application/controllers/PluginsController.php(97): Omeka_Plugin_Installer->install(Object(Plugin))
+#3 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): PluginsController->installAction()
+#4 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('installAction')
+#5 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#10 {main}
+2016-10-15T18:08:33+03:00 ERR (3): Omeka_Plugin_Exception: At least one graphic processor (GD or ImageMagick) is required to use the UniversalViewer. in /var/www/omeka/plugins/UniversalViewer/UniversalViewerPlugin.php:66
+Stack trace:
+#0 /var/www/omeka/application/libraries/Omeka/Plugin/Broker.php(145): UniversalViewerPlugin->hookInstall(Array)
+#1 /var/www/omeka/application/libraries/Omeka/Plugin/Installer.php(130): Omeka_Plugin_Broker->callHook('install', Array, Object(Plugin))
+#2 /var/www/omeka/application/controllers/PluginsController.php(97): Omeka_Plugin_Installer->install(Object(Plugin))
+#3 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): PluginsController->installAction()
+#4 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('installAction')
+#5 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#10 {main}
+2016-10-15T18:08:44+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `collect...')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `collect...')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `collect...')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `collect...', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/CollectionsController.php(37): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): CollectionsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T18:08:55+03:00 ERR (3): Omeka_Plugin_Exception: At least one graphic processor (GD or ImageMagick) is required to use the UniversalViewer. in /var/www/omeka/plugins/UniversalViewer/UniversalViewerPlugin.php:66
+Stack trace:
+#0 /var/www/omeka/application/libraries/Omeka/Plugin/Broker.php(145): UniversalViewerPlugin->hookInstall(Array)
+#1 /var/www/omeka/application/libraries/Omeka/Plugin/Installer.php(130): Omeka_Plugin_Broker->callHook('install', Array, Object(Plugin))
+#2 /var/www/omeka/application/controllers/PluginsController.php(97): Omeka_Plugin_Installer->install(Object(Plugin))
+#3 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): PluginsController->installAction()
+#4 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('installAction')
+#5 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#10 {main}
+2016-10-15T18:12:18+03:00 ERR (3): Omeka_Plugin_Exception: At least one graphic processor (GD or ImageMagick) is required to use the UniversalViewer. in /var/www/omeka/plugins/UniversalViewer/UniversalViewerPlugin.php:66
+Stack trace:
+#0 /var/www/omeka/application/libraries/Omeka/Plugin/Broker.php(145): UniversalViewerPlugin->hookInstall(Array)
+#1 /var/www/omeka/application/libraries/Omeka/Plugin/Installer.php(130): Omeka_Plugin_Broker->callHook('install', Array, Object(Plugin))
+#2 /var/www/omeka/application/controllers/PluginsController.php(97): Omeka_Plugin_Installer->install(Object(Plugin))
+#3 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): PluginsController->installAction()
+#4 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('installAction')
+#5 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#10 {main}
+2016-10-15T18:12:24+03:00 ERR (3): Omeka_Plugin_Exception: At least one graphic processor (GD or ImageMagick) is required to use the UniversalViewer. in /var/www/omeka/plugins/UniversalViewer/UniversalViewerPlugin.php:66
+Stack trace:
+#0 /var/www/omeka/application/libraries/Omeka/Plugin/Broker.php(145): UniversalViewerPlugin->hookInstall(Array)
+#1 /var/www/omeka/application/libraries/Omeka/Plugin/Installer.php(130): Omeka_Plugin_Broker->callHook('install', Array, Object(Plugin))
+#2 /var/www/omeka/application/controllers/PluginsController.php(97): Omeka_Plugin_Installer->install(Object(Plugin))
+#3 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): PluginsController->installAction()
+#4 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('installAction')
+#5 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#10 {main}
+2016-10-15T18:14:15+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `items`....')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `items`....')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `items`....')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `items`....', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/ItemsController.php(183): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): ItemsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T18:20:43+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `items`....')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `items`....')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `items`....')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `items`....', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/ItemsController.php(183): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): ItemsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T18:26:14+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `collect...')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `collect...')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `collect...')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `collect...', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/CollectionsController.php(37): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): CollectionsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T18:28:45+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/7d5aae09c67466b7d8d18b0dc0c1dfc8.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_7d5aae09c67466b7d8d18b0dc0c1dfc8.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:28:45+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:28:58+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/53fdbadd282943350cf67e88124228b7.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_53fdbadd282943350cf67e88124228b7.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:28:58+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:29:12+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/a6d0c5e85b44ddf3cff7fff4567af6fd.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_a6d0c5e85b44ddf3cff7fff4567af6fd.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:29:12+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:29:19+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/cd1a4e162b06796a1979dbef6c7c5d90.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_cd1a4e162b06796a1979dbef6c7c5d90.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:29:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:29:28+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/9cc971b4a6e73663e6ed74f968481fe9.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_9cc971b4a6e73663e6ed74f968481fe9.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:29:28+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:29:40+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/8977a0386d76cc3d838bf25826c2e81d.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_8977a0386d76cc3d838bf25826c2e81d.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:29:40+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:29:50+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/41ba9926df993cfff877650a5a1beb3c.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_41ba9926df993cfff877650a5a1beb3c.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:29:50+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:29:58+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/503d3e4a514e92a2b82a63debb31800e.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_503d3e4a514e92a2b82a63debb31800e.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:29:58+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:30:00+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/01503579c0a92aa305fdfd2f09ed7c7c.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_01503579c0a92aa305fdfd2f09ed7c7c.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:30:00+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:30:10+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/bf2ebd5ef0e2171292ed692900879c0c.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_bf2ebd5ef0e2171292ed692900879c0c.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:30:10+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:30:15+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/9dc1a04752730af9af289337ced2dff6.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_9dc1a04752730af9af289337ced2dff6.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:30:15+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:30:24+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/7f2a92f02f761e78fab4a490a5f59564.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_7f2a92f02f761e78fab4a490a5f59564.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:30:24+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:30:34+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/f84fe6112ba7e3e55544be1e706c0e96.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_f84fe6112ba7e3e55544be1e706c0e96.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:30:34+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:30:45+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/62cf0d8c43d593a99402cc02835a409f.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_62cf0d8c43d593a99402cc02835a409f.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:30:45+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:30:54+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/74adbb65743812dd5a6ae8d89015770b.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_74adbb65743812dd5a6ae8d89015770b.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:30:54+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:31:04+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/2d43a3582198e9707d5ef328bc28cd7e.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_2d43a3582198e9707d5ef328bc28cd7e.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:31:04+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:31:14+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/4519f156d5e4985f59319eaef522bf2d.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_4519f156d5e4985f59319eaef522bf2d.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:31:14+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:31:22+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/12b09a7f35eae080a1b7dcbfb3eb78d3.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_12b09a7f35eae080a1b7dcbfb3eb78d3.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:31:22+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:31:31+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/ad3dbcd2b4fee409e7fabc211d757184.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_ad3dbcd2b4fee409e7fabc211d757184.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:31:31+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:31:39+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/14ed35dc8104310adf6317bbd9758419.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_14ed35dc8104310adf6317bbd9758419.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:31:39+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:31:44+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/e75831098ef338e685035505e8b2f9b5.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_e75831098ef338e685035505e8b2f9b5.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:31:44+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:31:54+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/6c7f4aebcac99b443fecc860ff2ef4f6.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_6c7f4aebcac99b443fecc860ff2ef4f6.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:31:54+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:01+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/54b43aeef37857a07b978719eb9d4f47.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_54b43aeef37857a07b978719eb9d4f47.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:01+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:05+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/d097b3da02a67513f789cbb008cd4fd8.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_d097b3da02a67513f789cbb008cd4fd8.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:05+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:10+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/fe7c332c9d2f9d0e627134f14a120b59.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_fe7c332c9d2f9d0e627134f14a120b59.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:10+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:14+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/5289b6569f6752c76f3c7408c1002485.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_5289b6569f6752c76f3c7408c1002485.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:14+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:18+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/a778e22f968b17365889119c7e20fbc9.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_a778e22f968b17365889119c7e20fbc9.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:18+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:22+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/c7d1b144d08ab180d0123fe028c59b7b.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_c7d1b144d08ab180d0123fe028c59b7b.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:22+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:27+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/6f9bd212b03e37535df26181e0314e32.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_6f9bd212b03e37535df26181e0314e32.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:27+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:31+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/3fafe0f8ba45bc52cbb5df2946f90394.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_3fafe0f8ba45bc52cbb5df2946f90394.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:31+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:35+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/3e4198d698e9f54c0efacd0f0a4118b4.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_3e4198d698e9f54c0efacd0f0a4118b4.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:35+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:40+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/e641937165bdf9908b450e3115d681c2.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_e641937165bdf9908b450e3115d681c2.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:40+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:32:44+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/6605ce6c8c036917890009a1bf90ca5f.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_6605ce6c8c036917890009a1bf90ca5f.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:32:44+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:33:02+03:00 ERR (3): Zend_Db_Statement_Mysqli_Exception: Mysqli prepare error: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'omeka.et_sort.text' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /var/www/omeka/application/libraries/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /var/www/omeka/application/libraries/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `items`....')
+#1 /var/www/omeka/application/libraries/Zend/Db/Adapter/Mysqli.php(388): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `items`....')
+#2 /var/www/omeka/application/libraries/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Adapter_Mysqli->prepare('SELECT `items`....')
+#3 /var/www/omeka/application/libraries/Omeka/Db.php(79): Zend_Db_Adapter_Abstract->query('SELECT `items`....', Array)
+#4 /var/www/omeka/application/libraries/Omeka/Db/Table.php(648): Omeka_Db->__call('query', Array)
+#5 /var/www/omeka/application/libraries/Omeka/Db/Table.php(281): Omeka_Db_Table->fetchObjects(Object(Omeka_Db_Select))
+#6 /var/www/omeka/application/controllers/helpers/Db.php(59): Omeka_Db_Table->findBy(Array, 10, 1)
+#7 /var/www/omeka/application/libraries/Omeka/Controller/AbstractActionController.php(128): Omeka_Controller_Action_Helper_Db->__call('findBy', Array)
+#8 /var/www/omeka/application/controllers/ItemsController.php(183): Omeka_Controller_AbstractActionController->browseAction()
+#9 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): ItemsController->browseAction()
+#10 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#11 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#12 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#13 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#14 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#15 /var/www/omeka/admin/index.php(28): Omeka_Application->run()
+#16 {main}
+2016-10-15T18:48:40+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/c66e398916511e2a71c05c1076c3acf2.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_c66e398916511e2a71c05c1076c3acf2.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:48:40+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:48:46+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/0d7df1a55844e828b7d978f07bcd25cf.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_0d7df1a55844e828b7d978f07bcd25cf.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:48:46+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:48:51+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/2de24b8d12f86db1bf2bd71cbc369541.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_2de24b8d12f86db1bf2bd71cbc369541.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:48:51+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:48:58+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/52a94df111b9f6cf039f7f3a68c3c902.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_52a94df111b9f6cf039f7f3a68c3c902.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:48:58+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:03+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/53c2a44325d727156b58df2046de4906.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_53c2a44325d727156b58df2046de4906.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:03+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:08+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/9c9fb6e19eaff5c2115092c5f3212c59.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_9c9fb6e19eaff5c2115092c5f3212c59.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:08+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:10+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/aaa230b1c5ca6322da22fa8cfde1a6df.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_aaa230b1c5ca6322da22fa8cfde1a6df.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:10+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:15+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/08c907dbc95a92a2ef8344104e83712e.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_08c907dbc95a92a2ef8344104e83712e.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:15+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:19+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/c0a7a03c3a2be5213e9779e56e1fa7d6.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_c0a7a03c3a2be5213e9779e56e1fa7d6.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:26+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/14357d86b7894612c8d114ef5b395d2a.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_14357d86b7894612c8d114ef5b395d2a.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:26+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:33+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/6516a024cafc4abbd64cbcd35df787c6.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_6516a024cafc4abbd64cbcd35df787c6.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:33+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T18:49:40+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/7194ad5c87e3c664b8342de2bb2dbb72.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_7194ad5c87e3c664b8342de2bb2dbb72.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T18:49:40+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T19:44:27+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/00116b94d4483ea54808ec808e0a2cec.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_00116b94d4483ea54808ec808e0a2cec.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T19:44:27+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T19:44:36+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/ccb7bdbe8340045efcf23389f7dc5ab1.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_ccb7bdbe8340045efcf23389f7dc5ab1.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T19:44:36+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T19:44:45+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/e5778b19845bdd173d5053c1f87721cb.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_e5778b19845bdd173d5053c1f87721cb.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T19:44:45+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T19:51:27+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/740c1afcf0548fb5edeb354881d72346.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_740c1afcf0548fb5edeb354881d72346.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T19:51:27+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-15T19:51:35+03:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/eb981ad63a167745fc27d8f11801775e.xml' @ error/svg.c/ReadSVGImage/2952.
+convert: no images defined `/tmp/fullsize_eb981ad63a167745fc27d8f11801775e.jpg' @ error/convert.c/ConvertImageCommand/3210.
+
+2016-10-15T19:51:35+03:00 ERR (3): ImageMagick failed with status code 1.
+2016-10-17T09:09:57+03:00 ERR (3): Apache_Solr_HttpTransportException: '404' Status: Not Found in /var/www/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/omeka/plugins/SolrSearch/controllers/ResultsController.php(100): Apache_Solr_Service->search('Kajaani', 0, '10', Array)
+#2 /var/www/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
