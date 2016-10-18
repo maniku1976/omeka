@@ -26,9 +26,8 @@ $formAttributes['method'] = 'GET';
               $table_options = get_table_options('Element', null, array(
                   'element_set_name' => 'Dublin Core',
                   'sort' => 'orderBySet'));
-
               // Remove unnecessary selections from advanced search fields dropdown menu
-              $table_options = array_diff($table_options,
+              $table_options = array_diff($table_options['Dublin Core'],
                 ['Aihe', 'Kuvaus', 'Kattavuus', 'Laji', 'Formaatti', 'Julkaisija', 'Oikeudet',
                 'Muu tekijä', 'Lähde', 'Suhde']);
 
