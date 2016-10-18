@@ -172,6 +172,9 @@
               $prop = str_replace('70_t', 'Kirjoituspaikka', $prop);
               $prop = str_replace('75_t', 'Vastaanottaja', $prop);
               ?>
+              <?php if($prop == 'Laji'):
+                $field = str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $field);
+              endif; ?>
               <?php foreach($field as $hl): ?>
                 <!-- Display field label before highlighted search result -->
                 <li class="snippet"><?php echo '<b>'.$prop.'</b>'.": ".strip_tags($hl, '<em>'); ?></li>
