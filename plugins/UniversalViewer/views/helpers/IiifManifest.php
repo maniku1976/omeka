@@ -79,21 +79,21 @@ class UniversalViewer_View_Helper_IiifManifest extends Zend_View_Helper_Abstract
             foreach ($elements as $elementName => $values) {
               if ($elementName == 'XML File' || strpos($elementName, 'Image') !== false) {
 		$values = str_replace('http://localhost/uploads/', '', $values);
-              } 
+              }
 	      $elementName = str_replace('Title', 'Otsikko', $elementName);
 	      $elementName = str_replace('Subject', 'Aihe', $elementName);
 	      $elementName = str_replace('Description', 'Kuvaus', $elementName);
 	      $elementName = str_replace('Creator', 'Kirjoittaja', $elementName);
 	      $elementName = str_replace('Source', 'Lähde', $elementName);
 	      $elementName = str_replace('Publisher', 'Julkaisija', $elementName);
-	      $elementName = str_replace('Date', 'Päivämäärä', $elementName);
-	      $elementName = str_replace('Contributor', 'Osallistuja', $elementName);
+	      $elementName = str_replace('Date', 'Kirjoitusaika', $elementName);
+	      $elementName = str_replace('Contributor', 'Muu tekijä', $elementName);
 	      $elementName = str_replace('Rights', 'Oikeudet', $elementName);
-	      $elementName = str_replace('Relation', 'Liittyy', $elementName);
+	      $elementName = str_replace('Relation', 'Liittyvä aineisto', $elementName);
 	      $elementName = str_replace('Format', 'Formaatti', $elementName);
 	      $elementName = str_replace('Language', 'Kieli', $elementName);
 	      $elementName = str_replace('Type', 'Laji', $elementName);
-	      $elementName = str_replace('Identifier', 'Tunnus', $elementName);
+	      $elementName = str_replace('Identifier', 'Identifiointitunnus', $elementName);
 	      $elementName = str_replace('XML File', 'XML-tiedosto', $elementName);
 	      $elementName = str_replace('Image', 'Kuva', $elementName);
 

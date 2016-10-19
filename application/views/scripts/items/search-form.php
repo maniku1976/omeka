@@ -27,21 +27,19 @@ $formAttributes['method'] = 'GET';
                   'element_set_name' => 'Dublin Core',
                   'sort' => 'orderBySet'));
               // Remove unnecessary selections from advanced search fields dropdown menu
-              $table_options = array_diff($table_options['Dublin Core'],
+              $table_options = array_diff($table_options,
                 ['Aihe', 'Kuvaus', 'Kattavuus', 'Laji', 'Formaatti', 'Julkaisija', 'Oikeudet',
                 'Muu tekijä', 'Lähde', 'Suhde']);
 
               $table_options = str_replace('Valitse', 'Valitse hakukenttä', $table_options);
-              $table_options = str_replace('Aikamääre', 'Kirjoitusvuosi', $table_options);
-              $table_options = str_replace('Tekijä', 'Kirjoittaja', $table_options);
-              $table_options = str_replace('Nimeke', 'Vastaanottaja', $table_options);
+              $table_options = str_replace('Otsikko', 'Vastaanottaja', $table_options);
 
               $label_table_options = label_table_options(array(
-                  'contains' => __('sisältää'),
-                  'does not contain' => __('ei sisällä'),
-                  'is exactly' => __('on täsmälleen'),
-                  'is empty' => __('on tyhjä'),
-                  'is not empty' => __('ei ole tyhjä'))
+                  'contains' => __('contains'),
+                  'does not contain' => __('does not contain'),
+                  'is exactly' => __('is exactly'),
+                  'is empty' => __('is empty'),
+                  'is not empty' => __('is not empty'))
               );
 
               $label_table_options = str_replace('Valitse', 'Valitse hakurajoite', $label_table_options);

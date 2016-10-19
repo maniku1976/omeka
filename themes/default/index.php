@@ -41,7 +41,7 @@
     ?>
     <div id="recent-items">
       <!-- Finnish translation of subject line -->
-      <h2><?php echo __('Viimeksi lisätyt kirjeet'); ?></h2>
+      <h2><?php echo __('Recently Added Items'); ?></h2>
       <?php echo recent_items($recentItems); ?>
     </div><!--end recent-items -->
   <?php endif; ?>

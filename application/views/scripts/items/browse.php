@@ -1,10 +1,10 @@
 <!-- Some English titles replaced with Finnish ones-->
 <?php
-$pageTitle = __('Selaa kirjeitä');
+$pageTitle = __('Browse Items');
 echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 ?>
 
-<!--<h3 style="margin-top:0.5em;margin:left:0.5em;margin-bottom:none;"><?php echo __('Kirjeitä yhteensä: %s', $total_results); ?></h3>-->
+<!--<h3 style="margin-top:0.5em;margin:left:0.5em;margin-bottom:none;"><?php echo __('%s total', $total_results); ?></h3>-->
 
 <!--<nav class="items-nav navigation secondary-nav">
     <?php echo public_nav_items(); ?>
@@ -18,9 +18,9 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 <?php
 
 /* Sort options for items: writing date, title, writer */
-$sortLinks[__('Kirjoitusaika')] = 'Dublin Core,Date';
-$sortLinks[__('Otsikko')] = 'Dublin Core,Title';
-$sortLinks[__('Kirjoittaja')] = 'Dublin Core,Creator';
+$sortLinks[__('Date')] = 'Dublin Core,Date';
+$sortLinks[__('Title')] = 'Dublin Core,Title';
+$sortLinks[__('Creator')] = 'Dublin Core,Creator';
 ?>
 
 <div style="float:left;font-size:18px;display:inline-block">
@@ -32,7 +32,7 @@ $sortLinks[__('Kirjoittaja')] = 'Dublin Core,Creator';
   <?php endif; ?></span>
 </div>
 <div id="sort-links">
-    <span class="sort-label"><?php echo __('Järjestä: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
+    <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>
 
 <?php echo pagination_links(); ?>
@@ -79,7 +79,7 @@ $sortLinks[__('Kirjoittaja')] = 'Dublin Core,Creator';
 <?php echo pagination_links(); ?>
 
 <div id="outputs">
-    <span class="outputs-label"><?php echo __('Formaatit:'); ?></span>
+    <span class="outputs-label"><?php echo 'Formaatit:'; ?></span>
     <?php echo output_format_list(false); ?>
 </div>
 

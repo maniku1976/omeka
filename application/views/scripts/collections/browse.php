@@ -1,6 +1,6 @@
 <!-- Some English titles replaced with Finnish ones -->
 <?php
-$pageTitle = __('Kirjeiden vastaanottajat');
+$pageTitle = __('Collections');
 echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
 ?>
 
@@ -8,12 +8,12 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
 
 <?php
 /* Sort options for collections: title, added date */
-$sortLinks[__('Nimi')] = 'Dublin Core,Title';
-$sortLinks[__('Lisätty')] = 'added';
+$sortLinks[__('Title')] = 'Dublin Core,Title';
+$sortLinks[__('Date')] = 'added';
 ?>
 <div id="sort-links">
   <span><?php echo __('(%s kokoelmaa)', $total_results); ?></span>
-  <span class="sort-label"><?php echo __('Järjestä: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
+  <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>
 
 <div id="collection-list">
@@ -52,7 +52,7 @@ $sortLinks[__('Lisätty')] = 'added';
         </div>
       <?php endif; ?>
 
-      <p class="view-items-link">&#8594; <?php echo link_to_items_browse(__('Kokoelman kirjeet', metadata('collection', array('Dublin Core', 'Title'))), array('collection' => metadata('collection', 'id'))); ?></p>
+      <p class="view-items-link">&#8594; <?php echo link_to_items_browse(__('Items in the collection', metadata('collection', array('Dublin Core', 'Title'))), array('collection' => metadata('collection', 'id'))); ?></p>
 
       <?php fire_plugin_hook('public_collections_browse_each', array('view' => $this, 'collection' => $collection)); ?>
 
