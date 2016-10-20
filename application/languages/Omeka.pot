@@ -1243,6 +1243,7 @@ msgstr ""
 
 #: admin/themes/default/items/edit.php:3 admin/themes/default/items/show.php:3
 #: application/views/scripts/functions.php:22
+#: plugins/SolrSearch/views/shared/results/index.php:144
 msgid "[Untitled]"
 msgstr ""
 
@@ -1295,6 +1296,7 @@ msgstr ""
 
 #: admin/themes/default/items/search-form.php:14
 #: application/views/scripts/items/search-form.php:13
+#: plugins/SolrSearch/views/shared/results/index.php:25
 msgid "Search for Keywords"
 msgstr ""
 
@@ -1345,6 +1347,7 @@ msgstr ""
 
 #: admin/themes/default/items/search-form.php:84
 #: application/views/scripts/items/search-form.php:80
+#: plugins/SolrSearch/views/shared/results/index.php:18
 msgid "Search Terms"
 msgstr ""
 
@@ -3587,4 +3590,8 @@ msgstr ""
 
 #: install/views/scripts/index/installed.phtml:3
 msgid "Admin Dashboard"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:15
+msgid "Solr search"
 msgstr ""

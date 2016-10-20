@@ -12,17 +12,17 @@
 
 
   <?php queue_css_file('results'); ?>
-  <?php echo head(array('title' => __('Solr-haku')));?>
+  <?php echo head(array('title' => __('Solr search')));?>
 
 
-  <h3><?php echo __('Hakusanat'); ?></h3>
+  <h3><?php echo __('Search Terms'); ?></h3>
 
   <!-- Search form. -->
   <div class="solr">
     <form id="solr-search-form">
       <input type="submit" value="Haku" />
       <span class="float-wrap">
-        <input type="text" title="<?php echo __('Hae hakusanoilla') ?>" name="q" value="<?php
+        <input type="text" title="<?php echo __('Search for keywords') ?>" name="q" value="<?php
           echo array_key_exists('q', $_GET) ? $_GET['q'] : '';
         ?>" placeholder="Hae kirjeitä"/> <!-- add placeholder in input field -->
       </span>
@@ -42,8 +42,8 @@
           <?php $label = SolrSearch_Helpers_Facet::keyToLabel($f[0]); ?>
           <?php
           $label = str_replace('XML File', 'Kirjoituspaikka', $label);
-          $label = str_replace('Language', 'Kieli', $label);
-          $label = str_replace('Type', 'Laji', $label);
+          /*$label = str_replace('Language', 'Kieli', $label);
+          $label = str_replace('Type', 'Laji', $label);*/
           ?>
           <span class="applied-facet-label" style="font-weight:bold;"><?php echo $label." - "; ?></span>
           <!-- Capitalize specific labels in search results view -->
@@ -141,7 +141,7 @@
           <a href="<?php echo $url; ?>" class="result-title"><?php
                   $title = is_array($doc->title) ? $doc->title[0] : $doc->title;
                   if (empty($title)) {
-                      $title = '<i>' . __('Nimetön') . '</i>';
+                      $title = '<i>' . __('[Untitled]') . '</i>';
                   }
                   // Display letter number and date along with title in search results
                   $number = '43_t';
