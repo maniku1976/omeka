@@ -1,0 +1,65 @@
+# Translation for the Locale plugin for Omeka.
+# Copyright (C) 2014 Roy Rosenzweig Center for History and New Media
+# This file is distributed under the same license as the Omeka package.
+# RRCHNM <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Locale\n"
+"Report-Msgid-Bugs-To: http://github.com/omeka/plugin-Locale/issues\n"
+"POT-Creation-Date: 2014-09-21 17:49-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Locale"
+msgstr ""
+
+#: LocalePlugin.php:44 views/admin/multilingual/browse.php:2
+#: views/admin/multilingual/item.php:3
+msgid "Multilingual Website"
+msgstr ""
+
+#: config_form.php:39
+msgid "Language"
+msgstr ""
+
+#: config_form.php:42
+msgid ""
+"The language to use for your site. Some parts of the site might not have "
+"been translated into your language yet. To learn more about contributing to "
+"translations, <a href='http://omeka.org/codex/Translate_Omeka'>read this</a>."
+msgstr ""
+
+#: config_form.php:48
+msgid "Show way"
+msgstr ""
+
+#: config_form.php:51
+msgid "The way of show in your public site."
+msgstr ""
+
+#: config_form.php:57 views/admin/multilingual/browse.php:98
+msgid "Available languages"
+msgstr ""
+
+#: config_form.php:60
+msgid "Choose the languages which you prefer."
+msgstr ""
+
+#: views/admin/multilingual/browse.php:89
+msgid "Dictionnary"
+msgstr ""
+
+#: views/admin/multilingual/browse.php:92
+msgid "The dictionnary to use for translate your Website ."
+msgstr ""
+
+#: views/admin/multilingual/browse.php:101
+msgid "The language you can choose for your Website."
+msgstr ""

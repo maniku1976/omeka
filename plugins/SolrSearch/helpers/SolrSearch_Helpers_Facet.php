@@ -34,10 +34,7 @@ class SolrSearch_Helpers_Facet
                 $facets[] = array($field, $matches['value'][$i]);
 
             }
-
-
         }
-
         return $facets;
 
     }

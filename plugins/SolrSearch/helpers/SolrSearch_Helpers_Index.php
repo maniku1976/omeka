@@ -126,7 +126,6 @@ class SolrSearch_Helpers_Index
 
         // Create new Solr search field from writing location element for indexing
         $locField = new SolrSearchField();
-
         $locField->slug = 70; // needed for indexing key below
         $locField->is_indexed = 1; // field is indexed
         $locField->is_facet = 0; // field is not facet
@@ -144,6 +143,7 @@ class SolrSearch_Helpers_Index
         ", ".(string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->forename;
 
         $doc->setMultiValue($rcField->indexKey(), $rcField->text); //append to Solr search document
+
       }
     }
 
@@ -156,8 +156,7 @@ class SolrSearch_Helpers_Index
 
     // Collection:
     if ($collection = $item->getCollection()) {
-      $doc->collection = metadata(
-      $collection, array('Dublin Core', 'Title')
+      $doc->collection = metadata($collection, array('Dublin Core', 'Title')
     );
   }
 
@@ -172,7 +171,6 @@ class SolrSearch_Helpers_Index
   foreach ($item->getFiles() as $file) {
     self::indexItem($fields, $file, $doc);
   }
-
   return $doc;
 
 }

@@ -103,7 +103,6 @@
 </head>
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
 <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
-<?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
 
 <header role="banner">
   <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
@@ -118,12 +117,12 @@
   <div id="search-container" role="search">
     <span style="float:left;">
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('items')); ?>">
-        <?php echo __('Kaikki kirjeet'); ?>
+        <?php echo __('Browse Items'); ?>
       </a>
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('collections')); ?>">
-        <?php echo __('Kirjeiden vastaanottajat'); ?></a>
-        <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>">Esipuhe</a>
-        <a id="infobtn">Tietoja</a>
+        <?php echo __('Browse Collections'); ?></a>
+        <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>"><?php echo __('Preface'); ?></a>
+        <a id="infobtn"><?php echo __('Instructions'); ?></a>
         <!-- Extended search and Solr text search -->
     </span>
     <span style="float:right;margin-right:16px;">

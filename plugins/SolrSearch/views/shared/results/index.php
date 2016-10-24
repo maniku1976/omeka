@@ -42,9 +42,8 @@
           <?php $label = SolrSearch_Helpers_Facet::keyToLabel($f[0]); ?>
           <?php
           $label = str_replace('XML File', 'Kirjoituspaikka', $label);
-          /*$label = str_replace('Language', 'Kieli', $label);
-          $label = str_replace('Type', 'Laji', $label);*/
           ?>
+
           <span class="applied-facet-label" style="font-weight:bold;"><?php echo $label." - "; ?></span>
           <!-- Capitalize specific labels in search results view -->
           <?php if ($label == 'Kirjoituspaikka'): ?>

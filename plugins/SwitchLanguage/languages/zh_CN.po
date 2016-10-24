@@ -1,0 +1,2193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka\n"
+"Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
+"POT-Creation-Date: 2012-11-26 14:33-0500\n"
+"PO-Revision-Date: 2015-02-24 17:00+0000\n"
+"Last-Translator: John Flatness <john@zerocrates.org>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/omeka/"
+"language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "plugin"
+msgstr "插件"
+
+msgid "\"%s\" is not a valid file derivative."
+msgstr "\"%s\"不是一个有效的导出文件。"
+
+msgid "%1$s and %2$s"
+msgstr "%1$s和%2$s"
+
+msgid ""
+"%1$s requires the following plugins to be installed, activated, and loaded: "
+"%2$s"
+msgstr "%1$s要求安装、激活和载入这个插件：%2$s"
+
+msgid "%1$s, %2$s, and %3$s"
+msgstr "%1$s，%2$s，和%3$s"
+
+msgid "%s Administrator"
+msgstr "%s管理员"
+
+msgid "%s bytes"
+msgstr "%s字节"
+
+msgid "%s et al."
+msgstr "%s等"
+
+msgid "%s is not a valid URL."
+msgstr "%s是一个无效的URL。"
+
+msgid "%s of %s"
+msgstr "%s的%s"
+
+msgid ""
+"%s will be deleted from the system. Items, collections, and tags created by "
+"this user will remain in the system, but will no longer be associated with "
+"this user."
+msgstr ""
+"%s将会从系统中删除。由该用户创建的条目、馆藏和标签会保留在系统中，但是不再与"
+"该用户相关联。"
+
+msgid "&larr; Previous Item"
+msgstr "&larr;上一个条目"
+
+msgid "'%s' is already in use. Please choose another username."
+msgstr "'%s'已被使用。请选择另一个用户名。"
+
+msgid "'%s' is an invalid special value."
+msgstr "'%s'是无效的特殊值。"
+
+msgid "(%s total)"
+msgstr "(总共%s)"
+
+msgid "(Lost your password?)"
+msgstr "（忘了您的密码？）"
+
+msgid "(Private)"
+msgstr "(私有的)"
+
+msgid "403 Page Forbidden"
+msgstr "403页面拒绝访问"
+
+msgid "403: Forbidden"
+msgstr "403: 禁止访问"
+
+msgid "404 Page Not Found"
+msgstr "404页面没有找到"
+
+msgid "404: Page Not Found"
+msgstr "404: 没有找到页面"
+
+msgid "405 Method Not Allowed"
+msgstr "405访问方法不允许"
+
+msgid "405: Method Not Allowed"
+msgstr "405: 不被允许的访问方法"
+
+msgid "A current %s variable has not been set to this view."
+msgstr "当前%s变量没有被设定至该视图。"
+
+msgid "A language of the resource"
+msgstr "资源所用语种"
+
+msgid "A loop %s variable has not been set to this view."
+msgstr "循环%s变量没有被设定至该视图。"
+
+msgid "A name given to the resource"
+msgstr "给予资源的名称"
+
+msgid "A new version of Omeka is available for download."
+msgstr "有一个新版本的Omeka可供下载。"
+
+msgid ""
+"A point or period of time associated with an event in the lifecycle of the "
+"resource"
+msgstr "在该资源的生命周期内与某事件有关的一个时间点或一段时间"
+
+msgid "A related resource"
+msgstr "相关资源"
+
+msgid "A related resource from which the described resource is derived"
+msgstr "衍生出所描述资源的相关资源"
+
+msgid "Access denied."
+msgstr "访问被拒绝了。"
+
+msgid "Activate"
+msgstr "激活"
+
+msgid "Activate your account with the %s repository"
+msgstr "使用%s库来激活您的账户。"
+
+msgid "Active?"
+msgstr "活跃的？"
+
+msgid "Add Another File"
+msgstr "添加另一个文件"
+
+msgid "Add Collection"
+msgstr "添加馆藏"
+
+msgid "Add Element"
+msgstr "添加元素"
+
+msgid "Add Input"
+msgstr "添加输入"
+
+msgid "Add Item"
+msgstr "添加条目"
+
+msgid "Add Item Type"
+msgstr "添加条目类型"
+
+msgid "Add Link"
+msgstr "添加链接"
+
+msgid "Add New Files"
+msgstr "添加新文件"
+
+msgid "Add New User"
+msgstr "添加新用户"
+
+msgid "Add Tags"
+msgstr "添加标签"
+
+msgid "Add User"
+msgstr "添加用户"
+
+msgid "Add a Collection"
+msgstr "添加馆藏"
+
+msgid "Add a Field"
+msgstr "添加一个字段"
+
+msgid "Add a File"
+msgstr "添加一个文件"
+
+msgid "Add a Link to the Navigation"
+msgstr "给导航页添加链接"
+
+msgid "Add a User"
+msgstr "添加用户"
+
+msgid "Add a new collection"
+msgstr "添加一个新馆藏"
+
+msgid "Add a new item"
+msgstr "添加一个新条目"
+
+msgid "Add an Item"
+msgstr "添加一个条目"
+
+msgid "Add an Item Type"
+msgstr "添加一个条目类型"
+
+msgid ""
+"Add new themes by downloading them from the <a href=\"http://omeka.org/add-"
+"ons/themes/\" target=\"_blank\">Omeka Theme Directory</a>, or <a href="
+"\"http://omeka.org/codex/Theme_Writing_Best_Practices\" target=\"_blank"
+"\">design your own</a>!"
+msgstr ""
+"要添加新主题，请从<a href=\"http://omeka.org/add-ons/themes/\" target="
+"\"_blank\">Omeka主题目录</a>下载，或者<a href=\"http://omeka.org/codex/"
+"Theme_Writing_Best_Practices\" target=\"_blank\">设计您自己的主题</a>！"
+
+msgid "Additional Creator"
+msgstr "其他创建者"
+
+msgid "Admin"
+msgstr "管理员"
+
+msgid "Admin Dashboard"
+msgstr "管理员控制板"
+
+msgid "Administrator Email"
+msgstr "管理员电子邮件地址"
+
+msgid "Advanced Search (Items only)"
+msgstr "高级搜索（只搜索条目）"
+
+msgid "All Tags"
+msgstr "所有标签"
+
+msgid "All element texts must have a record type."
+msgstr "所有元素文本必须有一个记录类型。"
+
+msgid "All navigation links must have URIs."
+msgstr "所有导航链接必须有URI。"
+
+msgid "All navigation links must have different URIs."
+msgstr "所有导航链接必须有不同的URI。"
+
+msgid "Allowed File Extensions"
+msgstr "允许的文件扩展名"
+
+msgid "Allowed File Types"
+msgstr "允许的文件类型"
+
+msgid "Allowed HTML Attributes"
+msgstr "允许的HTML属性"
+
+msgid "Allowed HTML Elements"
+msgstr "允许的HTML元素"
+
+msgid "Alphabetical"
+msgstr "字母顺序"
+
+msgid "An account of the resource"
+msgstr "关于资源的论述"
+
+msgid "An array of records is not available for the loop."
+msgstr "循环所需要的记录数组不存在。"
+
+msgid "An element named \"%s\" already exists for the \"%s\" element set."
+msgstr "在\"%s\"元素集中已经有一个名为\"%s\"的元素。"
+
+msgid "An entity primarily responsible for making the resource"
+msgstr "主要用于生成资源的实体"
+
+msgid "An entity responsible for making contributions to the resource"
+msgstr "为资源提供了贡献的实体"
+
+msgid "An entity responsible for making the resource available"
+msgstr "用于使资源得以可用的实体"
+
+msgid "An invalid value was detected during record iteration."
+msgstr "在记录循环时检测到无效值。"
+
+msgid "An unambiguous reference to the resource within a given context"
+msgstr "在给定上下文中对资源的明确引用"
+
+msgid "Appearance"
+msgstr "外观"
+
+msgid ""
+"Are you sure you want to delete the selected item type elements from the "
+"database? You will lose all text related to the selected elements. This "
+"cannot be undone."
+msgstr ""
+"你确认要从数据库中删除所选定的条目类型元素吗？您将丢失所有与选定元素相关的文"
+"本。本操作不能被撤销。"
+
+msgid "Are you sure you want to uninstall %s?"
+msgstr "您确定要卸载%s吗？"
+
+msgid "Are you sure?"
+msgstr "您是否确定执行操作？"
+
+msgid "Authentication"
+msgstr "身份验证"
+
+msgid "Back to Log In"
+msgstr "返回登录"
+
+msgid "Batch Delete Items"
+msgstr "批量删除条目"
+
+msgid "Batch Edit Items"
+msgstr "批量编辑条目"
+
+msgid ""
+"Before installation can continue, the following errors must be resolved:"
+msgstr "继续安装之前，以下错误必须解决："
+
+msgid "Bibliographic Citation"
+msgstr "书目引用"
+
+msgid "Bit Depth"
+msgstr "位深度"
+
+msgid "Bitrate"
+msgstr "码率"
+
+msgid "Boolean"
+msgstr "布尔逻辑"
+
+msgid "Browse All"
+msgstr "浏览所有"
+
+msgid "Browse Collections"
+msgstr "浏览馆藏"
+
+msgid "Browse Item Types"
+msgstr "浏览条目类型"
+
+msgid "Browse Items"
+msgstr "浏览条目"
+
+msgid "Browse Items by Tag"
+msgstr "通过标签浏览条目"
+
+msgid "Browse Users"
+msgstr "浏览用户"
+
+msgid "Browse by Tag"
+msgstr "标签浏览"
+
+msgid "By %s"
+msgstr "按照%s"
+
+msgid "CHNM"
+msgstr "CHNM"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cannot add an existing file to an item!"
+msgstr "无法给条目添加已有的文件！"
+
+msgid "Cannot associate the collection with an unsaved user."
+msgstr "无法将馆藏与尚未保存的用户进行关联。"
+
+msgid "Cannot create a user activation for non-existent user."
+msgstr "无法为不存在的用户激活。"
+
+msgid "Cannot find an element with an ID of '%s'!"
+msgstr "无法找到标识符为'%s'的元素！"
+
+msgid "Cannot find element with ID %s!"
+msgstr "无法找到标识符为%s的元素！"
+
+msgid "Cannot find parent navigation page."
+msgstr "无法找到上一层导航页。"
+
+msgid "Cannot get the local path for a stored file."
+msgstr "无法得到已保存文件的本地路径。"
+
+msgid ""
+"Cannot remove elements from an item type that is not persistent in the "
+"database!"
+msgstr "无法从数据库里的非持久条目类型中删除元素！"
+
+msgid "Cannot save element text for records that are not yet persistent!"
+msgstr "无法保存非持久记录的元素文本！"
+
+msgid "Cannot set element set ID: set named \"%s\" does not exist."
+msgstr "无法设置元素集标识符：\"%s\"集不存在。"
+
+msgid "Captcha"
+msgstr "Captcha"
+
+msgid "Capture Date"
+msgstr "采集日期"
+
+msgid "Capture Details"
+msgstr "采集细节"
+
+msgid "Capture Device"
+msgstr "采集设备"
+
+msgid "Change History"
+msgstr "变更历史"
+
+msgid "Change Password"
+msgstr "修改密码"
+
+msgid "Changes will be applied to checked items."
+msgstr "更改将应用于选中的条目。"
+
+msgid "Channels"
+msgstr "通道"
+
+msgid "Check box to show metadata elements with no text."
+msgstr "点选方框以显示没有文本的元数据元素。"
+
+msgid "Check if you wish to delete selected items."
+msgstr "如果您想删除所选条目，请点选。"
+
+msgid ""
+"Check the links to display them in the main navigation. Click and drag the "
+"links into the preferred display order."
+msgstr "点选链接以便在主导航中显示。点击并拖曳链接至优先显示顺序。"
+
+msgid ""
+"Check this field if you would like to allow any file to be uploaded to Omeka."
+msgstr "如果您想允许任何文件上传至Omeka，请点选该字段。"
+
+msgid "Checked items will be deleted."
+msgstr "选定的条目将被删除。"
+
+msgid "Citation"
+msgstr "引用"
+
+msgid ""
+"Click and drag the elements into the preferred display order. Click the "
+"right arrows to add customized comments to element descriptions."
+msgstr "点击并拖曳元素至优先显示顺序。点击右箭头把定制评论加入元素描述中。"
+
+msgid "Click and drag the files into the preferred display order."
+msgstr "点击并拖曳文件至优先显示顺序"
+
+msgid "Click on the \"Index Records\" button to re-index your records."
+msgstr "点击”索引记录“按钮以便重新索引你的记录。"
+
+msgid "Codec"
+msgstr "编解码器"
+
+msgid "Collection"
+msgstr "馆藏"
+
+msgid "Collections"
+msgstr "馆藏"
+
+msgid "Comment"
+msgstr "评论"
+
+msgid "Compression"
+msgstr "压缩"
+
+msgid "Configurations apply to this theme only."
+msgstr "配置仅应用于当前主题"
+
+msgid "Configure"
+msgstr "配置"
+
+msgid "Configure Plugin: %s"
+msgstr "配置插件： %s"
+
+msgid "Configure Theme"
+msgstr "配置主题"
+
+msgid "Configure Theme: %s"
+msgstr "配置主题： %s"
+
+msgid "Configure Your Site"
+msgstr "配置您的站点"
+
+msgid "Confirm Delete"
+msgstr "确认删除"
+
+msgid "Confirm your password."
+msgstr "确认您的密码。"
+
+msgid "Contributor"
+msgstr "其他责任者"
+
+msgid "Contributors"
+msgstr "其它责任人"
+
+msgid "Could not find file %s!"
+msgstr "无法找到文件%s！"
+
+msgid "Could not load database resource!"
+msgstr "无法加载数据库资源！"
+
+msgid "Coverage"
+msgstr "时空范围"
+
+msgid "Create a Password"
+msgstr "创建密码"
+
+msgid "Creator"
+msgstr "创建者"
+
+msgid "Current Password"
+msgstr "当前密码"
+
+msgid "Current Theme"
+msgstr "当前主题"
+
+msgid "Customize the element descriptions below. To re-order the elements, %s."
+msgstr "定制下面的元素描述。要重新排序元素，%s。"
+
+msgid "Customize which types of records will be searchable in Omeka."
+msgstr "定制在Omeka中哪些类型的记录可以被搜索。"
+
+msgid "Dashboard"
+msgstr "控制面板"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Date Added"
+msgstr "添加日期"
+
+msgid "Date Modified"
+msgstr "修改日期"
+
+msgid "Deactivate"
+msgstr "禁用"
+
+msgid "Default Superuser Account"
+msgstr "默认超级用户账号"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete "
+msgstr "删除"
+
+msgid "Delete %s"
+msgstr "删除%s"
+
+msgid "Delete Items"
+msgstr "删除条目"
+
+msgid "Derivative Size Constraints"
+msgstr "衍生尺寸限制"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Details"
+msgstr "详情"
+
+msgid "Dictionnary"
+msgstr "字典"
+
+msgid "Disable File Upload Validation"
+msgstr "取消文件上传验证"
+
+msgid "Display Name"
+msgstr "显示名"
+
+msgid "Display Settings"
+msgstr "显示设定"
+
+msgid "Documentation"
+msgstr "文档"
+
+msgid "Duration"
+msgstr "实长"
+
+msgid "Each option must have a unique name."
+msgstr "每个选项必须有唯一名称。"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Edit Collection #%s"
+msgstr "编辑馆藏#%s"
+
+msgid "Edit Collections"
+msgstr "编辑馆藏"
+
+msgid "Edit Element Set"
+msgstr "编辑元素集合"
+
+msgid "Edit File #%s"
+msgstr "编辑文件#%s"
+
+msgid "Edit Item #%s"
+msgstr "编辑条目#%s"
+
+msgid "Edit Item Type #%s"
+msgstr "编辑条目类型#%s"
+
+msgid "Edit Items"
+msgstr "编辑条目"
+
+msgid "Edit Tags"
+msgstr "编辑标签"
+
+msgid "Edit User #%s"
+msgstr "编辑用户#%s"
+
+msgid "Edit this User"
+msgstr "编辑该用户"
+
+msgid "Editing Tags"
+msgstr "正在编辑标签"
+
+msgid "Element Description"
+msgstr "元素描述"
+
+msgid "Element Name"
+msgstr "元素名称"
+
+msgid "Element Sets"
+msgstr "元素集"
+
+msgid "Element texts are not formatted correctly!"
+msgstr "元素文本没有正确格式化！"
+
+msgid "Elements"
+msgstr "元素"
+
+msgid "Email"
+msgstr "电子邮件"
+
+msgid "Email address is required."
+msgstr "需要电子邮件地址。"
+
+msgid "Email is required."
+msgstr "电子邮件是必需的。"
+
+msgid "Embedded Metadata"
+msgstr "内嵌元数据"
+
+msgid "Enable HTML Filtering"
+msgstr "开启HTML过滤"
+
+msgid "Encryption"
+msgstr "加密"
+
+msgid ""
+"Enter private key from recaptcha.net. Both this and the public key must be "
+"filled in to secure public forms."
+msgstr "输入从recaptcha.net得到的私钥。私钥和公钥必须同时填入以保护公共表单。"
+
+msgid ""
+"Enter public key from recaptcha.net. Both this and the private key must be "
+"filled in to secure public forms."
+msgstr "输入从recaptcha.net得到的公钥。公钥和私钥都必须填入以便保护公共表单。"
+
+msgid "Enter your email address to retrieve your password."
+msgstr "输入您的电子邮件地址以找回密码"
+
+msgid ""
+"Error in configuring plugin named \"%s\". Missing config and/or config_form "
+"hook(s)."
+msgstr "\"%s\"插件配置错误。配置或config_form钩子(hook)缺失。"
+
+msgid "Exact match"
+msgstr "完全匹配"
+
+msgid "Exif Array"
+msgstr "Exif数组"
+
+msgid "Exif String"
+msgstr "Exif字符串"
+
+msgid "Existing"
+msgstr "已有"
+
+msgid "Fatal Error"
+msgstr "致命错误"
+
+msgid "Featured"
+msgstr "专题"
+
+msgid "Featured Collection"
+msgstr "专题馆藏"
+
+msgid "Featured Item"
+msgstr "专题条目"
+
+msgid "Featured/Non-Featured"
+msgstr "专题/非专题"
+
+msgid "Featured?"
+msgstr "专题?"
+
+msgid "File"
+msgstr "文件"
+
+msgid "File #%s"
+msgstr "文件#%s"
+
+msgid "File History"
+msgstr "文件历史"
+
+msgid "File Metadata"
+msgstr "文件元数据"
+
+msgid "File Size"
+msgstr "文件大小"
+
+msgid "File Type / OS"
+msgstr "文件类型/OS"
+
+msgid "File Validation"
+msgstr "文件验证"
+
+msgid "File must be valid before it can be associated with an item!"
+msgstr "与条目关联之前，文件必须有效！"
+
+msgid "Filename"
+msgstr "文件名"
+
+msgid "Files"
+msgstr "文件"
+
+msgid ""
+"Files cannot be attached to an item that is not persistent in the database!"
+msgstr "无法给数据库中的非持久条目附加文件。"
+
+msgid "Find a File"
+msgstr "寻找文件"
+
+msgid "Forgot Password"
+msgstr "忘记密码"
+
+msgid "Form Validation Errors"
+msgstr "表单验证错误"
+
+msgid "Format"
+msgstr "格式"
+
+msgid "Format (Legacy) Metadata"
+msgstr "格式(遗留)元数据"
+
+msgid "Format Metadata"
+msgstr "格式元数据"
+
+msgid "Fullsize Image Size"
+msgstr "全尺寸图片的尺寸"
+
+msgid "General"
+msgstr "一般信息"
+
+msgid "Get started by adding your first collection."
+msgstr "从添加您的第一个馆藏开始。"
+
+msgid "Get started by adding your first item."
+msgstr "从添加你的第一个条目开始。"
+
+msgid "Go to Home Page"
+msgstr "返回主页"
+
+msgid "Go to search settings to select record types to use."
+msgstr "去搜索设定选择要使用的记录类型。"
+
+msgid "HTML Filtering"
+msgstr "HTML过滤"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Hide Details"
+msgstr "隐藏详情"
+
+msgid "IPTC Array"
+msgstr "IPTC数组"
+
+msgid "IPTC String"
+msgstr "IPTC字符串"
+
+msgid "Identifier"
+msgstr "标识符"
+
+msgid "If this does not help, try contacting the %s."
+msgstr "如果这无法帮助到您，请尝试联系%s。"
+
+msgid ""
+"If you have any questions please refer to <a href=\"http://omeka.org/codex"
+"\">Omeka documentation</a> or post a message on the <a href=\"http://omeka."
+"org/forums\">Omeka forums</a>."
+msgstr ""
+"如果您有任何问题，请参考<a href=\"http://omeka.org/codex\">Omeka文档</a>，或"
+"在 <a href=\"http://omeka.org/forums\">Omeka论坛</a>发帖。"
+
+msgid "If you think you should have permission, try contacting the %s."
+msgstr "如果您认为应当拥有权限，请尝试联系%s。"
+
+msgid "ImageMagick Directory Path"
+msgstr "ImageMagick目录路径"
+
+msgid "Inactive users cannot log in to the site."
+msgstr "非活跃用户不能登录站点。"
+
+msgid "Index Records"
+msgstr "索引记录"
+
+msgid ""
+"Indexing means to collect, parse, and store data to facilitate fast and "
+"accurate searches. Omeka will automatically index individual records as they "
+"are saved, but there are circumstances when your records are not indexed; "
+"for instance, when updating from an earlier version of Omeka or after you "
+"customize which records will be searchable."
+msgstr ""
+"索引指的是搜集、分析并存储数据以利于快速准确的搜索。当记录保存时Omeka会自动索"
+"引每个记录，但是也有记录不被索引的情况；譬如，当从Omeka的早先版本升级时，或者"
+"在您定制了哪些记录能被搜索之后。"
+
+msgid ""
+"Indexing records. This may take a while. You may continue administering your "
+"site."
+msgstr "正在索引记录。这将需要一些时间。您可以继续管理您的网站。"
+
+msgid "Information about rights held in and over the resource"
+msgstr "有关资源所涵盖版权的信息"
+
+msgid "Install"
+msgstr "安装"
+
+msgid "Installation Error"
+msgstr "安装错误"
+
+msgid "Installation Warning"
+msgstr "安装警告"
+
+msgid "Invalid URI for \"%s\" navigation link:  \"%s\""
+msgstr "\"%s\"导航链接的无效URI： \"%s\""
+
+msgid "Invalid URI for Omeka_Navigation_Page_Uri object: %s"
+msgstr "Omeka_Navigation_Page_Uri对象的无效URI： %s"
+
+msgid "Invalid action passed while getting record URL."
+msgstr "获取记录URL时传递了无效操作。"
+
+msgid "Invalid current password"
+msgstr "无效的当前密码"
+
+msgid "Invalid element ID."
+msgstr "无效的元素标识符。"
+
+msgid ""
+"Invalid element data. To add elements, you must either pass an element "
+"objects or an array of element metadata."
+msgstr "无效的元素数据。为了添加元素，您必须传递一个元素对象或元素元数据数组。"
+
+msgid "Invalid email address"
+msgstr "电子邮件地址无效。"
+
+msgid "Invalid email address given."
+msgstr "输入的电子邮件地址无效。"
+
+msgid "Invalid form submission."
+msgstr "表单提交无效。"
+
+msgid "Invalid format given for email address."
+msgstr "电子邮件地址格式无效。"
+
+msgid "Invalid hostname given for email address."
+msgstr "电子邮件地址的主机名无效。"
+
+msgid ""
+"Invalid parameter. The hasElement function requires either an element object "
+"or an element id to determine if an item type has an element."
+msgstr ""
+"无效参数。hasElement函数需要一个元素对象或元素标识符，从而判定条目类型是否包"
+"含元素。"
+
+msgid "Invalid record ID."
+msgstr "无效的记录标识符。"
+
+msgid "Invalid record passed while getting record URL."
+msgstr "获取记录URL时传递了无效记录。"
+
+msgid "Invalid return value while getting record URL."
+msgstr "获取记录URL时出现无效返回值。"
+
+msgid "Invalid search type given!"
+msgstr "无效的搜索类型！"
+
+msgid "Invalid tagType given."
+msgstr "给定的tagType无效。"
+
+msgid "Item"
+msgstr "条目"
+
+msgid "Item #%s"
+msgstr "条目#%s"
+
+msgid "Item Metadata"
+msgstr "条目元数据"
+
+msgid "Item Type"
+msgstr "条目类型"
+
+msgid "Item Type #%s"
+msgstr "条目类型#%s"
+
+msgid "Item Type Elements"
+msgstr "条目类型元素"
+
+msgid "Item Type Information"
+msgstr "条目类型信息"
+
+msgid "Item Type Metadata"
+msgstr "条目类型元数据"
+
+msgid "Item Types"
+msgstr "条目类型"
+
+msgid "Item type does not contain an element with the ID %s!"
+msgstr "条目类型不包含标识符为%s的元素！"
+
+msgid "Items"
+msgstr "条目"
+
+msgid "Items Per Page (admin)"
+msgstr "每页条目数(管理)"
+
+msgid "Items Per Page (public)"
+msgstr "每页条目数(公开)"
+
+msgid "Items in the %s Collection"
+msgstr "%s馆藏的条目"
+
+msgid "Keyword"
+msgstr "关键词"
+
+msgid "Label"
+msgstr "标签"
+
+msgid "Language"
+msgstr "语种"
+
+msgid "Least"
+msgstr "最少"
+
+msgid ""
+"Limit the number of items displayed per page in the administrative interface."
+msgstr "在管理界面中限制每页显示的条目数。"
+
+msgid "Limit the number of items displayed per page in the public interface."
+msgstr "在公开界面中限制每页显示的条目数。"
+
+msgid ""
+"Limit the number of results displayed per page in the administrative "
+"interface."
+msgstr "限制管理界面上每页可以显示的结果数目。"
+
+msgid "Limit the number of results displayed per page in the public interface."
+msgstr "限制公共界面上每页可以显示的结果数目。"
+
+msgid "List of allowed HTML attributes in form input"
+msgstr "表单输入框中允许的HTML属性列表"
+
+msgid "List of allowed HTML elements in form input"
+msgstr "表单输入框中允许的HTML元素列表"
+
+msgid "List of allowed MIME types for file uploads"
+msgstr "文件上传时允许的MIME类型列表"
+
+msgid "List of allowed extensions for file uploads"
+msgstr "文件上传允许的后缀列表"
+
+msgid "List of tags to add to all checked items, separated by %s."
+msgstr "以%s分隔的要添加给所有选中条目的标签清单。"
+
+msgid "Log In"
+msgstr "登录"
+
+msgid "Log Out"
+msgstr "注销"
+
+msgid "Login information incorrect. Please try again."
+msgstr "登录信息不正确。请再次尝试。"
+
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+msgid "Maximum fullsize image size constraint (in pixels)"
+msgstr "全尺寸图片最大尺寸限制(像素数)"
+
+msgid "Maximum fullsize image size constraint (in pixels)."
+msgstr "全尺寸图片的最大尺寸限制(像素)。"
+
+msgid "Maximum square thumbnail size constraint (in pixels)"
+msgstr "正方形缩略图最大尺寸限制(像素数)"
+
+msgid "Maximum square thumbnail size constraint (in pixels)."
+msgstr "正方形缩略图最大尺寸限制(像素)。"
+
+msgid "Maximum thumbnail size constraint (in pixels)"
+msgstr "缩略图最大尺寸限制(像素数)"
+
+msgid "Maximum thumbnail size constraint (in pixels)."
+msgstr "缩略图最大尺寸限制(像素)。"
+
+msgid "Mime Type"
+msgstr "Mime类型"
+
+msgid "Most"
+msgstr "最多"
+
+msgid "Must specify a file transfer type when attaching files to an item!"
+msgstr "向条目附加文件时，必须制定文件传输类型！"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Name as it should be displayed on the site"
+msgstr "应当在站点显示的名称"
+
+msgid "Name of element set must be unique."
+msgstr "元素集名称必须唯一。"
+
+msgid "Name of element set must not be empty."
+msgstr "元素集名称不能为空。"
+
+msgid "Names of plugins must not be blank"
+msgstr "插件名不能为空"
+
+msgid "Narrow by Specific Fields"
+msgstr "指定具体字段"
+
+msgid "Navigation"
+msgstr "导航"
+
+msgid "Navigation links that have undeleteable sublinks cannot be deleted."
+msgstr "含有无法删除的子链接的导航链接是不能被删除的。"
+
+msgid "New"
+msgstr "新"
+
+msgid "New Password"
+msgstr "新密码"
+
+msgid "New password must be at least %min% characters long."
+msgstr "新密码最少%c必须有%min%个字符。"
+
+msgid "New password must be entered."
+msgstr "必须输入新密码。"
+
+msgid "New password must be typed correctly twice."
+msgstr "新密码必须正确输入两次。"
+
+msgid "Next Item"
+msgstr "后一条目"
+
+msgid "Next Item &rarr;"
+msgstr "下一个条目&rarr;"
+
+msgid "No"
+msgstr "不"
+
+msgid "No Collection"
+msgstr "无馆藏"
+
+msgid "No Tags"
+msgstr "无标签"
+
+msgid "No contributors"
+msgstr "无其它责任人"
+
+msgid "No contributors."
+msgstr "无其它责任人。"
+
+msgid "No featured collections are available."
+msgstr "无专题馆藏在下面可用。"
+
+msgid "No featured items are available."
+msgstr "无专题条目可用。"
+
+msgid "No plugin name given."
+msgstr "没有给定插件名。"
+
+msgid "No recent items available."
+msgstr "无新近条目"
+
+msgid "No tags are available."
+msgstr "无标签可用。"
+
+msgid "Not Featured"
+msgstr "非专题"
+
+msgid "Not Public"
+msgstr "不公开"
+
+msgid "Ok"
+msgstr "可以"
+
+msgid "Omeka"
+msgstr "Omeka"
+
+msgid "Omeka Admin"
+msgstr "Omeka管理"
+
+msgid "Omeka Atom Feed"
+msgstr "Omkea Atom摘要"
+
+msgid "Omeka Image File"
+msgstr "Omeka图像文件"
+
+msgid "Omeka Legacy File"
+msgstr "Omeka遗留文件"
+
+msgid "Omeka RSS Feed"
+msgstr "Omeka RSS摘要"
+
+msgid "Omeka Video File"
+msgstr "Omeka视频文件"
+
+msgid "Omeka encountered an error when upgrading your installation."
+msgstr "Omeka升级安装时遇到问题。"
+
+msgid "Omeka has encountered an error"
+msgstr "Omeka遇到问题"
+
+msgid "Omeka has upgraded successfully."
+msgstr "Omeka升级成功。"
+
+msgid "Omeka is installed."
+msgstr "Omeka已安装。"
+
+msgid "Only Featured Items"
+msgstr "仅专题条目"
+
+msgid "Only Non-Featured Items"
+msgstr "仅非专题条目"
+
+msgid "Only Non-Public Items"
+msgstr "仅非公开条目"
+
+msgid "Only Public Items"
+msgstr "仅公开条目"
+
+msgid "Original Filename"
+msgstr "原始文件名"
+
+msgid "Output Formats"
+msgstr "输出格式"
+
+msgid "Page "
+msgstr "页"
+
+msgid "Page 1"
+msgstr "第1页"
+
+msgid "Page 2"
+msgstr "第2页"
+
+msgid "Page 3"
+msgstr "第3页"
+
+msgid "Page 4"
+msgstr "第4页"
+
+msgid "Page 5"
+msgstr "第5页"
+
+msgid "Page 6"
+msgstr "第6页"
+
+msgid "Page not found."
+msgstr "没有找到页面。"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Password cannot be empty."
+msgstr "密码不能为空。"
+
+msgid "Password changed!"
+msgstr "密码已修改！"
+
+msgid "Password is required."
+msgstr "需要密码。"
+
+msgid "Password must be at least 6 characters long."
+msgstr "密码必须最少6个字符。"
+
+msgid "Password: The passwords do not match."
+msgstr "密码：输入的密码不匹配。"
+
+msgid "Path to plugin.ini for \"%s\" is not correct."
+msgstr "指向\"%s\"的plugin.ini的路径是不正确的。"
+
+msgid "Pick this type"
+msgstr "选择该类型"
+
+msgid ""
+"Please back up your existing database and then click the button to upgrade."
+msgstr "请备份您的数据库，然后点击按钮进行升级。"
+
+msgid "Please check your email for a link to reset your password."
+msgstr "请检查您的电子邮件，找到链接后重置您的密码。"
+
+msgid "Please follow this link to reset your password:"
+msgstr "请点击链接重置您的密码："
+
+msgid "Please restore from your database backup and try again."
+msgstr "请从您的数据库备份恢复并再次尝试。"
+
+msgid "Plugin must have a valid directory name before it can be installed."
+msgstr "插件在安装前必须有一个有效的目录名。"
+
+msgid "Plugins"
+msgstr "插件"
+
+msgid "Post Processing"
+msgstr "后处理"
+
+msgid "Powered by Omeka"
+msgstr "Omeka提供技术支持"
+
+msgid "Prev Item"
+msgstr "前一条目"
+
+msgid "Private"
+msgstr "私有"
+
+msgid "Producer"
+msgstr "制作人"
+
+msgid "Proudly powered by <a href=\"http://omeka.org\">Omeka</a>."
+msgstr "<a href=\"http://omeka.org\">Omeka</a>提供技术支持。"
+
+msgid "Public"
+msgstr "公开"
+
+msgid "Public Site"
+msgstr "公开站点"
+
+msgid "Public/Non-Public"
+msgstr "公开/不公开"
+
+msgid "Public?"
+msgstr "公开?"
+
+msgid "Publisher"
+msgstr "出版者"
+
+msgid "Query type:"
+msgstr "查询类型："
+
+msgid "Query:"
+msgstr "查询语句："
+
+msgid "Quick Filter"
+msgstr "快速过滤"
+
+msgid "RSS"
+msgstr "RSS"
+
+msgid "Re-type the Password"
+msgstr "重新输入密码"
+
+msgid "ReCaptcha Private Key"
+msgstr "ReCaptcha私有密钥"
+
+msgid "ReCaptcha Public Key"
+msgstr "ReCaptcha公共密钥"
+
+msgid "Real Name is required."
+msgstr "真实名称是必需的。"
+
+msgid "Recent"
+msgstr "新近"
+
+msgid "Recent Collections"
+msgstr "新近馆藏"
+
+msgid "Recent Items"
+msgstr "新近条目"
+
+msgid "Recently Added Items"
+msgstr "新近添加的条目"
+
+msgid "Record Type"
+msgstr "记录类型"
+
+msgid "Record types:"
+msgstr "记录类型："
+
+msgid "Relation"
+msgstr "关联"
+
+msgid "Remember Me?"
+msgstr "是否记住我？"
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "Remove?"
+msgstr "删除?"
+
+msgid "Render Details"
+msgstr "渲染细节"
+
+msgid "Render Device"
+msgstr "渲染设备"
+
+msgid "Repeat New Password"
+msgstr "重复新密码"
+
+msgid "Researcher"
+msgstr "研究者"
+
+msgid "Restore Default Attributes"
+msgstr "恢复默认属性"
+
+msgid "Restore Default Elements"
+msgstr "恢复默认元素"
+
+msgid "Restore Default Extensions"
+msgstr "恢复默认扩展"
+
+msgid "Restore Default Types"
+msgstr "恢复默认类型"
+
+msgid "Results Per Page (admin)"
+msgstr "每页结果数(管理界面)"
+
+msgid "Results Per Page (public)"
+msgstr "每页结果数(公共界面)"
+
+msgid "Return to Dashboard"
+msgstr "返回控制面板"
+
+msgid "Rights"
+msgstr "权限"
+
+msgid "Role"
+msgstr "角色"
+
+msgid ""
+"Roles describe the permissions a user has. See <a href='http://omeka.org/"
+"codex/User_Roles' target='_blank'>documentation</a> for details."
+msgstr ""
+"角色描述了一个用户所拥有的各项权限。更多细节请参看<a href=\"http://omeka.org/"
+"codex/User_Roles\" target=\"_blank\">文档</a>"
+
+msgid "Rss2.0 Feed Not Found!"
+msgstr "RSS2.0摘要没有找到！"
+
+msgid "SQL error in migration: "
+msgstr "迁移时的SQL错误："
+
+msgid "Sample Rate"
+msgstr "采样率"
+
+msgid "Save Changes"
+msgstr "保存更改"
+
+msgid "Save Password"
+msgstr "保存密码"
+
+msgid "Screenshot for %s Theme"
+msgstr "%s主题截图"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search By Collection"
+msgstr "按馆藏搜索"
+
+msgid "Search By Tags"
+msgstr "按标签搜索"
+
+msgid "Search By Type"
+msgstr "按类型搜索"
+
+msgid "Search By User"
+msgstr "按用户搜索"
+
+msgid "Search Items"
+msgstr "搜索条目"
+
+msgid "Search Record Types"
+msgstr "搜索记录类型"
+
+msgid "Search by a range of ID#s (example: 1-4, 156, 79)"
+msgstr "按标识符#s区间搜索(例如,1-4, 156, 79)"
+
+msgid "Search for Keywords"
+msgstr "关键词搜索"
+
+msgid "Search for items"
+msgstr "搜索条目"
+
+msgid "Search only these record types:"
+msgstr "只搜索这些记录类型："
+
+msgid "Search using this query type:"
+msgstr "用该查询类型搜索："
+
+msgid "Security"
+msgstr "安全"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Select Below"
+msgstr "在下面选择"
+
+msgid "Select Below "
+msgstr "在下面选择"
+
+msgid "Select a Homepage"
+msgstr "选择一个主页"
+
+msgid "Separate tags using this character or string."
+msgstr "使用该字符或字符串分隔标签。"
+
+msgid ""
+"Separate tags using this character or string. Be careful when changing this "
+"setting. You run the risk of splitting tags that contain the old delimiter."
+msgstr ""
+"使用该字符或字符串分隔标签。应小心修改这一配置。您可能遭遇割裂含有旧分隔符的"
+"标签的风险。"
+
+msgid "Separate tags with %s"
+msgstr "使用%s分隔标签"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Show Details"
+msgstr "显示详情"
+
+msgid "Show Empty Elements"
+msgstr "显示空元素"
+
+msgid "Site Author Information"
+msgstr "站点作者信息"
+
+msgid "Site Copyright Information"
+msgstr "站点版权信息"
+
+msgid "Site Description"
+msgstr "站点描述"
+
+msgid "Site Settings"
+msgstr "站点设置"
+
+msgid "Site Title"
+msgstr "站点名称"
+
+msgid ""
+"Some items were excluded because you do not have permission to delete them."
+msgstr "因为您没有删除权限，某些条目被排除在外。"
+
+msgid "Sorry, you do not have permission to access this page."
+msgstr "抱歉，您没有访问该页的权限。"
+
+msgid "Sort by: "
+msgstr "以此分类："
+
+msgid "Source"
+msgstr "来源"
+
+msgid "Square Thumbnail Size"
+msgstr "正方形缩略图尺寸"
+
+msgid "Subject"
+msgstr "主题"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Success!"
+msgstr "成功！"
+
+msgid "Super"
+msgstr "超级"
+
+msgid "Support Forums"
+msgstr "技术支持论坛"
+
+msgid "System Information"
+msgstr "系统信息"
+
+msgid "Tag Delimiter"
+msgstr "标签分隔符"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Tags must be given a name."
+msgstr "标签必须命名。"
+
+msgid "Test"
+msgstr "测试"
+
+msgid "That name is already taken for this tag."
+msgstr "该标签名已存在。"
+
+msgid "The \"%s\" field has at least one invalid value!"
+msgstr "\"%s\"字段至少有一个无效值！"
+
+msgid "The \"%s\" plugin must be installed and have newer files to upgrade it."
+msgstr "必须安装\"%s\"插件并且有新文件来升级它。"
+
+msgid "The %s plugin has already been installed."
+msgstr "%s插件已安装。"
+
+msgid "The %s plugin was activated, but could not be loaded: "
+msgstr "%s插件已被激活，但无法载入："
+
+msgid "The %s plugin was successfully activated!"
+msgstr "%s插件激活成功！"
+
+msgid "The %s plugin was successfully configured!"
+msgstr "%s插件配置成功！"
+
+msgid "The %s plugin was successfully deactivated!"
+msgstr "%s插件禁用成功！"
+
+msgid "The %s plugin was successfully installed!"
+msgstr "%s插件安装成功！"
+
+msgid "The %s plugin was successfully uninstalled!"
+msgstr "%s插件卸载成功！"
+
+msgid "The %s plugin was successfully upgraded!"
+msgstr "%s插件升级成功！"
+
+msgid ""
+"The Dublin Core metadata element set is common to all Omeka records, "
+"including items, files, and collections. For more information see, http://"
+"dublincore.org/documents/dces/."
+msgstr ""
+"都柏林核心元数据元素集通用于所有Omeka记录，包括条目、文件和馆藏。更多信息请参"
+"看： http://dublincore.org/documents/dces/。"
+
+msgid "The ImageMagick directory path does not work."
+msgstr "ImageMagick目录路径是无效的。"
+
+msgid "The ImageMagick directory path works."
+msgstr "ImageMagick目录路径是有效的。"
+
+msgid "The appearance settings have been updated."
+msgstr "外观设定已更新。"
+
+msgid "The collection \"%s\" was successfully added!"
+msgstr "馆藏\"%s\"添加成功！"
+
+msgid "The collection \"%s\" was successfully changed!"
+msgstr "馆藏\"%s\"修改成功！"
+
+msgid "The collection \"%s\" was successfully deleted!"
+msgstr "馆藏\"%s\"删除成功！"
+
+msgid "The collection #%s was successfully added!"
+msgstr "馆藏 #%s添加成功！"
+
+msgid "The collection #%s was successfully changed!"
+msgstr "馆藏 #%s修改成功！"
+
+msgid "The collection #%s was successfully deleted!"
+msgstr "馆藏 #%s删除成功！"
+
+msgid "The configured PHP path (%s) does not point to a PHP-CLI binary."
+msgstr "设置的PHP路径(%s)不指向PHP-CLI二进制文件。"
+
+msgid "The configured PHP path (%s) is invalid."
+msgstr "设置的PHP路径(%s)是无效的。"
+
+msgid ""
+"The configured PHP path (%s) points to a PHP-CLI binary with an invalid "
+"version (%s)"
+msgstr "设置的PHP路径(%s)指向一个无效版本号的PHP-CLI二进制文件(%s)"
+
+msgid "The description of the item type."
+msgstr "条目类型的描述。"
+
+msgid "The element name must not be empty."
+msgstr "元素名称不能为空。"
+
+msgid "The element set was successfully changed!"
+msgstr "元素集合修改成功！"
+
+msgid "The file format, physical medium, or dimensions of the resource"
+msgstr "资源的文件格式、物理媒介、或尺寸"
+
+msgid "The following error occurred while activating the %s plugin: "
+msgstr "%s插件激活时发生以下错误："
+
+msgid "The following error occurred while deactivating the %s plugin: "
+msgstr "%s插件禁用时发生以下错误："
+
+msgid "The following error occurred while installing the %s plugin: "
+msgstr "%s插件安装时发生以下错误："
+
+msgid "The following error occurred while uninstalling the %s plugin: "
+msgstr "%s插件卸载时发生以下错误："
+
+msgid "The following error occurred while upgrading the %s plugin: "
+msgstr "%s插件升级时发生以下错误："
+
+msgid ""
+"The following issues will not affect installation, but they may negatively "
+"affect the behavior of Omeka:"
+msgstr "以下问题不会影响安装，但可能会影响到Omeka的正常运行："
+
+msgid "The general settings have been updated."
+msgstr "通用设置已更新。"
+
+msgid "The item \"%s\" was successfully added!"
+msgstr "条目\"%s\"添加成功！"
+
+msgid "The item \"%s\" was successfully changed!"
+msgstr "条目\"%s\"修改成功！"
+
+msgid "The item \"%s\" was successfully deleted!"
+msgstr "条目\"%s\"删除成功！"
+
+msgid "The item #%s was successfully added!"
+msgstr "条目#%s添加成功！"
+
+msgid "The item #%s was successfully changed!"
+msgstr "条目#%s修改成功！"
+
+msgid "The item #%s was successfully deleted!"
+msgstr "条目#%s删除成功！"
+
+msgid ""
+"The item type \"%s\" was successfully added!  You may now add elements to "
+"your new item type."
+msgstr "条目类型\"%s\"添加成功！您现在可以向新条目类型添加元素。"
+
+msgid "The item type \"%s\" was successfully added."
+msgstr "条目类型\"%s\"添加成功。"
+
+msgid "The item type \"%s\" was successfully updated."
+msgstr "条目类型\"%s\"更新成功。"
+
+msgid "The item type cannot have more than one \"%s\" element."
+msgstr "条目类型不能包含多于一个\"%s\"元素。"
+
+msgid "The item type elements were successfully changed!"
+msgstr "条目类型元素修改成功！"
+
+msgid ""
+"The item type metadata element set, consisting of all item type elements "
+"bundled with Omeka and all item type elements created by an administrator."
+msgstr ""
+"和Omeka绑定在一起的以及管理员创建的所有项条目类型元素构成的条目类型元数据元素"
+"集。"
+
+msgid "The item type name must be unique."
+msgstr "条目类型名称必须唯一。"
+
+msgid "The item type name must have between %1$s and %2$s characters."
+msgstr "条目类型名称必须介于%1$s与%2$s字符之间。"
+
+msgid "The items were successfully changed!"
+msgstr "条目修改成功！"
+
+msgid "The items were successfully deleted!"
+msgstr "条目删除成功！"
+
+msgid "The maximum file size is %s."
+msgstr "最大文件尺寸是%s。"
+
+msgid ""
+"The metadata element set that was included in the `files_images` table in "
+"previous versions of Omeka. These elements are common to all image files."
+msgstr ""
+"包括在Omeka早期版本的\"file_images\"表中的元数据元素集。这些元素通用于所有图"
+"像文件。"
+
+msgid ""
+"The metadata element set that was included in the `files_videos` table in "
+"previous versions of Omeka. These elements are common to all video files."
+msgstr ""
+"包括在Omeka早期版本的\"files_videos\"表中的元数据元素集。这些元素通用于所有视"
+"频文件。"
+
+msgid ""
+"The metadata element set that, in addition to the Dublin Core element set, "
+"was included in the `files` table in previous versions of Omeka. These "
+"elements are common to all Omeka files. This set may be deprecated in future "
+"versions."
+msgstr ""
+"除都柏林核心元素集外，包括在Omeka早期版本的\"files\"表中的元数据元素集。这些"
+"元素通用于所有Omeka文件。该元素集可能在未来版本中废除。"
+
+msgid "The method used to access this URL (%s) is not valid."
+msgstr "访问URL(%s)的方法无效。"
+
+msgid "The name of the item type."
+msgstr "条目类型的名称。"
+
+msgid "The nature or genre of the resource"
+msgstr "资源的本质或种类"
+
+msgid "The navigation settings have been updated."
+msgstr "导航设定已更新。"
+
+msgid ""
+"The navigation settings were not saved because of missing or invalid "
+"values.  All changed values have been restored."
+msgstr "由于缺失或无效值，导航设定没有保存。所有改动值都被恢复了。"
+
+msgid "The page must be normalized and have a valid uid."
+msgstr "页面必须规范化并且有一个有效uid。"
+
+msgid ""
+"The parent container must either be the navigation object or a descendant "
+"subpage of the navigation object."
+msgstr "上层容器必须是导航对象或者导航对象的后代子页面。"
+
+msgid "The plugin %s must be installed."
+msgstr "必须安装%s插件。"
+
+msgid "The plugin could not be found in the '%s' directory!"
+msgstr "在'%s'目录下找不到该插件！"
+
+msgid "The query searched %s items and returned no results."
+msgstr "查询共搜索了%s条目，没有返回任何结果。"
+
+msgid "The security settings have been updated."
+msgstr "安全设置已更新。"
+
+msgid ""
+"The spatial or temporal topic of the resource, the spatial applicability of "
+"the resource, or the jurisdiction under which the resource is relevant"
+msgstr "资源的空间或时间主题，资源的空间适用性，或者在此之下资源相关的管辖权"
+
+msgid "The theme has been successfully changed."
+msgstr "主题修改成功。"
+
+msgid "The theme settings were successfully saved!"
+msgstr "主题配置保存成功！"
+
+msgid "The topic of the resource"
+msgstr "关于资源的论题"
+
+msgid "The user \"%s\" was added, but the activation email could not be sent."
+msgstr "添加了用户\"%s\"，但是无法送出激活电子邮件。"
+
+msgid "The user \"%s\" was successfully added!"
+msgstr "用户\"%s\"添加成功！"
+
+msgid "The user \"%s\" was successfully deleted!"
+msgstr "用户\"%s\"删除成功！"
+
+msgid "The user %s was successfully changed!"
+msgstr "用户\"%s\"修改成功！"
+
+msgid "The user must be assigned a role."
+msgstr "用户必须赋予一个角色。"
+
+msgid "The username \"%1$s\" must be between %2$s and %3$s characters."
+msgstr "用户名\"%1$s\"必须介于%2$s和%3$s字符之间。"
+
+msgid "Themes"
+msgstr "主题"
+
+msgid "There are currently no items within this collection."
+msgstr "当前该馆藏没有条目"
+
+msgid "There are no collections on this page."
+msgstr "本页面无馆藏"
+
+msgid "There are no elements."
+msgstr "没有元素。"
+
+msgid "There are no files for this item yet."
+msgstr "该条目尚无文件。"
+
+msgid "There are no recently added items."
+msgstr "没有新近添加的条目。"
+
+msgid "There are no tags to display. You must first tag some items."
+msgstr "没有标签可以显示。您必须先给一些条目添加标签。"
+
+msgid "There are too few values in the element ordering array."
+msgstr "元素排序数组中的值太少。"
+
+msgid "There are too many values in the element ordering array."
+msgstr "元素排序数组中的值太多。"
+
+msgid "There is no element \"%1$s\", \"%2$s\"!"
+msgstr "没有元素\"%1$s\"，\"%2$s\"！"
+
+msgid "There was an error on the form. Please try again."
+msgstr "表单有个错误。请再次尝试。"
+
+msgid "There was an invalid entry on the form. Please try again."
+msgstr "表单有一个无效输入。请再次尝试。"
+
+msgid "There were errors found in your form. Please edit and resubmit."
+msgstr "您的表单有错误。请编辑后再提交。"
+
+msgid "This email address is already in use."
+msgstr "该电子邮件地址已被使用。"
+
+msgid "This email address is invalid."
+msgstr "电子邮件地址无效。"
+
+msgid "This is not a valid plugin."
+msgstr "这不是一个有效插件。"
+
+msgid "This migration should have been run previously (should not run again)."
+msgstr "该迁移应当在以前就已经运行过了(不应当再次运行)。"
+
+msgid "This migration should not be run."
+msgstr "不应当实施此次迁移。"
+
+msgid "This theme requires a newer version of Omeka (%s)."
+msgstr "该主题要求新版本的Omeka (%s)。"
+
+msgid "This username is already in use."
+msgstr "该用户名已被使用。"
+
+msgid "This version of %1$s requires at least Omeka %2$s."
+msgstr "这个版本的%1$s要求最低Omeka %2$s。"
+
+msgid ""
+"This will delete the \"%s\" item type but will not delete the elements "
+"assigned to the item type. Items that are assigned to this item type will "
+"lose all metadata that is specific to the item type."
+msgstr ""
+"这将删除\"%s\"条目类型但不会删除指定给该条目类型的元素。指定给该条目类型的条"
+"目将失去所有属于该条目类型的特定元数据。"
+
+msgid ""
+"This will delete the collection \"%s\" and its associated metadata. This "
+"will not delete any items in this collection, but will delete the reference "
+"to this collection in each item."
+msgstr ""
+"这将删除馆藏\"%s\"以及与其关联的元数据。这不会删除该馆藏中的任何条目，但是会"
+"删除每个条目中指向该馆藏的索引。"
+
+msgid ""
+"This will delete the collection #%s and its associated metadata. This will "
+"not delete any items in this collection, but will delete the reference to "
+"this collection in each item."
+msgstr ""
+"这将删除馆藏#%s以及与其关联的元数据。这不会删除该馆藏中的任何条目，但是会删除"
+"每个条目中指向该馆藏的索引。"
+
+msgid ""
+"This will delete the element set and all elements assigned to the element "
+"set. Items will lose all metadata that is specific to this element set."
+msgstr ""
+"这将删除元素集以及赋予该元素集的所有元素。条目将失去该元素集独有的所有元数"
+"据。"
+
+msgid "This will delete the file and its associated metadata."
+msgstr "这将删除该文件和相关元数据。"
+
+msgid ""
+"This will delete the item \"%s\" and its associated metadata. It will also "
+"delete all files and file metadata associated with this item."
+msgstr ""
+"这将删除条目\"%s\"以及和其关联的元数据。同时这也将删除所有与此条目关联的文件"
+"和文件元数据。"
+
+msgid ""
+"This will delete the item #%s and its associated metadata. It will also "
+"delete all files and file metadata associated with this item."
+msgstr ""
+"这将删除条目#%s以及与其相关的元数据。同时这也将删除所有和该条目关联的文件和文"
+"件元数据。"
+
+msgid "Thumbnail Size"
+msgstr "缩略图尺寸"
+
+msgid "Title"
+msgstr "题名"
+
+msgid ""
+"To delete a tag, click the X. Deleting a tag will not delete the tagged "
+"items."
+msgstr "要删除标签，点击X。删除一个标签不会删除被该标签标记的条目。"
+
+msgid ""
+"To edit the tag name, click the name and begin editing, and hit \"enter\" to "
+"save. To cancel an edit, click the ESC key or click away from the tag."
+msgstr ""
+"要编辑一个标签名时，点击标签名称开始编辑，点击“回车”保存。要取消编辑时，点击"
+"ESC键或者点击标签外区域。"
+
+msgid ""
+"To learn how to see more detailed information about this error, see the "
+"Omeka Codex page on <a href=\"http://omeka.org/codex/"
+"Retrieving_error_messages\">retrieving error messages</a>."
+msgstr ""
+"了解该错误更多详细信息，请参见Omeka Codex页面，<a href=\"http://omeka.org/"
+"codex/Retrieving_error_messages\">获取错误信息</a>。"
+
+msgid "To view all items with a tag, click the number."
+msgstr "要浏览所有带标签的条目，请点击数字。"
+
+msgid "Total Items"
+msgstr "条目总数"
+
+msgid "Total Number of Items"
+msgstr "条目总数"
+
+msgid "Transcriber"
+msgstr "誊写者"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Type Metadata"
+msgstr "类型元数据"
+
+msgid "Type Name"
+msgstr "类型名称"
+
+msgid "Typed passwords do not match."
+msgstr "输入的密码不匹配。"
+
+msgid "URL"
+msgstr "URL"
+
+msgid ""
+"Unable to reset password. Please verify that the information is correct and "
+"contact an administrator if necessary."
+msgstr "无法重置密码。请确认信息是否正确，并在必要时联系管理员。"
+
+msgid "Undo"
+msgstr "撤销"
+
+msgid "Uninstall"
+msgstr "卸载"
+
+msgid "Uninstall Plugin: %s"
+msgstr "卸载插件： %s"
+
+msgid "Upgrade"
+msgstr "升级"
+
+msgid "Upgrade Database"
+msgstr "升级数据库"
+
+msgid "Upgrade Your Omeka Database"
+msgstr "升级您的Omeka数据库"
+
+msgid "Upgrade to %s"
+msgstr "升级到%s"
+
+msgid "Use HTML"
+msgstr "使用HTML"
+
+msgid "Use this theme"
+msgstr "使用这个主题"
+
+msgid "User #%s"
+msgstr "用户#%s"
+
+msgid "User Activation"
+msgstr "用户激活"
+
+msgid "User is not allowed to delete selected items."
+msgstr "用户不被允许删除所选条目。"
+
+msgid "User is not allowed to edit selected items."
+msgstr "用户不被允许编辑所选条目。"
+
+msgid "User is not allowed to modify featured status of items."
+msgstr "用户不被允许修改条目的专题状态。"
+
+msgid "User is not allowed to modify visibility of items."
+msgstr "用户不被允许修改条目的可见性。"
+
+msgid "User is not allowed to tag selected items."
+msgstr "用户不被允许标注所选条目。"
+
+msgid "User may not change permissions to super-user"
+msgstr "用户不能修改权限为超级用户"
+
+msgid "User may not change roles."
+msgstr "用户不能变更角色。"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Username cannot be empty."
+msgstr "用户名不能为空。"
+
+msgid "Username is required."
+msgstr "用户名是必需的。"
+
+msgid "Username must be at least %min% characters long."
+msgstr "用户名至少%min%字符长度。"
+
+msgid "Username must be at most %max% characters long."
+msgstr "用户名至多%max%字符长度"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Version %s"
+msgstr "版本%s"
+
+msgid "View"
+msgstr "视图"
+
+msgid "View All"
+msgstr "浏览所有"
+
+msgid "View All Collections"
+msgstr "浏览所有馆藏"
+
+msgid "View All Items"
+msgstr "查看所有条目"
+
+msgid "View File Metadata"
+msgstr "查看文件元数据"
+
+msgid "View Public Page"
+msgstr "浏览公开页"
+
+msgid "View the items in %s"
+msgstr "查看%s的条目"
+
+msgid "Watermark"
+msgstr "水印"
+
+msgid "Welcome!"
+msgstr "欢迎光临！"
+
+msgid "Welcome, %s"
+msgstr "欢迎，%s"
+
+msgid "Width"
+msgstr "宽度"
+
+msgid "Would you like to %s?"
+msgstr "您想要%s吗？"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "Yes, I want to uninstall this plugin."
+msgstr "是的，我想要卸载该插件。"
+
+msgid ""
+"You do not have any plugins installed. Add them to the plugins directory to "
+"see them listed here."
+msgstr "您尚未安装任何插件。要在这里浏览插件列表，先把它们添加到插件目录下。"
+
+msgid "You do not have permission to access this page."
+msgstr "您无权限访问该页面。"
+
+msgid "You have a new version of %s. Please upgrade!"
+msgstr "您有了新版本的%s。请升级！"
+
+msgid ""
+"You have changed which records are searchable in Omeka. Please re-index the "
+"records using the form below."
+msgstr "您已经修改了在Omeka中哪些记录是可搜索的。请用下面的表格重新索引记录。"
+
+msgid "You have chosen an illegal theme name. Please select another theme."
+msgstr "您选择了一个无效主题名字。请选择另一个主题。"
+
+msgid "You have no collections."
+msgstr "您没有馆藏"
+
+msgid "You have no items."
+msgstr "您没有条目。"
+
+msgid "You may now log in to Omeka."
+msgstr "您现在可以登录Omeka。"
+
+msgid "You must choose some items to batch edit."
+msgstr "您必须选择一些条目进行批处理编辑。"
+
+msgid "You must confirm the uninstall before proceeding."
+msgstr "下一步之前您必须确认是否要卸载。"
+
+msgid ""
+"You must use a different method to access this URL. If you reached this page "
+"by following a link or clicking a button in Omeka, please contact the %s."
+msgstr ""
+"您必须使用不同的方法来访问该URL。如果您通过链接或点击Omeka页面上的按钮到达该"
+"页面，请联系%s。"
+
+msgid ""
+"You&#8217;ve tried to access a page that does not seem to exist. Sometimes "
+"this happens. Below is a quick break-down of the items, collections, and "
+"exhibits on this site."
+msgstr ""
+"您尝试访问了一个并不存在的页面。这偶尔会发生。以下是该站点的条目、馆藏和展览"
+"的大致分类。"
+
+msgid ""
+"Your Omeka database is not compatible with your current version of Omeka."
+msgstr "您的Omeka数据库与Omeka当前版本不兼容。"
+
+msgid ""
+"Your account for the %s repository has been created. Please click the "
+"following link to activate your account:"
+msgstr "您在%s库中的账户已经建立。请点击下面的链接激活您的账户。"
+
+msgid "Your query returned no results."
+msgstr "您的查询没有返回结果。"
+
+msgid "[%s] Reset Your Password"
+msgstr "[%s]重置您的密码"
+
+msgid "[Default]"
+msgstr "【默认】"
+
+msgid "[Untitled]"
+msgstr "[无题名]"
+
+msgid "[Untitled] #%s"
+msgstr "【无标题】#%s"
+
+msgid "[no text]"
+msgstr "[无文本]"
+
+msgid "accessed %1$s, %2$s."
+msgstr "读取了%1$s，%2$s。"
+
+msgid "by %s"
+msgstr "由%s"
+
+msgid "collections"
+msgstr "馆藏"
+
+msgid "contains"
+msgstr "包含"
+
+msgid "does not contain"
+msgstr "不包含"
+
+msgid "edit a specific item type"
+msgstr "编辑特定条目类型"
+
+msgid "inactive"
+msgstr "非活跃的"
+
+msgid "is empty"
+msgstr "是空的"
+
+msgid "is exactly"
+msgstr "是精确的"
+
+msgid "is not empty"
+msgstr "不是空的"
+
+msgid "items"
+msgstr "条目"
+
+msgid "must be at least 6 characters"
+msgstr "必须最少6个字符"
+
+msgid "or"
+msgstr "或"
+
+msgid "plugins"
+msgstr "插件"
+
+msgid "refine your search"
+msgstr "修改您的搜索"
+
+msgid "required field"
+msgstr "必需项"
+
+msgid "site administrator"
+msgstr "站点管理员"
+
+msgid "tags"
+msgstr "标签"
+
+msgid "theme"
+msgstr "主题"
+
+msgid "users"
+msgstr "用户"
+
+msgid "Locale"
+msgstr "Locale"
+
+msgid "Multilingual Website"
+msgstr "Multilingual Website"
+
+msgid "Show way"
+msgstr "显示方式"
+
+msgid "The way of show in your public site."
+msgstr "选择你的公共页面语言区域显示方式。"
+
+
+msgid "Available languages"
+msgstr "可用语言"
+
+msgid "Choose the languages which you prefer."
+msgstr "选择你喜欢的语言。"
+
+
+msgid "The dictionnary to use for translate your Website ."
+msgstr "The dictionnary to use for translate your Website ."
+
+msgid "The language you can choose for your Website."
+msgstr "The language you can choose for your Website."

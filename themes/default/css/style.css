@@ -1333,7 +1333,7 @@ th {
     padding-left: 0;
     float: left;
     margin: 12px 0;
-    height: 40px;
+    height: auto;
     display: block;
     overflow: auto;
     line-height: 40px;

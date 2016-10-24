@@ -464,6 +464,7 @@ msgstr ""
 #: application/tests/suite/Omeka/NavigationTest.php:831
 #: application/tests/suite/Omeka/NavigationTest.php:950
 #: application/views/scripts/collections/browse.php:2
+#: themes/default/common/header.php:123
 msgid "Browse Collections"
 msgstr ""
 
@@ -1185,6 +1186,7 @@ msgstr ""
 #: application/tests/suite/Omeka/NavigationTest.php:949
 #: application/views/scripts/items/browse.php:2
 #: application/views/scripts/items/tags.php:2
+#: themes/default/common/header.php:120
 msgid "Browse Items"
 msgstr ""
 
@@ -3594,4 +3596,12 @@ msgstr ""
 
 #: plugins/SolrSearch/views/shared/results/index.php:15
 msgid "Solr search"
+msgstr ""
+
+#: themes/default/common/header.php:124
+msgid "Preface"
+msgstr ""
+
+#: themes/default/common/header.php:125
+msgid "Instructions"
 msgstr ""

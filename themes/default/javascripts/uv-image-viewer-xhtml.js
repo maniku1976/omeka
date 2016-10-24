@@ -52,7 +52,7 @@ $(document).ready(function() {
     }
 
     // Find UniversalViewer back button
-    var bt = $("div.uv.omeka-test-letters:eq(0) iframe").contents().find("div.paging.btn.prev");
+    var bt = $("#exhibit3a").find('iframe').contents().find("div.paging.btn.prev");
     var prevClass = prev.find('.pb').attr('class');
     var currentClass = current.find('.pb').attr('class');
     // Trigger back button if previous page is not for same picture as current one
@@ -75,7 +75,7 @@ $(document).ready(function() {
     var next = current.next();
 
     // Find UniversalViewer's forward button
-    var nextBt = $("div.uv.omeka-test-letters:eq(0) iframe").contents().find("div.paging.btn.next");
+    var nextBt = $("#exhibit3a").find('iframe').contents().find("div.paging.btn.next");
 
     // Hide current page, show next page, hide other pages
     current.hide();

@@ -1,0 +1,31 @@
+# Translation for the Locale plugin for Omeka.
+# Copyright (C) 2014 Roy Rosenzweig Center for History and New Media
+# This file is distributed under the same license as the Omeka package.
+# RRCHNM <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Doru  DEACONU <dumitrudeaconu@yahoo.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka\n"
+"Report-Msgid-Bugs-To: http://github.com/omeka/plugin-Locale/issues\n"
+"POT-Creation-Date: 2014-09-21 17:49-0500\n"
+"PO-Revision-Date: 2014-11-26 09:43+0000\n"
+"Last-Translator: Doru  DEACONU <dumitrudeaconu@yahoo.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/projects/p/omeka/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+msgid "Locale"
+msgstr "Locale"
+
+#: config_form.php:26
+msgid ""
+"The language to use for your site. Some parts of the site might not have "
+"been translated into your language yet. To learn more about contributing to "
+"translations, <a href='http://omeka.org/codex/Translate_Omeka'>read "
+"this</a>."
+msgstr "Limba utilizată pentru site-ul dvs. Unele părți ale site-ului ar putea să nu fi fost traduse încă în limba dvs. Pentru a afla mai multe despre contribuția la traduceri, <a href='http://omeka.org/codex/Translate_Omeka'>citeşte aici</a>."
