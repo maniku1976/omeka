@@ -26,9 +26,9 @@ $sortLinks[__('Creator')] = 'Dublin Core,Creator';
 <div style="float:left;font-size:18px;display:inline-block">
   <?php echo item_search_filters(); ?>
   <span style="font-size: 20px;"><?php if ($total_results == 1): ?>
-    <?php echo "($total_results kirje)"; ?>
+    <?php echo __("%s letter", $total_results); ?>
   <?php elseif ($total_results > 1): ?>
-    <?php echo "($total_results kirjettä)"; ?>
+    <?php echo __("%s letters", $total_results); ?>
   <?php endif; ?></span>
 </div>
 <div id="sort-links">
@@ -79,7 +79,7 @@ $sortLinks[__('Creator')] = 'Dublin Core,Creator';
 <?php echo pagination_links(); ?>
 
 <div id="outputs">
-    <span class="outputs-label"><?php echo 'Formaatit:'; ?></span>
+    <span class="outputs-label"><?php echo __('Formats:'); ?></span>
     <?php echo output_format_list(false); ?>
 </div>
 

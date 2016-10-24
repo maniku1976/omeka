@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-10-24 14:05+0300\n"
-"PO-Revision-Date: 2016-10-24 14:06+0300\n"
+"POT-Creation-Date: 2016-10-24 16:10+0300\n"
+"PO-Revision-Date: 2016-10-24 16:11+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3763,3 +3763,40 @@ msgstr "Esipuhe"
 #: themes/default/common/header.php:125
 msgid "Instructions"
 msgstr "Ohjeita"
+
+#: themes/default/common/header.php:129
+msgid "Advanced Search"
+msgstr "Laajennettu haku"
+
+#: plugins/SolrSearch/views/shared/results/index.php:27
+msgid "Search for letters"
+msgstr "Hae kirjeitä"
+
+#: application/views/scripts/items/browse.php:29
+msgid "%s letter"
+msgstr "%s kirje"
+
+#: application/views/scripts/items/browse.php:31
+msgid "%s letters"
+msgstr "%s kirjettä"
+
+#: application/views/scripts/items/browse.php:82
+msgid "Formats:"
+msgstr "Formaatit:"
+
+#: application/views/scripts/collections/browse.php:15
+msgid "(%s collections)"
+msgstr "(%s kokoelmaa)"
+
+#: application/views/scripts/common/header.php:43
+msgid "Search letters (break: *)"
+msgstr "Hae kirjeitä (katkaisu: *)"
+
+#~ msgid "% letter"
+#~ msgstr "% kirje"
+
+#~ msgid "Letter"
+#~ msgstr "kirje"
+
+#~ msgid "Letters"
+#~ msgstr "kirjettä"

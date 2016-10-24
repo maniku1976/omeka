@@ -3605,3 +3605,31 @@ msgstr ""
 #: themes/default/common/header.php:125
 msgid "Instructions"
 msgstr ""
+
+#: themes/default/common/header.php:129
+msgid "Advanced Search"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:27
+msgid "Search for letters"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:29
+msgid "%s letter"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:31
+msgid "%s letters"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:82
+msgid "Formats:"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:15
+msgid "(%s collections)"
+msgstr ""
+
+#: application/views/scripts/common/header.php:43
+msgid "Search letters (break: *)"
+msgstr ""

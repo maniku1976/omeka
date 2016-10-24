@@ -12,7 +12,7 @@ $sortLinks[__('Title')] = 'Dublin Core,Title';
 $sortLinks[__('Date')] = 'added';
 ?>
 <div id="sort-links">
-  <span><?php echo __('(%s kokoelmaa)', $total_results); ?></span>
+  <span><?php echo __('(%s collections)', $total_results); ?></span>
   <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>
 

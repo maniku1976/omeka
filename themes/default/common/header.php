@@ -126,7 +126,7 @@
         <!-- Extended search and Solr text search -->
     </span>
     <span style="float:right;margin-right:16px;">
-        <a id="searchbtn"><?php echo 'Laajennettu haku'; ?></a>
+        <a id="searchbtn"><?php echo __('Advanced Search'); ?></a>
         <?php echo search_form(); ?>
     </span>
   </div>

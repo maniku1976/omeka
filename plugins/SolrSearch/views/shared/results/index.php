@@ -20,11 +20,11 @@
   <!-- Search form. -->
   <div class="solr">
     <form id="solr-search-form">
-      <input type="submit" value="Haku" />
+      <input type="submit" value="<?php echo __('Search'); ?>" />
       <span class="float-wrap">
         <input type="text" title="<?php echo __('Search for keywords') ?>" name="q" value="<?php
           echo array_key_exists('q', $_GET) ? $_GET['q'] : '';
-        ?>" placeholder="Hae kirjeitä"/> <!-- add placeholder in input field -->
+        ?>" placeholder="<?php echo __('Search for letters');?>"/> <!-- add placeholder in input field -->
       </span>
     </form>
   </div>
