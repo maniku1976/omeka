@@ -110,6 +110,7 @@
   <!-- Site title and SKS logo with link -->
   <div id="site-title" style="width:98%;height:10%;">
     <?php echo link_to_home_page(); ?>
+    <!-- Dropdown menu for language switching -->
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <a href="http://www.finlit.fi" target="_blank">
       <img width="200px" style="float:right;margin-right:16px;" src="http://localhost/sks_header_logo.png" />

@@ -3614,6 +3614,14 @@ msgstr ""
 msgid "Search for letters"
 msgstr ""
 
+#: plugins/SolrSearch/views/shared/results/index.php:69
+msgid "Limit Your Search"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:119
+msgid "Letters found: %s"
+msgstr ""
+
 #: application/views/scripts/items/browse.php:29
 msgid "%s letter"
 msgstr ""
@@ -3632,4 +3640,73 @@ msgstr ""
 
 #: application/views/scripts/common/header.php:43
 msgid "Search letters (break: *)"
+msgstr ""
+
+#: themes/defaults/items/show.php:85
+msgid "Original Size"
+msgstr ""
+
+#: themes/defaults/items/show.php:87
+msgid "Full Screen View"
+msgstr ""
+
+#: themes/defaults/items/show.php:89
+msgid "Close"
+msgstr ""
+
+#: themes/defaults/items/show.php:91
+msgid "Metadata"
+msgstr ""
+
+#: themes/defaults/items/show.php:34
+#: themes/defaults/items/show.php:103
+msgid "Markings"
+msgstr ""
+
+#: themes/defaults/items/show.php:35
+#: themes/defaults/items/show.php:104
+msgid "Comments"
+msgstr ""
+
+#: themes/defaults/items/show.php:38
+#: themes/defaults/items/show.php:106
+msgid "Download TEI"
+msgstr ""
+
+# Replace field codes in Solr search results with proper names
+
+#: plugins/SolrSearch/views/shared/results/index.php:170
+msgid "40_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:173
+msgid "43_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:176
+msgid "44_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:179
+msgid "46_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:182
+msgid "50_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:185
+msgid "51_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:188
+msgid "52_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:191
+msgid "70_t"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:194
+msgid "75_t"
 msgstr ""

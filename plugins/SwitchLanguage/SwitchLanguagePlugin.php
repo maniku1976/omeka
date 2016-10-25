@@ -23,7 +23,7 @@ function listAvailableLang() {
     }
     $available_lang[$lang_code] = $string_lang;
   }
-  //Add English manually
+  //Add Swedish and Finnish manually
   $available_lang["sv_SE"] = "SE";
   $available_lang["fi"] = "FI";
 

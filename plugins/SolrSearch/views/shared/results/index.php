@@ -14,9 +14,7 @@
   <?php queue_css_file('results'); ?>
   <?php echo head(array('title' => __('Solr search')));?>
 
-
   <h3><?php echo __('Search Terms'); ?></h3>
-
   <!-- Search form. -->
   <div class="solr">
     <form id="solr-search-form">
@@ -28,7 +26,6 @@
       </span>
     </form>
   </div>
-
 
   <!-- Applied facets. -->
 
@@ -62,11 +59,10 @@
 
   </div>
 
-
   <!-- Facets. -->
   <div id="solr-facets">
 
-    <h2><?php echo __('Rajaa hakua'); ?></h2>
+    <h2><?php echo __('Limit Your Search'); ?></h2>
 
     <?php foreach ($results->facet_counts->facet_fields as $name => $facets): ?>
 
@@ -116,7 +112,7 @@
 
     <!-- Number found. -->
     <h2 id="num-found">
-      Kirjeitä löytyi: <?php echo $results->response->numFound; ?>
+      <?php echo __('Letters found: %s', $results->response->numFound); ?>
     </h2>
 
     <!-- Results sorted according to date. -->
@@ -155,28 +151,50 @@
 
         <!-- Highlighting. -->
         <?php if (get_option('solr_search_hl')): ?>
+
           <ul class="hl">
             <!-- Make field labels visible in search results -->
             <!-- Get search result object field labels ($prop) as well as values ($field) to display
                  which field a specific result was found in -->
             <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
-            <!-- replace field label codes with proper Finnish labels for display-->
-            <?php $prop = str_replace('44_t', 'Kieli', $prop);
-              $prop = str_replace('51_t', 'Laji', $prop);
-              $prop = str_replace('40_t', 'Kirjoitusaika', $prop);
-              $prop = str_replace('43_t', 'Kirjeen numero', $prop);
-              $prop = str_replace('50_t', 'Otsikko', $prop);
-              $prop = str_replace('46_t', 'Signum', $prop);
-              $prop = str_replace('52_t', 'Teksti', $prop);
-              $prop = str_replace('70_t', 'Kirjoituspaikka', $prop);
-              $prop = str_replace('75_t', 'Vastaanottaja', $prop);
-              ?>
+
               <?php if($prop == 'Laji'):
                 $field = str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $field);
               endif; ?>
               <?php foreach($field as $hl): ?>
-                <!-- Display field label before highlighted search result -->
-                <li class="snippet"><?php echo '<b>'.$prop.'</b>'.": ".strip_tags($hl, '<em>'); ?></li>
+                <!-- Proper names for Solr field codes, translated in language files -->
+                <?php echo '<li class="snippet">';?>
+                <?php
+                switch ($prop) {
+                  case "40_t":
+                    $prop = __('40_t');
+                    break;
+                  case "43_t":
+                    $prop = __('43_t');
+                    break;
+                  case "44_t":
+                    $prop = __('44_t');
+                    break;
+                  case "46_t":
+                    $prop = __('46_t');
+                    break;
+                  case "50_t":
+                    $prop = __('50_t');
+                    break;
+                  case "51_t":
+                    $prop = __('51_t');
+                    break;
+                  case "52_t":
+                    $prop = __('52_t');
+                    break;
+                  case "70_t":
+                    $prop = __('70_t');
+                    break;
+                  case "75_t":
+                    $prop = __('75_t');
+                    break;
+                }?>
+                <?php echo '<b>'.$prop.'</b>: '.strip_tags($hl, '<em>').'</li>';?>
               <?php endforeach; ?>
             <?php endforeach; ?>
 

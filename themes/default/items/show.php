@@ -16,17 +16,6 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   $date = date('j.n.Y', strtotime(metadata('item', array('Dublin Core', 'Date'))));
   echo metadata('item', array('Dublin Core', 'Title')).", "
   .$date; ?>
-  <!--<span style="float:right;">
-    <?php
-    // Link for the TEI file attached to each item
-    $files = $item->Files;
-    foreach ($files as $file):
-      if ($file->getExtension() == 'xml'):
-        echo '<a class="xmlBt" href="http://localhost/files/original/'.metadata($file,'filename').'">
-        <span class="xml">XML</span></a>';
-      endif;
-    endforeach; ?>
-  </span>-->
 </h1>
 
 <h2 style="font-weight:bold;">1. UV-plugin, PHP-käännetty XML-transkriptio</h2>
@@ -42,12 +31,11 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   <div id="exhibit3b">
     <!-- Buttons for showing/hiding transcription markings and comments, download link for TEI -->
     <span style="display:inline;float:left;">
-      <input type="checkbox" onclick="toggleMarkingsXML()" checked/>Merkinnät&nbsp;&nbsp;
-      <input type="checkbox" onclick="toggleCommentsXML()" checked/>Kommentit&nbsp;&nbsp;&nbsp;
-      <!--<?php echo '<a style="color:#444444;border-bottom:none;" href="http://localhost/files/original/'
-      .metadata($file,'filename').'">&#128190; Lataa TEI-tiedosto</a>';?>-->
+      <input type="checkbox" onclick="toggleMarkingsXML()" checked/><?php echo __('Markings');?>&nbsp;&nbsp;
+      <input type="checkbox" onclick="toggleCommentsXML()" checked/><?php echo __('Comments');?>&nbsp;&nbsp;&nbsp;
       <?php echo '<a style="color:#444444;border-bottom:none;" href="'
-      .metadata('item', array('Item Type Metadata', 'XML File')).'" download>&#128190; Lataa TEI-tiedosto</a>';?>
+      .metadata('item', array('Item Type Metadata', 'XML File')).'" download>&#128190; '
+      .__("Download TEI").'</a>';?>
     </span>
     <!-- Buttons for moving back and forth in pictures and transcription-->
     <span style="float:right;">
@@ -82,13 +70,13 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     <div id="picframe">
       <!-- Buttons for metadata menu, enter/exit fullscreen, reset image size -->
 	     <span id="buttons">
-            <a id="origSize" title="Alkuperäinen koko" style="cursor:pointer;font-size:22px;
+            <a id="origSize" title="<?php echo __('Original Size'); ?>" style="cursor:pointer;font-size:22px;
             border-bottom:none;">&#8594;&#8592;&nbsp;&nbsp;</a>
-            <a id="fullScreen" title="Koko sivun näkymä" style="cursor:pointer;font-size:22px;
+            <a id="fullScreen" title="<?php echo __('Full Screen View'); ?>" style="cursor:pointer;font-size:22px;
             border-bottom:none;">&#x2921;&nbsp;&nbsp;</a>
-            <a id="closeFull" title="Poistu" style="cursor:pointer;font-size:20px;
+            <a id="closeFull" title="<?php echo __('Close'); ?>" style="cursor:pointer;font-size:20px;
             border-bottom:none;display:none;">&#x2715;&nbsp;&nbsp;</a>
-            <a id="metadata" title="Metadata" style="cursor: pointer;font-size:20px;border-bottom:none;">?</a>
+            <a id="metadata" title="<?php echo __('Metadata'); ?>" style="cursor: pointer;font-size:20px;border-bottom:none;">?</a>
       </span>
       <?php
       // Fetch images attached to each item
@@ -100,7 +88,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
         endif;
       endforeach; ?>
     </div>
-    <!-- Metadata panel; some Finnish metadata titles replaced -->
+    <!-- Metadata panel-->
     <div id="infopanel">
       <?php
       $texts = all_element_texts('item');
@@ -111,12 +99,11 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   <div id="exhibit2b">
     <!-- Buttons for showing/hiding transcription markings and comments, download link for TEI. -->
     <span id="span1">
-      <input type="checkbox" onclick="toggleMarkingsHTML2()" checked/>Merkinnät&nbsp;&nbsp;
-      <input type="checkbox" onclick="toggleCommentsHTML2()" checked/>Kommentit&nbsp;&nbsp;&nbsp;
-      <!--<?php echo '<a style="color:#444444;border-bottom:none;" href="http://localhost/files/original/'
-      .metadata($file,'filename').'">&#128190; Lataa TEI-tiedosto</a>';?>-->
+      <input type="checkbox" onclick="toggleMarkingsHTML2()" checked/><?php echo __('Markings');?>&nbsp;&nbsp;
+      <input type="checkbox" onclick="toggleCommentsHTML2()" checked/><?php echo __('Comments');?>&nbsp;&nbsp;&nbsp;
       <?php echo '<a style="color:#444444;border-bottom:none;" href="'
-      .metadata('item', array('Item Type Metadata', 'XML File')).'" download>&#128190; Lataa TEI-tiedosto</a>';?>
+      .metadata('item', array('Item Type Metadata', 'XML File')).'" download>&#128190; '
+      .__("Download TEI").'</a>';?>
     </span>
     <!-- Buttons for moving back and forth in pictures/transcription -->
     <span id="span2">

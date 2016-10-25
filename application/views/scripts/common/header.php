@@ -39,7 +39,7 @@
 
             <?php echo theme_header_image(); ?>
 
-
+            <!-- Add placeholder in the Solr search input -->
             <div id="search-container" role="search" placeholder="<?php echo __('Search letters (break: *)'); ?>">
                 <?php echo solr_search_form(); ?>
             </div><!-- end search -->
