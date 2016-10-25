@@ -24,8 +24,9 @@ function listAvailableLang() {
     $available_lang[$lang_code] = $string_lang;
   }
   //Add English manually
-  $available_lang["en"] = "English";
-  $available_lang["fi"] = "Suomi";
+  $available_lang["sv_SE"] = "SE";
+  $available_lang["fi"] = "FI";
+
   //print_r($available_lang);
   return $available_lang;
 }

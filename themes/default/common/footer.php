@@ -14,7 +14,6 @@
         </div>
 
         <?php fire_plugin_hook('public_footer', array('view' => $this)); ?>
-        <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
 
     </footer><!-- end footer -->
 
