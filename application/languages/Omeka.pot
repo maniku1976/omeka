@@ -3638,7 +3638,7 @@ msgstr ""
 msgid "(%s collections)"
 msgstr ""
 
-#: application/views/scripts/common/header.php:43
+#: themes/default/common/header.php:133
 msgid "Search letters (break: *)"
 msgstr ""
 

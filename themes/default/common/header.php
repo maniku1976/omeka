@@ -130,7 +130,8 @@
     </span>
     <span style="float:right;margin-right:16px;">
         <a id="searchbtn"><?php echo __('Advanced Search'); ?></a>
-        <?php echo search_form(); ?>
+        <?php $placeholder = __('Search letters (break: *)'); ?>
+        <?php echo search_form(array('form_attributes' => array('placeholder' => $placeholder))); ?>
     </span>
   </div>
   <!-- Extended search form in dropdown -->
