@@ -39,8 +39,8 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     </span>
     <!-- Buttons for moving back and forth in pictures and transcription-->
     <span style="float:right;">
-      <a id="btPrevXML" style="cursor:pointer;font-size:20px;">&#8592;</a>
-      <a id="btNextXML" style="cursor:pointer;font-size:20px;">&#8594;</a>
+      <a id="btPrevXML" title="<?php echo __('Previous Page'); ?>" style="cursor:pointer;font-size:20px;">&#8592;</a>
+      <a id="btNextXML" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;font-size:20px;">&#8594;</a>
     </span>
     <!-- Frame for displaying transcription -->
     <div class="textFrame">
@@ -107,8 +107,8 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     </span>
     <!-- Buttons for moving back and forth in pictures/transcription -->
     <span id="span2">
-      <a id="prevPic" style="cursor:pointer;font-size:20px;">&#8592;&nbsp;</a>
-      <a id="nextPic" style="cursor:pointer;font-size:20px;">&#8594;</a>
+      <a id="prevPic" title="<?php echo __('Previous Page'); ?>" style="cursor:pointer;font-size:20px;">&#8592;&nbsp;</a>
+      <a id="nextPic" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;font-size:20px;">&#8594;</a>
     </span>
     <!-- Frame for displaying transcription -->
     <div class="textFrame">

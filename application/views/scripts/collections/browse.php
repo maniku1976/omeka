@@ -9,7 +9,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
 <?php
 /* Sort options for collections: title, added date */
 $sortLinks[__('Title')] = 'Dublin Core,Title';
-$sortLinks[__('Date')] = 'added';
+$sortLinks[__('Date Added')] = 'added';
 ?>
 <div id="sort-links">
   <span><?php echo __('(%s collections)', $total_results); ?></span>
@@ -26,9 +26,9 @@ $sortLinks[__('Date')] = 'added';
         <?php echo link_to_items_browse(metadata('collection', array('Dublin Core', 'Title')), array('collection' => metadata('collection', 'id'))); ?>
         <?php $count = metadata($collection, 'total_items');
         if ($count == 1):
-          echo ' ('.$count.' kirje)';
+          echo ' ('.__('%s letter', $count).')';
         else:
-          echo ' ('.$count.' kirjettä)';
+          echo ' ('.__('%s letters', $count).')';
         endif;
         ?>
       </h2>

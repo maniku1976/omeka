@@ -1,7 +1,7 @@
 <?php
 
 function normalizeLangCode($lang_code) {
-    $lang_code_match = array("en" => "en_US", "el" => "el_GR", "es" => "es", "fi" => "fi_FI");
+    $lang_code_match = array("fi" => "fi_FI", "en" => "en_US", "se" => "sv_SE");
 
     if (array_key_exists($lang_code,$lang_code_match)){
       $lang_code = $lang_code_match[$lang_code];
@@ -24,8 +24,9 @@ function listAvailableLang() {
     $available_lang[$lang_code] = $string_lang;
   }
   //Add Swedish and Finnish manually
+  $available_lang["fi_FI"] = "FI";
   $available_lang["sv_SE"] = "SE";
-  $available_lang["fi"] = "FI";
+  $available_lang["en"] = "EN";
 
   //print_r($available_lang);
   return $available_lang;

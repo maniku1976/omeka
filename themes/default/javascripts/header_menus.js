@@ -5,7 +5,7 @@ $(document).ready(function() {
 
      if ($('#ext-search').is(':hidden')) {
        $('#ext-search').slideDown('fast', function() {});
-       $('select[title = "Hakutyyppi"]')
+       $('select[title = "Haun tyyppi"]')
        .find('option[value="contains"]')
        .attr('selected', true)
        /*$('select[title = "Hakutyyppi"]').hide();*/
