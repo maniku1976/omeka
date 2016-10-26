@@ -142,7 +142,7 @@
   <!-- Instruction links, dropdown -->
   <div id="instructions" style="display: none;">
     <ul>
-      <li><a href="<?php echo html_escape(url('ohjeet/merkinnat')); ?>">Transkriptioiden merkinnät</a></li>
+      <li><a href="<?php echo html_escape(url('ohjeet/merkinnat')); ?>"><?php echo __('Markings Used in Transcriptions'); ?></a></li>
     </ul>
   </div>
 </header>

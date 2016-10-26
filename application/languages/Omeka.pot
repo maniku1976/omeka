@@ -3714,3 +3714,7 @@ msgstr ""
 #: plugins/SolrSearch/views/shared/results/index.php:87
 msgid "XML File"
 msgstr ""
+
+#: themes/default/common/header.php:145
+msgid "Markings Used in Transcriptions"
+msgstr ""

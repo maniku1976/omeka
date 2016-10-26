@@ -79,11 +79,13 @@ $formAttributes['method'] = 'GET';
                     )
                 );
                 ?>
-                <button type="button" class="remove_search" disabled="disabled" style="display: none;" title="Poista hakukenttä"><?php echo __('-'); ?></button>
+                <button type="button" class="remove_search" disabled="disabled" style="display: none;" title="<?php echo __('Remove field');?>">
+                  <?php echo __('-'); ?></button>
             </div>
         <?php endforeach; ?>
         </div>
-        <button type="button" class="add_search" style="border-radius: 2px;" title="Lisää hakukenttä"><?php echo __('+'); ?></button>
+        <button type="button" class="add_search" style="border-radius: 2px;" title="<?php echo __('Add a Field');?>">
+          <?php echo __('+'); ?></button>
     </div>
 
     <!--<div class="field">
