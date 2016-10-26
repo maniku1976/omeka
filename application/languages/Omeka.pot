@@ -3710,3 +3710,7 @@ msgstr ""
 #: plugins/SolrSearch/views/shared/results/index.php:194
 msgid "75_t"
 msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:87
+msgid "XML File"
+msgstr ""

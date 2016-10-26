@@ -70,11 +70,28 @@
       <?php if (count(get_object_vars($facets))): ?>
 
         <!-- Facet label. -->
-        <?php $label = SolrSearch_Helpers_Facet::keyToLabel($name);
-          $label = str_replace('Language', 'Kieli', $label);
-          $label = str_replace('XML File', 'Kirjoituspaikka', $label);
-          $label = str_replace('Type', 'Laji', $label);
+        <?php $label = SolrSearch_Helpers_Facet::keyToLabel($name);?>
+
+        <!-- Translations for facet labels (language files) -->
+        <?php switch ($label) {
+          case "Collection":
+              $label = __('Collection');
+              break;
+          case "Type":
+              $label = __('Type');
+               break;
+          case "Language":
+              $label = __('Language');
+              break;
+          case "XML File":
+              $label = __('XML File');
+              break;
+        }
+        if ($label == 'XML-tiedosto') {
+          $label = str_replace('XML-tiedosto', 'Kirjoituspaikka', $label);
+        }
         ?>
+
         <strong><?php echo $label; ?></strong>
 
         <ul>
