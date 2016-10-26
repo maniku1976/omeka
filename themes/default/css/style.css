@@ -1714,7 +1714,8 @@ th {
 
   #submit_search_advanced {
     height: 25px;
-    width: 35px !important;
+    line-height: 25px;
+    width: auto !important;
     font-size: 14px !important;
     padding: 1px;
   }
@@ -2318,8 +2319,8 @@ th {
   /* @group ----- Advanced Search Form ----- */
   #advanced-search-form {
     position: absolute;
-    right: 14em;
-    top: 6.8em;
+    right: 14.8em;
+    top: 7.8em;
     width: 25%;
     border: solid 0.5px;
     border-radius: 2px;
@@ -2699,8 +2700,8 @@ th {
     background-color: #e9e3f9;
     width: auto;
     position: absolute;
-    left: 29.5em;
-    top: 6.9em;
+    left: 29.3em;
+    top: 7.9em;
     padding-left: 1em !important;
     z-index: 9999;
     opacity: 1;

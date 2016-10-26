@@ -53,7 +53,7 @@ $sortLinks[__('Creator')] = 'Dublin Core,Creator';
     <div class="item-date">
         <?php
           /* Display writing date for each item, format d.m.yyyy */
-          echo "Kirjoitusaika: ".date('j.n.Y', strtotime($date)); ?>
+          echo __('Date').': '.date('j.n.Y', strtotime($date)); ?>
     </div>
     <?php endif; ?>
 

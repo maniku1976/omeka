@@ -51,7 +51,7 @@ $formAttributes['method'] = 'GET';
                     "advanced[$i][element_id]",
                     @$rows['element_id'],
                     array(
-                        'title' => __("Hakukenttä"),
+                        'title' => __("Search Field"),
                         'id' => null,
                         'class' => 'advanced-search-element'
                     ),
@@ -61,7 +61,7 @@ $formAttributes['method'] = 'GET';
                     "advanced[$i][type]",
                     @$rows['type'],
                     array(
-                        'title' => __("Hakutyyppi"),
+                        'title' => __("Search Type"),
                         'id' => null,
                         'class' => 'advanced-search-type'
                     ),
@@ -72,9 +72,10 @@ $formAttributes['method'] = 'GET';
                     @$rows['terms'],
                     array(
                         'size' => '20',
-                        'title' => __("Hakusanat"),
+                        'title' => __("Search Terms"),
                         'id' => null,
-                        'class' => 'advanced-search-terms'
+                        'class' => 'advanced-search-terms',
+                        'placeholder' => __('Search Terms')
                     )
                 );
                 ?>
@@ -86,7 +87,7 @@ $formAttributes['method'] = 'GET';
     </div>
 
     <!--<div class="field">
-        <?php echo $this->formLabel('tag-search', __('Hae tageilla')); ?>
+        <?php echo $this->formLabel('tag-search', __('Search By Tags')); ?>
         <div class="inputs">
         <?php
             echo $this->formText('tags', @$_REQUEST['tags'],
@@ -98,7 +99,7 @@ $formAttributes['method'] = 'GET';
 
     <?php fire_plugin_hook('public_items_search', array('view' => $this)); ?>
     <div>
-        <?php if (!isset($buttonText)) $buttonText = __('Hae'); ?>
+        <?php if (!isset($buttonText)) $buttonText = __('Search'); ?>
         <input style="border-radius:2px;" type="submit" class="submit" name="submit_search" id="submit_search_advanced" value="<?php echo $buttonText ?>">
     </div>
 </form>
