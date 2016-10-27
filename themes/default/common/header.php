@@ -120,18 +120,17 @@
   <div id="search-container" role="search">
     <span style="float:left;">
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('items')); ?>">
-        <?php echo __('Browse Items'); ?>
+        <?php echo __('Browse Letters'); ?>
       </a>
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('collections')); ?>">
-        <?php echo __('Browse Collections'); ?></a>
+        <?php echo __('Letter Recipients'); ?></a>
         <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>"><?php echo __('Preface'); ?></a>
         <a id="infobtn"><?php echo __('Instructions'); ?></a>
         <!-- Extended search and Solr text search -->
     </span>
     <span style="float:right;margin-right:16px;">
         <a id="searchbtn"><?php echo __('Advanced Search'); ?></a>
-        <?php $placeholder = __('Search letters (break: *)'); ?>
-        <?php echo search_form(array('form_attributes' => array('placeholder' => $placeholder))); ?>
+        <?php echo search_form(); ?>
     </span>
   </div>
   <!-- Extended search form in dropdown -->

@@ -37,8 +37,27 @@
         <li>
           <!-- Facet label. -->
           <?php $label = SolrSearch_Helpers_Facet::keyToLabel($f[0]); ?>
-          <?php
-          $label = str_replace('XML File', 'Kirjoituspaikka', $label);
+
+          <!-- Translations for applied facet labels (language files) -->
+          <?php switch ($label) {
+            case "Collection":
+                $label = __('Collection');
+                break;
+            case "Type":
+                $label = __('Type');
+                 break;
+            case "Language":
+                $label = __('Language');
+                break;
+            case "XML File":
+                $label = __('XML File');
+                break;
+          }
+          if ($label == 'XML-tiedosto') {
+            $label = str_replace('XML-tiedosto', 'Kirjoituspaikka', $label);
+          } elseif ($label == 'XML-fil') {
+            $label = str_replace('XML-fil', 'Skrivningsort', $label);
+          }
           ?>
 
           <span class="applied-facet-label" style="font-weight:bold;"><?php echo $label." - "; ?></span>
@@ -72,7 +91,7 @@
         <!-- Facet label. -->
         <?php $label = SolrSearch_Helpers_Facet::keyToLabel($name);?>
 
-        <!-- Translations for facet labels (language files) -->
+        <!-- Translations for labels in facet list (language files) -->
         <?php switch ($label) {
           case "Collection":
               $label = __('Collection');
@@ -89,6 +108,8 @@
         }
         if ($label == 'XML-tiedosto') {
           $label = str_replace('XML-tiedosto', 'Kirjoituspaikka', $label);
+        } elseif ($label == 'XML-fil') {
+          $label = str_replace('XML-fil', 'Skrivningsort', $label);
         }
         ?>
 

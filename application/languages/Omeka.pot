@@ -465,7 +465,7 @@ msgstr ""
 #: application/tests/suite/Omeka/NavigationTest.php:950
 #: application/views/scripts/collections/browse.php:2
 #: themes/default/common/header.php:123
-msgid "Browse Collections"
+msgid "Letter Recipients"
 msgstr ""
 
 #: admin/themes/default/collections/browse.php:2
@@ -1067,6 +1067,8 @@ msgstr ""
 #: admin/themes/default/items/edit.php:41
 #: admin/themes/default/items/show.php:57 application/libraries/globals.php:411
 #: application/views/scripts/items/show.php:18
+#: plugins/SolrSearch/views/shared/results/index.php:44
+#: plugins/SolrSearch/views/shared/results/index.php:97
 msgid "Collection"
 msgstr ""
 
@@ -1187,7 +1189,7 @@ msgstr ""
 #: application/views/scripts/items/browse.php:2
 #: application/views/scripts/items/tags.php:2
 #: themes/default/common/header.php:120
-msgid "Browse Items"
+msgid "Browse Letters"
 msgstr ""
 
 #: admin/themes/default/items/browse.php:22
@@ -3407,7 +3409,7 @@ msgstr ""
 
 #: application/views/scripts/collections/browse.php:55
 #, php-format
-msgid "Items in the collection"
+msgid "Letters in the collection"
 msgstr ""
 
 #: application/views/scripts/collections/show.php:12
@@ -3599,6 +3601,7 @@ msgid "Solr search"
 msgstr ""
 
 #: themes/default/common/header.php:124
+#: plugins/SimplePages/views/public/page/show.php:14
 msgid "Preface"
 msgstr ""
 
@@ -3638,7 +3641,7 @@ msgstr ""
 msgid "(%s collections)"
 msgstr ""
 
-#: themes/default/common/header.php:133
+#: application/views/helpers/SearchForm.php:71
 msgid "Search letters (break: *)"
 msgstr ""
 
@@ -3716,5 +3719,22 @@ msgid "XML File"
 msgstr ""
 
 #: themes/default/common/header.php:145
+#: plugins/SimplePages/views/public/page/show.php:11
 msgid "Markings Used in Transcriptions"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:44
+msgid "Lönnrot's letters to Frans Johan Rabbe"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:47
+msgid "Lönnrot's letters to Matthias Alexander Castrén"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:50
+msgid "Lönnrot's letters to Carl Niklas Keckman"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:53
+msgid "Lönnrot's letters to Sven Gabriel Elmgren"
 msgstr ""

@@ -2723,6 +2723,8 @@ th {
     margin-bottom: 1em;
   }
 
+  /* Language select menu */
+  
   #locale_lang_code {
     border: 1px solid #111;
     background: white;
