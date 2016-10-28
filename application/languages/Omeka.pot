@@ -557,7 +557,7 @@ msgstr ""
 #: admin/themes/default/collections/show.php:18
 #: admin/themes/default/item-types/show.php:30
 #: application/views/scripts/index.php:40 themes/default/index.php:34
-msgid "Recently Added Items"
+msgid "Recently Added Letters"
 msgstr ""
 
 #: admin/themes/default/collections/show.php:41
@@ -3723,26 +3723,48 @@ msgstr ""
 msgid "Markings Used in Transcriptions"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:44
-msgid "Lönnrot's letters to Frans Johan Rabbe"
+#: application/views/scripts/collections/browse.php:29
+#: application/views/helpers/ItemSearchFilters.php:53
+msgid "Lönnrot to Rabbe"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:47
-msgid "Lönnrot's letters to Matthias Alexander Castrén"
+#: application/views/scripts/collections/browse.php:32
+#: application/views/helpers/ItemSearchFilters.php:56
+msgid "Lönnrot to Castrén"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:50
-msgid "Lönnrot's letters to Carl Niklas Keckman"
+#: application/views/scripts/collections/browse.php:35
+#: application/views/helpers/ItemSearchFilters.php:59
+msgid "Lönnrot to Keckman"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:53
-msgid "Lönnrot's letters to Sven Gabriel Elmgren"
+#: application/views/scripts/collections/browse.php:38
+#: application/views/helpers/ItemSearchFilters.php:62
+msgid "Lönnrot to Elmgren"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:61
+msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:64
+msgid "Letters sent by Lönnrot to Matthias Alexander Castrén"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:67
+msgid "Letters sent by Lönnrot to Carl Niklas Keckman"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:70
+msgid "Letters sent by Lönnrot to Sven Gabriel Elmgren"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69
+#: application/views/scripts/items/single.php:26
 msgid "missing"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:71
+": application/views/scripts/items/single.php:28
 msgid "Sent from: "
 msgstr ""

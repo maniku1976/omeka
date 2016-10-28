@@ -47,13 +47,22 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                     case 'collection':
                         $collection = $db->getTable('Collection')->find($value);
                         if ($collection) {
-                            $displayValue = strip_formatting(
-                                metadata(
-                                    $collection,
-                                    array('Dublin Core', 'Title'),
-                                    array('no_escape' => true)
-                                )
-                            );
+                            $title = metadata($collection, array('Dublin Core', 'Title'), array('no_escape' => true));
+                            switch ($title) {
+                              case "Lönnrot to Rabbe":
+                                $title = __('Lönnrot to Rabbe');
+                                break;
+                              case "Lönnrot to Castrén":
+                                $title = __('Lönnrot to Castrén');
+                                break;
+                              case "Lönnrot to Keckman":
+                                $title = __('Lönnrot to Keckman');
+                                break;
+                              case "Lönnrot to Elmgren":
+                                $title = __('Lönnrot to Elmgren');
+                                break;
+                            }
+                            $displayValue = strip_formatting($title);
                         }
                         break;
 

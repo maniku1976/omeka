@@ -12,10 +12,23 @@
         );
     }
     ?>
+    <!-- recent items: date in format d.m.yyyy; replace description with translatable 'sent from' + location
+    picked from TEI -->
     <?php if ($description): ?>
         <p class="item-description">
-          <?php echo 'Kirjoitusaika: '.date('j.n.Y', strtotime($date)); ?><br />
-          <?php echo $description; ?>
+          <?php echo __('Date').": ".date('j.n.Y', strtotime($date)); ?><br />
+          <?php $files = $item->Files;
+          foreach($files as $file) {
+            if ($file->getExtension() == 'xml') {
+              $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
+              $location = $xml->text->body->div->opener->dateline->placeName;
+              if ($location == 'puuttuu') { /* if location 'puuttuu'/'empty', replace with translatable word */
+                $location = str_replace($location, __('missing'), $location);
+              }
+              echo __('Sent from: ').$location;
+            }
+          }
+          ?>
         </p>
     <?php endif; ?>
 </div>

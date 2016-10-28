@@ -59,7 +59,7 @@ $sortLinks[__('Creator')] = 'Dublin Core,Creator';
 
     <?php if ($description = metadata('item', array('Dublin Core', 'Description'), array('snippet'=>250))): ?>
     <div class="item-description">
-      <!--replace description with translatable 'writing location' + location picked from TEI-->
+      <!--replace description with translatable 'sent from' + location picked from TEI-->
       <?php $files = $item->Files;
       foreach($files as $file) {
         if ($file->getExtension() == 'xml') {

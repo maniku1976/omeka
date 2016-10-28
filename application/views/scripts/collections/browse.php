@@ -21,9 +21,25 @@ $sortLinks[__('Date Added')] = 'added';
 
     <div class="collection">
 
-      <!-- Link to separate collection page replaced with link to items in the collection -->
+      <!-- Link to separate collection page replaced with link to items in the collection; translate titles -->
       <h2 style="padding-bottom: 0.5em;">
-        <?php echo link_to_items_browse(metadata('collection', array('Dublin Core', 'Title')), array('collection' => metadata('collection', 'id'))); ?>
+        <?php $title = metadata('collection', array('Dublin Core', 'Title'));
+        switch ($title) {
+          case "Lönnrot to Rabbe":
+            $title = __('Lönnrot to Rabbe');
+            break;
+          case "Lönnrot to Castrén":
+            $title = __('Lönnrot to Castrén');
+            break;
+          case "Lönnrot to Keckman":
+            $title = __('Lönnrot to Keckman');
+            break;
+          case "Lönnrot to Elmgren":
+            $title = __('Lönnrot to Elmgren');
+            break;
+        }
+        ?>
+        <?php echo link_to_items_browse($title, array('collection' => metadata('collection', 'id'))); ?>
         <?php $count = metadata($collection, 'total_items');
         if ($count == 1):
           echo ' ('.__('%s letter', $count).')';
@@ -39,7 +55,23 @@ $sortLinks[__('Date Added')] = 'added';
 
       <?php if (metadata('collection', array('Dublin Core', 'Description'))): ?>
         <div class="collection-description">
-          <?php echo text_to_paragraphs(metadata('collection', array('Dublin Core', 'Description'), array('snippet'=>150)));
+          <?php $descr = metadata('collection', array('Dublin Core', 'Description'));
+          switch ($descr) {
+            case "Lönnrot's letters to Frans Johan Rabbe":
+              $descr = __("Letters sent by Lönnrot to Frans Johan Rabbe");
+              break;
+            case "Letters sent by Lönnrot to Matthias Alexander Castrén":
+              $descr = __("Letters sent by Lönnrot to Matthias Alexander Castrén");
+              break;
+            case "Letters sent by Lönnrot to Carl Niklas Keckman":
+              $descr = __("Letters sent by Lönnrot to Carl Niklas Keckman");
+              break;
+            case "Letters sent by Lönnrot to Sven Gabriel Elmgren":
+              $descr = __("Letters sent by Lönnrot to Sven Gabriel Elmgren");
+              break;
+          }
+          ?>
+          <?php echo text_to_paragraphs($descr);
           ?>
         </div>
       <?php endif; ?>

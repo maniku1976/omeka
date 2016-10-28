@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-10-28 11:28+0300\n"
-"PO-Revision-Date: 2016-10-28 11:28+0300\n"
+"POT-Creation-Date: 2016-10-28 14:54+0300\n"
+"PO-Revision-Date: 2016-10-28 14:54+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -588,7 +588,7 @@ msgstr "Kokoelma #%s"
 #: admin/themes/default/collections/show.php:18
 #: admin/themes/default/item-types/show.php:30
 #: application/views/scripts/index.php:40 themes/default/index.php:34
-msgid "Recently Added Items"
+msgid "Recently Added Letters"
 msgstr "Viimeksi lisätyt kirjeet"
 
 #: admin/themes/default/collections/show.php:41
@@ -3877,29 +3877,65 @@ msgstr "XML-tiedosto"
 msgid "Markings Used in Transcriptions"
 msgstr "Transkriptioiden merkinnät"
 
-#: application/views/scripts/collections/browse.php:44
-msgid "Lönnrot's letters to Frans Johan Rabbe"
+#: application/views/scripts/collections/browse.php:29
+#: application/views/helpers/ItemSearchFilters.php:53
+msgid "Lönnrot to Rabbe"
+msgstr "Lönnrot Rabbelle"
+
+#: application/views/scripts/collections/browse.php:32
+#: application/views/helpers/ItemSearchFilters.php:56
+msgid "Lönnrot to Castrén"
+msgstr "Lönnrot Castrénille"
+
+#: application/views/scripts/collections/browse.php:35
+#: application/views/helpers/ItemSearchFilters.php:59
+msgid "Lönnrot to Keckman"
+msgstr "Lönnrot Keckmanille"
+
+#: application/views/scripts/collections/browse.php:38
+#: application/views/helpers/ItemSearchFilters.php:62
+msgid "Lönnrot to Elmgren"
+msgstr "Lönnrot Elmgrenille"
+
+#: application/views/scripts/collections/browse.php:61
+msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr "Lönnrotin kirjeet Frans Johan Rabbelle"
 
-#: application/views/scripts/collections/browse.php:47
-msgid "Lönnrot's letters to Matthias Alexander Castrén"
+#: application/views/scripts/collections/browse.php:64
+msgid "Letters sent by Lönnrot to Matthias Alexander Castrén"
 msgstr "Lönnrotin kirjeet Matthias Alexander Castrénille"
 
-#: application/views/scripts/collections/browse.php:50
-msgid "Lönnrot's letters to Carl Niklas Keckman"
+#: application/views/scripts/collections/browse.php:67
+msgid "Letters sent by Lönnrot to Carl Niklas Keckman"
 msgstr "Lönnrotin kirjeet Carl Niklas Keckmanille"
 
-#: application/views/scripts/collections/browse.php:53
-msgid "Lönnrot's letters to Sven Gabriel Elmgren"
+#: application/views/scripts/collections/browse.php:70
+msgid "Letters sent by Lönnrot to Sven Gabriel Elmgren"
 msgstr "Lönnrotin kirjeet Sven Gabriel Elmgrenille"
 
 #: application/views/scripts/items/browse.php:69
+#: application/views/scripts/items/single.php:26
 msgid "missing"
 msgstr "puuttuu"
 
 #: application/views/scripts/items/browse.php:71
 msgid "Sent from: "
 msgstr "Kirjoituspaikka: "
+
+#~ msgid "Lönnrot's letters to Frans Johan Rabbe"
+#~ msgstr "Lönnrotin kirjeet Frans Johan Rabbelle"
+
+#~ msgid "Lönnrot's letters to Matthias Alexander Castrén"
+#~ msgstr "Lönnrotin kirjeet Matthias Alexander Castrénille"
+
+#~ msgid "Lönnrot's letters to Carl Niklas Keckman"
+#~ msgstr "Lönnrotin kirjeet Carl Niklas Keckmanille"
+
+#~ msgid "Lönnrot's letters to Sven Gabriel Elmgren"
+#~ msgstr "Lönnrotin kirjeet Sven Gabriel Elmgrenille"
+
+#~ msgid "Recently Added Items"
+#~ msgstr "Viimeksi lisätyt kirjeet"
 
 #~ msgid "Writing Location: "
 #~ msgstr "Kirjoituspaikka: "

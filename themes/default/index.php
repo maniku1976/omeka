@@ -40,7 +40,7 @@
   if ($recentItems):
     ?>
     <div id="recent-items">
-      <h2><?php echo __('Recently Added Items'); ?></h2>
+      <h2><?php echo __('Recently Added Letters'); ?></h2>
       <?php echo recent_items($recentItems); ?>
     </div><!--end recent-items -->
   <?php endif; ?>
