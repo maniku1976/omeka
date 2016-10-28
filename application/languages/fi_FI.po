@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-10-27 16:02+0300\n"
-"PO-Revision-Date: 2016-10-27 16:03+0300\n"
+"POT-Creation-Date: 2016-10-28 11:28+0300\n"
+"PO-Revision-Date: 2016-10-28 11:28+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3799,7 +3799,7 @@ msgstr "Formaatit:"
 msgid "(%s collections)"
 msgstr "(%s kokoelmaa)"
 
-#: application/views/helpers/SearchForm.php:72
+#: application/views/scripts/search/search-form.php:2
 msgid "Search letters (break: *)"
 msgstr "Hae kirjeitä (katkaisu: *)"
 
@@ -3892,6 +3892,17 @@ msgstr "Lönnrotin kirjeet Carl Niklas Keckmanille"
 #: application/views/scripts/collections/browse.php:53
 msgid "Lönnrot's letters to Sven Gabriel Elmgren"
 msgstr "Lönnrotin kirjeet Sven Gabriel Elmgrenille"
+
+#: application/views/scripts/items/browse.php:69
+msgid "missing"
+msgstr "puuttuu"
+
+#: application/views/scripts/items/browse.php:71
+msgid "Sent from: "
+msgstr "Kirjoituspaikka: "
+
+#~ msgid "Writing Location: "
+#~ msgstr "Kirjoituspaikka: "
 
 #~ msgid "Items in the collection"
 #~ msgstr "Kokoelman kirjeet"

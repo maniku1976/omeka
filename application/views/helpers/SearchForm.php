@@ -34,6 +34,7 @@ class Omeka_View_Helper_SearchForm extends Zend_View_Helper_Abstract
                 array_keys($validRecordTypes))
         );
 
+
         if (isset($_GET['submit_search'])) {
             if (isset($_GET['query'])) {
                 $filters['query'] = $_GET['query'];
@@ -77,7 +78,6 @@ class Omeka_View_Helper_SearchForm extends Zend_View_Helper_Abstract
         );
 
         $form = $this->view->partial('search/search-form.php', $formParams);
-
         return apply_filters('search_form', $form, $formParams);
     }
 }

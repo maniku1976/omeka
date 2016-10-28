@@ -1,4 +1,3 @@
-<!-- Some labels and titles replaced with better Finnish translations-->
 <?php
 if (!empty($formActionUri)):
     $formAttributes['action'] = $formActionUri;

@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-10-27 13:15+0300\n"
-"PO-Revision-Date: 2016-10-27 13:16+0300\n"
+"POT-Creation-Date: 2016-10-28 11:21+0300\n"
+"PO-Revision-Date: 2016-10-28 11:25+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3783,7 +3783,7 @@ msgstr "Format:"
 msgid "(%s collections)"
 msgstr "(%s samlingar)"
 
-#: themes/default/common/header.php:133
+#: application/views/scripts/search/search-form.php:2
 msgid "Search letters (break: *)"
 msgstr "Sök brev (avbrytning: *)"
 
@@ -3876,6 +3876,14 @@ msgstr "Lönnrots brev till Carl Niklas Keckman"
 #: application/views/scripts/collections/browse.php:53
 msgid "Lönnrot's letters to Sven Gabriel Elmgren"
 msgstr "Lönnrots brev till Sven Gabriel Elmgren"
+
+#: application/views/scripts/items/browse.php:69
+msgid "missing"
+msgstr "saknas"
+
+#: application/views/scripts/items/browse.php:71
+msgid "Sent from: "
+msgstr "Skrivningsort: "
 
 #~ msgid "Items in the collection"
 #~ msgstr "Brev i samlingen"

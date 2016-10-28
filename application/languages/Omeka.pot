@@ -3641,7 +3641,7 @@ msgstr ""
 msgid "(%s collections)"
 msgstr ""
 
-#: application/views/helpers/SearchForm.php:71
+#: application/views/scripts/search/search-form.php:2
 msgid "Search letters (break: *)"
 msgstr ""
 
@@ -3737,4 +3737,12 @@ msgstr ""
 
 #: application/views/scripts/collections/browse.php:53
 msgid "Lönnrot's letters to Sven Gabriel Elmgren"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:69
+msgid "missing"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:71
+msgid "Sent from: "
 msgstr ""

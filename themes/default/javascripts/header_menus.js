@@ -25,6 +25,6 @@ $(document).ready(function() {
    });
 
    /* Add placeholder attribute in Solr search input box */
-   $('#query').attr('placeholder', 'Hae kirjeitä (katkaisu: *)');
+   /*$('#query').attr('placeholder', 'Hae kirjeitä (katkaisu: *)');*/
 
 });

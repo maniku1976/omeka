@@ -136,8 +136,7 @@
   <!-- Extended search form in dropdown -->
   <div id="ext-search" style="display: none;">
       <?php echo $this->partial('items/search-form.php',
-      array('formAttributes' =>
-      array('id'=>'advanced-search-form'))); ?>
+      array('formAttributes' => array('id'=>'advanced-search-form'))); ?>
   </div>
   <!-- Instruction links, dropdown -->
   <div id="instructions" style="display: none;">

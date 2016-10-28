@@ -40,7 +40,6 @@
   if ($recentItems):
     ?>
     <div id="recent-items">
-      <!-- Finnish translation of subject line -->
       <h2><?php echo __('Recently Added Items'); ?></h2>
       <?php echo recent_items($recentItems); ?>
     </div><!--end recent-items -->
