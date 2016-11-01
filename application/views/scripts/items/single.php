@@ -20,7 +20,7 @@
           <?php $files = $item->Files;
           foreach($files as $file) {
             if ($file->getExtension() == 'xml') {
-              $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
+              $xml = simplexml_load_file("http://".$_SERVER['SERVER_NAME']."/files/original/".metadata($file,'filename'));
               $location = $xml->text->body->div->opener->dateline->placeName;
               if ($location == 'puuttuu') { /* if location 'puuttuu'/'empty', replace with translatable word */
                 $location = str_replace($location, __('missing'), $location);

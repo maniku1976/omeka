@@ -113,7 +113,8 @@
     <!-- Dropdown menu for language switching -->
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <a href="http://www.finlit.fi" target="_blank">
-      <img width="200px" style="float:right;margin-right:16px;" src="http://localhost/sks_header_logo.png" />
+      <img width="200px" style="float:right;margin-right:16px;"
+      src="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/sks_header_logo.png'; ?>" />
     </a>
   </div>
   <!-- main header links-->

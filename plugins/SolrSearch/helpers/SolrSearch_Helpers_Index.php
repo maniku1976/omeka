@@ -48,21 +48,24 @@ class SolrSearch_Helpers_Index
   * @return void
   * @author Eric Rochester <erochest@virginia.edu>
   **/
+
+
   public static function indexItem($fields, $item, $doc)
   {
 
+    $serverRoot = 'http://'.$_SERVER['SERVER_NAME'];
     foreach ($item->getAllElementTexts() as $text) {
       $field = $fields->findByText($text);
       foreach ($item->getFiles() as $file) {
         if ($file->getExtension() == 'xml') {
           // Fetch TEI file for indexing, reads it into string
-          $contents = file_get_contents("http://localhost/files/original/".metadata($file,'filename'));
+          $contents = file_get_contents($serverRoot."/files/original/".metadata($file,'filename'));
           // Cut out teiHeader and opener elements
           $cut = strpos($contents, '</opener>') + strlen('</opener>');
           $end = strlen($contents);
           $contents = substr($contents, $cut, $end);
           // Fetch TEI file as object, needed for access to specific elements
-          $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
+          $xml = simplexml_load_file($serverRoot."/files/original/".metadata($file,'filename'));
         }
       }
 
@@ -101,6 +104,7 @@ class SolrSearch_Helpers_Index
   public static function itemToDocument($item)
   {
 
+    $serverRoot = 'http://'.$_SERVER['SERVER_NAME'];
     $fields = get_db()->getTable('SolrSearchField');
 
     $doc = new Apache_Solr_Document();
@@ -122,7 +126,7 @@ class SolrSearch_Helpers_Index
       if ($file->getExtension() == 'xml') {
 
       // Load TEI file again as object
-        $xml = simplexml_load_file("http://localhost/files/original/".metadata($file,'filename'));
+        $xml = simplexml_load_file($serverRoot."/files/original/".metadata($file,'filename'));
 
         // Create new Solr search field from writing location element for indexing
         $locField = new SolrSearchField();

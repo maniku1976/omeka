@@ -17,7 +17,8 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   echo metadata('item', array('Dublin Core', 'Title')).", "
   .$date; ?>
 </h1>
-
+<?php $serverRoot = 'http://'.$_SERVER['SERVER_NAME']; ?> <!-- server root for file url's -->
+<?
 <h2 style="font-weight:bold;">1. UV-plugin, PHP-käännetty XML-transkriptio</h2>
 <div id="exhibit3">
   <div id="exhibit3a">
@@ -50,9 +51,9 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
       foreach ($files as $file):
         if ($file->getExtension() == 'xml'):
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load("http://localhost/files/original/".metadata($file,'filename'));
+          $xmlDoc->load($serverRoot.'/files/original/'.metadata($file,'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load("http://localhost/files/original/TEI-to-HTML.xsl");
+          $xslDoc->load($serverRoot.'/files/original/TEI-to-HTML.xsl');
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
@@ -82,10 +83,10 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
       // Fetch images attached to each item
       $files = $item->Files;
       foreach ($files as $file):
-        if ($file->getExtension() == 'jpg'):
-          echo '<img class="pic" style="background:transparent" src="http://localhost/files/original/'.metadata
-          ($file,'filename').'" />';
-        endif;
+        if ($file->getExtension() == 'jpg'): ?>
+          <img class="pic" style="background:transparent"
+          src="<?php echo $serverRoot.'/files/original/'.metadata($file,'filename'); ?>" />
+        <?php endif;
       endforeach; ?>
     </div>
     <!-- Metadata panel-->
@@ -118,9 +119,9 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
       foreach ($files as $file):
         if ($file->getExtension() == 'xml'):
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load("http://localhost/files/original/".metadata($file,'filename'));
+          $xmlDoc->load($serverRoot.'/files/original/'.metadata($file,'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load("http://localhost/files/original/TEI-to-HTML.xsl");
+          $xslDoc->load($serverRoot.'/files/original/TEI-to-HTML.xsl');
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
