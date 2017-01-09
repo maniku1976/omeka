@@ -57,7 +57,7 @@ $sortLinks[__('Date Added')] = 'added';
         <div class="collection-description">
           <?php $descr = metadata('collection', array('Dublin Core', 'Description'));
           switch ($descr) {
-            case "Lönnrot's letters to Frans Johan Rabbe":
+            case "Letters sent by Lönnrot to Frans Johan Rabbe":
               $descr = __("Letters sent by Lönnrot to Frans Johan Rabbe");
               break;
             case "Letters sent by Lönnrot to Matthias Alexander Castrén":

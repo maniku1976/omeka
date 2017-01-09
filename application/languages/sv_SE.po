@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-10-28 14:55+0300\n"
-"PO-Revision-Date: 2016-10-28 14:55+0300\n"
+"POT-Creation-Date: 2016-11-07 13:17+0200\n"
+"PO-Revision-Date: 2016-11-07 13:17+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3905,6 +3905,21 @@ msgstr "saknas"
 #: application/views/scripts/items/browse.php:71
 msgid "Sent from: "
 msgstr "Skrivningsort: "
+
+#~ msgid "added text"
+#~ msgstr "tillsätt text"
+
+#~ msgid "underlined text"
+#~ msgstr "understrykade text"
+
+#~ msgid "deleted text"
+#~ msgstr "avlagd text"
+
+#~ msgid "unclear text"
+#~ msgstr "otydligt text"
+
+#~ msgid "gap in the text"
+#~ msgstr "gap i texten"
 
 #~ msgid "Lönnrot's letters to Frans Johan Rabbe"
 #~ msgstr "Lönnrots brev till Frans Johan Rabbe"

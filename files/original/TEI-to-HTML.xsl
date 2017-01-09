@@ -91,7 +91,7 @@
       <xsl:variable name="nr">
         <xsl:value-of select="current()" />
       </xsl:variable>
-      <a style="background-color:#e7d6ff;" target="_blank" href="http://localhost/items/browse?advanced[0][element_id]=43&amp;advanced[0][type]=contains&amp;advanced[0][terms]={$nr}&amp;submit_search=Hae">
+      <a style="background-color:#e7d6ff;" target="_blank" href="http://lonnrot.finlit.fi/omeka/items/browse?advanced[0][element_id]=43&amp;advanced[0][type]=contains&amp;advanced[0][terms]={$nr}&amp;submit_search=Hae">
         <xsl:apply-templates />
       </a>
     </xsl:template>
