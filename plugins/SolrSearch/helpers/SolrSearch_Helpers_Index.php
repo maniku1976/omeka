@@ -126,7 +126,7 @@ class SolrSearch_Helpers_Index
       if ($file->getExtension() == 'xml') {
 
       // Load TEI file again as object
-        $xml = simplexml_load_file("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
+        $xml = simplexml_load_file("http://lonnrot,finlit.fi/omeka/files/original/".metadata($file,'filename'));
 
         // Create new Solr search field from writing location element for indexing
         $locField = new SolrSearchField();

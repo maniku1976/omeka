@@ -2,8 +2,13 @@
 if (!empty($formActionUri)):
     $formAttributes['action'] = $formActionUri;
 else:
-    $formAttributes['action'] = url(array('controller'=>'items',
-                                          'action'=>'browse'));
+    /* After a Solr query, value of action attribute is the Solr search url,
+    so Omeka's extended search does not work -> url. */
+    $url = url(array('controller'=>'items','action'=>'browse'));
+    $url = str_replace('solr-search', 'items/browse', $url);
+    $formAttributes['action'] = $url;
+    /*$formAttributes['action'] = url(array('controller'=>'items',
+                                          'action'=>'browse'));*/
 endif;
 $formAttributes['method'] = 'GET';
 ?>
