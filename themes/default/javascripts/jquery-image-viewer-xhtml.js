@@ -37,6 +37,9 @@ $(document).ready(function() {
   // Hide all but first picture
   $('.pic').not('.pic:first').hide();
 
+  // Arrow back disabled at the start
+  $('#prevPic').addClass('disabled-arrow');
+  
   // Needs different variables page and picture counts
   var i = 0;
   var j = 0;
@@ -45,7 +48,11 @@ $(document).ready(function() {
   $('#nextPic').click(function() {
 
     if (i == $('#exhibit2b').find('.page').length-1) {
+      $('#nextPic').addClass('disabled-arrow');
       return false;
+    } else {
+      $('#nextPic').removeClass('disabled-arrow');
+      $('#prevPic').removeClass('disabled-arrow');
     }
 
     // Get current and next page/picture
@@ -76,7 +83,11 @@ $(document).ready(function() {
   $('#prevPic').click(function() {
 
     if (i == 0) {
+      $('#prevPic').addClass('disabled-arrow')
       return false;
+    } else {
+      $('#prevPic').removeClass('disabled-arrow');
+      $('#nextPic').removeClass('disabled-arrow');
     }
 
     // Get current and previous page

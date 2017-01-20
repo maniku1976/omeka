@@ -3768,3 +3768,7 @@ msgstr ""
 ": application/views/scripts/items/single.php:28
 msgid "Sent from: "
 msgstr ""
+
+#: application/views/scripts/items/browse.php:43
+msgid "The Search returned no results"
+msgstr ""

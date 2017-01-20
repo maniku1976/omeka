@@ -36,10 +36,17 @@ $(document).ready(function() {
   // Variable page count, initialized to 1
   var i = 0;
 
+  // Arrow back disabled at start
+  $('#btPrevXML').addClass('disabled-arrow');
+
   // Browse backwards
   $('#btPrevXML').click(function() {
     if (i == 0) {
+      $('#btPrevXML').addClass('disabled-arrow');
       return false;
+    } else {
+      $('#btPrevXML').removeClass('disabled-arrow');
+      $('#btNextXML').removeClass('disabled-arrow');
     }
 
     // get current and previous page; hide current, show previous, hide others
@@ -67,7 +74,11 @@ $(document).ready(function() {
   $('#btNextXML').click(function() {
 
     if (i == $('#exhibit3b').find('.pb').length-1) {
+      $('#btNextXML').addClass('disabled-arrow');
       return false;
+    } else {
+      $('#btNextXML').removeClass('disabled-arrow');
+      $('#btPrevXML').removeClass('disabled-arrow');
     }
 
     // Find current and next page

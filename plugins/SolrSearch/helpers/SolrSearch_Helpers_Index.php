@@ -53,7 +53,6 @@ class SolrSearch_Helpers_Index
   public static function indexItem($fields, $item, $doc)
   {
 
-    $serverRoot = 'http://'.$_SERVER['SERVER_NAME'];
     foreach ($item->getAllElementTexts() as $text) {
       $field = $fields->findByText($text);
       foreach ($item->getFiles() as $file) {
@@ -104,7 +103,6 @@ class SolrSearch_Helpers_Index
   public static function itemToDocument($item)
   {
 
-    $serverRoot = 'http://'.$_SERVER['SERVER_NAME'];
     $fields = get_db()->getTable('SolrSearchField');
 
     $doc = new Apache_Solr_Document();

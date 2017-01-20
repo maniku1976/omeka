@@ -17,8 +17,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   echo metadata('item', array('Dublin Core', 'Title')).", "
   .$date; ?>
 </h1>
-<?php $serverRoot = 'http://'.$_SERVER['SERVER_NAME']; ?> <!-- server root for file url's -->
-<?
+
 <h2 style="font-weight:bold;">1. UV-plugin, PHP-käännetty XML-transkriptio</h2>
 <div id="exhibit3">
   <div id="exhibit3a">

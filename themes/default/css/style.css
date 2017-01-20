@@ -2739,6 +2739,12 @@ th {
     border-radius: 2px;
   }
 
+  /* disables arrow keys in show.php as necessary */
+  .disabled-arrow {
+    opacity: 0.2;
+    disabled: true;
+  }
+
   .
 
   /* @end */

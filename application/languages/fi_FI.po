@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2016-11-07 13:16+0200\n"
-"PO-Revision-Date: 2016-11-07 13:16+0200\n"
+"POT-Creation-Date: 2017-01-20 10:46+0200\n"
+"PO-Revision-Date: 2017-01-20 10:46+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3921,6 +3921,10 @@ msgstr "puuttuu"
 #: application/views/scripts/items/browse.php:71
 msgid "Sent from: "
 msgstr "Kirjoituspaikka: "
+
+#: application/views/scripts/items/browse.php:43
+msgid "The Search returned no results"
+msgstr "Haku ei löytänyt tuloksia"
 
 #~ msgid "added text"
 #~ msgstr "lisätty teksti"
