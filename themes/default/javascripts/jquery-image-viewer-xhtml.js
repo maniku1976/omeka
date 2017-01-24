@@ -39,7 +39,7 @@ $(document).ready(function() {
 
   // Arrow back disabled at the start
   $('#prevPic').addClass('disabled-arrow');
-  
+
   // Needs different variables page and picture counts
   var i = 0;
   var j = 0;
@@ -111,19 +111,6 @@ $(document).ready(function() {
     }
     //Decrease page count by 1
     i--;
-  });
-
-  // Prevent page scrolling when zooming image
-
-  $('#picframe').mouseenter(function() {
-    $('body').bind('mousewheel', function() {
-      return false;
-    });
-  })
-  .mouseleave(function() {
-    $('body').bind('mousewheel', function() {
-      return true;
-    });
   });
 
   // Image zooming, calculations in
