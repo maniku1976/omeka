@@ -50,9 +50,9 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
       foreach ($files as $file):
         if ($file->getExtension() == 'xml'):
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load('http://localhost/omeka/files/original/'.metadata($file,'filename'));
+          $xmlDoc->load('http://lonnrot.finlit.fi/omeka/files/original/'.metadata($file,'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load('http://localhost/omeka/files/original/TEI-to-HTML.xsl');
+          $xslDoc->load('http://lonnrot.finlit.fi/omeka/files/original/TEI-to-HTML.xsl');
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
@@ -84,7 +84,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
       foreach ($files as $file):
         if ($file->getExtension() == 'jpg'): ?>
           <img class="pic" style="background:transparent"
-          src="<?php echo 'http://localhost/omeka/files/original/'.metadata($file,'filename'); ?>" />
+          src="<?php echo 'http://lonnrot.finlit.fi/omeka/files/original/'.metadata($file,'filename'); ?>" />
         <?php endif;
       endforeach; ?>
     </div>
@@ -118,9 +118,9 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
       foreach ($files as $file):
         if ($file->getExtension() == 'xml'):
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load('http://localhost/omeka/files/original/'.metadata($file,'filename'));
+          $xmlDoc->load('http://lonnrot.finlit.fi/omeka/files/original/'.metadata($file,'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load('http://localhost/omeka/files/original/TEI-to-HTML.xsl');
+          $xslDoc->load('http://lonnrot.finlit.fi/omeka/files/original/TEI-to-HTML.xsl');
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
