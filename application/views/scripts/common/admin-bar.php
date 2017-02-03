@@ -1,4 +1,4 @@
-<nav id="admin-bar">
+<!--<nav id="admin-bar">
 
 <?php if($user = current_user()) {
 
@@ -23,4 +23,4 @@
 
 echo nav($links, 'public_navigation_admin_bar');
 ?>
-</nav>
+</nav>-->

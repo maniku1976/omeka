@@ -16,7 +16,7 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
     /**
      * Get a list of the currently-active filters for item browse/search.
      *
-     * @param array $params Optional array of key-value pairs to use instead of
+     * @param array $params Optional array of key-value pairs display:inline-block;to use instead of
      *  reading the current params from the request.
      * @return string HTML output
      */
@@ -114,7 +114,7 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
 
         $html = '';
         if (!empty($displayArray) || !empty($advancedArray)) {
-            $html .= '<span id="item-filters">';
+            $html .= '<span id="item-filters" style="float:left;display:inline;">';
             $html .= '<ul>';
             foreach($displayArray as $name => $query) {
                 $class = html_escape(strtolower(str_replace(' ', '-', $name)));

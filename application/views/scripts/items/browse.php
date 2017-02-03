@@ -23,14 +23,21 @@ $sortLinks[__('Title')] = 'Dublin Core,Title';
 $sortLinks[__('Creator')] = 'Dublin Core,Creator';
 ?>
 
-<div style="float:left;font-size:18px;display:inline-block">
+<div style="float:left;width:100%;">
   <?php echo item_search_filters(); ?>
-  <span style="font-size: 20px;"><?php if ($total_results == 1): ?>
-    <?php echo __("%s letter", $total_results); ?>
-  <?php elseif ($total_results > 1): ?>
-    <?php echo __("%s letters", $total_results); ?>
-  <?php endif; ?></span>
+  <span style="font-size: 20px;display:inline;">
+    <?php if ($total_results == 1): ?>
+      <?php echo __("%s letter", $total_results); ?>
+    <?php elseif ($total_results > 1): ?>
+      <?php echo __("%s letters", $total_results); ?>
+    <?php endif; ?>
+    <form class="zip" method='post' action=''>
+      <label for="tei"><i class="fa fa-download"></i> Lataa TEI-tiedostot</label>
+      <input id="tei" type='submit' name='tei' hidden />
+    </form>
+  </span>
 </div>
+
 <div id="sort-links">
     <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>

@@ -151,6 +151,10 @@
     <!-- Number found. -->
     <h2 id="num-found">
       <?php echo __('Letters found: %s', $results->response->numFound); ?>
+      <form class="zip-solr" method='post' action=''>
+        <label for="tei"><i class="fa fa-download"></i> Lataa TEI-tiedostot</label>
+        <input id="tei" type='submit' name='tei' hidden />
+      </form>
     </h2>
 
     <!-- Results sorted according to date. -->
