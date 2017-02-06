@@ -165,17 +165,7 @@ $(document).ready(function() {
   });
 
   // Draggable image, from jquery-ui.js
-  $('.pic').draggable({
-     drag: function(e) {
-    	if ($('#picframe').hasClass('fullscreen')) {
-      	   xScreen = e.pageX - ($('#picframe').width()/2) + ($('.pic').width()/2);
-      	   yScreen = e.pageY - $('#picframe').offset().top;
-    	} else {
-           xScreen = e.pageX - $('#picframe').offset().left;
-           yScreen = e.pageY - $('#picframe').offset().top;
-    	}
-     }
-  });
+  $('.pic').draggable();
 
   // Re-center image and reset image scale, otherwise calculations in zooming incorrect
   $('#origSize').click(function() {

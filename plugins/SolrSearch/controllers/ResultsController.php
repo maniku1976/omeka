@@ -81,7 +81,7 @@ extends Omeka_Controller_AbstractActionController
     if(isset($_POST['tei'])){
       $zip = new ZipArchive();
       $zip_name = "tei.zip";
-      $zip->open($zip_name, ZipArchive::CREATE);
+      $zip->open(sys_get_temp_dir().'/'.$zip_name, ZipArchive::CREATE);
 
       // Loop through unpaginated search results, fetch each item and copy their TEI files locally
       foreach ($allResults->response->docs as $doc) {
@@ -91,7 +91,7 @@ extends Omeka_Controller_AbstractActionController
       }
 
       // Add local copies of TEI files to zip
-      foreach (glob('/tmp/*.xml') as $tei) {
+      foreach (glob(sys_get_temp_dir().'/*.xml') as $tei) {
         $zip->addFile($tei);
       }
 
@@ -99,13 +99,13 @@ extends Omeka_Controller_AbstractActionController
 
       // Download zip file
       header('Content-Type: application/zip');
-      header('Content-Disposition: attachment; filename='.$zip_name);
-      header('Content-Length: ' . filesize($zip_name));
+      header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$zip_name);
+      header('Content-Length: ' . filesize(sys_get_temp_dir().'/'.$zip_name));
       ob_clean();
       flush();
-      readfile($zip_name);
-      array_map('unlink', glob('/tmp/*.xml')); //delete TEI files from tmp folder after downloading zip
-      unlink('tei.zip'); //delete tmp zip file after download
+      readfile(sys_get_temp_dir().'/'.$zip_name);
+      array_map('unlink', glob(sys_get_temp_dir().'/*.xml')); //delete TEI files from tmp folder after downloading zip
+      unlink(sys_get_temp_dir().'/'.'tei.zip'); //delete tmp zip file after download
       exit();
     }
 

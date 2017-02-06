@@ -2663,6 +2663,7 @@ th {
     margin: auto;
     object-fit: contain;
     border-style: none !important;
+    position: relative;
   }
 
   /* Metada menu */
