@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-20 10:49+0200\n"
-"PO-Revision-Date: 2017-01-20 10:54+0200\n"
+"POT-Creation-Date: 2017-02-06 15:44+0200\n"
+"PO-Revision-Date: 2017-02-06 15:44+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -34,7 +34,6 @@ msgstr ""
 "documents/dces/."
 
 #. Dublin Core: Title element name
-#: admin/themes/default/collections/browse.php:22
 #: admin/themes/default/items/browse.php:40
 #: admin/themes/default/search/index.php:13
 #: application/views/scripts/collections/browse.php:10
@@ -487,9 +486,23 @@ msgstr "Utvald"
 #: application/tests/suite/Omeka/NavigationTest.php:831
 #: application/tests/suite/Omeka/NavigationTest.php:950
 #: application/views/scripts/collections/browse.php:2
-#: themes/default/common/header.php:123
-msgid "Letter Recipients"
-msgstr "Brevens mottagare"
+#: themes/dark-blue/common/header.php:123
+#: themes/dark-blue-text/common/header.php:123
+#: themes/lgreen_plain-rectangle-img/common/header.php:123
+#: themes/lgreen_plain-round-img/common/header.php:123
+#: themes/lgreen_signet-round-img/common/header.php:123
+#: themes/lgreen_text-rectangle-img/common/header.php:123
+#: themes/lgreen_text-round-img/common/header.php:123
+#: themes/light-blue/common/header.php:123
+#: themes/light-blue-text/common/header.php:123
+#: themes/sand/common/header.php:123 themes/lilac/common/header.php:123
+#: themes/yellow/common/header.php:123 themes/red/common/header.php:123
+msgid "Browse Recipients"
+msgstr "Bläddra mottagare"
+
+#: application/views/scripts/items/browse.php:22
+msgid "Recipient"
+msgstr "Mottagare"
 
 #: admin/themes/default/collections/browse.php:2
 #: admin/themes/default/item-types/browse.php:2
@@ -1219,9 +1232,19 @@ msgstr "Kryssa i om du önskar radera valda objekt."
 #: application/tests/suite/Omeka/NavigationTest.php:949
 #: application/views/scripts/items/browse.php:2
 #: application/views/scripts/items/tags.php:2
-#: themes/default/common/header.php:120
+#: themes/default/common/header.php:120 themes/dark-blue/common/header.php:120
+#: themes/dark-blue-text/common/header.php:120
+#: themes/lgreen_plain-rectangle-img/common/header.php:120
+#: themes/lgreen_plain-round-img/common/header.php:120
+#: themes/lgreen_signet-round-img/common/header.php:120
+#: themes/lgreen_text-rectangle-img/common/header.php:120
+#: themes/lgreen_text-round-img/common/header.php:120
+#: themes/light-blue/common/header.php:120
+#: themes/light-blue-text/common/header.php:120
+#: themes/sand/common/header.php:120 themes/lilac/common/header.php:120
+#: themes/yellow/common/header.php:120 themes/red/common/header.php:120
 msgid "Browse Letters"
-msgstr "Alla brev"
+msgstr "Bläddra brev"
 
 #: admin/themes/default/items/browse.php:22
 #: admin/themes/default/items/browse.php:118
@@ -3742,12 +3765,32 @@ msgstr "Admin dashboard"
 msgid "Solr search"
 msgstr "Solr sök"
 
-#: themes/default/common/header.php:124
+#: themes/default/common/header.php:124 themes/dark-blue/common/header.php:124
+#: themes/dark-blue-text/common/header.php:124
+#: themes/lgreen_plain-rectangle-img/common/header.php:124
+#: themes/lgreen_plain-round-img/common/header.php:124
+#: themes/lgreen_signet-round-img/common/header.php:124
+#: themes/lgreen_text-rectangle-img/common/header.php:124
+#: themes/lgreen_text-round-img/common/header.php:124
+#: themes/light-blue/common/header.php:124
+#: themes/light-blue-text/common/header.php:124
+#: themes/sand/common/header.php:124 themes/lilac/common/header.php:124
+#: themes/yellow/common/header.php:124 themes/red/common/header.php:124
 #: plugins/SimplePages/views/public/page/show.php:14
-msgid "Preface"
-msgstr "Förord"
+msgid "Information"
+msgstr "Information"
 
-#: themes/default/common/header.php:125
+#: themes/default/common/header.php:125 themes/dark-blue/common/header.php:125
+#: themes/dark-blue-text/common/header.php:125
+#: themes/lgreen_plain-rectangle-img/common/header.php:125
+#: themes/lgreen_plain-round-img/common/header.php:125
+#: themes/lgreen_signet-round-img/common/header.php:125
+#: themes/lgreen_text-rectangle-img/common/header.php:125
+#: themes/lgreen_text-round-img/common/header.php:125
+#: themes/light-blue/common/header.php:125
+#: themes/light-blue-text/common/header.php:125
+#: themes/sand/common/header.php:125 themes/lilac/common/header.php:125
+#: themes/yellow/common/header.php:125 themes/red/common/header.php:125
 msgid "Instructions"
 msgstr "Instruktioner"
 
@@ -3814,6 +3857,12 @@ msgstr "Kommentarer"
 #: themes/defaults/items/show.php:38 themes/defaults/items/show.php:106
 msgid "Download TEI"
 msgstr "Ladda ner TEI"
+
+#: application/views/scripts/items/browse.php:34
+#: plugins/SolrSearch/views/shared/results/index.php:155
+#: themes/defaults/items/show.php:106
+msgid "Download TEI Files"
+msgstr "Ladda ner TEI filer"
 
 # Replace field codes in Solr search results with proper names
 #: plugins/SolrSearch/views/shared/results/index.php:170
@@ -3909,6 +3958,36 @@ msgstr "Skrivningsort: "
 #: application/views/scripts/items/browse.php:43
 msgid "The Search returned no results"
 msgstr "Din sökning gav inget resultat."
+
+#: themes/lgreen_text-round-img/common/header.php:15
+#: themes/lgreen_text-round-img/common/header.php:111
+#: themes/dark-blue/common/header.php:15 themes/dark-blue/common/header.php:111
+#: themes/dark-blue-text/common/header.php:15
+#: themes/dark-blue-text/common/header.php:111
+#: themes/lgreen_plain-rectangle-img/common/header.php:15
+#: themes/lgreen_plain-rectangle-img/common/header.php:111
+#: themes/lgreen_plain-round-img/common/header.php:15
+#: themes/lgreen_plain-round-img/common/header.php:111
+#: themes/lgreen_signet-round-img/common/header.php:15
+#: themes/lgreen_signet-round-img/common/header.php:111
+#: themes/lgreen_text-rectangle-img/common/header.php:15
+#: themes/lgreen_text-rectangle-img/common/header.php:111
+#: themes/light-blue/common/header.php:15
+#: themes/light-blue/common/header.php:111
+#: themes/light-blue-text/common/header.php:15
+#: themes/light-blue-text/common/header.php:111
+#: themes/sand/common/header.php:15 themes/sand/common/header.php:111
+#: themes/lilac/common/header.php:15 themes/lilac/common/header.php:111
+#: themes/yellow/common/header.php:15 themes/yellow/common/header.php:111
+#: themes/red/common/header.php:15 themes/red/common/header.php:111
+msgid "Elias Lönnrot Letters"
+msgstr "Elias Lönnrots brev"
+
+#~ msgid "Preface"
+#~ msgstr "Förord"
+
+#~ msgid "Letter Recipients"
+#~ msgstr "Brevens mottagare"
 
 #~ msgid "added text"
 #~ msgstr "tillsätt text"

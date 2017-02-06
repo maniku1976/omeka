@@ -80,10 +80,9 @@ $(document).ready(function() {
   });
 
   // Hide everything but first page
-  $('#exhibit2b').find('.page').not('.page:eq(0)').hide();
   $('#exhibit3b').find('.page').not('.page:eq(0)').hide();
+  
   // Hide page break elements
-  $('#exhibit2b').find('.pb').hide();
   $('#exhibit3b').find('.pb').hide();
 
 });

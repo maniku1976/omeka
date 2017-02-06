@@ -25,7 +25,6 @@ msgid ""
 msgstr ""
 
 #. Dublin Core: Title element name
-#: admin/themes/default/collections/browse.php:22
 #: admin/themes/default/items/browse.php:40
 #: admin/themes/default/search/index.php:13
 #: application/views/scripts/collections/browse.php:10
@@ -464,8 +463,24 @@ msgstr ""
 #: application/tests/suite/Omeka/NavigationTest.php:831
 #: application/tests/suite/Omeka/NavigationTest.php:950
 #: application/views/scripts/collections/browse.php:2
-#: themes/default/common/header.php:123
-msgid "Letter Recipients"
+#: themes/dark-blue/common/header.php:123
+#: themes/dark-blue-text/common/header.php:123
+#: themes/lgreen_plain-rectangle-img/common/header.php:123
+#: themes/lgreen_plain-round-img/common/header.php:123
+#: themes/lgreen_signet-round-img/common/header.php:123
+#: themes/lgreen_text-rectangle-img/common/header.php:123
+#: themes/lgreen_text-round-img/common/header.php:123
+#: themes/light-blue/common/header.php:123
+#: themes/light-blue-text/common/header.php:123
+#: themes/sand/common/header.php:123
+#: themes/lilac/common/header.php:123
+#: themes/yellow/common/header.php:123
+#: themes/red/common/header.php:123
+msgid "Browse Recipients"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:22
+msgid "Recipient"
 msgstr ""
 
 #: admin/themes/default/collections/browse.php:2
@@ -1189,6 +1204,19 @@ msgstr ""
 #: application/views/scripts/items/browse.php:2
 #: application/views/scripts/items/tags.php:2
 #: themes/default/common/header.php:120
+#: themes/dark-blue/common/header.php:120
+#: themes/dark-blue-text/common/header.php:120
+#: themes/lgreen_plain-rectangle-img/common/header.php:120
+#: themes/lgreen_plain-round-img/common/header.php:120
+#: themes/lgreen_signet-round-img/common/header.php:120
+#: themes/lgreen_text-rectangle-img/common/header.php:120
+#: themes/lgreen_text-round-img/common/header.php:120
+#: themes/light-blue/common/header.php:120
+#: themes/light-blue-text/common/header.php:120
+#: themes/sand/common/header.php:120
+#: themes/lilac/common/header.php:120
+#: themes/yellow/common/header.php:120
+#: themes/red/common/header.php:120
 msgid "Browse Letters"
 msgstr ""
 
@@ -3601,11 +3629,37 @@ msgid "Solr search"
 msgstr ""
 
 #: themes/default/common/header.php:124
+#: themes/dark-blue/common/header.php:124
+#: themes/dark-blue-text/common/header.php:124
+#: themes/lgreen_plain-rectangle-img/common/header.php:124
+#: themes/lgreen_plain-round-img/common/header.php:124
+#: themes/lgreen_signet-round-img/common/header.php:124
+#: themes/lgreen_text-rectangle-img/common/header.php:124
+#: themes/lgreen_text-round-img/common/header.php:124
+#: themes/light-blue/common/header.php:124
+#: themes/light-blue-text/common/header.php:124
+#: themes/sand/common/header.php:124
+#: themes/lilac/common/header.php:124
+#: themes/yellow/common/header.php:124
+#: themes/red/common/header.php:124
 #: plugins/SimplePages/views/public/page/show.php:14
-msgid "Preface"
+msgid "Information"
 msgstr ""
 
 #: themes/default/common/header.php:125
+#: themes/dark-blue/common/header.php:125
+#: themes/dark-blue-text/common/header.php:125
+#: themes/lgreen_plain-rectangle-img/common/header.php:125
+#: themes/lgreen_plain-round-img/common/header.php:125
+#: themes/lgreen_signet-round-img/common/header.php:125
+#: themes/lgreen_text-rectangle-img/common/header.php:125
+#: themes/lgreen_text-round-img/common/header.php:125
+#: themes/light-blue/common/header.php:125
+#: themes/light-blue-text/common/header.php:125
+#: themes/sand/common/header.php:125
+#: themes/lilac/common/header.php:125
+#: themes/yellow/common/header.php:125
+#: themes/red/common/header.php:125
 msgid "Instructions"
 msgstr ""
 
@@ -3674,6 +3728,12 @@ msgstr ""
 #: themes/defaults/items/show.php:38
 #: themes/defaults/items/show.php:106
 msgid "Download TEI"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:34
+#: plugins/SolrSearch/views/shared/results/index.php:155
+#: themes/defaults/items/show.php:106
+msgid "Download TEI Files"
 msgstr ""
 
 # Replace field codes in Solr search results with proper names
@@ -3771,4 +3831,33 @@ msgstr ""
 
 #: application/views/scripts/items/browse.php:43
 msgid "The Search returned no results"
+msgstr ""
+
+#: themes/lgreen_text-round-img/common/header.php:15
+#: themes/lgreen_text-round-img/common/header.php:111
+#: themes/dark-blue/common/header.php:15
+#: themes/dark-blue/common/header.php:111
+#: themes/dark-blue-text/common/header.php:15
+#: themes/dark-blue-text/common/header.php:111
+#: themes/lgreen_plain-rectangle-img/common/header.php:15
+#: themes/lgreen_plain-rectangle-img/common/header.php:111
+#: themes/lgreen_plain-round-img/common/header.php:15
+#: themes/lgreen_plain-round-img/common/header.php:111
+#: themes/lgreen_signet-round-img/common/header.php:15
+#: themes/lgreen_signet-round-img/common/header.php:111
+#: themes/lgreen_text-rectangle-img/common/header.php:15
+#: themes/lgreen_text-rectangle-img/common/header.php:111
+#: themes/light-blue/common/header.php:15
+#: themes/light-blue/common/header.php:111
+#: themes/light-blue-text/common/header.php:15
+#: themes/light-blue-text/common/header.php:111
+#: themes/sand/common/header.php:15
+#: themes/sand/common/header.php:111
+#: themes/lilac/common/header.php:15
+#: themes/lilac/common/header.php:111
+#: themes/yellow/common/header.php:15
+#: themes/yellow/common/header.php:111
+#: themes/red/common/header.php:15
+#: themes/red/common/header.php:111
+msgid "Elias Lönnrot Letters"
 msgstr ""

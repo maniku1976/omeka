@@ -1,13 +1,10 @@
 <?php
 /* Load scripts */
 queue_js_file('jquery-1.12.4.min');
-queue_js_file('jquery-ui');
-queue_js_file('jquery.mousewheel.min');
 queue_js_file('comments');
 queue_js_file('page-formatting-xhtml');
 queue_js_file('toggles-xhtml');
 queue_js_file('uv-image-viewer-xhtml');
-queue_js_file('jquery-image-viewer-xhtml');
 
 echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'bodyclass' => 'item show')); ?>
 
@@ -18,7 +15,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   .$date; ?>
 </h1>
 
-<h2 style="font-weight:bold;">1. UV-plugin, PHP-käännetty XML-transkriptio</h2>
+
 <div id="exhibit3">
   <div id="exhibit3a">
     <?php
@@ -41,74 +38,6 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     <span style="float:right;">
       <a id="btPrevXML" title="<?php echo __('Previous Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-left"></i></a>
       <a id="btNextXML" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-right"></i></a>
-    </span>
-    <!-- Frame for displaying transcription -->
-    <div class="textFrame">
-      <?php
-      // Load TEI file attached to item, load XSL stylesheet, transform TEI to XHTML
-      $files = $item->Files;
-      foreach ($files as $file):
-        if ($file->getExtension() == 'xml'):
-          $xmlDoc = new DOMDocument();
-          $xmlDoc->load('http://lonnrot.finlit.fi/omeka/files/original/'.metadata($file,'filename'));
-          $xslDoc = new DOMDocument();
-          $xslDoc->load('http://lonnrot.finlit.fi/omeka/files/original/TEI-to-HTML.xsl');
-          $proc = new XSLTProcessor();
-          $proc->importStylesheet($xslDoc);
-          echo $proc->transformToXML($xmlDoc);
-        endif;
-      endforeach;
-      ?>
-    </div>
-  </div>
-</div>
-
-<h2 style="font-weight:bold;">2. Käsin rakennettu viewer (jquery + lisäosia) + PHP-käännetty XML-transkriptio</h2>
-<div id="exhibit2">
-  <div id="exhibit2a">
-    <!-- Frame for displaying pictures -->
-    <div id="picframe">
-      <!-- Buttons for metadata menu, enter/exit fullscreen, reset image size -->
-      <span id="buttons">
-           <a id="origSize" title="<?php echo __('Original Size'); ?>" style="cursor:pointer;
-           border-bottom:none;"><i class="fa fa-arrow-right"></i> <i class="fa fa-arrow-left"></i>&nbsp;&nbsp;</a>
-           <a id="fullScreen" title="<?php echo __('Full Screen View'); ?>" style="cursor:pointer;
-           border-bottom:none;"><i class="fa fa-arrows-alt"></i>&nbsp;&nbsp;</a>
-           <a id="closeFull" title="<?php echo __('Close'); ?>" style="cursor:pointer;font-size:20px;
-           border-bottom:none;display:none;"><i class="fa fa-times"></i>&nbsp;&nbsp;</a>
-           <a id="metadata" title="<?php echo __('Metadata'); ?>" style="cursor: pointer;border-bottom:none;font-size:20px;"><i class="fa fa-question"></i></a>
-     </span>
-      <?php
-      // Fetch images attached to each item
-      $files = $item->Files;
-      foreach ($files as $file):
-        if ($file->getExtension() == 'jpg'): ?>
-          <img class="pic" style="background:transparent"
-          src="<?php echo 'http://lonnrot.finlit.fi/omeka/files/original/'.metadata($file,'filename'); ?>" />
-        <?php endif;
-      endforeach; ?>
-    </div>
-    <!-- Metadata panel-->
-    <div id="infopanel">
-      <?php
-      $texts = all_element_texts('item');
-      echo $texts;
-      ?>
-    </div>
-  </div>
-  <div id="exhibit2b">
-    <!-- Buttons for showing/hiding transcription markings and comments, download link for TEI. -->
-    <span id="span1">
-      <input type="checkbox" onclick="toggleMarkingsHTML2()" checked/><?php echo __('Markings');?>&nbsp;&nbsp;
-      <input type="checkbox" onclick="toggleCommentsHTML2()" checked/><?php echo __('Comments');?>&nbsp;&nbsp;&nbsp;
-      <?php echo '<a style="color:#444444;border-bottom:none;" href="'
-      .metadata('item', array('Item Type Metadata', 'XML File')).'" download><i class="fa fa-download"></i> '
-      .__("Download TEI").'</a>';?>
-    </span>
-    <!-- Buttons for moving back and forth in pictures/transcription -->
-    <span id="span2">
-      <a id="prevPic" title="<?php echo __('Previous Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-left"></i>&nbsp;</a>
-      <a id="nextPic" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-right"></i></a>
     </span>
     <!-- Frame for displaying transcription -->
     <div class="textFrame">

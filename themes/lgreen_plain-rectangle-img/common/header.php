@@ -12,7 +12,7 @@
   }
   $titleParts[] = option('site_title');
   ?>
-  <title><?php echo implode(' &middot; ', $titleParts); ?></title>
+  <title><?php echo __("Elias Lönnrot Letters"); ?></title>
 
 
   <?php echo auto_discovery_link_tags(); ?>
@@ -108,7 +108,7 @@
   <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
   <!-- Site title and SKS logo with link -->
   <div id="site-title" style="width:98%;height:10%;">
-    <?php echo link_to_home_page(); ?>
+    <?php echo link_to_home_page($text = __("Elias Lönnrot Letters")); ?>
     <!-- Dropdown menu for language switching -->
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <a href="http://www.finlit.fi" target="_blank">
@@ -123,8 +123,8 @@
         <?php echo __('Browse Letters'); ?>
       </a>
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('collections')); ?>">
-        <?php echo __('Letter Recipients'); ?></a>
-        <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>"><?php echo __('Preface'); ?></a>
+        <?php echo __('Browse Recipients'); ?></a>
+        <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>"><?php echo __('Information'); ?></a>
         <a id="infobtn"><?php echo __('Instructions'); ?></a>
         <!-- Extended search and Solr text search -->
     </span>

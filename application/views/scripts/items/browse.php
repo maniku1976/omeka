@@ -17,10 +17,9 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 
 <?php
 
-/* Sort options for items: writing date, title, writer */
+/* Sort options for items: writing date, recipient (in title) */
 $sortLinks[__('Date')] = 'Dublin Core,Date';
-$sortLinks[__('Title')] = 'Dublin Core,Title';
-$sortLinks[__('Creator')] = 'Dublin Core,Creator';
+$sortLinks[__('Recipient')] = 'Dublin Core,Title';
 ?>
 
 <div style="float:left;width:100%;">
@@ -32,7 +31,7 @@ $sortLinks[__('Creator')] = 'Dublin Core,Creator';
       <?php echo __("%s letters", $total_results); ?>
     <?php endif; ?>
     <form class="zip" method='post' action=''>
-      <label for="tei"><i class="fa fa-download"></i> Lataa TEI-tiedostot</label>
+      <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
       <input id="tei" type='submit' name='tei' hidden />
     </form>
   </span>
@@ -73,7 +72,7 @@ $sortLinks[__('Creator')] = 'Dublin Core,Creator';
               <?php $files = $item->Files;
               foreach($files as $file) {
                 if ($file->getExtension() == 'xml') {
-                  $xml = simplexml_load_file("http://".$_SERVER['SERVER_NAME']."/omeka/files/original/".metadata($file,'filename'));
+                  $xml = simplexml_load_file("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
                   $location = $xml->text->body->div->opener->dateline->placeName;
                   if ($location == 'puuttuu') { /* if location 'puuttuu'/'empty', replace with translatable word */
                     $location = str_replace($location, __('missing'), $location);
