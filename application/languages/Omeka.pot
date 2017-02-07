@@ -464,14 +464,8 @@ msgstr ""
 #: application/tests/suite/Omeka/NavigationTest.php:950
 #: application/views/scripts/collections/browse.php:2
 #: themes/dark-blue/common/header.php:123
-#: themes/dark-blue-text/common/header.php:123
-#: themes/lgreen_plain-rectangle-img/common/header.php:123
-#: themes/lgreen_plain-round-img/common/header.php:123
-#: themes/lgreen_signet-round-img/common/header.php:123
-#: themes/lgreen_text-rectangle-img/common/header.php:123
-#: themes/lgreen_text-round-img/common/header.php:123
+#: themes/lonnrot/common/header.php:123
 #: themes/light-blue/common/header.php:123
-#: themes/light-blue-text/common/header.php:123
 #: themes/sand/common/header.php:123
 #: themes/lilac/common/header.php:123
 #: themes/yellow/common/header.php:123
@@ -1203,16 +1197,9 @@ msgstr ""
 #: application/tests/suite/Omeka/NavigationTest.php:949
 #: application/views/scripts/items/browse.php:2
 #: application/views/scripts/items/tags.php:2
-#: themes/default/common/header.php:120
 #: themes/dark-blue/common/header.php:120
-#: themes/dark-blue-text/common/header.php:120
-#: themes/lgreen_plain-rectangle-img/common/header.php:120
-#: themes/lgreen_plain-round-img/common/header.php:120
-#: themes/lgreen_signet-round-img/common/header.php:120
-#: themes/lgreen_text-rectangle-img/common/header.php:120
-#: themes/lgreen_text-round-img/common/header.php:120
+#: themes/lonnrot/common/header.php:120
 #: themes/light-blue/common/header.php:120
-#: themes/light-blue-text/common/header.php:120
 #: themes/sand/common/header.php:120
 #: themes/lilac/common/header.php:120
 #: themes/yellow/common/header.php:120
@@ -3628,16 +3615,9 @@ msgstr ""
 msgid "Solr search"
 msgstr ""
 
-#: themes/default/common/header.php:124
 #: themes/dark-blue/common/header.php:124
-#: themes/dark-blue-text/common/header.php:124
-#: themes/lgreen_plain-rectangle-img/common/header.php:124
-#: themes/lgreen_plain-round-img/common/header.php:124
-#: themes/lgreen_signet-round-img/common/header.php:124
-#: themes/lgreen_text-rectangle-img/common/header.php:124
-#: themes/lgreen_text-round-img/common/header.php:124
+#: themes/lonnrot/common/header.php:124
 #: themes/light-blue/common/header.php:124
-#: themes/light-blue-text/common/header.php:124
 #: themes/sand/common/header.php:124
 #: themes/lilac/common/header.php:124
 #: themes/yellow/common/header.php:124
@@ -3646,16 +3626,9 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
-#: themes/default/common/header.php:125
 #: themes/dark-blue/common/header.php:125
-#: themes/dark-blue-text/common/header.php:125
-#: themes/lgreen_plain-rectangle-img/common/header.php:125
-#: themes/lgreen_plain-round-img/common/header.php:125
-#: themes/lgreen_signet-round-img/common/header.php:125
-#: themes/lgreen_text-rectangle-img/common/header.php:125
-#: themes/lgreen_text-round-img/common/header.php:125
+#: themes/lonnrot/common/header.php:125
 #: themes/light-blue/common/header.php:125
-#: themes/light-blue-text/common/header.php:125
 #: themes/sand/common/header.php:125
 #: themes/lilac/common/header.php:125
 #: themes/yellow/common/header.php:125
@@ -3833,24 +3806,12 @@ msgstr ""
 msgid "The Search returned no results"
 msgstr ""
 
-#: themes/lgreen_text-round-img/common/header.php:15
-#: themes/lgreen_text-round-img/common/header.php:111
 #: themes/dark-blue/common/header.php:15
 #: themes/dark-blue/common/header.php:111
-#: themes/dark-blue-text/common/header.php:15
-#: themes/dark-blue-text/common/header.php:111
-#: themes/lgreen_plain-rectangle-img/common/header.php:15
-#: themes/lgreen_plain-rectangle-img/common/header.php:111
-#: themes/lgreen_plain-round-img/common/header.php:15
-#: themes/lgreen_plain-round-img/common/header.php:111
-#: themes/lgreen_signet-round-img/common/header.php:15
-#: themes/lgreen_signet-round-img/common/header.php:111
-#: themes/lgreen_text-rectangle-img/common/header.php:15
-#: themes/lgreen_text-rectangle-img/common/header.php:111
+#: themes/lonnrot/common/header.php:15
+#: themes/lonnrot/common/header.php:111
 #: themes/light-blue/common/header.php:15
 #: themes/light-blue/common/header.php:111
-#: themes/light-blue-text/common/header.php:15
-#: themes/light-blue-text/common/header.php:111
 #: themes/sand/common/header.php:15
 #: themes/sand/common/header.php:111
 #: themes/lilac/common/header.php:15

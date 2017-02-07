@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-02-06 15:43+0200\n"
-"PO-Revision-Date: 2017-02-06 15:43+0200\n"
+"POT-Creation-Date: 2017-02-07 13:25+0200\n"
+"PO-Revision-Date: 2017-02-07 13:25+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -494,17 +494,10 @@ msgstr "Nostettu etusivulle"
 #: application/tests/suite/Omeka/NavigationTest.php:831
 #: application/tests/suite/Omeka/NavigationTest.php:950
 #: application/views/scripts/collections/browse.php:2
-#: themes/dark-blue/common/header.php:123
-#: themes/dark-blue-text/common/header.php:123
-#: themes/lgreen_plain-rectangle-img/common/header.php:123
-#: themes/lgreen_plain-round-img/common/header.php:123
-#: themes/lgreen_signet-round-img/common/header.php:123
-#: themes/lgreen_text-rectangle-img/common/header.php:123
-#: themes/lgreen_text-round-img/common/header.php:123
-#: themes/light-blue/common/header.php:123
-#: themes/light-blue-text/common/header.php:123
-#: themes/sand/common/header.php:123 themes/lilac/common/header.php:123
-#: themes/yellow/common/header.php:123 themes/red/common/header.php:123
+#: themes/dark-blue/common/header.php:123 themes/lonnrot/common/header.php:123
+#: themes/light-blue/common/header.php:123 themes/sand/common/header.php:123
+#: themes/lilac/common/header.php:123 themes/yellow/common/header.php:123
+#: themes/red/common/header.php:123
 msgid "Browse Recipients"
 msgstr "Selaa vastaanottajia"
 
@@ -1240,17 +1233,10 @@ msgstr "Valitse jos haluat poistaa merkityt aineistot."
 #: application/tests/suite/Omeka/NavigationTest.php:949
 #: application/views/scripts/items/browse.php:2
 #: application/views/scripts/items/tags.php:2
-#: themes/default/common/header.php:120 themes/dark-blue/common/header.php:120
-#: themes/dark-blue-text/common/header.php:120
-#: themes/lgreen_plain-rectangle-img/common/header.php:120
-#: themes/lgreen_plain-round-img/common/header.php:120
-#: themes/lgreen_signet-round-img/common/header.php:120
-#: themes/lgreen_text-rectangle-img/common/header.php:120
-#: themes/lgreen_text-round-img/common/header.php:120
-#: themes/light-blue/common/header.php:120
-#: themes/light-blue-text/common/header.php:120
-#: themes/sand/common/header.php:120 themes/lilac/common/header.php:120
-#: themes/yellow/common/header.php:120 themes/red/common/header.php:120
+#: themes/dark-blue/common/header.php:120 themes/lonnrot/common/header.php:120
+#: themes/light-blue/common/header.php:120 themes/sand/common/header.php:120
+#: themes/lilac/common/header.php:120 themes/yellow/common/header.php:120
+#: themes/red/common/header.php:120
 msgid "Browse Letters"
 msgstr "Selaa kirjeitä"
 
@@ -3781,32 +3767,18 @@ msgstr "Ylläpito"
 msgid "Solr search"
 msgstr "Solr-haku"
 
-#: themes/default/common/header.php:124 themes/dark-blue/common/header.php:124
-#: themes/dark-blue-text/common/header.php:124
-#: themes/lgreen_plain-rectangle-img/common/header.php:124
-#: themes/lgreen_plain-round-img/common/header.php:124
-#: themes/lgreen_signet-round-img/common/header.php:124
-#: themes/lgreen_text-rectangle-img/common/header.php:124
-#: themes/lgreen_text-round-img/common/header.php:124
-#: themes/light-blue/common/header.php:124
-#: themes/light-blue-text/common/header.php:124
-#: themes/sand/common/header.php:124 themes/lilac/common/header.php:124
-#: themes/yellow/common/header.php:124 themes/red/common/header.php:124
+#: themes/dark-blue/common/header.php:124 themes/lonnrot/common/header.php:124
+#: themes/light-blue/common/header.php:124 themes/sand/common/header.php:124
+#: themes/lilac/common/header.php:124 themes/yellow/common/header.php:124
+#: themes/red/common/header.php:124
 #: plugins/SimplePages/views/public/page/show.php:14
 msgid "Information"
 msgstr "Tietoja"
 
-#: themes/default/common/header.php:125 themes/dark-blue/common/header.php:125
-#: themes/dark-blue-text/common/header.php:125
-#: themes/lgreen_plain-rectangle-img/common/header.php:125
-#: themes/lgreen_plain-round-img/common/header.php:125
-#: themes/lgreen_signet-round-img/common/header.php:125
-#: themes/lgreen_text-rectangle-img/common/header.php:125
-#: themes/lgreen_text-round-img/common/header.php:125
-#: themes/light-blue/common/header.php:125
-#: themes/light-blue-text/common/header.php:125
-#: themes/sand/common/header.php:125 themes/lilac/common/header.php:125
-#: themes/yellow/common/header.php:125 themes/red/common/header.php:125
+#: themes/dark-blue/common/header.php:125 themes/lonnrot/common/header.php:125
+#: themes/light-blue/common/header.php:125 themes/sand/common/header.php:125
+#: themes/lilac/common/header.php:125 themes/yellow/common/header.php:125
+#: themes/red/common/header.php:125
 msgid "Instructions"
 msgstr "Ohjeita"
 
@@ -3975,27 +3947,14 @@ msgstr "Kirjoituspaikka: "
 msgid "The Search returned no results"
 msgstr "Haku ei löytänyt tuloksia"
 
-#: themes/lgreen_text-round-img/common/header.php:15
-#: themes/lgreen_text-round-img/common/header.php:111
 #: themes/dark-blue/common/header.php:15 themes/dark-blue/common/header.php:111
-#: themes/dark-blue-text/common/header.php:15
-#: themes/dark-blue-text/common/header.php:111
-#: themes/lgreen_plain-rectangle-img/common/header.php:15
-#: themes/lgreen_plain-rectangle-img/common/header.php:111
-#: themes/lgreen_plain-round-img/common/header.php:15
-#: themes/lgreen_plain-round-img/common/header.php:111
-#: themes/lgreen_signet-round-img/common/header.php:15
-#: themes/lgreen_signet-round-img/common/header.php:111
-#: themes/lgreen_text-rectangle-img/common/header.php:15
-#: themes/lgreen_text-rectangle-img/common/header.php:111
+#: themes/lonnrot/common/header.php:15 themes/lonnrot/common/header.php:111
 #: themes/light-blue/common/header.php:15
-#: themes/light-blue/common/header.php:111
-#: themes/light-blue-text/common/header.php:15
-#: themes/light-blue-text/common/header.php:111
-#: themes/sand/common/header.php:15 themes/sand/common/header.php:111
-#: themes/lilac/common/header.php:15 themes/lilac/common/header.php:111
-#: themes/yellow/common/header.php:15 themes/yellow/common/header.php:111
-#: themes/red/common/header.php:15 themes/red/common/header.php:111
+#: themes/light-blue/common/header.php:111 themes/sand/common/header.php:15
+#: themes/sand/common/header.php:111 themes/lilac/common/header.php:15
+#: themes/lilac/common/header.php:111 themes/yellow/common/header.php:15
+#: themes/yellow/common/header.php:111 themes/red/common/header.php:15
+#: themes/red/common/header.php:111
 msgid "Elias Lönnrot Letters"
 msgstr "Elias Lönnrotin kirjeenvaihto"
 
