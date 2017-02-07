@@ -2022,7 +2022,7 @@ th {
   /* @end */
   /* @group ----- Footer ----- */
   footer {
-    background: #000;
+    background: #fff;
     margin-top: 4em;
     color: #666;
     border-top: 1px solid #ccc;
@@ -2304,10 +2304,10 @@ th {
     /*background-color: #f58579; punainen;
     background-color: #ffc971; keltainen;
     background-color: #ddb58c; hiekka;
-    background-color: #c7d6d8; vaalea sininen;
-    background-color: #c2d5bb; vaalea vihreä*/
-    background-color: #6e5a96; /*violetti;
-    /*background-color: #7aa1b2; tumma sininen;*/
+    background-color: #c7d6d8; vaalea sininen;*/
+    background-color: #c2d5bb; vaalea vihreä
+    /*background-color: #6e5a96; violetti;
+    background-color: #7aa1b2; tumma sininen;*/
     background-position: center center;
     width: 100%;
     height: 8.5em;

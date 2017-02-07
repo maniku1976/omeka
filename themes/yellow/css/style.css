@@ -2025,10 +2025,7 @@ th {
     background: #000;
     margin-top: 4em;
     color: #666;
-    /*lear: both;
-    overflow: hidden;
-    padding: 20px;
-    border-top: 1px dotted #444444;*/
+    border-top: 1px solid #ccc;
   }
   /*footer p {
     float: left;
@@ -2311,17 +2308,6 @@ th {
     background-color: #c2d5bb; vaalea vihreä
     background-color: #6e5a96; violetti;
     background-color: #7aa1b2; tumma sininen;*/
-    /*background-image: url("../images/OMEKA_header_tausta_teksti-lgreen.jpg");
-    background-image: url("../images/OMEKA_header_tausta_sinetti-lgreen.jpg");
-    background-image: url("../images/OMEKA_header_tausta_teksti-lblue.jpg");
-    background-image: url("../images/OMEKA_header_tausta_sinetti-lblue.jpg");
-    background-image: url("../images/OMEKA_header_tausta_teksti-dblue.jpg");
-    background-image: url("../images/OMEKA_header_tausta_sinetti-dblue.jpg");
-    background-image: url("../images/OMEKA_header_tausta_teksti-lilac.jpg");
-    background-image: url("../images/OMEKA_header_tausta_teksti-yellow.jpg");
-    background-image: url("../images/OMEKA_header_tausta_teksti-red.jpg");
-    background-image: url("../images/OMEKA_header_tausta_teksti-sand.jpg");
-    */
     background-position: center center;
     width: 100%;
     height: 8.5em;
@@ -2800,13 +2786,11 @@ th {
 
   #item-main-list {
     width: 100%;
-    height: 650px;
-    overflow: auto;
+    height: auto;
+    overflow: hidden;
     padding-left: 3em;
     padding-right: 3em;
     padding-bottom: 1em;
-    border: 1px solid #eee;
-    border-radius: 0px;
   }
 
   .item.hentry p a {
