@@ -77,7 +77,7 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
                   if ($location == 'puuttuu') { /* if location 'puuttuu'/'empty', replace with translatable word */
                     $location = str_replace($location, __('missing'), $location);
                   }
-                  echo __('Sent from: ').$location;
+                  echo __('Sent from').': '.$location;
                 }
               }
               ?>

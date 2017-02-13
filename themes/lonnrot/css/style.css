@@ -2851,6 +2851,9 @@ th {
   #instructions a:hover {
     color: #999;
   }
+  #instructions a:visited {
+    color: #eee !important;
+  }
 
   #markings ul li {
     margin-bottom: 1em;

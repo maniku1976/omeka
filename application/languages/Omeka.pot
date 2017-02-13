@@ -972,6 +972,7 @@ msgstr ""
 #: admin/themes/default/item-types/form.php:43
 #: admin/themes/default/items/tag-form.php:23
 #: application/views/helpers/ElementInput.php:113
+#: plugins/SolrSearch/views/shared/results/index.php:67
 msgid "Remove"
 msgstr ""
 
@@ -1074,7 +1075,8 @@ msgstr ""
 #: admin/themes/default/items/batch-edit.php:90
 #: admin/themes/default/items/browse.php:90
 #: admin/themes/default/items/edit.php:41
-#: admin/themes/default/items/show.php:57 application/libraries/globals.php:411
+#: admin/themes/default/items/show.php:57
+#: application/libraries/globals.php:411
 #: application/views/scripts/items/show.php:18
 #: plugins/SolrSearch/views/shared/results/index.php:44
 #: plugins/SolrSearch/views/shared/results/index.php:97
@@ -3709,44 +3711,6 @@ msgstr ""
 msgid "Download TEI Files"
 msgstr ""
 
-# Replace field codes in Solr search results with proper names
-
-#: plugins/SolrSearch/views/shared/results/index.php:170
-msgid "40_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:173
-msgid "43_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:176
-msgid "44_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:179
-msgid "46_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:182
-msgid "50_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:185
-msgid "51_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:188
-msgid "52_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:191
-msgid "70_t"
-msgstr ""
-
-#: plugins/SolrSearch/views/shared/results/index.php:194
-msgid "75_t"
-msgstr ""
-
 #: plugins/SolrSearch/views/shared/results/index.php:87
 msgid "XML File"
 msgstr ""
@@ -3798,8 +3762,10 @@ msgid "missing"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:71
-": application/views/scripts/items/single.php:28
-msgid "Sent from: "
+#: application/views/scripts/items/single.php:28
+#: plugins/SolrSearch/views/shared/results/index.php:53
+#: plugins/SolrSearch/views/shared/results/index.php:101
+msgid "Sent from"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:43
@@ -3821,4 +3787,24 @@ msgstr ""
 #: themes/red/common/header.php:15
 #: themes/red/common/header.php:111
 msgid "Elias Lönnrot Letters"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:205
+msgid "Letter number"
+msgstr ""
+
+#: plugins/SolrSearch/views/shared/results/index.php:220
+msgid "Text"
+msgstr ""
+
+#: application/views/scripts/items/search-form.php:38
+msgid "Select Search Field"
+msgstr ""
+
+#: application/views/scripts/items/search-form.php:40
+msgid "Writer"
+msgstr ""
+
+#: application/views/scripts/items/search-form.php:50
+msgid "Select Search Type"
 msgstr ""

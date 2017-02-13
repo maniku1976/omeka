@@ -5,10 +5,16 @@ $(document).ready(function() {
 
      if ($('#ext-search').is(':hidden')) {
        $('#ext-search').slideDown('fast', function() {});
+       /* preselect 'contains' in FI/SE/EN */
        $('select[title = "Haun tyyppi"]')
        .find('option[value="contains"]')
        .attr('selected', true)
-       /*$('select[title = "Hakutyyppi"]').hide();*/
+       $('select[title = "Search Type"]')
+       .find('option[value="contains"]')
+       .attr('selected', true)
+       $('select[title = "Sök typ"]')
+       .find('option[value="contains"]')
+       .attr('selected', true)
      } else {
        $('#ext-search').slideUp('fast', function() {});
      }
@@ -18,6 +24,7 @@ $(document).ready(function() {
    $('#infobtn').click(function() {
      if ($('#instructions').is(':hidden')) {
        $('#instructions').slideDown('fast', function() {});
+       $('#instructions').delay(5000).slideUp('fast', function() {});
      } else {
        $('#instructions').slideUp('fast', function() {});
      }

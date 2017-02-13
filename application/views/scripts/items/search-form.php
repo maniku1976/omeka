@@ -2,10 +2,11 @@
 if (!empty($formActionUri)):
     $formAttributes['action'] = $formActionUri;
 else:
-    /* After a Solr query, value of action attribute is the Solr search url,
-    so Omeka's extended search does not work -> url. */
+    /* Make sure action attribute value is '/omeka/items/browse' on all pages */
     $url = url(array('controller'=>'items','action'=>'browse'));
-    $url = str_replace('solr-search', 'items/browse', $url);
+    if ($url != '/omeka/items/browse') {
+      $url = str_replace($url, '/omeka/items/browse', $url);
+    }
     $formAttributes['action'] = $url;
     /*$formAttributes['action'] = url(array('controller'=>'items',
                                           'action'=>'browse'));*/
@@ -32,11 +33,12 @@ $formAttributes['method'] = 'GET';
                   'sort' => 'orderBySet'));
               // Remove unnecessary selections from advanced search fields dropdown menu
               $table_options = array_diff($table_options,
-                ['Aihe', 'Kuvaus', 'Kattavuus', 'Laji', 'Formaatti', 'Julkaisija', 'Oikeudet',
-                'Muu tekijä', 'Lähde', 'Suhde']);
+                [__('Subject'), __('Description'), __('Coverage'), __('Type'), __('Format'), __('Publisher'), __('Rights'),
+                __('Contributor'), __('Source'), __('Relation')]);
 
-              $table_options = str_replace('Valitse', 'Valitse hakukenttä', $table_options);
-              $table_options = str_replace('Otsikko', 'Vastaanottaja', $table_options);
+              $table_options = str_replace(__('Select Below'), __('Select Search Field'), $table_options);
+              $table_options = str_replace(__('Title'), __('Recipient'), $table_options);
+              $table_options = str_replace(__('Creator'), __('Writer'), $table_options);
 
               $label_table_options = label_table_options(array(
                   'contains' => __('contains'),
@@ -46,7 +48,7 @@ $formAttributes['method'] = 'GET';
                   'is not empty' => __('is not empty'))
               );
 
-              $label_table_options = str_replace('Valitse', 'Valitse hakurajoite', $label_table_options);
+              $label_table_options = str_replace(__('Select Below'), __('Select Search Type'), $label_table_options);
             ?>
 
             <div class="search-entry">

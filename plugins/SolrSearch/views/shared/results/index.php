@@ -50,26 +50,21 @@
                 $label = __('Language');
                 break;
             case "XML File":
-                $label = __('XML File');
+                $label = __('Sent from');
                 break;
-          }
-          if ($label == 'XML-tiedosto') {
-            $label = str_replace('XML-tiedosto', 'Kirjoituspaikka', $label);
-          } elseif ($label == 'XML-fil') {
-            $label = str_replace('XML-fil', 'Skrivningsort', $label);
           }
           ?>
 
           <span class="applied-facet-label" style="font-weight:bold;"><?php echo $label." - "; ?></span>
           <!-- Capitalize specific labels in search results view -->
-          <?php if ($label == 'Kirjoituspaikka'): ?>
+          <?php if ($label == __('Sent from')): ?>
             <span class="applied-facet-value"><?php echo ucfirst($f[1]); ?></span>
           <?php else: ?>
             <span class="applied-facet-value"><?php echo $f[1]; ?></span>
           <?php endif; ?>
           <!-- Remove link. -->
           <?php $url = SolrSearch_Helpers_Facet::removeFacet($f[0], $f[1]); ?>
-          (<a href="<?php echo $url; ?>">poista</a>)
+          (<a href="<?php echo $url; ?>"><?php echo __('Remove'); ?></a>)
 
         </li>
       <?php endforeach; ?>
@@ -103,13 +98,8 @@
               $label = __('Language');
               break;
           case "XML File":
-              $label = __('XML File');
+              $label = __('Sent from');
               break;
-        }
-        if ($label == 'XML-tiedosto') {
-          $label = str_replace('XML-tiedosto', 'Kirjoituspaikka', $label);
-        } elseif ($label == 'XML-fil') {
-          $label = str_replace('XML-fil', 'Skrivningsort', $label);
         }
         ?>
 
@@ -126,9 +116,25 @@
               <!-- Facet link. -->
               <a href="<?php echo $url; ?>" class="facet-value">
                 <!-- Capitalize values in specific facets -->
-                <?php if ($label == 'Kirjoituspaikka') {
+                <?php if ($label == __('Sent from')) {
                   $value = ucfirst($value);
-                } ?>
+                } elseif ($label == __('Collection')) {
+                  switch ($value) {
+                    case 'Lönnrot to Castrén':
+                      $value = __('Lönnrot to Castrén');
+                      break;
+                    case 'Lönnrot to Elmgren':
+                      $value = __('Lönnrot to Elmgren');
+                      break;
+                    case 'Lönnrot to Rabbe':
+                      $value = __('Lönnrot to Rabbe');
+                      break;
+                    case 'Lönnrot to Keckman':
+                      $value = __('Lönnrot to Keckman');
+                      break;
+                  }
+                } 
+                ?>
                 <?php echo str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $value); ?>
               </a>
 
@@ -200,7 +206,7 @@
                  which field a specific result was found in -->
             <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
 
-              <?php if($prop == 'Laji'):
+              <?php if ($prop == 'Laji'):
                 $field = str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $field);
               endif; ?>
               <?php foreach($field as $hl): ?>
@@ -209,31 +215,31 @@
                 <?php
                 switch ($prop) {
                   case "40_t":
-                    $prop = __('40_t');
+                    $prop = __('Date');
                     break;
                   case "43_t":
-                    $prop = __('43_t');
+                    $prop = __('Letter number');
                     break;
                   case "44_t":
-                    $prop = __('44_t');
+                    $prop = __('Language');
                     break;
                   case "46_t":
-                    $prop = __('46_t');
+                    $prop = __('Signum');
                     break;
                   case "50_t":
-                    $prop = __('50_t');
+                    $prop = __('Title');
                     break;
                   case "51_t":
-                    $prop = __('51_t');
+                    $prop = __('Item Type');
                     break;
                   case "52_t":
-                    $prop = __('52_t');
+                    $prop = __('Text');
                     break;
                   case "70_t":
-                    $prop = __('70_t');
+                    $prop = __('Sent from');
                     break;
                   case "75_t":
-                    $prop = __('75_t');
+                    $prop = __('Recipient');
                     break;
                 }?>
                 <?php echo '<b>'.$prop.'</b>: '.strip_tags($hl, '<em>').'</li>';?>

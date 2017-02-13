@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-02-07 13:25+0200\n"
-"PO-Revision-Date: 2017-02-07 13:25+0200\n"
+"POT-Creation-Date: 2017-02-13 14:03+0200\n"
+"PO-Revision-Date: 2017-02-13 14:04+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -1005,6 +1005,7 @@ msgstr "Päivitä versioon %s"
 #: admin/themes/default/item-types/form.php:43
 #: admin/themes/default/items/tag-form.php:23
 #: application/views/helpers/ElementInput.php:113
+#: plugins/SolrSearch/views/shared/results/index.php:67
 msgid "Remove"
 msgstr "Poista"
 
@@ -3852,43 +3853,6 @@ msgstr "Lataa TEI-tiedosto"
 msgid "Download TEI Files"
 msgstr "Lataa TEI-tiedostot"
 
-# Replace field codes in Solr search results with proper names
-#: plugins/SolrSearch/views/shared/results/index.php:170
-msgid "40_t"
-msgstr "Kirjoitusaika"
-
-#: plugins/SolrSearch/views/shared/results/index.php:173
-msgid "43_t"
-msgstr "Kirjeen numero"
-
-#: plugins/SolrSearch/views/shared/results/index.php:176
-msgid "44_t"
-msgstr "Kieli"
-
-#: plugins/SolrSearch/views/shared/results/index.php:179
-msgid "46_t"
-msgstr "Signum"
-
-#: plugins/SolrSearch/views/shared/results/index.php:182
-msgid "50_t"
-msgstr "Otsikko"
-
-#: plugins/SolrSearch/views/shared/results/index.php:185
-msgid "51_t"
-msgstr "Laji"
-
-#: plugins/SolrSearch/views/shared/results/index.php:188
-msgid "52_t"
-msgstr "Teksti"
-
-#: plugins/SolrSearch/views/shared/results/index.php:191
-msgid "70_t"
-msgstr "Kirjoituspaikka"
-
-#: plugins/SolrSearch/views/shared/results/index.php:194
-msgid "75_t"
-msgstr "Vastaanottaja"
-
 #: plugins/SolrSearch/views/shared/results/index.php:87
 msgid "XML File"
 msgstr "XML-tiedosto"
@@ -3940,8 +3904,11 @@ msgid "missing"
 msgstr "puuttuu"
 
 #: application/views/scripts/items/browse.php:71
-msgid "Sent from: "
-msgstr "Kirjoituspaikka: "
+#: application/views/scripts/items/single.php:28
+#: plugins/SolrSearch/views/shared/results/index.php:53
+#: plugins/SolrSearch/views/shared/results/index.php:101
+msgid "Sent from"
+msgstr "Kirjoituspaikka"
 
 #: application/views/scripts/items/browse.php:43
 msgid "The Search returned no results"
@@ -3957,6 +3924,69 @@ msgstr "Haku ei löytänyt tuloksia"
 #: themes/red/common/header.php:111
 msgid "Elias Lönnrot Letters"
 msgstr "Elias Lönnrotin kirjeenvaihto"
+
+#: plugins/SolrSearch/views/shared/results/index.php:205
+msgid "Letter number"
+msgstr "Kirjeen numero"
+
+#: plugins/SolrSearch/views/shared/results/index.php:220
+msgid "Text"
+msgstr "Teksti"
+
+#: application/views/scripts/items/search-form.php:38
+msgid "Select Search Field"
+msgstr "Valitse hakukenttä"
+
+#: application/views/scripts/items/search-form.php:40
+msgid "Writer"
+msgstr "Kirjoittaja"
+
+#: application/views/scripts/items/search-form.php:50
+msgid "Select Search Type"
+msgstr "Valitse hakutapa"
+
+#~ msgid "letter"
+#~ msgstr "kirje"
+
+#~ msgid "letter draft"
+#~ msgstr "kirjekonsepti"
+
+#~ msgid "short notebook entry"
+#~ msgstr "merkintä konseptikirjassa"
+
+# Replace field codes in Solr search results with proper names
+#~ msgid "40_t"
+#~ msgstr "Kirjoitusaika"
+
+#~ msgid "43_t"
+#~ msgstr "Kirjeen numero"
+
+#~ msgid "44_t"
+#~ msgstr "Kieli"
+
+#~ msgid "46_t"
+#~ msgstr "Signum"
+
+#~ msgid "50_t"
+#~ msgstr "Otsikko"
+
+#~ msgid "51_t"
+#~ msgstr "Laji"
+
+#~ msgid "52_t"
+#~ msgstr "Teksti"
+
+#~ msgid "70_t"
+#~ msgstr "Kirjoituspaikka"
+
+#~ msgid "75_t"
+#~ msgstr "Vastaanottaja"
+
+#~ msgid "Sent From"
+#~ msgstr "Kirjoituspaikka"
+
+#~ msgid "Sent from: "
+#~ msgstr "Kirjoituspaikka: "
 
 #~ msgid "Preface"
 #~ msgstr "Esipuhe"
