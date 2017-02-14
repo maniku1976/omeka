@@ -151,11 +151,16 @@ extends Omeka_Controller_AbstractActionController
     // If defined, replace `:`; otherwise, revert to `*:*`.
     // Also, clean it up some.
     if (!empty($query)) {
-
+      echo $query;
+      // For Swedish users: queries on document type (letter, draft etc)
+      if ($query == 'brev') {
+        $query = 'kirje';
+      } else if (strpos($query, 'koncept') !== 0) {
+        $query = str_replace('koncept', 'konsepti', $query);
       // Lönnrot's special characters. If query involves words that
       // are present in transcriptions both with and without special
       // character, construct OR query containing both alternatives
-      if (strpos($query, 'ae') !== false) {
+      } else if (strpos($query, 'ae') !== false) {
         $query1 = str_replace('ae', '\u00E6', $query);
         $query .= " OR {$query1}";
       } else if (strpos($query, 'c') !== false) {
@@ -168,6 +173,7 @@ extends Omeka_Controller_AbstractActionController
         $query4 = str_replace('ä', '\u00E6', $query);
         $query .= " OR {$query4}";
       }
+
 
       $query = str_replace(':', ' ', $query);
       $to_remove = array('[', ']');

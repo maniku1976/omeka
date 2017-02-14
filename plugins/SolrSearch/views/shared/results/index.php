@@ -133,7 +133,7 @@
                       $value = __('Lönnrot to Keckman');
                       break;
                   }
-                } 
+                }
                 ?>
                 <?php echo str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $value); ?>
               </a>
@@ -206,7 +206,7 @@
                  which field a specific result was found in -->
             <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
 
-              <?php if ($prop == 'Laji'):
+              <?php if ($prop == __('Type')):
                 $field = str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $field);
               endif; ?>
               <?php foreach($field as $hl): ?>

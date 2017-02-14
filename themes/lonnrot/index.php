@@ -3,8 +3,7 @@
 <div id="primary">
   <p style="text-align:center;"><img src="<?php echo img('OMEKA_tunnuskuva_sinetti_pyorea.png'); ?>" /></p>
   <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
-    <p>
-      <?php echo $homepageText; ?>
+    <p id="front-page">
     </p>
   <?php endif; ?>
   <?php if (get_theme_option('Display Featured Item') == 1): ?>
