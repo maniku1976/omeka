@@ -151,12 +151,11 @@ extends Omeka_Controller_AbstractActionController
     // If defined, replace `:`; otherwise, revert to `*:*`.
     // Also, clean it up some.
     if (!empty($query)) {
-      echo $query;
       // For Swedish users: queries on document type (letter, draft etc)
       if ($query == 'brev') {
         $query = 'kirje';
-      } else if (strpos($query, 'koncept') !== 0) {
-        $query = str_replace('koncept', 'konsepti', $query);
+      } else if (strpos($query, 'koncept') !== false) {
+        $query = '*konsepti*';
       // Lönnrot's special characters. If query involves words that
       // are present in transcriptions both with and without special
       // character, construct OR query containing both alternatives

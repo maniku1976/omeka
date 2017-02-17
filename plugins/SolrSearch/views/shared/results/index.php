@@ -37,7 +37,7 @@
         <li>
           <!-- Facet label. -->
           <?php $label = SolrSearch_Helpers_Facet::keyToLabel($f[0]); ?>
-
+          <?php $value = $f[1]; ?>
           <!-- Translations for applied facet labels (language files) -->
           <?php switch ($label) {
             case "Collection":
@@ -53,14 +53,17 @@
                 $label = __('Sent from');
                 break;
           }
+          $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
+          $value = str_replace('kirjekonsepti', __('draft letter'), $value);
+          $value = str_replace('kirje', __('letter'), $value);
           ?>
 
           <span class="applied-facet-label" style="font-weight:bold;"><?php echo $label." - "; ?></span>
           <!-- Capitalize specific labels in search results view -->
           <?php if ($label == __('Sent from')): ?>
-            <span class="applied-facet-value"><?php echo ucfirst($f[1]); ?></span>
+            <span class="applied-facet-value"><?php echo ucfirst($value); ?></span>
           <?php else: ?>
-            <span class="applied-facet-value"><?php echo $f[1]; ?></span>
+            <span class="applied-facet-value"><?php echo $value; ?></span>
           <?php endif; ?>
           <!-- Remove link. -->
           <?php $url = SolrSearch_Helpers_Facet::removeFacet($f[0], $f[1]); ?>
@@ -135,7 +138,12 @@
                   }
                 }
                 ?>
-                <?php echo str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $value); ?>
+                <?php
+                $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
+                $value = str_replace('kirjekonsepti', __('draft letter'), $value);
+                $value = str_replace('kirje', __('letter'), $value);
+                ?>
+                <?php echo $value; ?>
               </a>
 
               <!-- Facet count. -->
@@ -206,9 +214,6 @@
                  which field a specific result was found in -->
             <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
 
-              <?php if ($prop == __('Type')):
-                $field = str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $field);
-              endif; ?>
               <?php foreach($field as $hl): ?>
                 <!-- Proper names for Solr field codes, translated in language files -->
                 <?php echo '<li class="snippet">';?>
@@ -230,7 +235,7 @@
                     $prop = __('Title');
                     break;
                   case "51_t":
-                    $prop = __('Item Type');
+                    $prop = __('Document type');
                     break;
                   case "52_t":
                     $prop = __('Text');
@@ -241,7 +246,13 @@
                   case "75_t":
                     $prop = __('Recipient');
                     break;
-                }?>
+                }
+                if ($prop != __('Text')) {
+                  $hl = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $hl);
+                  $hl = str_replace('kirjekonsepti', __('draft letter'), $hl);
+                  $hl = str_replace('kirje', __('letter'), $hl);
+                }
+                ?>
                 <?php echo '<b>'.$prop.'</b>: '.strip_tags($hl, '<em>').'</li>';?>
               <?php endforeach; ?>
             <?php endforeach; ?>
