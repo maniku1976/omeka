@@ -135,6 +135,42 @@
                     case 'Lönnrot to Keckman':
                       $value = __('Lönnrot to Keckman');
                       break;
+                    case "Lönnrot to Ahlqvist":
+                      $title = __('Lönnrot to Ahlqvist');
+                      break;
+                    case "Lönnrot to Borg":
+                      $title = __('Lönnrot to Borg');
+                      break;
+                    case "Lönnrot to Cajan":
+                      $title = __('Lönnrot to Cajan');
+                      break;
+                    case "Lönnrot to Collan":
+                      $title = __('Lönnrot to Collan');
+                      break;
+                    case "Lönnrot to Europaeus":
+                      $title = __('Lönnrot to Europaeus');
+                      break;
+                    case "Lönnrot to Ilmoni":
+                      $title = __('Lönnrot to Ilmoni');
+                      break;
+                    case "Lönnrot to Lindfors":
+                      $title = __('Lönnrot to Lindfors');
+                      break;
+                    case "Lönnrot to Saxa":
+                      $title = __('Lönnrot to Saxa');
+                      break;
+                    case "Lönnrot to Sjögren":
+                      $title = __('Lönnrot to Sjögren');
+                      break;
+                    case "Lönnrot to Ståhlberg":
+                      $title = __('Lönnrot to Ståhlberg');
+                      break;
+                    case "Lönnrot to Ticklén":
+                      $title = __('Lönnrot to Ticklén');
+                      break;
+                    case "Lönnrot to Warelius":
+                      $title = __('Lönnrot to Warelius');
+                      break;
                   }
                 }
                 ?>
@@ -213,8 +249,9 @@
             <!-- Get search result object field labels ($prop) as well as values ($field) to display
                  which field a specific result was found in -->
             <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
-
               <?php foreach($field as $hl): ?>
+                <?php $hl = str_replace('Konsepti kirjeeseen', __('Draft for letter'), $hl); ?>
+                <?php $hl = str_replace('Konseptit kirjeisiin', __('Drafts for letters'), $hl); ?>
                 <!-- Proper names for Solr field codes, translated in language files -->
                 <?php echo '<li class="snippet">';?>
                 <?php
