@@ -156,7 +156,7 @@ abstract class Omeka_Controller_AbstractActionController extends Zend_Controller
 
          // Add local copies of TEI files to zip
          foreach (glob(sys_get_temp_dir().'/*.xml') as $tei) {
-           $zip->addFile($tei);
+           $zip->addFile($tei, basename($tei));
          }
 
          $zip->close();
