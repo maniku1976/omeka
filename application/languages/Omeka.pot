@@ -652,6 +652,14 @@ msgstr ""
 msgid "Powered by Omeka"
 msgstr ""
 
+#: themes/lonnrot/common/footer.php:18
+msgid "Logged in: %s"
+msgstr ""
+
+#: themes/lonnrot/common/footer.php:16
+msgid "Researchers"
+msgstr ""
+
 #: admin/themes/default/common/footer.php:6
 msgid "Documentation"
 msgstr ""
@@ -3949,4 +3957,8 @@ msgstr ""
 
 #: plugins/SolrSearch/views/shared/results/index.php:255
 msgid "Drafts for letters"
+msgstr ""
+
+#: themes/lonnrot/items/show.php:63
+msgid "View Commentary"
 msgstr ""

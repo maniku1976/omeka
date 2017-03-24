@@ -88,3 +88,19 @@ function toggleCommentsXML() {
     }
   });
 }
+
+$(document).ready(function() {
+
+  $('#commentary-btn').click(function() {
+    if ($('#commentary').is(':hidden')) {
+      $('#commentary').slideDown("fast", function() {
+
+      });
+    } else {
+      $('#commentary').slideUp("fast", function() {
+
+      });
+    }
+  });
+
+});

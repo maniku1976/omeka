@@ -2926,7 +2926,58 @@ th {
     color: #333 !important;
   }
 
-  .
+  .field {
+    border-bottom: none !important;
+    width: 80% !important;
+  }
+
+  .field input {
+    border: 0.2px solid #ccc !important;
+    width: 80% !important;
+    float: left !important;
+    overflow: none;
+  }
+
+  #login_link {
+    cursor:pointer;
+    float:right;
+    margin-right:16px;
+    text-transform: uppercase;
+    color: #999;
+  }
+
+  #logged_in {
+    float:right;
+    margin-right:16px;
+    text-transform: uppercase;
+    color: #999;
+  }
+
+  #logout_link {
+    float:right;
+    margin-right:25px;
+    cursor:pointer;
+    text-transform: uppercase;
+    color: #999;
+  }
+
+  #commentary {
+    display: none;
+    margin-bottom: 1em;
+  }
+
+  #commentary-span, #commentary-btn {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #999;
+  }
+
+  #commentary-btn {
+    cursor: pointer;
+  }
+
+
+
 
   /* @end */
 }

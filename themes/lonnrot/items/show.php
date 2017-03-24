@@ -60,6 +60,16 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   </div>
 </div>
 
+<?php $commentary = metadata('item', array('Item Type Metadata', 'Commentary')); ?>
+<?php if ($commentary) : ?>
+  <span id="commentary-span"><?php echo __('View Commentary'); ?><a id="commentary-btn"> &#8594;</a></span>
+  <div id="commentary">
+    <?php echo $commentary; ?>
+  </div>
+<?php endif ?>
+<div>
+<?php CommentingPlugin::showComments(); ?>
+</div>
 <!-- The following prints a list of all tags associated with the item -->
 <?php if (metadata('item', 'has tags')): ?>
   <div id="item-tags" class="element">

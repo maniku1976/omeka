@@ -1,0 +1,130 @@
+#comments-container .comment-body {
+    margin-left: 16px !important;
+    margin-bottom: 0px !important;
+    min-height: 60px;
+    padding: 6px;
+    clear:both;
+}
+
+#comment-form {
+    clear:both;
+    line-height: 1em;
+    max-width: 500px;
+    padding-top: 1em;
+    margin-left: 16px;
+}
+
+#comment-form #submit {
+    clear: both;
+    display: block;
+}
+
+.commenting-field {
+    margin-bottom: 1em;
+}
+
+.commenting-explanation {
+    margin: 1em 0;
+}
+
+.commenting-field label, .commenting-field input {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.commenting-field label {
+    width: 40%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.commenting-field label[for="captcha"] {
+    width: 100%;
+}
+
+.commenting-field input[type="text"] {
+    width: 58%;
+    margin: 0;
+    border: 0.2px solid #ccc !important;
+}
+
+div#comments-container div.comment-children {
+    margin-left: 18px !important;
+}
+
+div.comment {
+  clear: both;
+	margin-left: 12px;
+	margin-top: 3px;
+	margin-bottom: 6px;
+	min-height: 80px;
+	width: 80%;
+	min-width: 400px;
+  float:left;
+}
+
+div.comment-author {
+  font-weight: bold;
+	float: left;
+  margin-left: 16px;
+	width: 500px;
+}
+
+.comment-flag , .comment-unflag {
+    float:left;
+    cursor: pointer;
+}
+
+div.comment-flagged {
+    background-color: pink;
+}
+
+
+div.comment-body p {
+	font-size: 1em;
+}
+
+.comment-reply {
+	cursor: pointer;
+	float: right;
+  margin-top: 0;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  padding-top: 0.2em;
+  padding-bottom:0.2em;
+  background: #ccc;
+}
+
+.comment-reply:hover {
+  color: #fff !important;
+  background: #333;
+}
+
+p.comment-author-name {
+	margin: 0;
+}
+
+div.success {
+    font-size: 1.8em;
+}
+
+span.comment-flag, span.comment-unflag {
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+a.mceButton {
+	overflow: inherit;
+
+}
+
+div#recaptcha_widget_div {
+  float:left !important;
+}
+
+div.comments p#header {
+  margin-top: 2em;
+  text-transform: uppercase;
+  color: #999;
+  font-size: 20px;
+}

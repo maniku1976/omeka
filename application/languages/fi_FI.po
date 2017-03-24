@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-02-21 15:43+0200\n"
-"PO-Revision-Date: 2017-02-21 15:43+0200\n"
+"POT-Creation-Date: 2017-03-23 10:40+0200\n"
+"PO-Revision-Date: 2017-03-23 10:40+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -679,6 +679,14 @@ msgstr "Poista %s"
 #: admin/themes/default/common/login-footer.php:7
 msgid "Powered by Omeka"
 msgstr "Omekan voimin"
+
+#: themes/lonnrot/common/footer.php:18
+msgid "Logged in: %s"
+msgstr "Kirjautunut: %s"
+
+#: themes/lonnrot/common/footer.php:16
+msgid "Researchers"
+msgstr "Tutkijat"
 
 #: admin/themes/default/common/footer.php:6
 msgid "Documentation"
@@ -4086,6 +4094,10 @@ msgstr "Konsepti kirjeeseen"
 #: plugins/SolrSearch/views/shared/results/index.php:255
 msgid "Drafts for letters"
 msgstr "Konseptit kirjeisiin"
+
+#: themes/lonnrot/items/show.php:63
+msgid "View Commentary"
+msgstr "Katso kommentaari"
 
 #~ msgid "letter "
 #~ msgstr "kirje "
