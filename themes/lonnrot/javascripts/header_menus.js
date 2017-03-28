@@ -20,16 +20,6 @@ $(document).ready(function() {
      }
    });
 
-   /* Open/close instruction links menu */
-   $('#infobtn').click(function() {
-     if ($('#instructions').is(':hidden')) {
-       $('#instructions').slideDown('fast', function() {});
-       $('#instructions').delay(5000).slideUp('fast', function() {});
-     } else {
-       $('#instructions').slideUp('fast', function() {});
-     }
-   });
-
    /* This is for hiding the applied facets background in Solr search results
    when facets are not applied */
    if ($('#solr-applied-facets ul li').size() == 0) {

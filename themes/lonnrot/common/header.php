@@ -98,7 +98,6 @@
   queue_js_file('default');
   queue_js_file('jquery-1.12.4.min');
   queue_js_file('header_menus');
-  queue_js_file('long_texts');
   echo head_js();
   ?>
 </head>
@@ -125,8 +124,8 @@
       </a>
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('collections')); ?>">
         <?php echo __('Browse Recipients'); ?></a>
-        <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('esipuhe')); ?>"><?php echo __('Information'); ?></a>
-        <a id="infobtn"><?php echo __('Instructions'); ?></a>
+        <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('tiedot')); ?>"><?php echo __('Information'); ?></a>
+        <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('ohjeet')); ?>"><?php echo __('Instructions'); ?></a>
         <!-- Extended search and Solr text search -->
     </span>
     <span style="float:right;margin-right:16px;">
@@ -138,12 +137,6 @@
   <div id="ext-search" style="display: none;">
       <?php echo $this->partial('items/search-form.php',
       array('formAttributes' => array('id'=>'advanced-search-form'))); ?>
-  </div>
-  <!-- Instruction links, dropdown -->
-  <div id="instructions" style="display: none;">
-    <ul>
-      <li><a href="<?php echo html_escape(url('ohjeet/merkinnat')); ?>"><?php echo __('Markings Used in Transcriptions'); ?></a></li>
-    </ul>
   </div>
 </header>
 

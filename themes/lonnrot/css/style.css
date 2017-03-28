@@ -2816,45 +2816,6 @@ th {
     padding-right: 1em;
   }
 
-  #infobtn {
-    margin-left: 16px;
-    font-size: 18px !important;
-    cursor: pointer;
-  }
-
-  /* Dropdown menu for instructions links in main header */
-
-  #instructions {
-    background-color: #000;
-    width: auto;
-    position: absolute;
-    left: 32.4em;
-    top: 8.5em;
-    padding-left: 0em !important;
-    z-index: 9999;
-    opacity: 1;
-    font-size: 16px;
-    border-radius: 0px;
-    border: solid 1px black;
-  }
-  #instructions ul {
-    margin: 0;
-    padding: 0.5em;
-    list-style-type: none;
-  }
-  #instructions ul li {
-    line-height: 1.6;
-  }
-  #instructions a {
-    color: #eee;
-  }
-  #instructions a:hover {
-    color: #999;
-  }
-  #instructions a:visited {
-    color: #eee !important;
-  }
-
   #markings ul li {
     margin-bottom: 1em;
   }

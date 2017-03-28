@@ -64,6 +64,11 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
               /* Display writing date for each item, format d.m.yyyy */
               echo __('Date').': '.date('j.n.Y', strtotime($date)); ?>
             </div>
+          <?php else: ?>
+            <div class="item-date">
+              <?php
+              echo __('Date').': '; ?>
+            </div>
           <?php endif; ?>
 
           <?php if ($description = metadata('item', array('Dublin Core', 'Description'), array('snippet'=>250))): ?>

@@ -5,12 +5,12 @@ $(document).ready(function() {
   // loop through comments.js as key/value pairs
   $.each(comments, function(key, value) {
     // find first occurrence of key
-    var first = $('#exhibit3b').text().indexOf(key);
+    var first = $('.textFrame').text().indexOf(key);
     // get substring from start of key to following space
     if (first >= 0) {
       var last = first + key.length;
-      var ext = $('#exhibit3b').text().indexOf(' ', last);
-      var ending = $('#exhibit3b').text().substring(last, ext);
+      var ext = $('.textFrame').text().indexOf(' ', last);
+      var ending = $('.textFrame').text().substring(last, ext);
 
       // key followed by specific characters
       if (ending.indexOf(",") >= 0) {
@@ -26,8 +26,8 @@ $(document).ready(function() {
       var str = key + ending;
 
       // insert popup
-      $('#exhibit3b')
-      .html($('#exhibit3b')
+      $('textFrame')
+      .html($('textFrame')
       .html()
       .replace(str, '<a class="comm tooltip bt" href="#">' + str + '<span>' + value + '</span></a>'));
     }
