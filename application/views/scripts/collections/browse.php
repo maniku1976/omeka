@@ -89,9 +89,9 @@ $sortLinks[__('Date Added')] = 'added';
         <div class="image"><?php echo $collectionImage; ?></div>
       <?php endif; ?>
 
-      <?php if (metadata('collection', array('Dublin Core', 'Description'))): ?>
+      <?php if (metadata('collection', array('Dublin Core', 'Subject'))): ?>
         <div class="collection-description">
-          <?php $descr = metadata('collection', array('Dublin Core', 'Description'));
+          <?php $descr = metadata('collection', array('Dublin Core', 'Subject'));
           switch ($descr) {
             case "Letters sent by Lönnrot to Frans Johan Rabbe":
               $descr = __("Letters sent by Lönnrot to Frans Johan Rabbe");
@@ -143,8 +143,8 @@ $sortLinks[__('Date Added')] = 'added';
               break;
           }
           ?>
-          <?php echo text_to_paragraphs($descr);
-          ?>
+          <?php echo text_to_paragraphs($descr); ?>
+          <?php echo text_to_paragraphs(metadata('collection', array('Dublin Core', 'Description'))); ?>
         </div>
       <?php endif; ?>
 
