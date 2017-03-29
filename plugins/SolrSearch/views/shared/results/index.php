@@ -230,10 +230,19 @@
                   if (empty($title)) {
                       $title = '<i>' . __('[Untitled]') . '</i>';
                   }
-                  // Display letter number and date along with title in search results
+                  // Display letter number and date in d.m.YYYY along with title in search results
+                  // If day/month is '00', display just year/month or year
                   $number = '43_t';
                   $date = '40_t';
-                  echo $doc->$number." - ".$title.", ".date('j.n.Y', strtotime($doc->$date));
+                  $temp_date = $doc->$date;
+                  if (substr_count($doc->$date, '-00') == 0) {
+                    $temp_date = date('j.n.Y', strtotime($doc->$date));
+                  } else if (substr_count($doc->$date, '-00') == 1) {
+                    $temp_date = date('n.Y', strtotime(substr($doc->$date, 0, 7)));
+                  } else if (substr_count($doc->$date, '-00') > 1) {
+                    $temp_date = substr($doc->$date, 0, 4);
+                  }
+                  echo $doc->$number." - ".$title.", ".$temp_date;
               ?></a>
 
           <!-- Result type. -->

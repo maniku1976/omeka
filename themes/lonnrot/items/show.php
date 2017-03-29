@@ -10,9 +10,18 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
 
 <h1 style="margin-bottom:1em;margin-top:0.5em;">
   <?php
-  $date = date('j.n.Y', strtotime(metadata('item', array('Dublin Core', 'Date'))));
-  echo metadata('item', array('Dublin Core', 'Title')).", "
-  .$date; ?>
+  /* Display writing date for each item, format d.m.yyyy. If day/month is '00', display just year/month or year */
+  $date = metadata('item', array('Dublin Core', 'Date'));
+  $temp_date = $date;
+  if (substr_count($date, '-00') == 0) {
+    $temp_date = date('j.n.Y', strtotime($date));
+  } else if (substr_count($date, '-00') == 1) {
+    $temp_date = date('n.Y', strtotime(substr($date, 0, 7)));
+  } else if (substr_count($date, '-00') > 1) {
+    $temp_date = substr($date, 0, 4);
+  }
+  echo metadata('item', array('Dublin Core', 'Title')).", ".$temp_date;
+?>
 </h1>
 
 

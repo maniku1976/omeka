@@ -61,8 +61,16 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
           <?php if ($date = metadata('item', array('Dublin Core', 'Date'), array('snippet'=>250))): ?>
             <div class="item-date">
               <?php
-              /* Display writing date for each item, format d.m.yyyy */
-              echo __('Date').': '.date('j.n.Y', strtotime($date)); ?>
+              /* Display writing date for each item, format d.m.yyyy. If day/month is '00', display just year/month or year */
+              if (substr_count($date, '-00') == 0) {
+                echo __('Date').': '.date('j.n.Y', strtotime($date));
+              } else if (substr_count($date, '-00') == 1) {
+                echo __('Date').': '.date('n.Y', strtotime(substr($date, 0, 7)));
+              } else if (substr_count($date, '-00') > 1) {
+                echo __('Date').': '.substr($date, 0, 4);
+              }
+              ?>
+
             </div>
           <?php else: ?>
             <div class="item-date">
