@@ -3757,12 +3757,14 @@ msgid "Lönnrot to Ahlqvist"
 msgstr ""
 
 #: application/views/scripts/collections/browse.php:44
-#: application/views/helpers/ItemSearchFilters.php:142
+#: application/views/helpers/ItemSearchFilters.php:65
+#: plugins/SolrSearch/views/shared/results/index.php:142
 msgid "Lönnrot to Borg"
 msgstr ""
 
 #: application/views/scripts/collections/browse.php:47
-#: application/views/helpers/ItemSearchFilters.php:145
+#: application/views/helpers/ItemSearchFilters.php:68
+#: plugins/SolrSearch/views/shared/results/index.php:145
 msgid "Lönnrot to Cajan"
 msgstr ""
 
@@ -3772,12 +3774,14 @@ msgid "Lönnrot to Collan"
 msgstr ""
 
 #: application/views/scripts/collections/browse.php:53
-#: application/views/helpers/ItemSearchFilters.php:151
+#: application/views/helpers/ItemSearchFilters.php:71
+#: plugins/SolrSearch/views/shared/results/index.php:151
 msgid "Lönnrot to Europaeus"
 msgstr ""
 
 #: application/views/scripts/collections/browse.php:56
-#: application/views/helpers/ItemSearchFilters.php:154
+#: application/views/helpers/ItemSearchFilters.php:74
+#: plugins/SolrSearch/views/shared/results/index.php:154
 msgid "Lönnrot to Ilmoni"
 msgstr ""
 
@@ -3802,12 +3806,14 @@ msgid "Lönnrot to Ståhlberg"
 msgstr ""
 
 #: application/views/scripts/collections/browse.php:71
-#: application/views/helpers/ItemSearchFilters.php:169
+#: application/views/helpers/ItemSearchFilters.php:78
+#: plugins/SolrSearch/views/shared/results/index.php:169
 msgid "Lönnrot to Ticklén"
 msgstr ""
 
 #: application/views/scripts/collections/browse.php:74
-#: application/views/helpers/ItemSearchFilters.php:172
+#: application/views/helpers/ItemSearchFilters.php:80
+#: plugins/SolrSearch/views/shared/results/index.php:172
 msgid "Lönnrot to Warelius"
 msgstr ""
 

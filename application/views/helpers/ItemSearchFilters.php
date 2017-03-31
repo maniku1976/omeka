@@ -61,6 +61,24 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                               case "Lönnrot to Elmgren":
                                 $title = __('Lönnrot to Elmgren');
                                 break;
+                              case "Lönnrot to Borg":
+                                $title = __('Lönnrot to Borg');
+                                break;
+                              case "Lönnrot to Cajan":
+                                $title = __('Lönnrot to Cajan');
+                                break;
+                              case "Lönnrot to Europaeus":
+                                $title = __('Lönnrot to Europaeus');
+                                break;
+                              case "Lönnrot to Ilmoni":
+                                $title = __('Lönnrot to Ilmoni');
+                                break;
+                              case "Lönnrot to Ticklén":
+                                $title = __('Lönnrot to Ticklén');
+                                break;
+                              case "Lönnrot to Warelius":
+                                $title = __('Lönnrot to Warelius');
+                                break;  
                             }
                             $displayValue = strip_formatting($title);
                         }

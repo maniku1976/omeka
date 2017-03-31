@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-03-28 14:00+0300\n"
-"PO-Revision-Date: 2017-03-28 14:02+0300\n"
+"POT-Creation-Date: 2017-03-31 15:24+0300\n"
+"PO-Revision-Date: 2017-03-31 15:24+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3900,11 +3900,13 @@ msgstr "Lönnrot Ahlqvistille"
 
 #: application/views/scripts/collections/browse.php:44
 #: application/views/helpers/ItemSearchFilters.php:142
+#: plugins/SolrSearch/views/shared/results/index.php:142
 msgid "Lönnrot to Borg"
 msgstr "Lönnrot Borgille"
 
 #: application/views/scripts/collections/browse.php:47
 #: application/views/helpers/ItemSearchFilters.php:145
+#: plugins/SolrSearch/views/shared/results/index.php:145
 msgid "Lönnrot to Cajan"
 msgstr "Lönnrot Cajanille"
 
@@ -3915,11 +3917,13 @@ msgstr "Lönnrot Collanille"
 
 #: application/views/scripts/collections/browse.php:53
 #: application/views/helpers/ItemSearchFilters.php:151
+#: plugins/SolrSearch/views/shared/results/index.php:151
 msgid "Lönnrot to Europaeus"
 msgstr "Lönnrot Europaeukselle"
 
 #: application/views/scripts/collections/browse.php:56
 #: application/views/helpers/ItemSearchFilters.php:154
+#: plugins/SolrSearch/views/shared/results/index.php:154
 msgid "Lönnrot to Ilmoni"
 msgstr "Lönnrot Ilmonille"
 
@@ -3945,11 +3949,13 @@ msgstr "Lönnrot Ståhlbergille"
 
 #: application/views/scripts/collections/browse.php:71
 #: application/views/helpers/ItemSearchFilters.php:169
+#: plugins/SolrSearch/views/shared/results/index.php:169
 msgid "Lönnrot to Ticklén"
 msgstr "Lönnrot Ticklénille"
 
 #: application/views/scripts/collections/browse.php:74
 #: application/views/helpers/ItemSearchFilters.php:172
+#: plugins/SolrSearch/views/shared/results/index.php:172
 msgid "Lönnrot to Warelius"
 msgstr "Lönnrot Wareliukselle"
 
