@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Johan Fredrik Cajan</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-11-29">29.11.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+                        <idno>25:61</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Cajan</surname>
+                                <forename>Johan Fredrik</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>2230</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fi-FI" usage="100">suomi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kuusamo">Kuusamo</placeName>
+                        <date when="1837-01-01">1.1.1837</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak025_163" />
+                <p><hi rend="underline">Kuusamosta 1 Tammikuussa 1837</hi></p>
+                <p>Rakas Weljeni!</p>
+                <p>Tuskin uskotkaan, kuinka Uhtuvasta lähettyäni maailma minusta näytti kamalalta. Sitä ikävätäni en voi 
+                    "sanoilla sanoa, enkä virsissä veteä". Olen usein ennenki Venäjän puolella ollut, vaan niin apialla 
+                    mielellä en ni konsa vielä. Usein tulevat vielä toisella ja kolmannellaki päivällä veet silmihini. 
+                    Voi kuinka mielelläni olisin jälkeesi kohin kääntynyt, jos olisin kehannut ja jos toisella puolella 
+                    ei himoni olisi vetänyt minua ulommaksi tievustelemaan, mitä voisi löytyä. Ainaki pitää niillä seuvuin
+                    kerta käyä, saa min saapi, ajattelin ma, ja ehkä toisten en enää pääsisikän. - Niin läksin ja olen 
+                    sitte Sinusta erottuani osittain jalan, osittain hiihtämällä, osittain hevosella matkannut päälle 300 
+                    virstan, Tuoppajärven, kylissä enimmiten, jotka kuitenki olivat hyvin köyhiä, niin ruualta, kuin runoilta. 
+                    Muutamassa Makari nimellisessä kylässä ostin kaksi hyvää asetta, suuren venäjän puukon ja sukset. Vaan 
+                    kumpastaan ei ole minulla enää, koska Pyhässä Saaressa vaihon puukkoni vielä suurempaan ja mielestäni
+                    parempaan, sukset taasen unohtuvat jälkeeni. Sitä ennen niillä kuitenki hiihin ylehensä 60 virstaa, 
+                    jotta jousivatpa unohluaki. Katoslammin kylästä Suureen järveen hiihtaessäni oli 30 virstaa aivan umpea 
+                    ja vähällä olin sillä taipaleella uupua. Ilman oppaatta en kyllä lähtenytkän vaan hänki, eräs karkulainen, 
+                    täällä piilossa elävä mies, ei ollut suuresti itseäni parempi.</p> 
+                <pb n="2" facs="lnak025_164" />
+                <p>Illaksi toki pääsimä kylään ja majautuma Tuhkaispapin Hornan taloon. Jos muistat Jaakkosen Jyvälahessa, 
+                    niin jopa kyllä helposti arvaat, mimmoinen mies tämä Horna oli. Esiksi ni hän ei suannut minua itsensä 
+                    ja muien kera kylyyn, vaikka oppaani, pahapäivänen karkuri kyllä pääsi. Sitte kumartaa ilvehteli hän 
+                    puolen iltaa ja viimmeksi väitti vanhat homeiset, savustuneet Slavonskankieliset kirjansa olevan 
+                    <hi rend="underline">Gretsseskan</hi> kieltä. Skiitassa tapasin äskenmainitun Jaakkosenki veljentyttäret, 
+                    jotka vaativat minua sekä Venäjän kirjoja lukemaan, että laulamaan Karjalan lauluja ja valminaa soittamaan.
+                    Heiän opettajansa eli hoitajansa oli aivan ummikko Venäläisakka riepu, jos lieneeki alkuansa jotai 
+                    herrasrotua ollut. Koko naispyhitys Skiitta näköönsä ei ole parempi, kun muinenkan Venäjänpuolinen kylä,
+                    jotta pettymään kyllä tulinki, kun luulin siinä tavallisen naisten monasterin löytäväni. Pyhä Saari, jossa 
+                    miehet Jumalaa palvelevat, taikka ovat palvelevanansa, on Skiitasta 8 virstaa pohjaseen päin. Ei äyriä 
+                    parempi kun Skiitta ollut se minusta. Kirkossa kyllä kävin jo kaksiki kertaa ja kyllä näin, että siellä 
+                    oli muutamia tomuttuneita kuvia, vaan en ni, mitä niien olisi pitänyt kuvailla. Päällysmiehen, jonka nimi
+                    oli Ilja, sanottiin koko maailman kielet osaavan, vaan nähtävästi Karjala, Ruotsi, Saksa ja Latina näihen
+                    koko maailman kieliin ei kuulunut, sillä niitä myöten en saanut sanaakan häneltä. Yhen yön ainoasti viivyin</p> 
+                <pb n="3" facs="lnak025_165" />
+                <p>tässä, enemmin rosvopesältä, kun monasterilta näyttävässä rakennuksessa. Siitä tulin taas Skiittaan ja vielä
+                    samana päivänä Vaarakylään, vaikka kyllä vaaittiin minua Skiittaan yöksi jäämään. Kuinka sieltä olen tänne
+                    Kuusamoon joutunut, sillä nyt en ni kirjotustani pitkittele. Täällä olen Arvuutukset selväksi kirjottanut 
+                    ja uuen laukun kaheksalla eri sialla teettänyt. Nyt lähen Pääjärven kylihin ja Vienasta, jos sinne minulle
+                    kirjan laitat Helsingistä, taasen Toukokuun lopulla kirjotan enemmin. Unohtu minulta Vaseniukselle viimmen 
+                    kirjottaa käännöstyöstä. Tässä nyt on kirja hänelle siitä asiasta, jos luulet tarvitsevasi, niin vie käteen.
+                    Leikkaa myös erille seuraava tietoanto Mehiläisestä ja pyyä kamreeri Rabben toimittamaan se Suomen Yht. 
+                    Aviisiin, taikka paneta itse, muistamalla minun puolestani, jälkimmäisessä tapahuksessa, panna pränttäyskuluki. 
+                    Näitä tietoja</p> 
+                <pb n="4" facs="lnak025_166" />
+                <p>myöten, joita täältä ja matkaltani tätä ennen olen saanut. Suomen tahi Karjalan kieli loppuu heti Pääjärven 
+                    pohjaspuolella ta lappi alkaa. Niin ollen kyllä tuleeki minulle tuumaamista joko Suomen tahi Venäjän puolitse 
+                    ylös Kuolaan mennä. Taitaapa pitää Suomen puolelle tulla, sillä Lappalaisten kanssa minun ei ni ole mitänä
+                    tekemistä ja toimittamista. Sano terveisiä muillenki ja Keckmannille, jolle minulla ei nyt ole mitän erittäin 
+                    kirjottamista, ennen kun Kuolasta tahi Kemistä, jos sieltä kirja kulkisi.</p>
+                <p>Ystäväsi.</p> 
+                <p>Elias Lönnrot</p>
+                <p>Jos Waseniuksella ei olisi käännettävää antaa, niin käy Frenckellissä eli pyyä Keckmannin puolestasi käymään ja
+                    toimittamaan.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

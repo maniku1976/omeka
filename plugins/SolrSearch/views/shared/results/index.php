@@ -136,40 +136,40 @@
                       $value = __('Lönnrot to Keckman');
                       break;
                     case "Lönnrot to Ahlqvist":
-                      $title = __('Lönnrot to Ahlqvist');
+                      $value = __('Lönnrot to Ahlqvist');
                       break;
                     case "Lönnrot to Borg":
-                      $title = __('Lönnrot to Borg');
+                      $value = __('Lönnrot to Borg');
                       break;
                     case "Lönnrot to Cajan":
-                      $title = __('Lönnrot to Cajan');
+                      $value = __('Lönnrot to Cajan');
                       break;
                     case "Lönnrot to Collan":
-                      $title = __('Lönnrot to Collan');
+                      $value = __('Lönnrot to Collan');
                       break;
                     case "Lönnrot to Europaeus":
-                      $title = __('Lönnrot to Europaeus');
+                      $value = __('Lönnrot to Europaeus');
                       break;
                     case "Lönnrot to Ilmoni":
-                      $title = __('Lönnrot to Ilmoni');
+                      $value = __('Lönnrot to Ilmoni');
                       break;
                     case "Lönnrot to Lindfors":
-                      $title = __('Lönnrot to Lindfors');
+                      $value = __('Lönnrot to Lindfors');
                       break;
                     case "Lönnrot to Saxa":
-                      $title = __('Lönnrot to Saxa');
+                      $value = __('Lönnrot to Saxa');
                       break;
                     case "Lönnrot to Sjögren":
-                      $title = __('Lönnrot to Sjögren');
+                      $value = __('Lönnrot to Sjögren');
                       break;
                     case "Lönnrot to Ståhlberg":
-                      $title = __('Lönnrot to Ståhlberg');
+                      $value = __('Lönnrot to Ståhlberg');
                       break;
                     case "Lönnrot to Ticklén":
-                      $title = __('Lönnrot to Ticklén');
+                      $value = __('Lönnrot to Ticklén');
                       break;
                     case "Lönnrot to Warelius":
-                      $title = __('Lönnrot to Warelius');
+                      $value = __('Lönnrot to Warelius');
                       break;
                   }
                 }

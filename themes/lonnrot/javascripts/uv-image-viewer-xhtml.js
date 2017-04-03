@@ -26,8 +26,8 @@ $(document).ready(function() {
       var str = key + ending;
 
       // insert popup
-      $('textFrame')
-      .html($('textFrame')
+      $('.textFrame')
+      .html($('.textFrame')
       .html()
       .replace(str, '<a class="comm tooltip bt" href="#">' + str + '<span>' + value + '</span></a>'));
     }

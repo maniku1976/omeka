@@ -81,7 +81,7 @@ $(document).ready(function() {
 
   // Hide everything but first page
   $('#exhibit3b').find('.page').not('.page:eq(0)').hide();
-  
+
   // Hide page break elements
   $('#exhibit3b').find('.pb').hide();
 
