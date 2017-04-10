@@ -21,39 +21,48 @@ $sortLinks[__('Date Added')] = 'added';
 
     <div class="collection">
 
-      <!-- Link to separate collection page replaced with link to items in the collection; translate titles -->
+      <!-- Link to separate collection page replaced with link to items in the collection; translate titles, variable for correspondence years -->
       <h2 style="padding-bottom: 0.5em;">
         <?php $title = metadata('collection', array('Dublin Core', 'Title'));
+        $years = '';
         switch ($title) {
           case "Lönnrot to Rabbe":
             $title = __('Lönnrot to Rabbe');
+            $years = '1833 - 1871';
             break;
           case "Lönnrot to Castrén":
             $title = __('Lönnrot to Castrén');
+            $years = '1839 - 1851';
             break;
           case "Lönnrot to Keckman":
             $title = __('Lönnrot to Keckman');
+            $years = '1826 - 1838';
             break;
           case "Lönnrot to Elmgren":
             $title = __('Lönnrot to Elmgren');
+            $years = '1848 - 1865';
             break;
           case "Lönnrot to Ahlqvist":
             $title = __('Lönnrot to Ahlqvist');
             break;
           case "Lönnrot to Borg":
             $title = __('Lönnrot to Borg');
+            $years = '1863 - 1884';
             break;
           case "Lönnrot to Cajan":
             $title = __('Lönnrot to Cajan');
+            $years = '1836 - 1845';
             break;
           case "Lönnrot to Collan":
             $title = __('Lönnrot to Collan');
             break;
           case "Lönnrot to Europaeus":
             $title = __('Lönnrot to Europaeus');
+            $years = '1845 - 1850';
             break;
           case "Lönnrot to Ilmoni":
             $title = __('Lönnrot to Ilmoni');
+            $years = '1833 - 1849';
             break;
           case "Lönnrot to Lindfors":
             $title = __('Lönnrot to Lindfors');
@@ -69,19 +78,18 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Ticklén":
             $title = __('Lönnrot to Ticklén');
+            $years = '1833 - 1837';
             break;
           case "Lönnrot to Warelius":
             $title = __('Lönnrot to Warelius');
+            $years = '1848 - 1883';
             break;
         }
         ?>
         <?php echo link_to_items_browse($title, array('collection' => metadata('collection', 'id'))); ?>
         <?php $count = metadata($collection, 'total_items');
-        if ($count == 1):
-          echo ' ('.__('%s letter', $count).')';
-        else:
-          echo ' ('.__('%s letters', $count).')';
-        endif;
+        /* Show number of letters and correspondence years for each collection */
+        echo __('(%1$s letters, %2$s)', $count, $years);
         ?>
       </h2>
       <?php if ($collectionImage = record_image('collection', 'square_thumbnail')): ?>

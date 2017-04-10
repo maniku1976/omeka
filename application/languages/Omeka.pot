@@ -3669,8 +3669,8 @@ msgstr ""
 msgid "%s letter"
 msgstr ""
 
-#: application/views/scripts/items/browse.php:83
-msgid "%s letters"
+#: application/views/scripts/items/browse.php:86
+msgid "(%1$s letters, %2$s)"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:82

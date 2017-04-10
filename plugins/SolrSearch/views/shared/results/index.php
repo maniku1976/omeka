@@ -209,7 +209,7 @@
 
     <!-- Results sorted according to date. -->
     <?php
-      usort($results->response->docs, function($a, $b) {
+      $result_list = usort($results->response->docs, function($a, $b) {
           $date = '40_t';
           return strcmp($a->$date, $b->$date);
         });

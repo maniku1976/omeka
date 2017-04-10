@@ -193,7 +193,7 @@ public static function getUri($record)
   $rc     = get_class($record);
 
   if ($rc === 'SimplePagesPage') {
-    $uri = url($record->slug);
+    $uri = '';
   }
 
   else if ($rc === 'ExhibitPage') {

@@ -6,6 +6,7 @@
   <?php if ( $description = option('description')): ?>
     <meta name="description" content="<?php echo $description; ?>" />
   <?php endif; ?>
+      <link rel="icon" href="http://www.finlit.fi/sites/all/themes/kt_base/favicon.ico">
   <?php
   if (isset($title)) {
     $titleParts[] = strip_formatting($title);

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-03-31 15:24+0300\n"
-"PO-Revision-Date: 2017-03-31 15:24+0300\n"
+"POT-Creation-Date: 2017-04-10 13:30+0300\n"
+"PO-Revision-Date: 2017-04-10 13:30+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3814,9 +3814,9 @@ msgstr "Kirjeitä löytyi: %s"
 msgid "%s letter"
 msgstr "%s kirje"
 
-#: application/views/scripts/items/browse.php:83
-msgid "%s letters"
-msgstr "%s kirjettä"
+#: application/views/scripts/items/browse.php:86
+msgid "(%1$s letters, %2$s)"
+msgstr "(%1$s kirjettä, %2$s)"
 
 #: application/views/scripts/items/browse.php:82
 msgid "Formats:"
@@ -3899,13 +3899,13 @@ msgid "Lönnrot to Ahlqvist"
 msgstr "Lönnrot Ahlqvistille"
 
 #: application/views/scripts/collections/browse.php:44
-#: application/views/helpers/ItemSearchFilters.php:142
+#: application/views/helpers/ItemSearchFilters.php:65
 #: plugins/SolrSearch/views/shared/results/index.php:142
 msgid "Lönnrot to Borg"
 msgstr "Lönnrot Borgille"
 
 #: application/views/scripts/collections/browse.php:47
-#: application/views/helpers/ItemSearchFilters.php:145
+#: application/views/helpers/ItemSearchFilters.php:68
 #: plugins/SolrSearch/views/shared/results/index.php:145
 msgid "Lönnrot to Cajan"
 msgstr "Lönnrot Cajanille"
@@ -3916,13 +3916,13 @@ msgid "Lönnrot to Collan"
 msgstr "Lönnrot Collanille"
 
 #: application/views/scripts/collections/browse.php:53
-#: application/views/helpers/ItemSearchFilters.php:151
+#: application/views/helpers/ItemSearchFilters.php:71
 #: plugins/SolrSearch/views/shared/results/index.php:151
 msgid "Lönnrot to Europaeus"
 msgstr "Lönnrot Europaeukselle"
 
 #: application/views/scripts/collections/browse.php:56
-#: application/views/helpers/ItemSearchFilters.php:154
+#: application/views/helpers/ItemSearchFilters.php:74
 #: plugins/SolrSearch/views/shared/results/index.php:154
 msgid "Lönnrot to Ilmoni"
 msgstr "Lönnrot Ilmonille"
@@ -3948,13 +3948,13 @@ msgid "Lönnrot to Ståhlberg"
 msgstr "Lönnrot Ståhlbergille"
 
 #: application/views/scripts/collections/browse.php:71
-#: application/views/helpers/ItemSearchFilters.php:169
+#: application/views/helpers/ItemSearchFilters.php:78
 #: plugins/SolrSearch/views/shared/results/index.php:169
 msgid "Lönnrot to Ticklén"
 msgstr "Lönnrot Ticklénille"
 
 #: application/views/scripts/collections/browse.php:74
-#: application/views/helpers/ItemSearchFilters.php:172
+#: application/views/helpers/ItemSearchFilters.php:80
 #: plugins/SolrSearch/views/shared/results/index.php:172
 msgid "Lönnrot to Warelius"
 msgstr "Lönnrot Wareliukselle"
@@ -3985,7 +3985,7 @@ msgstr "Lönnrotin kirjeet Carl Gustaf Borgille"
 
 #: application/views/scripts/collections/browse.php:115
 msgid "Letters sent by Lönnrot to Johan Fredrik Cajan"
-msgstr "Lönnrotin kirjeet Johan Fredkrik Cajanille"
+msgstr "Lönnrotin kirjeet Johan Fredrik Cajanille"
 
 #: application/views/scripts/collections/browse.php:118
 msgid "Letters sent by Lönnrot to Fabian Collan"
@@ -4108,6 +4108,15 @@ msgstr "Katso kommentaari"
 #: plugins/Commenting/CommentForm.php:15
 msgid "Affiliation"
 msgstr "Affiliaatio"
+
+#~ msgid "(%s$1 letters, %s$2)"
+#~ msgstr "(%s$1 kirjettä, %s$2)"
+
+#~ msgid "%s$1 letters, %s$2"
+#~ msgstr "%s$1 kirjettä, %s$2"
+
+#~ msgid "%s letters"
+#~ msgstr "%s kirjettä"
 
 #~ msgid "letter "
 #~ msgstr "kirje "

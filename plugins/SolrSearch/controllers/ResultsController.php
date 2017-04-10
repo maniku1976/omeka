@@ -83,11 +83,13 @@ extends Omeka_Controller_AbstractActionController
       $zip_name = "tei.zip";
       $zip->open(sys_get_temp_dir().'/'.$zip_name, ZipArchive::CREATE);
 
-      // Loop through unpaginated search results, fetch each item and copy their TEI files locally
+      // Loop through unpaginated search results, exclude Simple Pages results, fetch each item and copy their TEI files locally
       foreach ($allResults->response->docs as $doc) {
-        $item = get_db()->getTable($doc->model)->find($doc->modelid);
-        $xml = metadata($item, array('Item Type Metadata', 'XML File'));
-        copy($xml, sys_get_temp_dir().'/'.basename($xml));
+        if (strpos($doc->id, 'SimplePagesPage') === false) {
+          $item = get_db()->getTable($doc->model)->find($doc->modelid);
+          $xml = metadata($item, array('Item Type Metadata', 'XML File'));
+          copy($xml, sys_get_temp_dir().'/'.basename($xml));
+        }
       }
 
       // Add local copies of TEI files to zip

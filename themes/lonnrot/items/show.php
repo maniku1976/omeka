@@ -69,6 +69,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   </div>
 </div>
 
+<!-- Commentary, shown if exists for item, button to hide/show content -->
 <?php $commentary = metadata('item', array('Item Type Metadata', 'Commentary')); ?>
 <?php if ($commentary) : ?>
   <span id="commentary-span"><?php echo __('View Commentary'); ?><a id="commentary-btn"> &#8594;</a></span>
@@ -77,6 +78,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   </div>
 <?php endif ?>
 <div>
+<!-- Adds commenting form to item page -->
 <?php CommentingPlugin::showComments(); ?>
 </div>
 <!-- The following prints a list of all tags associated with the item -->

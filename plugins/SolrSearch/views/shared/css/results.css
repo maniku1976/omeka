@@ -396,11 +396,11 @@ span.float-wrap {
 }
 #solr-search-form span.float-wrap input {
   border: 1px solid #ccc !important;
-  padding: 20px !important;
 }
 #solr-search-form span.float-wrap input[type="text"] {
   width:100%;
   border-radius:2px;
+  height: auto;
 }
 #solr-search-form input {
   padding: 9px 20px;
