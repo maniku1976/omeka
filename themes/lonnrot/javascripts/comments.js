@@ -2,10 +2,8 @@
 
 var comments = {
    'Ridvala': 'Nykykirjoitusmuodossa Ritvala. Paikkakunta Hämeessä.',
-   'Ticklén': 'Johan Fredrik Ticklén (1802 - 1844). Raahen piirilääkäri, kirjastoamanuenssi.',
    'Mehil': 'Suomen ensimmäinen aikakauslehti, jota Lönnrot toimitti. Lehteä painettiin Oulussa 1836-1837 ja sen jälkeen   Helsingissä 1839-1840.',
    'Sanan Saattaja Wiip': 'Viipurissa vuosina 1833 - 1836 ja 1840 - 1841 ilmestynyt sanomalehti, joka sisälsi taloudellisesti ja isänmaallisesti valistavia kirjoituksia, uutisia, kaunokirjallista aineistoa sekä ilmoituksia Viipurin kaikilla kielillä.',
-   'Keckman': 'Carl Niclas Keckman (1793-1838), yliopiston lehtori, kirjastonhoitaja ja suomen kielen kehittäjä.',
    'PostDirectionen': 'Suomen suuriruhtinaskunnan postilaitos.',
    'Hexamet': 'Heksametri, antiikin Kreikan runoudesta periytyvä runomitta.',
    'Kargopol': 'Kaupunki Arkangelin alueella Luoteis-Venäjällä. Kargopolin perustivat nobgorodilaiset 1000-1100-luvulla. 1300- luvulta lähtien se tunnetaan kaupunkina. Ennen slaaviekspansiota alueella oli asunut tsuudilaisia kansoja. 1800-luvulla Latsajärvenetelärannalla asui vielä vepsäläisiin kuulunutta väestöä.',
