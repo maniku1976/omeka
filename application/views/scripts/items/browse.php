@@ -96,6 +96,22 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
               ?>
             </div>
           <?php endif; ?>
+          <!-- adding document type to item listings, needs translations -->
+          <?php if ($type = metadata('item', array('Dublin Core', 'Type'), array('snippet'=>250))): ?>
+            <?php $type = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $type);
+                $type = str_replace('kirjekonsepti', __('draft letter'), $type);
+                $type = str_replace('kirje', __('letter'), $type);
+            ?>
+            <div style="margin-top:1em;">
+              <!--replace description with translatable 'sent from' + location picked from TEI-->
+              <?php if ($type == 'merkinta_konseptikirjassa') {
+                echo 'merkintä konseptikirjassa';
+              } else {
+                echo $type;
+              }
+              ?>
+            </div>
+          <?php endif; ?>
 
           <?php if (metadata('item', 'has tags')): ?>
             <div class="tags"><p><strong><?php echo __('Tags'); ?>:</strong>
