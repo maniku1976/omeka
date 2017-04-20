@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-04-10 13:30+0300\n"
-"PO-Revision-Date: 2017-04-10 13:30+0300\n"
+"POT-Creation-Date: 2017-04-20 09:27+0300\n"
+"PO-Revision-Date: 2017-04-20 09:27+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. Dublin Core description
 msgid ""
@@ -3810,13 +3810,13 @@ msgstr "Rajaa hakua"
 msgid "Letters found: %s"
 msgstr "Kirjeitä löytyi: %s"
 
-#: application/views/scripts/items/browse.php:81
-msgid "%s letter"
-msgstr "%s kirje"
-
 #: application/views/scripts/items/browse.php:86
 msgid "(%1$s letters, %2$s)"
 msgstr "(%1$s kirjettä, %2$s)"
+
+#: application/views/scripts/items/browse.php:28
+msgid "%s letters"
+msgstr "%s kirjettä"
 
 #: application/views/scripts/items/browse.php:82
 msgid "Formats:"
@@ -4109,14 +4109,14 @@ msgstr "Katso kommentaari"
 msgid "Affiliation"
 msgstr "Affiliaatio"
 
+#~ msgid "%s letter"
+#~ msgstr "%s kirje"
+
 #~ msgid "(%s$1 letters, %s$2)"
 #~ msgstr "(%s$1 kirjettä, %s$2)"
 
 #~ msgid "%s$1 letters, %s$2"
 #~ msgstr "%s$1 kirjettä, %s$2"
-
-#~ msgid "%s letters"
-#~ msgstr "%s kirjettä"
 
 #~ msgid "letter "
 #~ msgstr "kirje "

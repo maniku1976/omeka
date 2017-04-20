@@ -25,11 +25,7 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
 <div style="float:left;width:100%;">
   <?php echo item_search_filters(); ?>
   <span style="font-size: 20px;display:inline;">
-    <?php if ($total_results == 1): ?>
-      <?php echo __("%s letter", $total_results); ?>
-    <?php elseif ($total_results > 1): ?>
-      <?php echo __("%s letters", $total_results); ?>
-    <?php endif; ?>
+    <?php echo __("%s letters", $total_results); ?>
     <form class="zip" method='post' action=''>
       <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
       <input id="tei" type='submit' name='tei' hidden />

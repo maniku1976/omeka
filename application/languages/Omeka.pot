@@ -3665,12 +3665,12 @@ msgstr ""
 msgid "Letters found: %s"
 msgstr ""
 
-#: application/views/scripts/items/browse.php:81
-msgid "%s letter"
-msgstr ""
-
 #: application/views/scripts/items/browse.php:86
 msgid "(%1$s letters, %2$s)"
+msgstr ""
+
+#: application/views/scripts/items/browse.php:28
+msgid "%s letters"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:82
