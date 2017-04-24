@@ -171,6 +171,12 @@
                     case "Lönnrot to Warelius":
                       $value = __('Lönnrot to Warelius');
                       break;
+                    case "Lönnrot to Schildt-Kilpinen":
+                      $title = __('Lönnrot to Schildt-Kilpinen');
+                      break;
+                    case "Lönnrot to Granlund":
+                      $title = __('Lönnrot to Granlund');
+                      break;
                   }
                 }
                 ?>

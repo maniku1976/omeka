@@ -44,6 +44,7 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Ahlqvist":
             $title = __('Lönnrot to Ahlqvist');
+            $years = '1845 - 1881';
             break;
           case "Lönnrot to Borg":
             $title = __('Lönnrot to Borg');
@@ -55,6 +56,7 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Collan":
             $title = __('Lönnrot to Collan');
+            $years = '1834 - 1852';
             break;
           case "Lönnrot to Europaeus":
             $title = __('Lönnrot to Europaeus');
@@ -66,15 +68,19 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Lindfors":
             $title = __('Lönnrot to Lindfors');
+            $years = '1835 - 1843';
             break;
           case "Lönnrot to Saxa":
             $title = __('Lönnrot to Saxa');
+            $years = '1833 - 1848';
             break;
           case "Lönnrot to Sjögren":
             $title = __('Lönnrot to Sjögren');
+            $years = '1840 - 1852';
             break;
           case "Lönnrot to Ståhlberg":
             $title = __('Lönnrot to Ståhlberg');
+            $years = '1836 - 1876';
             break;
           case "Lönnrot to Ticklén":
             $title = __('Lönnrot to Ticklén');
@@ -83,6 +89,14 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Warelius":
             $title = __('Lönnrot to Warelius');
             $years = '1848 - 1883';
+            break;
+          case "Lönnrot to Schildt-Kilpinen":
+            $title = __('Lönnrot to Schildt-Kilpinen');
+            $years = '1843 - 1874';
+            break;
+          case "Lönnrot to Granlund":
+            $title = __('Lönnrot to Granlund');
+            $years = '1856 - 1874';
             break;
         }
         ?>
@@ -148,6 +162,12 @@ $sortLinks[__('Date Added')] = 'added';
               break;
             case "Letters sent by Lönnrot to Antero Warelius":
               $descr = __("Letters sent by Lönnrot to Antero Warelius");
+              break;
+            case "Letters sent by Lönnrot to Wolmar Styrbjörn Schildt-Kilpinen":
+              $descr = __("Letters sent by Lönnrot to Wolmar Styrbjörn Schildt-Kilpinen");
+              break;
+            case "Letters sent by Lönnrot to Johan Fredrik Granlund":
+              $descr = __("Letters sent by Lönnrot to Johan Fredrik Granlund");
               break;
           }
           ?>

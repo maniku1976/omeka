@@ -64,8 +64,14 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                               case "Lönnrot to Borg":
                                 $title = __('Lönnrot to Borg');
                                 break;
+                              case "Lönnrot to Ahlqvist":
+                                $title = __('Lönnrot to Ahlqvist');
+                                break;
                               case "Lönnrot to Cajan":
                                 $title = __('Lönnrot to Cajan');
+                                break;
+                              case "Lönnrot to Collan":
+                                $title = __('Lönnrot to Collan');
                                 break;
                               case "Lönnrot to Europaeus":
                                 $title = __('Lönnrot to Europaeus');
@@ -73,12 +79,32 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                               case "Lönnrot to Ilmoni":
                                 $title = __('Lönnrot to Ilmoni');
                                 break;
+                              case "Lönnrot to Lindfors":
+                                $title = __('Lönnrot to Lindfors');
+                                break;
+                              case "Lönnrot to Saxa":
+                                $title = __('Lönnrot to Saxa');
+                                break;
+                              case "Lönnrot to Sjögren":
+                                $title = __('Lönnrot to Sjögren');
+                                break;
+                              case "Lönnrot to Ståhlberg":
+                                $title = __('Lönnrot to Ståhlberg');
+                                break;
                               case "Lönnrot to Ticklén":
                                 $title = __('Lönnrot to Ticklén');
                                 break;
                               case "Lönnrot to Warelius":
                                 $title = __('Lönnrot to Warelius');
-                                break;  
+                                break;
+                              case "Lönnrot to Schildt-Kilpinen":
+                                $title = __('Lönnrot to Schildt-Kilpinen');
+                                $years = '1843 - 1874';
+                                break;
+                              case "Lönnrot to Granlund":
+                                $title = __('Lönnrot to Granlund');
+                                $years = '1856 - 1874';
+                                break;
                             }
                             $displayValue = strip_formatting($title);
                         }

@@ -475,7 +475,7 @@ msgid "Browse Recipients"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:22
-#: plugins/SolrSearch/views/shared/results/index.php:283
+#: plugins/SolrSearch/views/shared/results/index.php:299
 msgid "Recipient"
 msgstr ""
 
@@ -495,7 +495,7 @@ msgstr ""
 
 #: admin/themes/default/collections/browse.php:23
 #: admin/themes/default/collections/show.php:51
-#: application/views/scripts/collections/browse.php:36
+#: application/views/scripts/collections/browse.php:182
 msgid "Contributors"
 msgstr ""
 
@@ -575,7 +575,7 @@ msgstr ""
 #: admin/themes/default/collections/show.php:42
 #: admin/themes/default/items/show.php:52
 #: admin/themes/default/items/show.php:53
-#: application/views/helpers/ItemSearchFilters.php:69
+#: application/views/helpers/ItemSearchFilters.php:122
 msgid "Yes"
 msgstr ""
 
@@ -583,7 +583,7 @@ msgstr ""
 #: admin/themes/default/collections/show.php:42
 #: admin/themes/default/items/show.php:52
 #: admin/themes/default/items/show.php:53
-#: application/views/helpers/ItemSearchFilters.php:69
+#: application/views/helpers/ItemSearchFilters.php:122
 msgid "No"
 msgstr ""
 
@@ -3435,7 +3435,7 @@ msgstr ""
 msgid "View the items in %s"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:160
+#: application/views/scripts/collections/browse.php:188
 #, php-format
 msgid "Letters in the collection"
 msgstr ""
@@ -3661,11 +3661,11 @@ msgstr ""
 msgid "Limit Your Search"
 msgstr ""
 
-#: plugins/SolrSearch/views/shared/results/index.php:203
+#: plugins/SolrSearch/views/shared/results/index.php:209
 msgid "Letters found: %s"
 msgstr ""
 
-#: application/views/scripts/items/browse.php:86
+#: application/views/scripts/items/browse.php:106
 msgid "(%1$s letters, %2$s)"
 msgstr ""
 
@@ -3717,7 +3717,7 @@ msgid "Download TEI"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:34
-#: plugins/SolrSearch/views/shared/results/index.php:205
+#: plugins/SolrSearch/views/shared/results/index.php:211
 #: themes/defaults/items/show.php:106
 msgid "Download TEI Files"
 msgstr ""
@@ -3731,154 +3731,184 @@ msgstr ""
 msgid "Markings Used in Transcriptions"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:29
-#: application/views/helpers/ItemSearchFilters.php:133
+#: application/views/scripts/collections/browse.php:30
+#: application/views/helpers/ItemSearchFilters.php:53
+#: plugins/SolrSearch/views/shared/results/index.php:133
 msgid "Lönnrot to Rabbe"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:32
-#: application/views/helpers/ItemSearchFilters.php:127
+#: application/views/scripts/collections/browse.php:34
+#: application/views/helpers/ItemSearchFilters.php:56
+#: plugins/SolrSearch/views/shared/results/index.php:127
 msgid "Lönnrot to Castrén"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:35
-#: application/views/helpers/ItemSearchFilters.php:136
+#: application/views/scripts/collections/browse.php:38
+#: application/views/helpers/ItemSearchFilters.php:59
+#: plugins/SolrSearch/views/shared/results/index.php:136
 msgid "Lönnrot to Keckman"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:38
-#: application/views/helpers/ItemSearchFilters.php:130
+#: application/views/scripts/collections/browse.php:42
+#: application/views/helpers/ItemSearchFilters.php:62
+#: plugins/SolrSearch/views/shared/results/index.php:130
 msgid "Lönnrot to Elmgren"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:41
-#: application/views/helpers/ItemSearchFilters.php:139
+#: application/views/scripts/collections/browse.php:46
+#: application/views/helpers/ItemSearchFilters.php:68
+#: plugins/SolrSearch/views/shared/results/index.php:139
 msgid "Lönnrot to Ahlqvist"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:44
+#: application/views/scripts/collections/browse.php:50
 #: application/views/helpers/ItemSearchFilters.php:65
 #: plugins/SolrSearch/views/shared/results/index.php:142
 msgid "Lönnrot to Borg"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:47
-#: application/views/helpers/ItemSearchFilters.php:68
+#: application/views/scripts/collections/browse.php:54
+#: application/views/helpers/ItemSearchFilters.php:71
 #: plugins/SolrSearch/views/shared/results/index.php:145
 msgid "Lönnrot to Cajan"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:50
-#: application/views/helpers/ItemSearchFilters.php:148
+#: application/views/scripts/collections/browse.php:58
+#: application/views/helpers/ItemSearchFilters.php:74
+#: plugins/SolrSearch/views/shared/results/index.php:148
 msgid "Lönnrot to Collan"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:53
-#: application/views/helpers/ItemSearchFilters.php:71
+#: application/views/scripts/collections/browse.php:62
+#: application/views/helpers/ItemSearchFilters.php:77
 #: plugins/SolrSearch/views/shared/results/index.php:151
 msgid "Lönnrot to Europaeus"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:56
-#: application/views/helpers/ItemSearchFilters.php:74
+#: application/views/scripts/collections/browse.php:66
+#: application/views/helpers/ItemSearchFilters.php:80
 #: plugins/SolrSearch/views/shared/results/index.php:154
 msgid "Lönnrot to Ilmoni"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:59
-#: application/views/helpers/ItemSearchFilters.php:157
+#: application/views/scripts/collections/browse.php:70
+#: application/views/helpers/ItemSearchFilters.php:83
+#: plugins/SolrSearch/views/shared/results/index.php:157
 msgid "Lönnrot to Lindfors"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:62
-#: application/views/helpers/ItemSearchFilters.php:160
+#: application/views/scripts/collections/browse.php:74
+#: application/views/helpers/ItemSearchFilters.php:86
+#: plugins/SolrSearch/views/shared/results/index.php:160
 msgid "Lönnrot to Saxa"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:65
-#: application/views/helpers/ItemSearchFilters.php:163
+#: application/views/scripts/collections/browse.php:78
+#: application/views/helpers/ItemSearchFilters.php:89
+#: plugins/SolrSearch/views/shared/results/index.php:163
 msgid "Lönnrot to Sjögren"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:68
-#: application/views/helpers/ItemSearchFilters.php:166
+#: application/views/scripts/collections/browse.php:82
+#: application/views/helpers/ItemSearchFilters.php:92
+#: plugins/SolrSearch/views/shared/results/index.php:166
 msgid "Lönnrot to Ståhlberg"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:71
-#: application/views/helpers/ItemSearchFilters.php:78
+#: application/views/scripts/collections/browse.php:86
+#: application/views/helpers/ItemSearchFilters.php:95
 #: plugins/SolrSearch/views/shared/results/index.php:169
 msgid "Lönnrot to Ticklén"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:74
-#: application/views/helpers/ItemSearchFilters.php:80
+#: application/views/scripts/collections/browse.php:90
+#: application/views/helpers/ItemSearchFilters.php:98
 #: plugins/SolrSearch/views/shared/results/index.php:172
 msgid "Lönnrot to Warelius"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:97
+#: application/views/scripts/collections/browse.php:94
+#: application/views/helpers/ItemSearchFilters.php:101
+#: plugins/SolrSearch/views/shared/results/index.php:175
+msgid "Lönnrot to Schildt-Kilpinen"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:90
+#: application/views/helpers/ItemSearchFilters.php:105
+#: plugins/SolrSearch/views/shared/results/index.php:178
+msgid "Lönnrot to Granlund"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:119
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:100
+#: application/views/scripts/collections/browse.php:122
 msgid "Letters sent by Lönnrot to Matthias Alexander Castrén"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:103
+#: application/views/scripts/collections/browse.php:125
 msgid "Letters sent by Lönnrot to Carl Niklas Keckman"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:106
+#: application/views/scripts/collections/browse.php:128
 msgid "Letters sent by Lönnrot to Sven Gabriel Elmgren"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:109
+#: application/views/scripts/collections/browse.php:131
 msgid "Letters sent by Lönnrot to August Engelbrekt Ahlqvist"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:112
+#: application/views/scripts/collections/browse.php:134
 msgid "Letters sent by Lönnrot to Carl Gustaf Borg"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:115
+#: application/views/scripts/collections/browse.php:137
 msgid "Letters sent by Lönnrot to Johan Fredrik Cajan"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:118
+#: application/views/scripts/collections/browse.php:140
 msgid "Letters sent by Lönnrot to Fabian Collan"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:121
+#: application/views/scripts/collections/browse.php:143
 msgid "Letters sent by Lönnrot to David Emanuel Daniel Europaeus"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:124
+#: application/views/scripts/collections/browse.php:146
 msgid "Letters sent by Lönnrot to Immanuel Ilmoni"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:127
+#: application/views/scripts/collections/browse.php:149
 msgid "Letters sent by Lönnrot to Mårten Johan Lindfors"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:130
+#: application/views/scripts/collections/browse.php:152
 msgid "Letters sent by Lönnrot to Carl Saxa"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:133
+#: application/views/scripts/collections/browse.php:155
 msgid "Letters sent by Lönnrot to Anders Johan Sjögren"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:136
+#: application/views/scripts/collections/browse.php:158
 msgid "Letters sent by Lönnrot to Carl Henrik Ståhlberg"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:139
+#: application/views/scripts/collections/browse.php:161
 msgid "Letters sent by Lönnrot to Johan Fredrik Ticklén"
 msgstr ""
 
-#: application/views/scripts/collections/browse.php:142
+#: application/views/scripts/collections/browse.php:164
 msgid "Letters sent by Lönnrot to Antero Warelius"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:167
+msgid "Letters sent by Lönnrot to Wolmar Styrbjörn Schildt-Kilpinen"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:170
+msgid "Letters sent by Lönnrot to Johan Fredrik Granlund"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69
@@ -3889,8 +3919,10 @@ msgstr ""
 #: application/views/scripts/items/browse.php:71
 #: application/views/scripts/items/single.php:28
 #: plugins/SolrSearch/views/shared/results/index.php:53
+#: plugins/SolrSearch/views/shared/results/index.php:63
 #: plugins/SolrSearch/views/shared/results/index.php:104
-#: plugins/SolrSearch/views/shared/results/index.php:280
+#: plugins/SolrSearch/views/shared/results/index.php:122
+#: plugins/SolrSearch/views/shared/results/index.php:296
 msgid "Sent from"
 msgstr ""
 
@@ -3915,11 +3947,11 @@ msgstr ""
 msgid "Elias Lönnrot Letters"
 msgstr ""
 
-#: plugins/SolrSearch/views/shared/results/index.php:262
+#: plugins/SolrSearch/views/shared/results/index.php:278
 msgid "Letter number"
 msgstr ""
 
-#: plugins/SolrSearch/views/shared/results/index.php:277
+#: plugins/SolrSearch/views/shared/results/index.php:293
 msgid "Text"
 msgstr ""
 
@@ -3936,32 +3968,32 @@ msgid "Select Search Type"
 msgstr ""
 
 #: plugins/SolrSearch/views/shared/results/index.php:56
-#: plugins/SolrSearch/views/shared/results/index.php:178
-#: plugins/SolrSearch/views/shared/results/index.php:287
+#: plugins/SolrSearch/views/shared/results/index.php:184
+#: plugins/SolrSearch/views/shared/results/index.php:303
 msgid "note in draft letter book"
 msgstr ""
 
 #: plugins/SolrSearch/views/shared/results/index.php:57
-#: plugins/SolrSearch/views/shared/results/index.php:179
-#: plugins/SolrSearch/views/shared/results/index.php:288
+#: plugins/SolrSearch/views/shared/results/index.php:185
+#: plugins/SolrSearch/views/shared/results/index.php:304
 msgid "draft letter"
 msgstr ""
 
 #: plugins/SolrSearch/views/shared/results/index.php:58
-#: plugins/SolrSearch/views/shared/results/index.php:180
-#: plugins/SolrSearch/views/shared/results/index.php:289
+#: plugins/SolrSearch/views/shared/results/index.php:186
+#: plugins/SolrSearch/views/shared/results/index.php:305
 msgid "letter"
 msgstr ""
 
-#: plugins/SolrSearch/views/shared/results/index.php:276
+#: plugins/SolrSearch/views/shared/results/index.php:290
 msgid "Document type"
 msgstr ""
 
-#: plugins/SolrSearch/views/shared/results/index.php:254
+#: plugins/SolrSearch/views/shared/results/index.php:268
 msgid "Draft for letter"
 msgstr ""
 
-#: plugins/SolrSearch/views/shared/results/index.php:255
+#: plugins/SolrSearch/views/shared/results/index.php:269
 msgid "Drafts for letters"
 msgstr ""
 
