@@ -35,19 +35,28 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     ?>
   </div>
   <div id="exhibit3b">
-    <!-- Buttons for showing/hiding transcription markings and comments, download link for TEI -->
+    <!-- Buttons for showing/hiding transcription markings and commentaries, download link for TEI -->
     <span style="display:inline;float:left;">
       <input type="checkbox" onclick="toggleMarkingsXML()" checked/><?php echo __('Markings');?>&nbsp;&nbsp;
-      <input type="checkbox" onclick="toggleCommentsXML()" checked/><?php echo __('Comments');?>&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" onclick="toggleCommentsXML()" checked/><?php echo __('Definitions');?>&nbsp;&nbsp;
+      <?php if (metadata('item', array('Item Type Metadata', 'Commentary')) !== null): ?>
+        <a id="commentary-button"><i class="fa fa-arrow-down" aria-hidden="true"></i>
+          <?php echo __('Commentaries');?>
+          <span id="commentary-frame">
+            <?php echo metadata('item', array('Item Type Metadata', 'Commentary')); ?>
+          </span>
+        </a>
+      <?php endif;?>
       <?php echo '<a style="color:#444444;border-bottom:none;" href="'
       .metadata('item', array('Item Type Metadata', 'XML File')).'" download><i class="fa fa-download"></i> '
-      .__("Download TEI").'</a>';?>
+      ."TEI".'</a>';?>
     </span>
     <!-- Buttons for moving back and forth in pictures and transcription-->
     <span style="float:right;">
       <a id="btPrevXML" title="<?php echo __('Previous Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-left"></i></a>
       <a id="btNextXML" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-right"></i></a>
     </span>
+    <!-- Frame for displaying commentaries -->
     <!-- Frame for displaying transcription -->
     <div class="textFrame">
       <?php
@@ -69,14 +78,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   </div>
 </div>
 
-<!-- Commentary, shown if exists for item, button to hide/show content -->
-<?php $commentary = metadata('item', array('Item Type Metadata', 'Commentary')); ?>
-<?php if ($commentary) : ?>
-  <span id="commentary-span"><?php echo __('View Commentary'); ?><a id="commentary-btn"> &#8594;</a></span>
-  <div id="commentary">
-    <?php echo $commentary; ?>
-  </div>
-<?php endif ?>
+
 <div>
 <!-- Adds commenting form to item page -->
 <?php CommentingPlugin::showComments(); ?>

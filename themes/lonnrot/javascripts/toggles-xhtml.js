@@ -91,13 +91,13 @@ function toggleCommentsXML() {
 
 $(document).ready(function() {
 
-  $('#commentary-btn').click(function() {
-    if ($('#commentary').is(':hidden')) {
-      $('#commentary').slideDown("fast", function() {
+  $('#commentary-button').click(function() {
+    if ($('#commentary-frame').is(':hidden')) {
+      $('#commentary-frame').slideDown("fast", function() {
 
       });
     } else {
-      $('#commentary').slideUp("fast", function() {
+      $('#commentary-frame').slideUp("fast", function() {
 
       });
     }

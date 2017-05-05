@@ -2619,13 +2619,36 @@ th {
     height:800px;
     float:left;
   }
-  /*#exhibit3b span,
-  #exhibit3b span a {
-    color: #999 !important;
+
+  /* Button and div for showing/hiding letter commentaries */
+
+  a#commentary-button {
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 0.8em;
+    margin-left: 1em;
   }
-  #exhibit3b span a:hover {
-    color: #333 !important;
-  }*/
+
+  #commentary-button span {
+    text-transform: none;
+  }
+
+  #commentary-frame {
+    display: none;
+    border: 1px solid #333;
+    height: 750px;
+    width: 500px;
+    z-index: 999;
+    background: rgba(255,255,255,1);
+    position: absolute;
+    top: 18em;
+    left: 37em;
+    padding: 1.5em;
+    overflow: auto;
+    color: #333;
+
+  }
+
 
   /* Frame for displaying transcription on items show.php */
 

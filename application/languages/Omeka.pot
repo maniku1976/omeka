@@ -3701,14 +3701,16 @@ msgstr ""
 msgid "Metadata"
 msgstr ""
 
-#: themes/defaults/items/show.php:34
-#: themes/defaults/items/show.php:103
+#: themes/lonnrot/items/show.php:40
 msgid "Markings"
 msgstr ""
 
-#: themes/defaults/items/show.php:35
-#: themes/defaults/items/show.php:104
-msgid "Comments"
+#: themes/lonnrot/items/show.php:41
+msgid "Definitions"
+msgstr ""
+
+#: themes/lonnrot/items/show.php:44
+msgid "Commentaries"
 msgstr ""
 
 #: themes/defaults/items/show.php:38
