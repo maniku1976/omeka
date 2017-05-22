@@ -2729,6 +2729,7 @@ th {
 
   a.tooltip {
     outline:none;
+    display:inline-block;
   }
 
   a.tooltip strong {
@@ -2739,23 +2740,27 @@ th {
     text-decoration:none;
   }
 
-  a.tooltip span {
-    z-index:10;
+  a.tooltip + span {
     display:none;
     padding:14px;
-    margin-top:30px;
+    position:absolute;
     margin-left:-8%;
+    margin-top:20px;
     width: auto;
     line-height:16px;
-  }
-
-  a.tooltip:hover span {
-    display:inline;
     text-align: left;
-    position:absolute;
     color:#111;
     border:1px solid #DCA;
     background:#fffAF0;
+  }
+
+  a.tooltip:hover + span {
+    display:inline;
+
+  }
+
+  a.tooltip + span:hover {
+    display:inline;
   }
 
   .callout {

@@ -6,8 +6,10 @@ $(document).ready(function() {
   $.each(comments, function(key, value) {
     // find first occurrence of key
     var first = $('.textFrame').text().indexOf(key);
-    // get substring from start of key to following space
-    if (first >= 0) {
+    // check for occurrence of key in tooltip text
+    var firstTooltip = $('.tooltip span').text().indexOf(key);
+    // get substring from start of key to following space, excluding occurrences in tooltip texts
+    if (first >= 0 && firstTooltip <= 0) {
       var last = first + key.length;
       var ext = $('.textFrame').text().indexOf(' ', last);
       var ending = $('.textFrame').text().substring(last, ext);
@@ -29,8 +31,9 @@ $(document).ready(function() {
       $('.textFrame')
       .html($('.textFrame')
       .html()
-      .replace(str, '<a class="comm tooltip bt" href="#">' + str + '<span>' + value + '</span></a>'));
+      .replace(str, '<a class="comm tooltip bt" href="#">' + str + '</a><span>' + value + '</span>'));
     }
+
   });
 
   // Variable page count, initialized to 1

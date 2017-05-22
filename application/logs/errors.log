@@ -19399,3 +19399,27 @@ Stack trace:
 #9 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
 #10 /var/www/html/omeka/index.php(23): Omeka_Application->run()
 #11 {main}
+2017-05-17T06:43:01+00:00 ERR (3): Apache_Solr_ParserException: Solr response does not appear to be valid JSON, please examine the raw response with getRawResponse() method in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Response.php:206
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Response.php(164): Apache_Solr_Response->_parseData()
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(70): Apache_Solr_Response->__get('response')
+#2 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#6 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#7 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#8 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#9 {main}
+2017-05-22T08:27:02+00:00 ERR (3): Apache_Solr_ParserException: Solr response does not appear to be valid JSON, please examine the raw response with getRawResponse() method in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Response.php:206
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Response.php(164): Apache_Solr_Response->_parseData()
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(70): Apache_Solr_Response->__get('response')
+#2 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#6 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#7 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#8 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#9 {main}
