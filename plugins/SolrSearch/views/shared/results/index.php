@@ -136,76 +136,20 @@
                 $value = ucfirst($value);
               } elseif ($label == __('Collection')) {
                 $value = __($value);
-                /*switch ($value) {
-                  case 'Lönnrot to Castrén':
-                    $value = __('Lönnrot to Castrén');
-                    break;
-                  case 'Lönnrot to Elmgren':
-                    $value = __('Lönnrot to Elmgren');
-                    break;
-                  case 'Lönnrot to Rabbe':
-                    $value = __('Lönnrot to Rabbe');
-                    break;
-                  case 'Lönnrot to Keckman':
-                    $value = __('Lönnrot to Keckman');
-                    break;
-                  case "Lönnrot to Ahlqvist":
-                    $value = __('Lönnrot to Ahlqvist');
-                    break;
-                  case "Lönnrot to Borg":
-                    $value = __('Lönnrot to Borg');
-                    break;
-                  case "Lönnrot to Cajan":
-                    $value = __('Lönnrot to Cajan');
-                    break;
-                  case "Lönnrot to Collan":
-                    $value = __('Lönnrot to Collan');
-                    break;
-                  case "Lönnrot to Europaeus":
-                    $value = __('Lönnrot to Europaeus');
-                    break;
-                  case "Lönnrot to Ilmoni":
-                    $value = __('Lönnrot to Ilmoni');
-                    break;
-                  case "Lönnrot to Lindfors":
-                    $value = __('Lönnrot to Lindfors');
-                    break;
-                  case "Lönnrot to Saxa":
-                    $value = __('Lönnrot to Saxa');
-                    break;
-                  case "Lönnrot to Sjögren":
-                    $value = __('Lönnrot to Sjögren');
-                    break;
-                  case "Lönnrot to Ståhlberg":
-                    $value = __('Lönnrot to Ståhlberg');
-                    break;
-                  case "Lönnrot to Ticklén":
-                    $value = __('Lönnrot to Ticklén');
-                    break;
-                  case "Lönnrot to Warelius":
-                    $value = __('Lönnrot to Warelius');
-                    break;
-                  case "Lönnrot to Schildt-Kilpinen":
-                    $title = __('Lönnrot to Schildt-Kilpinen');
-                    break;
-                  case "Lönnrot to Granlund":
-                    $title = __('Lönnrot to Granlund');
-                    break;
-                  }*/
-                }
-                ?>
-                <?php
+              }
+              ?>
+              <?php
                 $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
                 $value = str_replace('kirjekonsepti', __('draft letter'), $value);
                 $value = str_replace('kirje', __('letter'), $value);
-                ?>
-                <?php echo $value; ?>
-              </a>
+              ?>
+              <?php echo $value; ?>
+            </a>
 
-              <!-- Facet count. -->
-              (<span class="facet-count"><?php echo $count; ?></span>)
+            <!-- Facet count. -->
+            (<span class="facet-count"><?php echo $count; ?></span>)
 
-            </li>
+          </li>
           <?php endforeach; ?>
         </ul>
 
@@ -218,10 +162,6 @@
   <!-- Results. -->
   <div id="solr-results">
     <p>
-    <?php
-
-
-    ?>
     <!-- Number found. -->
     <h2 id="num-found">
       <?php echo __('Letters found: %s', $results->response->numFound); ?>
