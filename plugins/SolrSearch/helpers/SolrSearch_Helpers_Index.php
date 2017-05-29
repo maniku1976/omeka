@@ -99,7 +99,7 @@ class SolrSearch_Helpers_Index
             $text->text = str_replace($text->text, '1860 - 1869', $text->text);
           } else if (substr($text->text,0,3) === '187') {
             $text->text = str_replace($text->text, '1870 - 1879', $text->text);
-          } else if (substr($text->text,0,3) === '184') {
+          } else if (substr($text->text,0,3) === '188') {
             $text->text = str_replace($text->text, '1880 - 1884', $text->text);
           }
           $doc->setMultiValue($field->facetKey(), $text->text);
