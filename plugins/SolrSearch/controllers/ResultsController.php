@@ -78,7 +78,7 @@ extends Omeka_Controller_AbstractActionController
     $allResults = $this->_search($start, $results->response->numFound, $limitToPublicItems);
 
     // Modification: if zip button is clicked in results view, create and download zip of TEI files
-    if(isset($_POST['tei'])){
+    if(isset($_POST['tei'])) {
       $zip = new ZipArchive();
       $zip_name = "tei.zip";
       $zip->open(sys_get_temp_dir().'/'.$zip_name, ZipArchive::CREATE);
@@ -108,6 +108,62 @@ extends Omeka_Controller_AbstractActionController
       readfile(sys_get_temp_dir().'/'.$zip_name);
       array_map('unlink', glob(sys_get_temp_dir().'/*.xml')); //delete TEI files from tmp folder after downloading zip
       unlink(sys_get_temp_dir().'/'.'tei.zip'); //delete tmp zip file after download
+
+      exit();
+    }
+
+    // export facet statistics to csv
+    if (isset($_POST['csv'])) {
+
+      // Fetch facet list
+      $fcts = $results->facet_counts->facet_fields;
+
+      // Initialize array for facet data
+      $data = [];
+
+      // Reformat facet list object -> array and push to $data
+      $json = json_encode($fcts);
+      $array = json_decode($json, true);
+
+      // Fetch query to use as header and add to $data;
+      $query = $this->_request->q;
+      array_push($data, ["kenttä" => "", "arvo" => "HAKU: {$query}"]);
+      array_push($data, ["kenttä" => "", "arvo" => ""]);
+
+      // replace field names, add names and values to $data
+      foreach ($array as $key => $values) {
+        $key = str_replace('collection', 'KOKOELMA', $key);
+        $key = str_replace('40_s', 'KIRJOITUSAIKA', $key);
+        $key = str_replace('44_s', 'KIELI', $key);
+        $key = str_replace('51_s', 'LAJI', $key);
+        $key = str_replace('52_s', 'KIRJOITUSPAIKKA', $key);
+        if ($values) {
+          array_push($data, ["kenttä" => $key, "arvo" => ""]);
+          foreach ($values as $k => $v) {
+            $k = str_replace('merkinta_konseptikirjassa', 'merkintä konseptikirjassa', $k);
+            array_push($data, ["kenttä" => __($k), "arvo" => $v]);
+          }
+          array_push($data, ["kenttä" => "", "arvo" => ""]);
+        }
+      }
+
+      // Initialize csv file and add rows from $data
+      $filename = "data.csv";
+      $fp = fopen('data.csv', 'w');
+
+      $flag = false;
+
+      foreach ($data as $row) {
+        fputcsv($fp, array_values($row), ',', '"');
+      }
+
+      // Force download
+      header("Content-Type: text/csv; charset=utf-8");
+      header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$filename);
+      ob_clean();
+      flush();
+      readfile($filename);
+      unlink($filename);
       exit();
     }
 
@@ -187,7 +243,6 @@ extends Omeka_Controller_AbstractActionController
 
     // Get the `facet` GET parameter
     $facet = $this->_request->facet;
-
     // Form the composite Solr query.
     // Add round brackets around query: needed when query involves special
     // characters, in order for it to be interpreted correctly.
@@ -198,6 +253,7 @@ extends Omeka_Controller_AbstractActionController
     /*if($limitToPublicItems) {
     $query .= ' AND public:"true"';
   }*/
+
 
   return $query;
 

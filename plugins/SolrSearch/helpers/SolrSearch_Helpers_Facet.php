@@ -84,7 +84,7 @@ class SolrSearch_Helpers_Facet
         $facets = self::parseFacets();
         // Add the facet, if it's not already present.
         if (!in_array(array($field, $value), $facets)) {
-            $facets[] = array($field, $value);
+          $facets[] = array($field, $value);
         }
 
         // Rebuild the route.

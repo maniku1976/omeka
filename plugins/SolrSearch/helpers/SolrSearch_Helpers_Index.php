@@ -80,12 +80,32 @@ class SolrSearch_Helpers_Index
         $doc->setMultiValue($field->indexKey(), $text->text);
       }
 
-      // Set string field. For TEI file url field, place only writing location
-      // as facet
-      if ($field->is_facet && $field->label == 'XML File') {
-        $doc->setMultiValue($field->facetKey(), $text->location);
-      } else if ($field->is_facet && $field->label != 'XML File') {
-        $doc->setMultiValue($field->facetKey(), $text->text);
+      // Set string field.
+      if ($field->is_facet) {
+        // For TEI file url field, set only writing location as facet
+        if ($field->label == 'XML File') {
+          $doc->setMultiValue($field->facetKey(), $text->location);
+        // For Date facet, replace individual years with decades
+        } else if ($field->label == 'Date') {
+          if (substr($text->text,0,3) === '182') {
+            $text->text = str_replace($text->text, '1826 - 1829', $text->text);
+          } else if (substr($text->text,0,3) === '183') {
+            $text->text = str_replace($text->text, '1830 - 1839', $text->text);
+          } else if (substr($text->text,0,3) === '184') {
+            $text->text = str_replace($text->text, '1840 - 1849', $text->text);
+          } else if (substr($text->text,0,3) === '185') {
+            $text->text = str_replace($text->text, '1850 - 1859', $text->text);
+          } else if (substr($text->text,0,3) === '186') {
+            $text->text = str_replace($text->text, '1860 - 1869', $text->text);
+          } else if (substr($text->text,0,3) === '187') {
+            $text->text = str_replace($text->text, '1870 - 1879', $text->text);
+          } else if (substr($text->text,0,3) === '184') {
+            $text->text = str_replace($text->text, '1880 - 1884', $text->text);
+          }
+          $doc->setMultiValue($field->facetKey(), $text->text);
+        } else {
+          $doc->setMultiValue($field->facetKey(), $text->text);
+        }
       }
     }
   }

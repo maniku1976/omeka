@@ -19423,3 +19423,120 @@ Stack trace:
 #7 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
 #8 /var/www/html/omeka/index.php(23): Omeka_Application->run()
 #9 {main}
+2017-05-24T10:41:50+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(218): Apache_Solr_Service->search('(*) AND vuosiky...', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:46:20+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ()', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:46:27+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ()', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:46:35+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:46:41+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:55:43+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:56:05+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:56:30+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
+2017-05-29T09:57:56+00:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php:338
+Stack trace:
+#0 /var/www/html/omeka/plugins/SolrSearch/lib/solr-php-client/Service.php(1176): Apache_Solr_Service->_sendRawGet('http://localhos...')
+#1 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(219): Apache_Solr_Service->search('(*) AND ', 0, '10', Array)
+#2 /var/www/html/omeka/plugins/SolrSearch/controllers/ResultsController.php(65): SolrSearch_ResultsController->_search(0, '10', false)
+#3 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(516): SolrSearch_ResultsController->indexAction()
+#4 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#5 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#10 {main}
