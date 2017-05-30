@@ -54,8 +54,8 @@
     <xsl:template match="tei:app">
       <a class="comm tooltip bt" href="#">
         <xsl:value-of select="current()/tei:lem" />
-        <span><xsl:value-of select="current()/tei:rdg" /></span>
       </a>
+      <span><xsl:value-of select="current()/tei:rdg" /></span>
     </xsl:template>
 
     <xsl:template match="tei:ref" priority="99">

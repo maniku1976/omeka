@@ -2756,11 +2756,14 @@ th {
 
   a.tooltip:hover + span {
     display:inline;
-
   }
 
   a.tooltip + span:hover {
     display:inline;
+  }
+
+  a.tooltip + span em span {
+    font-style: normal;
   }
 
   .callout {
