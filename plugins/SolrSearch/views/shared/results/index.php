@@ -87,6 +87,8 @@
 
   <h2><?php echo __('Limit Your Search'); ?></h2>
 
+
+
   <form class="csv-solr" method='post' action=''>
     <label for="csv"><i class="fa fa-download"></i> <?php echo __('Export to table'); ?></label>
     <input id="csv" type='submit' name='csv' hidden />

@@ -2881,36 +2881,18 @@ th {
   }
 
   /* button for downloading TEI-files as zip */
-  form.zip {
-    font-size: 16px !important;
-    float:right;
-    margin-left: 3em;
-  }
-
-  form.zip:hover {
-    background: #333;
-    color: #fff;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-  }
-
-  form.zip input {
-    background-color: #fff;
-    color: #333 !important;
-  }
 
   form.zip-solr {
     font-size: 16px !important;
     float:right;
   }
 
-  form.zip-solr:hover {
+  form.zip-solr:hover label {
     background: #333;
     color: #fff;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding: 0.5em;
+    white-space:nowrap;
+    width: auto;
   }
 
   form.zip-solr input {
@@ -2923,12 +2905,12 @@ th {
     margin-bottom: 1em;
   }
 
-  form.csv-solr:hover {
+  form.csv-solr:hover label {
     background: #333;
     color: #fff;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    width: 55%;
+    padding: 0.5em;
+    white-space: nowrap !important;
+    width: auto;
   }
 
   form.csv-solr input {

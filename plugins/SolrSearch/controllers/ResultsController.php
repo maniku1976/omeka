@@ -166,7 +166,6 @@ extends Omeka_Controller_AbstractActionController
       unlink($filename);
       exit();
     }
-
   }
 
 

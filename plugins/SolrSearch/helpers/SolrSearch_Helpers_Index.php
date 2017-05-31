@@ -58,13 +58,13 @@ class SolrSearch_Helpers_Index
       foreach ($item->getFiles() as $file) {
         if ($file->getExtension() == 'xml') {
           // Fetch TEI file for indexing, reads it into string
-          $contents = file_get_contents("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
+          $contents = file_get_contents("http://localhost/omeka/files/original/".metadata($file,'filename'));
           // Cut out teiHeader and opener elements
           $cut = strpos($contents, '</opener>') + strlen('</opener>');
           $end = strlen($contents);
           $contents = substr($contents, $cut, $end);
           // Fetch TEI file as object, needed for access to specific elements
-          $xml = simplexml_load_file("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
+          $xml = simplexml_load_file("http://localhost/omeka/files/original/".metadata($file,'filename'));
         }
       }
 
@@ -144,7 +144,7 @@ class SolrSearch_Helpers_Index
       if ($file->getExtension() == 'xml') {
 
       // Load TEI file again as object
-        $xml = simplexml_load_file("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
+        $xml = simplexml_load_file("http://localhost/omeka/files/original/".metadata($file,'filename'));
 
         // Create new Solr search field from writing location element for indexing
         $locField = new SolrSearchField();

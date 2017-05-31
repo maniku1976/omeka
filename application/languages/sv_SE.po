@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-05-24 16:22+0300\n"
-"PO-Revision-Date: 2017-05-24 16:26+0300\n"
+"POT-Creation-Date: 2017-05-31 09:58+0300\n"
+"PO-Revision-Date: 2017-05-31 09:58+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3847,10 +3847,13 @@ msgid "Download TEI"
 msgstr "Ladda ner TEI"
 
 #: application/views/scripts/items/browse.php:34
-#: plugins/SolrSearch/views/shared/results/index.php:211
-#: themes/defaults/items/show.php:106
+#: plugins/SolrSearch/views/shared/results/index.php:172
 msgid "Download TEI Files"
 msgstr "Ladda ner TEI filer"
+
+#: plugins/SolrSearch/views/shared/results/index.php:176
+msgid "Download transcriptions"
+msgstr "Ladda ner transkriptioner"
 
 #: plugins/SolrSearch/views/shared/results/index.php:87
 msgid "XML File"

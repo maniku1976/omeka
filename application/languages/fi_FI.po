@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-05-24 16:21+0300\n"
-"PO-Revision-Date: 2017-05-24 16:22+0300\n"
+"POT-Creation-Date: 2017-05-31 09:57+0300\n"
+"PO-Revision-Date: 2017-05-31 09:57+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3863,10 +3863,13 @@ msgid "Download TEI"
 msgstr "Lataa TEI-tiedosto"
 
 #: application/views/scripts/items/browse.php:34
-#: plugins/SolrSearch/views/shared/results/index.php:211
-#: themes/defaults/items/show.php:106
+#: plugins/SolrSearch/views/shared/results/index.php:172
 msgid "Download TEI Files"
 msgstr "Lataa TEI-tiedostot"
+
+#: plugins/SolrSearch/views/shared/results/index.php:176
+msgid "Download transcriptions"
+msgstr "Lataa transkriptiot"
 
 #: plugins/SolrSearch/views/shared/results/index.php:87
 msgid "XML File"
