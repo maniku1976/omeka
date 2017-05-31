@@ -2885,6 +2885,7 @@ th {
   form.zip-solr {
     font-size: 16px !important;
     float:right;
+    margin-left: 1em;
   }
 
   form.zip-solr:hover label {
@@ -2914,6 +2915,24 @@ th {
   }
 
   form.csv-solr input {
+    background-color: #fff;
+    color: #333 !important;
+  }
+
+  form.txt-solr {
+    font-size: 16px !important;
+    float:right;
+  }
+
+  form.txt-solr:hover label {
+    background: #333;
+    color: #fff;
+    padding: 0.5em;
+    white-space:nowrap;
+    width: auto;
+  }
+
+  form.txt-solr input {
     background-color: #fff;
     color: #333 !important;
   }

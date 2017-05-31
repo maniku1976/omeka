@@ -160,17 +160,22 @@
     <?php endforeach; ?>
   </div>
 
-
   <!-- Results. -->
   <div id="solr-results">
     <p>
     <!-- Number found. -->
     <h2 id="num-found">
       <?php echo __('Letters found: %s', $results->response->numFound); ?>
-      <form class="zip-solr" method='post' action=''>
-        <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
-        <input id="tei" type='submit' name='tei' hidden />
-      </form>
+      <span style="display:inline-block;float:right;">
+        <form class="zip-solr" method='post' action=''>
+          <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
+          <input id="tei" type='submit' name='tei' hidden />
+        </form>
+        <form class="txt-solr" method='post' action=''>
+          <label for="txt"><i class="fa fa-download"></i> <?php echo __('Download transcriptions'); ?></label>
+          <input id="txt" type='submit' name='txt' hidden />
+        </form>
+      </span>
     </h2>
 
     <!-- Results sorted according to date. -->

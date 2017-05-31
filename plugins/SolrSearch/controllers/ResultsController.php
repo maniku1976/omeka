@@ -166,6 +166,39 @@ extends Omeka_Controller_AbstractActionController
       unlink($filename);
       exit();
     }
+
+    if (isset($_POST['txt'])) {
+
+      $txtfile = 'transcriptions.txt';
+      $fh = fopen($txtfile, 'a');
+
+      foreach ($allResults->response->docs as $doc) {
+        if (strpos($doc->id, 'SimplePagesPage') === false) {
+          $item = get_db()->getTable($doc->model)->find($doc->modelid);
+          $xml = simplexml_load_file(metadata($item, array('Item Type Metadata', 'XML File')));
+          $id = $xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[1]->bibl;
+          $title = $xml->teiHeader->fileDesc->titleStmt->title;
+          $date = $xml->text->body->div->opener->dateline->date;
+          $place = $xml->text->body->div->opener->dateline->placeName;
+          $text = $xml->text->body->div;
+          fwrite($fh, $id."\n".$title."\n".$place." ".$date."\n\n");
+          foreach ($text->p as $par) {
+            $par = preg_replace("/\s{2,}/", "", $par);
+            fwrite($fh,$par."\n\n");
+          }
+        }
+      }
+
+      fclose($fh);
+
+      header("Content-Type: text/plain; charset=utf-8");
+      header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$txtfile);
+      ob_clean();
+      flush();
+      readfile($txtfile);
+      unlink($txtfile);
+      exit();
+    }
   }
 
 
