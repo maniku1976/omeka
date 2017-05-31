@@ -2882,6 +2882,25 @@ th {
 
   /* button for downloading TEI-files as zip */
 
+  form.zip {
+    font-size: 16px !important;
+    float:right;
+    margin-left: 1em;
+  }
+
+  form.zip:hover label {
+    background: #333;
+    color: #fff;
+    padding: 0.5em;
+    white-space:nowrap;
+    width: auto;
+  }
+
+  form.zip input {
+    background-color: #fff;
+    color: #333 !important;
+  }
+
   form.zip-solr {
     font-size: 16px !important;
     float:right;
