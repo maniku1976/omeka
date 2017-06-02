@@ -26,9 +26,14 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
   <?php echo item_search_filters(); ?>
   <span style="font-size: 20px;display:inline;">
     <?php echo __("%s letters", $total_results); ?>
+    <!-- buttons for downloading TEI files as zip, transcriptions as plain text -->
     <form class="zip" method='post' action=''>
       <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
       <input id="tei" type='submit' name='tei' hidden />
+    </form>
+    <form class="txt-browse" method='post' action=''>
+      <label for="txt-browse"><i class="fa fa-download"></i> <?php echo __('Download transcriptions'); ?></label>
+      <input id="txt-browse" type='submit' name='txt-browse' hidden />
     </form>
   </span>
 </div>

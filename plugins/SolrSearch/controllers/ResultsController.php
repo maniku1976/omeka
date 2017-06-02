@@ -167,30 +167,56 @@ extends Omeka_Controller_AbstractActionController
       exit();
     }
 
+    // Download transcriptions as plain text
     if (isset($_POST['txt'])) {
 
+      // Initialize txt file for writing
       $txtfile = 'transcriptions.txt';
       $fh = fopen($txtfile, 'a');
 
+      // Write each TEI file's id, title, place, date and transcription text nodes to txt file
       foreach ($allResults->response->docs as $doc) {
         if (strpos($doc->id, 'SimplePagesPage') === false) {
+
           $item = get_db()->getTable($doc->model)->find($doc->modelid);
-          $xml = simplexml_load_file(metadata($item, array('Item Type Metadata', 'XML File')));
-          $id = $xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[1]->bibl;
-          $title = $xml->teiHeader->fileDesc->titleStmt->title;
-          $date = $xml->text->body->div->opener->dateline->date;
-          $place = $xml->text->body->div->opener->dateline->placeName;
-          $text = $xml->text->body->div;
-          fwrite($fh, $id."\n".$title."\n".$place." ".$date."\n\n");
-          foreach ($text->p as $par) {
-            $par = preg_replace("/\s{2,}/", "", $par);
-            fwrite($fh,$par."\n\n");
+          $xml = new DOMDocument();
+          $xml->load(metadata($item, array('Item Type Metadata', 'XML File')));
+
+          fwrite($fh,$xml->getElementsByTagName('bibl')[0]->textContent."\n");
+          fwrite($fh,$xml->getElementsByTagName('title')[0]->textContent."\n");
+          fwrite($fh,$xml->getElementsByTagName('placeName')[0]->textContent." ".$xml->getElementsByTagName('date')[1]->textContent."\n\n");
+
+          // Replace TEI tags with text characters
+          foreach($xml->getElementsByTagName('del') as $del) {
+            $del->textContent = "[".$del->textContent."]";
           }
+          foreach($xml->getElementsByTagName('hi') as $hi) {
+            $hi->textContent = '_'.$hi->textContent.'_';
+          }
+          foreach($xml->getElementsByTagName('add') as $add) {
+            $add->textContent = '/'.$add->textContent.'/';
+          }
+          foreach($xml->getElementsByTagName('unclear') as $unclear) {
+            $unclear->textContent = '?'.$unclear->textContent.'?';
+          }
+          foreach($xml->getElementsByTagName('gap') as $gap) {
+            $gap->textConent = '   '.$gap->textContent.'   ';
+          }
+
+          foreach ($xml->getElementsBytagName('div')[0]->childNodes as $child) {
+            if ($child->nodeName == 'p' || $child->nodeName == 'table') {
+              if ($child->nodeName == 'p') {
+                $child->textContent = preg_replace("!\s+!", " ", $child->textContent);
+              }
+              fwrite($fh,$child->textContent."\n\n");
+            }
+          }
+          fwrite($fh,"\n");
         }
       }
 
       fclose($fh);
-
+      // Force download
       header("Content-Type: text/plain; charset=utf-8");
       header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$txtfile);
       ob_clean();
