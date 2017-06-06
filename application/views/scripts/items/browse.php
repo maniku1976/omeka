@@ -26,9 +26,14 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
   <?php echo item_search_filters(); ?>
   <span style="font-size: 20px;display:inline;">
     <?php echo __("%s letters", $total_results); ?>
+    <!-- buttons for downloading TEI files as zip, transcriptions as plain text -->
     <form class="zip" method='post' action=''>
       <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
       <input id="tei" type='submit' name='tei' hidden />
+    </form>
+    <form class="txt-browse" method='post' action=''>
+      <label for="txt-browse"><i class="fa fa-download"></i> <?php echo __('Download transcriptions'); ?></label>
+      <input id="txt-browse" type='submit' name='txt-browse' hidden />
     </form>
   </span>
 </div>
@@ -83,7 +88,7 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
                 if ($file->getExtension() == 'xml') {
                   $xml = simplexml_load_file("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
                   $location = $xml->text->body->div->opener->dateline->placeName;
-                  if ($location == 'puuttuu') { /* if location 'puuttuu'/'empty', replace with translatable word */
+                  if ($location == 'puuttuu') { // if location 'puuttuu'/'empty', replace with translatable word
                     $location = str_replace($location, __('missing'), $location);
                   }
                   echo __('Sent from').': '.$location;

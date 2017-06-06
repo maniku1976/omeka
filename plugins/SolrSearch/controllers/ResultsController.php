@@ -151,8 +151,6 @@ extends Omeka_Controller_AbstractActionController
       $filename = "data.csv";
       $fp = fopen('data.csv', 'w');
 
-      $flag = false;
-
       foreach ($data as $row) {
         fputcsv($fp, array_values($row), ',', '"');
       }
@@ -164,6 +162,67 @@ extends Omeka_Controller_AbstractActionController
       flush();
       readfile($filename);
       unlink($filename);
+      exit();
+    }
+
+    // Download transcriptions as plain text
+    if (isset($_POST['txt-browse'])) {
+
+      // Initialize txt file for writing
+      $txtfile = 'transcriptions.txt';
+      $fh = fopen($txtfile, 'w');
+
+      // Write each TEI file's id, title, place, date and transcription text nodes to txt file
+      foreach ($allResults->response->docs as $doc) {
+        if (strpos($doc->id, 'SimplePagesPage') === false) {
+
+          $item = get_db()->getTable($doc->model)->find($doc->modelid);
+          $xml = new DOMDocument();
+          $xml->load(metadata($item, array('Item Type Metadata', 'XML File')));
+          fwrite($fh,$xml->getElementsByTagName('bibl')[0]->textContent."\n");
+          fwrite($fh,$xml->getElementsByTagName('title')[0]->textContent."\n");
+          fwrite($fh,$xml->getElementsByTagName('placeName')[0]->textContent." ".$xml->getElementsByTagName('date')[1]->textContent."\n\n");
+
+          // find del, add, hi and unclear tags in certain nodes and replace tags with plain text characters
+          $nodes = array('p','cell','l');
+
+          for ($i = 0; $i <= sizeof($nodes); $i++) {
+            foreach ($xml->getElementsByTagName($nodes[$i]) as $node) {
+              foreach ($node->childNodes as $child) {
+                if ($child->nodeName == 'del') {
+                  $child->nodeValue = "[".$child->nodeValue."]";
+                } else if ($child->nodeName == 'add') {
+                  $child->nodeValue = "/".$child->nodeValue."/";
+                } else if ($child->nodeName == 'hi') {
+                  $child->nodeValue = "_".$child->nodeValue."_";
+                } else if ($child->nodeName == 'unclear') {
+                  $child->nodeValue = "?".$child->nodeValue."?";
+                }
+              }
+            }
+          }
+
+          foreach ($xml->getElementsByTagName('div')->item(0)->childNodes as $child) {
+            if ($child->nodeName == 'p') {
+              $child->textContent = preg_replace("!\s+!", " ", $child->textContent);
+            }
+            if ($child->nodeName == 'p' || $child->nodeName == 'table' || $child->nodeName == 'lg') {
+              fwrite($fh,$child->textContent."\n\n");
+            }
+          }
+          fwrite($fh,"\n");
+        }
+      }
+
+      fclose($fh);
+
+      // Force download
+      header("Content-Type: text/plain; charset=utf-8");
+      header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$txtfile);
+      ob_clean();
+      flush();
+      readfile($txtfile);
+      unlink($txtfile);
       exit();
     }
   }

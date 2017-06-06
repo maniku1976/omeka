@@ -14,7 +14,11 @@ $(document).ready(function() {
       var ext = $('.textFrame').text().indexOf(' ', last);
       var ending = $('.textFrame').text().substring(last, ext);
 
-      // key followed by specific characters
+      var str = "";
+      // key with secific ending or followed by specific characters
+      var endings = ['a','n','sta','lta','lla','in','lle'];
+
+
       if (ending.indexOf(",") >= 0) {
         ending = ending.substring(0, ending.indexOf(","));
       } else if (ending.indexOf(".") >= 0) {
@@ -25,7 +29,11 @@ $(document).ready(function() {
         ending = ending.substring(0, ending.indexOf(":"));
       }
 
-      var str = key + ending;
+      if (key == 'Ilmoni' && !endings.includes(ending)) {
+        str = key;
+      } else {
+        str = key + ending;
+      }
 
       // insert popup
       $('.textFrame')
