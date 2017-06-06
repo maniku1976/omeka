@@ -166,7 +166,7 @@ extends Omeka_Controller_AbstractActionController
     }
 
     // Download transcriptions as plain text
-    if (isset($_POST['txt-browse'])) {
+    if (isset($_POST['txt'])) {
 
       // Initialize txt file for writing
       $txtfile = 'transcriptions.txt';

@@ -211,7 +211,7 @@ public function browseAction() {
           $child->textContent = preg_replace("!\s+!", " ", $child->textContent);
         }
         if ($child->nodeName == 'p' || $child->nodeName == 'table' || $child->nodeName == 'lg') {
-        fwrite($fh,$child->textContent."\n\n");
+          fwrite($fh,$child->textContent."\n\n");
         }
       }
       fwrite($fh,"\n");
