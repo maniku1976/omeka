@@ -88,7 +88,7 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
                 if ($file->getExtension() == 'xml') {
                   $xml = simplexml_load_file("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
                   $location = $xml->text->body->div->opener->dateline->placeName;
-                  if ($location == 'puuttuu') { /* if location 'puuttuu'/'empty', replace with translatable word */
+                  if ($location == 'puuttuu') { // if location 'puuttuu'/'empty', replace with translatable word
                     $location = str_replace($location, __('missing'), $location);
                   }
                   echo __('Sent from').': '.$location;

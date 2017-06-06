@@ -97,8 +97,7 @@ public function indexAction()
 * @uses Omeka_Controller_Action_Helper_Db::getDefaultModelName()
 * @uses Omeka_Db_Table::findBy()
 */
-public function browseAction()
-{
+public function browseAction() {
   // Respect only GET parameters when browsing.
   $this->getRequest()->setParamSources(array('_GET'));
 
@@ -109,123 +108,126 @@ public function browseAction()
   if (!$this->_getParam('sort_field')) {
     $defaultSort = apply_filters("{$pluralName}_browse_default_sort",
     $this->_getBrowseDefaultSort(),
-    array('params' => $this->getAllParams())
-  );
-  if (is_array($defaultSort) && isset($defaultSort[0])) {
-    $this->setParam('sort_field', $defaultSort[0]);
+    array('params' => $this->getAllParams()));
+    if (is_array($defaultSort) && isset($defaultSort[0])) {
+      $this->setParam('sort_field', $defaultSort[0]);
 
-    if (isset($defaultSort[1])) {
-      $this->setParam('sort_dir', $defaultSort[1]);
+      if (isset($defaultSort[1])) {
+        $this->setParam('sort_dir', $defaultSort[1]);
+      }
     }
   }
-}
 
-$params = $this->getAllParams();
-$recordsPerPage = $this->_getBrowseRecordsPerPage($pluralName);
-$currentPage = $this->getParam('page', 1);
+  $params = $this->getAllParams();
+  $recordsPerPage = $this->_getBrowseRecordsPerPage($pluralName);
+  $currentPage = $this->getParam('page', 1);
 
-// Get the records filtered to Omeka_Db_Table::applySearchFilters().
-$records = $this->_helper->db->findBy($params, $recordsPerPage, $currentPage);
-$totalRecords = $this->_helper->db->count($params);
+  // Get the records filtered to Omeka_Db_Table::applySearchFilters().
+  $records = $this->_helper->db->findBy($params, $recordsPerPage, $currentPage);
+  $totalRecords = $this->_helper->db->count($params);
 
-// Add pagination data to the registry. Used by pagination_links().
-if ($recordsPerPage) {
-  Zend_Registry::set('pagination', array(
-    'page' => $currentPage,
-    'per_page' => $recordsPerPage,
-    'total_results' => $totalRecords,
-  ));
-}
-
-$this->view->assign(array($pluralName => $records, 'total_results' => $totalRecords));
-
-// Modification: need unpaginated browse results for adding TEI files to downloadable zip
-$allRecords = $this->_helper->db->findBy($params);
-
-// Modification if zip button is clicked in browse view, create and download zip of TEI files
-if(isset($_POST['tei'])){
-  $zip = new ZipArchive();
-  $zip_name = "tei.zip";
-  $zip->open(sys_get_temp_dir().'/'.$zip_name, ZipArchive::CREATE);
-
-  // Loop through browse records stored in $all_records and copy their TEI files locally
-  foreach ($allRecords as $record) {
-    $xml = metadata($record, array('Item Type Metadata', 'XML File'));
-    copy($xml, sys_get_temp_dir().'/'.basename($xml));
+  // Add pagination data to the registry. Used by pagination_links().
+  if ($recordsPerPage) {
+    Zend_Registry::set('pagination', array(
+      'page' => $currentPage,
+      'per_page' => $recordsPerPage,
+      'total_results' => $totalRecords,
+    ));
   }
 
-  // Add local copies of TEI files to zip
-  foreach (glob(sys_get_temp_dir().'/*.xml') as $tei) {
-    $zip->addFile($tei, basename($tei));
+  $this->view->assign(array($pluralName => $records, 'total_results' => $totalRecords));
+
+  // Modification: need unpaginated browse results for adding TEI files to downloadable zip
+  $allRecords = $this->_helper->db->findBy($params);
+
+  // Modification if zip button is clicked in browse view, create and download zip of TEI files
+  if(isset($_POST['tei'])){
+    $zip = new ZipArchive();
+    $zip_name = "tei.zip";
+    $zip->open(sys_get_temp_dir().'/'.$zip_name, ZipArchive::CREATE);
+
+    // Loop through browse records stored in $all_records and copy their TEI files locally
+    foreach ($allRecords as $record) {
+      $xml = metadata($record, array('Item Type Metadata', 'XML File'));
+      copy($xml, sys_get_temp_dir().'/'.basename($xml));
+    }
+
+    // Add local copies of TEI files to zip
+    foreach (glob(sys_get_temp_dir().'/*.xml') as $tei) {
+      $zip->addFile($tei, basename($tei));
+    }
+
+    $zip->close();
+
+    // Download zip file
+    header('Content-Type: application/zip');
+    header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$zip_name);
+    header('Content-Length: ' . filesize(sys_get_temp_dir().'/'.$zip_name));
+    ob_clean();
+    flush();
+    readfile(sys_get_temp_dir().'/'.$zip_name);
+    array_map('unlink', glob(sys_get_temp_dir().'/*.xml')); //delete TEI files from tmp folder after downloading zip
+    unlink(sys_get_temp_dir().'/'.'tei.zip'); //delete tmp zip file after download
+    exit();
   }
 
-  $zip->close();
+  // Download transcriptions as plain text
+  if (isset($_POST['txt-browse'])) {
 
-  // Download zip file
-  header('Content-Type: application/zip');
-  header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$zip_name);
-  header('Content-Length: ' . filesize(sys_get_temp_dir().'/'.$zip_name));
-  ob_clean();
-  flush();
-  readfile(sys_get_temp_dir().'/'.$zip_name);
-  array_map('unlink', glob(sys_get_temp_dir().'/*.xml')); //delete TEI files from tmp folder after downloading zip
-  unlink(sys_get_temp_dir().'/'.'tei.zip'); //delete tmp zip file after download
-  exit();
-}
+    // Initialize txt file for writing
+    $txtfile = 'transcriptions.txt';
+    $fh = fopen($txtfile, 'w');
 
-// Download transcriptions as plain text
-if (isset($_POST['txt-browse'])) {
+    // Write each TEI file's id, title, place, date and transcription text nodes to txt file
+    foreach ($allRecords as $record) {
 
-  // Initialize txt file for writing
-  $txtfile = 'transcriptions.txt';
-  $fh = fopen($txtfile, 'a');
+      $xml = new DOMDocument();
+      $xml->load(metadata($record, array('Item Type Metadata', 'XML File')));
+      fwrite($fh,$xml->getElementsByTagName('bibl')[0]->textContent."\n");
+      fwrite($fh,$xml->getElementsByTagName('title')[0]->textContent."\n");
+      fwrite($fh,$xml->getElementsByTagName('placeName')[0]->textContent." ".$xml->getElementsByTagName('date')[1]->textContent."\n\n");
 
-  // Write each TEI file's id, title, place, date and transcription text nodes to txt file
-  foreach ($allRecords as $record) {
+      // find del, add, hi and unclear tags in certain nodes and replace tags with plain text characters
+      $nodes = array('p','cell','l');
 
-    $xml = new DOMDocument();
-    $xml->load(metadata($record, array('Item Type Metadata', 'XML File')));
+      for ($i = 0; $i <= sizeof($nodes); $i++) {
+        foreach ($xml->getElementsByTagName($nodes[$i]) as $node) {
+          foreach ($node->childNodes as $child) {
+            if ($child->nodeName == 'del') {
+              $child->nodeValue = "[".$child->nodeValue."]";
+            } else if ($child->nodeName == 'add') {
+              $child->nodeValue = "/".$child->nodeValue."/";
+            } else if ($child->nodeName == 'hi') {
+              $child->nodeValue = "_".$child->nodeValue."_";
+            } else if ($child->nodeName == 'unclear') {
+              $child->nodeValue = "?".$child->nodeValue."?";
+            }
+          }
+        }
+      }
 
-    fwrite($fh,$xml->getElementsByTagName('bibl')[0]->textContent."\n");
-    fwrite($fh,$xml->getElementsByTagName('title')[0]->textContent."\n");
-    fwrite($fh,$xml->getElementsByTagName('placeName')[0]->textContent." ".$xml->getElementsByTagName('date')[1]->textContent."\n\n");
-
-    // Replace TEI tags with text characters
-    foreach($xml->getElementsByTagName('del') as $del) {
-      $del->textContent = "[".$del->textContent."]";
-    }
-    foreach($xml->getElementsByTagName('hi') as $hi) {
-      $hi->textContent = '_'.$hi->textContent.'_';
-    }
-    foreach($xml->getElementsByTagName('add') as $add) {
-      $add->textContent = '/'.$add->textContent.'/';
-    }
-    foreach($xml->getElementsByTagName('unclear') as $unclear) {
-      $unclear->textContent = '?'.$unclear->textContent.'?';
-    }
-    foreach($xml->getElementsByTagName('gap') as $gap) {
-      $gap->textConent = '   '.$gap->textContent.'   ';
-    }
-
-    foreach ($xml->getElementsBytagName('div')[0]->childNodes as $child) {
+      foreach ($xml->getElementsByTagName('div')->item(0)->childNodes as $child) {
         if ($child->nodeName == 'p') {
           $child->textContent = preg_replace("!\s+!", " ", $child->textContent);
         }
+        if ($child->nodeName == 'p' || $child->nodeName == 'table' || $child->nodeName == 'lg') {
         fwrite($fh,$child->textContent."\n\n");
+        }
+      }
+      fwrite($fh,"\n");
     }
-    fwrite($fh,"\n");
-  }
 
-  fclose($fh);
-  // Force download
-  header("Content-Type: text/plain; charset=utf-8");
-  header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$txtfile);
-  ob_clean();
-  flush();
-  readfile($txtfile);
-  unlink($txtfile);
-  exit();
-}
+    fclose($fh);
+
+    // Force download
+    header("Content-Type: text/plain; charset=utf-8");
+    header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$txtfile);
+    ob_clean();
+    flush();
+    readfile($txtfile);
+    unlink($txtfile);
+    exit();
+  }
 }
 
 /**

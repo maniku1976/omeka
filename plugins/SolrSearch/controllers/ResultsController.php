@@ -151,8 +151,6 @@ extends Omeka_Controller_AbstractActionController
       $filename = "data.csv";
       $fp = fopen('data.csv', 'w');
 
-      $flag = false;
-
       foreach ($data as $row) {
         fputcsv($fp, array_values($row), ',', '"');
       }
@@ -168,11 +166,11 @@ extends Omeka_Controller_AbstractActionController
     }
 
     // Download transcriptions as plain text
-    if (isset($_POST['txt'])) {
+    if (isset($_POST['txt-browse'])) {
 
       // Initialize txt file for writing
       $txtfile = 'transcriptions.txt';
-      $fh = fopen($txtfile, 'a');
+      $fh = fopen($txtfile, 'w');
 
       // Write each TEI file's id, title, place, date and transcription text nodes to txt file
       foreach ($allResults->response->docs as $doc) {
@@ -181,33 +179,34 @@ extends Omeka_Controller_AbstractActionController
           $item = get_db()->getTable($doc->model)->find($doc->modelid);
           $xml = new DOMDocument();
           $xml->load(metadata($item, array('Item Type Metadata', 'XML File')));
-
           fwrite($fh,$xml->getElementsByTagName('bibl')[0]->textContent."\n");
           fwrite($fh,$xml->getElementsByTagName('title')[0]->textContent."\n");
           fwrite($fh,$xml->getElementsByTagName('placeName')[0]->textContent." ".$xml->getElementsByTagName('date')[1]->textContent."\n\n");
 
-          // Replace TEI tags with text characters
-          foreach($xml->getElementsByTagName('del') as $del) {
-            $del->textContent = "[".$del->textContent."]";
-          }
-          foreach($xml->getElementsByTagName('hi') as $hi) {
-            $hi->textContent = '_'.$hi->textContent.'_';
-          }
-          foreach($xml->getElementsByTagName('add') as $add) {
-            $add->textContent = '/'.$add->textContent.'/';
-          }
-          foreach($xml->getElementsByTagName('unclear') as $unclear) {
-            $unclear->textContent = '?'.$unclear->textContent.'?';
-          }
-          foreach($xml->getElementsByTagName('gap') as $gap) {
-            $gap->textConent = '   '.$gap->textContent.'   ';
+          // find del, add, hi and unclear tags in certain nodes and replace tags with plain text characters
+          $nodes = array('p','cell','l');
+
+          for ($i = 0; $i <= sizeof($nodes); $i++) {
+            foreach ($xml->getElementsByTagName($nodes[$i]) as $node) {
+              foreach ($node->childNodes as $child) {
+                if ($child->nodeName == 'del') {
+                  $child->nodeValue = "[".$child->nodeValue."]";
+                } else if ($child->nodeName == 'add') {
+                  $child->nodeValue = "/".$child->nodeValue."/";
+                } else if ($child->nodeName == 'hi') {
+                  $child->nodeValue = "_".$child->nodeValue."_";
+                } else if ($child->nodeName == 'unclear') {
+                  $child->nodeValue = "?".$child->nodeValue."?";
+                }
+              }
+            }
           }
 
-          foreach ($xml->getElementsBytagName('div')[0]->childNodes as $child) {
-            if ($child->nodeName == 'p' || $child->nodeName == 'table') {
-              if ($child->nodeName == 'p') {
-                $child->textContent = preg_replace("!\s+!", " ", $child->textContent);
-              }
+          foreach ($xml->getElementsByTagName('div')->item(0)->childNodes as $child) {
+            if ($child->nodeName == 'p') {
+              $child->textContent = preg_replace("!\s+!", " ", $child->textContent);
+            }
+            if ($child->nodeName == 'p' || $child->nodeName == 'table' || $child->nodeName == 'lg') {
               fwrite($fh,$child->textContent."\n\n");
             }
           }
@@ -216,6 +215,7 @@ extends Omeka_Controller_AbstractActionController
       }
 
       fclose($fh);
+
       // Force download
       header("Content-Type: text/plain; charset=utf-8");
       header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$txtfile);
