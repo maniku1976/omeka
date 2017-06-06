@@ -33,8 +33,8 @@ var comments = {
   ' Lönnrot otti Europaeuksen avustamaan sanakirjatyötään. Myöhemmin Europaeuksen runonkeruut kartuttivat merkittävästi' +
   ' <em>Kalevalan</em> uutta laitosta (1849).' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4434" target="_blank">Kansallisbiografia</a>',
-  'Keckman': 'Carl Niklas Keckman (1793−1838), suomen kielen lehtori, toimittaja. Keckmanin luona pidettiin Suomalaisen' +
-  ' Kirjallisuuden Seuran perustamiskokous, ja Keckman toimi seuran esimiehenä 1831 ja sihteerinä 1831–1838.' +
+  'Keckman': 'Carl Niklas Keckman (1793−1838), suomen kielen lehtori, toimittaja. Keckmanin luona pidettiin SKS:n' +
+  ' perustamiskokous, ja Keckman toimi seuran esimiehenä 1831 ja sihteerinä 1831–1838.' +
   ' Keckmanin ja Lönnrotin välinen kirjeenvaihto käsitteli mm. suomen kieltä ja sen ortografiaa sekä <em>Kalevalan</em>' +
   ' kokoonpanoa. Keckman hoiti myös Lönnrotin kirjalähetyksiä, raha-asioita ja oikovedoksia Kajaaniin.' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2902" target="_blank">Kansallisbiografia</a>',
@@ -49,11 +49,11 @@ var comments = {
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3591" target="_blank">Kansallisbiografia</a>',
   'Kreutzwald': 'Friedrich Reinhold Kreutzwald (1803−1882), virolainen lääkäri, kansanvalistaja ja kirjailija.' +
   ' Kreutzwaldin eeposrunoelma <em>Kalevipoeg</em> (1853, 1857–1861) pohjautuu virolaisiin kansanrunoihin.',
-  'Ståhlberg': 'Carl Henrik Ståhlberg (1799−1878), opettaja, pappi. Toimi Suomalaisen Kirjallisuuden Seuran' +
+  'Ståhlberg': 'Carl Henrik Ståhlberg (1799−1878), opettaja, pappi. Toimi SKS:n' +
   ' sihteerinä 1839−1840. Ståhlberg oli mukana joillakin Lönnrotin keruumatkoilla ja huolehti <em>Mehiläisen</em> painatuksesta.' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4612" target="_blank">Kansallisbiografia</a>',
   'Elmgren': 'Sven Gabriel Elmgren (1817−1897), kirjastonhoitaja, tieteellisten seurojen vaikuttaja, professori.' +
-  ' Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä vuosina 1846–1861.' +
+  ' Toimi SKS:n sihteerinä vuosina 1846–1861.' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3220" target="_blank">Kansallisbiografia</a>',
   'Korhonen': 'Paavo Korhonen (Vihta-Paavo) (1775−1840), rautalammilainen rahvaanrunoilija, jonka Lönnrot tapasi' +
   ' keruumatkoillaan vuosina 1828 ja 1831. Lönnrot julkaisi Korhosen runoja <em>Kantele</em>-vihkoissa (1829−1831) ja' +
@@ -68,15 +68,15 @@ var comments = {
   ' Warelius oli yksi tärkeimmistä avustajista Lönnrotin sanakirjatyössä.' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2855" target="_blank">Kansallisbiografia</a>',
   'Ticklén': 'Johan Fredrik Ticklén (1802−1844), Raahen piirilääkäri, kirjastoamanuenssi. Ticklén oli yksi' +
-  ' Suomalaisen Kirjallisuuden Seuran perustajajäsenistä. ' +
+  ' SKS:n perustajajäsenistä. ' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
   'Ticklen': 'Johan Fredrik Ticklén (1802−1844), Raahen piirilääkäri, kirjastoamanuenssi. Ticklén oli yksi' +
-  ' Suomalaisen Kirjallisuuden Seuran perustajajäsenistä. ' +
+  ' SKS:n perustajajäsenistä. ' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
   'Tikleini': 'Johan Fredrik Ticklén (1802−1844), Raahen piirilääkäri, kirjastoamanuenssi. Ticklén oli yksi' +
-  ' Suomalaisen Kirjallisuuden Seuran perustajajäsenistä. ' +
+  ' SKS:n perustajajäsenistä. ' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
-  'Rein': 'Gabriel Rein (1800−1867), professori, kanslianeuvos. Rein oli yksi Suomalaisen Kirjallisuuden Seuran' +
+  'Rein': 'Gabriel Rein (1800−1867), professori, kanslianeuvos. Rein oli yksi SKS:n' +
   ' perustajista, ja seuran esimies vuosina 1841–1853 ja 1863–1867. ' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3595" target="_blank">Kansallisbiografia</a>',
   'Törngren': 'Johan Agapetus Törngren (1772−1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
@@ -105,7 +105,7 @@ var comments = {
   ' (1840) sai tyrmistyneen vastaanoton.' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2817" target="_blank">Kansallisbiografia</a>',
   'Ilmoni': 'Immanuel Ilmoni (1797−1856), lääketieteen professori. Lönnrotin osakuntatoveri yliopistossa. Yksi' +
-  ' Suomalaisen Kirjallisuuden Seuran perustajista.' +
+  ' SKS:n perustajista.' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3490" target="_blank">Kansallisbiografia</a>',
   'Morgonbladet': 'Helsingfors Morgonbladetin epävirallinen nimi.',
   'Helsingfors Tidningar': 'Ensimmäinen Helsingissä ilmestynyt ruotsinkielinen sanomalehti.',
