@@ -96,4 +96,11 @@
       </a>
     </xsl:template>
 
+    <xsl:template match="tei:ptr">
+      <a style="background-color:#e7d6ff;" target="_blank" href="{current()/@target}">
+        <xsl:value-of select="current()/@n" />
+        <xsl:apply-templates />
+      </a>
+    </xsl:template>
+
   </xsl:stylesheet>

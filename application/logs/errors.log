@@ -19639,3 +19639,15 @@ Stack trace:
 #6 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
 #7 /var/www/html/omeka/index.php(23): Omeka_Application->run()
 #8 {main}
+2017-08-02T07:57:24+00:00 WARN (4): Error output from ImageMagick:
+convert: no images defined `/tmp/fullsize_410d622b7676bffdf99ba7740d608d50.jpg' @ error/convert.c/ConvertImageCommand/3241.
+
+2017-08-02T07:57:24+00:00 ERR (3): ImageMagick failed with status code 1.
+2017-08-02T08:00:27+00:00 WARN (4): Error output from ImageMagick:
+convert: no images defined `/tmp/fullsize_05063ccb8b30fa9d89d937e9186ad461.jpg' @ error/convert.c/ConvertImageCommand/3241.
+
+2017-08-02T08:00:27+00:00 ERR (3): ImageMagick failed with status code 1.
+2017-08-02T08:02:39+00:00 WARN (4): Error output from ImageMagick:
+convert: no images defined `/tmp/fullsize_6830bbdcfe219f4eb9943ed21a6910a2.jpg' @ error/convert.c/ConvertImageCommand/3241.
+
+2017-08-02T08:02:39+00:00 ERR (3): ImageMagick failed with status code 1.

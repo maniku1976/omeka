@@ -76,14 +76,14 @@ function toggleCommentsXML() {
       .removeClass('tooltip bt')
       .css({'color':'#444444', 'border-bottom':'none'})
       .hover(function() { $(this).css('text-decoration', 'none'); })
-      .find('span').hide();
+      .next().hide();
       // if comment doesn't have tooltip class = popups are hidden, add the class
     } else {
       $('#exhibit3b').find('.comm')
       .addClass('tooltip bt')
       .css({'color':'','border-bottom':''})
       .hover(function() { $(this).css('text-decoration', ''); })
-      .find('span')
+      .next()
       .css('display', '');
     }
   });
