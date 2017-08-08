@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-05-31 09:58+0300\n"
-"PO-Revision-Date: 2017-05-31 09:58+0300\n"
+"POT-Creation-Date: 2017-08-08 13:39+0300\n"
+"PO-Revision-Date: 2017-08-08 13:39+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3864,185 +3864,236 @@ msgstr "XML-fil"
 msgid "Markings Used in Transcriptions"
 msgstr "Markeringar som används i transkriptioner"
 
-#: application/views/scripts/collections/browse.php:30
-#: application/views/helpers/ItemSearchFilters.php:53
-#: plugins/SolrSearch/views/shared/results/index.php:133
 msgid "Lönnrot to Rabbe"
 msgstr "Lönnrot till Rabbe"
 
-#: application/views/scripts/collections/browse.php:34
-#: application/views/helpers/ItemSearchFilters.php:56
-#: plugins/SolrSearch/views/shared/results/index.php:127
 msgid "Lönnrot to Castrén"
 msgstr "Lönnrot till Castrén"
 
-#: application/views/scripts/collections/browse.php:38
-#: application/views/helpers/ItemSearchFilters.php:59
-#: plugins/SolrSearch/views/shared/results/index.php:136
 msgid "Lönnrot to Keckman"
 msgstr "Lönnrot till Keckman"
 
-#: application/views/scripts/collections/browse.php:42
-#: application/views/helpers/ItemSearchFilters.php:62
-#: plugins/SolrSearch/views/shared/results/index.php:130
 msgid "Lönnrot to Elmgren"
 msgstr "Lönnrot till Elmgren"
 
-#: application/views/scripts/collections/browse.php:46
-#: application/views/helpers/ItemSearchFilters.php:68
-#: plugins/SolrSearch/views/shared/results/index.php:139
 msgid "Lönnrot to Ahlqvist"
 msgstr "Lönnrot till Ahlqvist"
 
-#: application/views/scripts/collections/browse.php:50
-#: application/views/helpers/ItemSearchFilters.php:65
-#: plugins/SolrSearch/views/shared/results/index.php:142
 msgid "Lönnrot to Borg"
 msgstr "Lönnrot till Borg"
 
-#: application/views/scripts/collections/browse.php:54
-#: application/views/helpers/ItemSearchFilters.php:71
-#: plugins/SolrSearch/views/shared/results/index.php:145
 msgid "Lönnrot to Cajan"
 msgstr "Lönnrot till Cajan"
 
-#: application/views/scripts/collections/browse.php:58
-#: application/views/helpers/ItemSearchFilters.php:74
-#: plugins/SolrSearch/views/shared/results/index.php:148
 msgid "Lönnrot to Collan"
 msgstr "Lönnrot till Collan"
 
-#: application/views/scripts/collections/browse.php:62
-#: application/views/helpers/ItemSearchFilters.php:77
-#: plugins/SolrSearch/views/shared/results/index.php:151
 msgid "Lönnrot to Europaeus"
 msgstr "Lönnrot till Europaeus"
 
-#: application/views/scripts/collections/browse.php:66
-#: application/views/helpers/ItemSearchFilters.php:80
-#: plugins/SolrSearch/views/shared/results/index.php:154
 msgid "Lönnrot to Ilmoni"
 msgstr "Lönnrot till Ilmoni"
 
-#: application/views/scripts/collections/browse.php:70
-#: application/views/helpers/ItemSearchFilters.php:83
-#: plugins/SolrSearch/views/shared/results/index.php:157
 msgid "Lönnrot to Lindfors"
 msgstr "Lönnrot till Lindfors"
 
-#: application/views/scripts/collections/browse.php:74
-#: application/views/helpers/ItemSearchFilters.php:86
-#: plugins/SolrSearch/views/shared/results/index.php:160
 msgid "Lönnrot to Saxa"
 msgstr "Lönnrot till Saxa"
 
-#: application/views/scripts/collections/browse.php:78
-#: application/views/helpers/ItemSearchFilters.php:89
-#: plugins/SolrSearch/views/shared/results/index.php:163
 msgid "Lönnrot to Sjögren"
 msgstr "Lönnrot till Sjögren"
 
-#: application/views/scripts/collections/browse.php:82
-#: application/views/helpers/ItemSearchFilters.php:92
-#: plugins/SolrSearch/views/shared/results/index.php:166
 msgid "Lönnrot to Ståhlberg"
 msgstr "Lönnrot till Ståhlberg"
 
-#: application/views/scripts/collections/browse.php:86
-#: application/views/helpers/ItemSearchFilters.php:95
-#: plugins/SolrSearch/views/shared/results/index.php:169
 msgid "Lönnrot to Ticklén"
 msgstr "Lönnrot till Ticklén"
 
-#: application/views/scripts/collections/browse.php:90
-#: application/views/helpers/ItemSearchFilters.php:98
-#: plugins/SolrSearch/views/shared/results/index.php:172
 msgid "Lönnrot to Warelius"
 msgstr "Lönnrot till Warelius"
 
-#: application/views/scripts/collections/browse.php:94
-#: application/views/helpers/ItemSearchFilters.php:101
-#: plugins/SolrSearch/views/shared/results/index.php:175
 msgid "Lönnrot to Schildt-Kilpinen"
 msgstr "Lönnrot till Schildt-Kilpinen"
 
-#: application/views/scripts/collections/browse.php:90
-#: application/views/helpers/ItemSearchFilters.php:105
-#: plugins/SolrSearch/views/shared/results/index.php:178
 msgid "Lönnrot to Granlund"
 msgstr "Lönnrot till Granlund"
 
-#: application/views/scripts/collections/browse.php:119
+msgid "Lönnrot to Akiander"
+msgstr "Lönnrot till Akiander"
+
+msgid "Lönnrot to Appelgren"
+msgstr "Lönnrot till Appelgren"
+
+msgid "Lönnrot to Asp"
+msgstr "Lönnrot till Asp"
+
+msgid "Lönnrot to Barck"
+msgstr "Lönnrot till Barck"
+
+msgid "Lönnrot to Forbus"
+msgstr "Lönnrot till Forbus"
+
+msgid "Lönnrot to Hedberg"
+msgstr "Lönnrot till Hedberg"
+
+msgid "Lönnrot to Höglund"
+msgstr "Lönnrot till Höglund"
+
+msgid "Lönnrot to Ingman"
+msgstr "Lönnrot till Ingman"
+
+msgid "Lönnrot to Kellgren"
+msgstr "Lönnrot till Kellgren"
+
+msgid "Lönnrot to Kiljander"
+msgstr "Lönnrot till Kiljander"
+
+msgid "Lönnrot to Krohn"
+msgstr "Lönnrot till Krohn"
+
+msgid "Lönnrot to Lindh"
+msgstr "Lönnrot till Lindh"
+
+msgid "Lönnrot to Linsén"
+msgstr "Lönnrot till Linsén"
+
+msgid "Lönnrot to Rein"
+msgstr "Lönnrot till Rein"
+
+msgid "Lönnrot to Roos"
+msgstr "Lönnrot till Roos"
+
+msgid "Lönnrot to Rothsten"
+msgstr "Lönnrot till Rothsten"
+
+msgid "Lönnrot to Skogman"
+msgstr "Lönnrot till Skogman"
+
+msgid "Lönnrot to Snellman"
+msgstr "Lönnrot till Snellman"
+
+msgid "Lönnrot to Thuneberg"
+msgstr "Lönnrot till Thuneberg"
+
+msgid "Lönnrot to Tikkanen"
+msgstr "Lönnrot till Tikkanen"
+
+msgid "Lönnrot to Öhman"
+msgstr "Lönnrot till Öhman"
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr "Lönnrots brev till Frans Johan Rabbe"
 
-#: application/views/scripts/collections/browse.php:122
 msgid "Letters sent by Lönnrot to Matthias Alexander Castrén"
 msgstr "Lönnrots brev till Matthias Alexander Castrén"
 
-#: application/views/scripts/collections/browse.php:125
 msgid "Letters sent by Lönnrot to Carl Niklas Keckman"
 msgstr "Lönnrots brev till Carl Niklas Keckman"
 
-#: application/views/scripts/collections/browse.php:128
 msgid "Letters sent by Lönnrot to Sven Gabriel Elmgren"
 msgstr "Lönnrots brev till Sven Gabriel Elmgren"
 
-#: application/views/scripts/collections/browse.php:131
 msgid "Letters sent by Lönnrot to August Engelbrekt Ahlqvist"
 msgstr "Lönnrots brev till August Engelbrekt Ahlqvist"
 
-#: application/views/scripts/collections/browse.php:134
 msgid "Letters sent by Lönnrot to Carl Gustaf Borg"
 msgstr "Lönnrots brev till Carl Gustaf Borg"
 
-#: application/views/scripts/collections/browse.php:137
 msgid "Letters sent by Lönnrot to Johan Fredrik Cajan"
 msgstr "Lönnrots brev till Johan Fredrik Cajan"
 
-#: application/views/scripts/collections/browse.php:140
 msgid "Letters sent by Lönnrot to Fabian Collan"
 msgstr "Lönnrots brev till Fabian Collan"
 
-#: application/views/scripts/collections/browse.php:143
 msgid "Letters sent by Lönnrot to David Emanuel Daniel Europaeus"
 msgstr "Lönnrots brev till David Emanuel Daniel Europaeus"
 
-#: application/views/scripts/collections/browse.php:146
 msgid "Letters sent by Lönnrot to Immanuel Ilmoni"
 msgstr "Lönnrots brev till Immanuel Ilmoni"
 
-#: application/views/scripts/collections/browse.php:149
 msgid "Letters sent by Lönnrot to Mårten Johan Lindfors"
 msgstr "Lönnrots brev till Mårten Johan Lindfors"
 
-#: application/views/scripts/collections/browse.php:152
 msgid "Letters sent by Lönnrot to Carl Saxa"
 msgstr "Lönnrots brev till Carl Saxa"
 
-#: application/views/scripts/collections/browse.php:155
 msgid "Letters sent by Lönnrot to Anders Johan Sjögren"
 msgstr "Lönnrots brev till Anders Johan Sjögren"
 
-#: application/views/scripts/collections/browse.php:158
 msgid "Letters sent by Lönnrot to Carl Henrik Ståhlberg"
 msgstr "Lönnrots brev till Carl Henrik Ståhlberg"
 
-#: application/views/scripts/collections/browse.php:161
 msgid "Letters sent by Lönnrot to Johan Fredrik Ticklén"
 msgstr "Lönnrots brev till Johan Fredrik Ticklén"
 
-#: application/views/scripts/collections/browse.php:164
 msgid "Letters sent by Lönnrot to Antero Warelius"
 msgstr "Lönnrots brev till Antero Warelius"
 
-#: application/views/scripts/collections/browse.php:167
 msgid "Letters sent by Lönnrot to Wolmar Styrbjörn Schildt-Kilpinen"
 msgstr "Lönnrots brev till Wolmar Styrbjörn Schildt-Kilpinen"
 
-#: application/views/scripts/collections/browse.php:170
 msgid "Letters sent by Lönnrot to Johan Fredrik Granlund"
 msgstr "Lönnrots brev till Johan Fredrik Granlund"
+
+msgid "Letters sent by Lönnrot to Simon Wilhelm Appelgren"
+msgstr "Lönnrots brev till Simon Wilhelm Appelgren"
+
+msgid "Letters sent by Lönnrot to Gustaf Asp"
+msgstr "Lönnrots brev till Gustaf Asp"
+
+msgid "Letters sent by Lönnrot to Adolf Forbus"
+msgstr "Lönnrots brev till Adolf Forbus"
+
+msgid "Letters sent by Lönnrot to Andreas Erik Hedberg"
+msgstr "Lönnrots brev till Andreas Erik Hedberg"
+
+msgid "Letters sent by Lönnrot to Anders Magnus Höglund"
+msgstr "Lönnrots brev till Anders Magnus Höglund"
+
+msgid "Letters sent by Lönnrot to Erik Alexander Ingman"
+msgstr "Lönnrots brev till Erik Alexander Ingman"
+
+msgid "Letters sent by Lönnrot to August Kellgren"
+msgstr "Lönnrots brev till August Kellgren"
+
+msgid "Letters sent by Lönnrot to Julius Leopold Fredrik Krohn"
+msgstr "Lönnrots brev till Julius Leopold Fredrik Krohn"
+
+msgid "Letters sent by Lönnrot to Anton Lindh"
+msgstr "Lönnrots brev till Anton Lindh"
+
+msgid "Letters sent by Lönnrot to Johan Gabriel Linsén"
+msgstr "Lönnrots brev till Johan Gabriel Linsén"
+
+msgid "Letters sent by Lönnrot to Gabriel Rein"
+msgstr "Lönnrots brev till Gabriel Rein"
+
+msgid "Letters sent by Lönnrot to Frans Wilhelm Rothsten"
+msgstr "Lönnrots brev till Frans Wilhelm Rothsten"
+
+msgid "Letters sent by Lönnrot to Samuel Roos"
+msgstr "Lönnrots brev till Samuel Roos"
+
+msgid "Letters sent by Lönnrot to Daniel Johan Skogman"
+msgstr "Lönnrots brev till Daniel Johan Skogman"
+
+msgid "Letters sent by Lönnrot to Alexander Constantin Öhman"
+msgstr "Lönnrots brev till Alexander Constantin Öhman"
+
+msgid "Letters sent by Lönnrot to Matthias Akiander"
+msgstr "Lönnrots brev till Matthias Akiander"
+
+msgid "Letters sent by Lönnrot to Christian Evert Barck"
+msgstr "Lönnrots brev till Christian Evert Barck"
+
+msgid "Letters sent by Lönnrot to Johan Vilhelm Snellman"
+msgstr "Lönnrots brev till Johan Vilhelm Snellman"
+
+msgid "Letters sent by Lönnrot to Bengt Adolf Thuneberg"
+msgstr "Lönnrots brev till Bengt Adolf Thuneberg"
+
+msgid "Letters sent by Lönnrot to Paavo Tikkanen"
+msgstr "Lönnrots brev till Paavo Tikkanen"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26

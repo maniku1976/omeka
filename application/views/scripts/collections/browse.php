@@ -80,6 +80,69 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Granlund":
             $years = '1856 - 1874';
             break;
+          case "Lönnrot to Akiander":
+            $years = '1840 - 1869';
+            break;
+          case "Lönnrot to Barck":
+            $years = '1833 - 1865';
+            break;
+          case "Lönnrot to Roos":
+            $years = '1831 - 1847';
+            break;
+          case "Lönnrot to Snellman":
+            $years = '1844 - 1868';
+            break;
+          case "Lönnrot to Thuneberg":
+            $years = '1833 - 1840';
+            break;
+          case "Lönnrot to Tikkanen":
+            $years = '1849 - 1870';
+            break;
+          case "Lönnrot to Appelgren":
+            $years = '1833 - 1837';
+            break;
+          case "Lönnrot to Asp":
+            $years = '1842 - 1849';
+            break;
+          case "Lönnrot to Forbus":
+            $years = '1833 - 1868';
+            break;
+          case "Lönnrot to Hedberg":
+            $years = '1833 - 1836';
+            break;
+          case "Lönnrot to Höglund":
+            $years = '1833 - 1849';
+            break;
+          case "Lönnrot to Ingman":
+            $years = '1834 - 1836';
+            break;
+          case "Lönnrot to Kellgren":
+            $years = '1834 - 1847';
+            break;
+          case "Lönnrot to Kiljander":
+            $years = '1847 - 1871';
+            break;
+          case "Lönnrot to Krohn":
+            $years = '1863 - 1882';
+            break;
+          case "Lönnrot to Lindh":
+            $years = '1847 - 1850';
+            break;
+          case "Lönnrot to Linsén":
+            $years = '1834 - 1838';
+            break;
+          case "Lönnrot to Rein":
+            $years = '1835 - 1866';
+            break;
+          case "Lönnrot Rothsten":
+            $years = '1871 - 1880';
+            break;
+          case "Lönnrot to Skogman":
+            $years = '1833 - 1836';
+            break;
+          case "Lönnrot to Öhman":
+            $years = '1842 - 1847';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
