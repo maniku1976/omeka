@@ -183,14 +183,14 @@ public function browseAction() {
 
       $xml = new DOMDocument();
       $xml->load(metadata($record, array('Item Type Metadata', 'XML File')));
-      fwrite($fh,$xml->getElementsByTagName('bibl')[0]->textContent."\n");
-      fwrite($fh,$xml->getElementsByTagName('title')[0]->textContent."\n");
-      fwrite($fh,$xml->getElementsByTagName('placeName')[0]->textContent." ".$xml->getElementsByTagName('date')[1]->textContent."\n\n");
+      fwrite($fh,$xml->getElementsByTagName('bibl')->item(0)->textContent."\n");
+      fwrite($fh,$xml->getElementsByTagName('title')->item(0)->textContent."\n");
+      fwrite($fh,$xml->getElementsByTagName('placeName')->item(0)->textContent." ".$xml->getElementsByTagName('date')->item(1)->textContent."\n\n");
 
       // find del, add, hi and unclear tags in certain nodes and replace tags with plain text characters
       $nodes = array('p','cell','l');
 
-      for ($i = 0; $i <= sizeof($nodes); $i++) {
+      for ($i = 0; $i < sizeof($nodes); $i++) {
         foreach ($xml->getElementsByTagName($nodes[$i]) as $node) {
           foreach ($node->childNodes as $child) {
             if ($child->nodeName == 'del') {

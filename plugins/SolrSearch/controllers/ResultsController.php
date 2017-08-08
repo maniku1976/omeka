@@ -179,9 +179,9 @@ extends Omeka_Controller_AbstractActionController
           $item = get_db()->getTable($doc->model)->find($doc->modelid);
           $xml = new DOMDocument();
           $xml->load(metadata($item, array('Item Type Metadata', 'XML File')));
-          fwrite($fh,$xml->getElementsByTagName('bibl')[0]->textContent."\n");
-          fwrite($fh,$xml->getElementsByTagName('title')[0]->textContent."\n");
-          fwrite($fh,$xml->getElementsByTagName('placeName')[0]->textContent." ".$xml->getElementsByTagName('date')[1]->textContent."\n\n");
+          fwrite($fh,$xml->getElementsByTagName('bibl')->item(0)->textContent."\n");
+          fwrite($fh,$xml->getElementsByTagName('title')->item(0)->textContent."\n");
+          fwrite($fh,$xml->getElementsByTagName('placeName')->item(0)->textContent." ".$xml->getElementsByTagName('date')->item(1)->textContent."\n\n");
 
           // find del, add, hi and unclear tags in certain nodes and replace tags with plain text characters
           $nodes = array('p','cell','l');
