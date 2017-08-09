@@ -208,7 +208,7 @@ public function browseAction() {
 
       foreach ($xml->getElementsByTagName('div')->item(0)->childNodes as $child) {
         if ($child->nodeName == 'p') {
-          $child->textContent = preg_replace("!\s+!", " ", $child->textContent);
+          $child->textContent = trim(preg_replace("/\s+/", " ", $child->textContent));
         }
         if ($child->nodeName == 'p' || $child->nodeName == 'table' || $child->nodeName == 'lg') {
           fwrite($fh,$child->textContent."\n\n");
