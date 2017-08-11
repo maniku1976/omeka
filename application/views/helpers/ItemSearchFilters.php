@@ -106,7 +106,7 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                                 $years = '1856 - 1874';
                                 break;
                             }
-                            $displayValue = strip_formatting($title);
+                            $displayValue = strip_formatting(__($title));
                         }
                         break;
 
