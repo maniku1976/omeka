@@ -48,64 +48,6 @@ class Omeka_View_Helper_ItemSearchFilters extends Zend_View_Helper_Abstract
                         $collection = $db->getTable('Collection')->find($value);
                         if ($collection) {
                             $title = metadata($collection, array('Dublin Core', 'Title'), array('no_escape' => true));
-                            switch ($title) {
-                              case "Lönnrot to Rabbe":
-                                $title = __('Lönnrot to Rabbe');
-                                break;
-                              case "Lönnrot to Castrén":
-                                $title = __('Lönnrot to Castrén');
-                                break;
-                              case "Lönnrot to Keckman":
-                                $title = __('Lönnrot to Keckman');
-                                break;
-                              case "Lönnrot to Elmgren":
-                                $title = __('Lönnrot to Elmgren');
-                                break;
-                              case "Lönnrot to Borg":
-                                $title = __('Lönnrot to Borg');
-                                break;
-                              case "Lönnrot to Ahlqvist":
-                                $title = __('Lönnrot to Ahlqvist');
-                                break;
-                              case "Lönnrot to Cajan":
-                                $title = __('Lönnrot to Cajan');
-                                break;
-                              case "Lönnrot to Collan":
-                                $title = __('Lönnrot to Collan');
-                                break;
-                              case "Lönnrot to Europaeus":
-                                $title = __('Lönnrot to Europaeus');
-                                break;
-                              case "Lönnrot to Ilmoni":
-                                $title = __('Lönnrot to Ilmoni');
-                                break;
-                              case "Lönnrot to Lindfors":
-                                $title = __('Lönnrot to Lindfors');
-                                break;
-                              case "Lönnrot to Saxa":
-                                $title = __('Lönnrot to Saxa');
-                                break;
-                              case "Lönnrot to Sjögren":
-                                $title = __('Lönnrot to Sjögren');
-                                break;
-                              case "Lönnrot to Ståhlberg":
-                                $title = __('Lönnrot to Ståhlberg');
-                                break;
-                              case "Lönnrot to Ticklén":
-                                $title = __('Lönnrot to Ticklén');
-                                break;
-                              case "Lönnrot to Warelius":
-                                $title = __('Lönnrot to Warelius');
-                                break;
-                              case "Lönnrot to Schildt-Kilpinen":
-                                $title = __('Lönnrot to Schildt-Kilpinen');
-                                $years = '1843 - 1874';
-                                break;
-                              case "Lönnrot to Granlund":
-                                $title = __('Lönnrot to Granlund');
-                                $years = '1856 - 1874';
-                                break;
-                            }
                             $displayValue = strip_formatting(__($title));
                         }
                         break;
