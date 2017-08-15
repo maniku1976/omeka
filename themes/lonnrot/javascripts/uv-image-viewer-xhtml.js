@@ -31,6 +31,10 @@ $(document).ready(function() {
 
       if (key == 'Ilmoni' && !endings.includes(ending)) {
         str = key;
+      } else if (key == 'Rein' && key + ending == 'Reine') {
+        str = '';
+      } else if (key == 'Cajan' && key + ending == 'Cajander') {
+        str = '';
       } else {
         str = key + ending;
       }
