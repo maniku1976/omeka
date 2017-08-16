@@ -143,6 +143,39 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Öhman":
             $years = '1842 - 1847';
             break;
+          case "Lönnrot to cannelin":
+            $years = '1848 - 1875';
+            break;
+          case "Lönnrot to Dahlberg":
+            $years = '1869 - 1872';
+            break;
+          case "Lönnrot to Ehrström":
+            $years = '1838 - 1877';
+            break;
+          case "Lönnrot to Elfving":
+            $years = '1831 - 1874';
+            break;
+          case "Lönnrot to Flander":
+            $years = '1835 - 1855';
+            break;
+          case "Lönnrot to Runeberg":
+            $years = '1833 - 1838';
+            break;
+          case "Lönnrot to Törnegren":
+            $years = '1824 - 1858';
+            break;
+          case "Lönnrot to Adolf Törngren":
+            $years = '1828 - 1850';
+            break;
+          case "Lönnrot to Eva Törngren":
+            $years = '1828 - 1847';
+            break;
+          case "Lönnrot to Toppelius":
+            $years = '1833 - 1853';
+            break;
+          case "Lönnrot to Wirzén":
+            $years = '1833 - 1843';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>

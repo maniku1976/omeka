@@ -3853,6 +3853,39 @@ msgstr ""
 msgid "Lönnrot to Öhman"
 msgstr ""
 
+msgid "Lönnrot to Cannelin"
+msgstr ""
+
+msgid "Lönnrot to Dahlberg"
+msgstr ""
+
+msgid "Lönnrot to Flander"
+msgstr ""
+
+msgid "Lönnrot to Wirzén"
+msgstr ""
+
+msgid "Lönnrot to Ehrström"
+msgstr ""
+
+msgid "Lönnrot to Elfving"
+msgstr ""
+
+msgid "Lönnrot to Runeberg"
+msgstr ""
+
+msgid "Lönnrot to Törnegren"
+msgstr ""
+
+msgid "Lönnrot to Adolf Törngren"
+msgstr ""
+
+msgid "Lönnrot to Eva Törngren"
+msgstr ""
+
+msgid "Lönnrot to Toppelius"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr ""
 
@@ -3965,6 +3998,39 @@ msgid "Letters sent by Lönnrot to Bengt Adolf Thuneberg"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Paavo Tikkanen"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Gustaf Cannelin"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Karl Dahlberg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Robert Ehrström"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Fredrik Elfving"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Peter Flander"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Ludvig Runeberg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Wilhelm Törnegren"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Adolf Törngren"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Eva Agatha Törngren"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Gustaf Toppelius"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Ernst Adhemar Wirzén"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

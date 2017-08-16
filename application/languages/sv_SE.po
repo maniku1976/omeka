@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-08-08 13:39+0300\n"
-"PO-Revision-Date: 2017-08-08 13:39+0300\n"
+"POT-Creation-Date: 2017-08-16 14:07+0300\n"
+"PO-Revision-Date: 2017-08-16 14:10+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3981,6 +3981,39 @@ msgstr "Lönnrot till Tikkanen"
 msgid "Lönnrot to Öhman"
 msgstr "Lönnrot till Öhman"
 
+msgid "Lönnrot to Cannelin"
+msgstr "Lönnrot till Cannelin"
+
+msgid "Lönnrot to Dahlberg"
+msgstr "Lönnrot till Dahlberg"
+
+msgid "Lönnrot to Flander"
+msgstr "Lönnrot till Flander"
+
+msgid "Lönnrot to Wirzén"
+msgstr "Lönnrot till Wirzén"
+
+msgid "Lönnrot to Ehrström"
+msgstr "Lönnrot till Ehrström"
+
+msgid "Lönnrot to Elfving"
+msgstr "Lönnrot till Elfving"
+
+msgid "Lönnrot to Runeberg"
+msgstr "Lönnrot till Runeberg"
+
+msgid "Lönnrot to Törnegren"
+msgstr "Lönnrot till Törnegren"
+
+msgid "Lönnrot to Adolf Törngren"
+msgstr "Lönnrot till Adolf Törngren"
+
+msgid "Lönnrot to Eva Törngren"
+msgstr "Lönnrot till Eva Törngren"
+
+msgid "Lönnrot to Toppelius"
+msgstr "Lönnrot till Toppelius"
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr "Lönnrots brev till Frans Johan Rabbe"
 
@@ -4094,6 +4127,39 @@ msgstr "Lönnrots brev till Bengt Adolf Thuneberg"
 
 msgid "Letters sent by Lönnrot to Paavo Tikkanen"
 msgstr "Lönnrots brev till Paavo Tikkanen"
+
+msgid "Letters sent by Lönnrot to Gustaf Cannelin"
+msgstr "Lönnrots brev till Gustaf Cannelin"
+
+msgid "Letters sent by Lönnrot to Karl Dahlberg"
+msgstr "Lönnrots brev till Karl Dahlberg"
+
+msgid "Letters sent by Lönnrot to Carl Robert Ehrström"
+msgstr "Lönnrots brev till Carl Robert Ehrström"
+
+msgid "Letters sent by Lönnrot to Johan Fredrik Elfving"
+msgstr "Lönnrots brev till Johan Fredrik Elfving"
+
+msgid "Letters sent by Lönnrot to Carl Peter Flander"
+msgstr "Lönnrots brev till Carl Peter Flander"
+
+msgid "Letters sent by Lönnrot to Johan Ludvig Runeberg"
+msgstr "Lönnrots brev till Johan Ludvig Runeberg"
+
+msgid "Letters sent by Lönnrot to Carl Wilhelm Törnegren"
+msgstr "Lönnrots brev till Carl Wilhelm Törnegren"
+
+msgid "Letters sent by Lönnrot to Adolf Törngren"
+msgstr "Lönnrots brev till Adolf Törngren"
+
+msgid "Letters sent by Lönnrot to Eva Agatha Törngren"
+msgstr "Lönnrots brev till Eva Agatha Törngren"
+
+msgid "Letters sent by Lönnrot to Gustaf Toppelius"
+msgstr "Lönnrots brev till Gustaf Toppelius"
+
+msgid "Letters sent by Lönnrot to Johan Ernst Adhemar Wirzén"
+msgstr "Lönnrots brev till Johan Ernst Adhemar Wirzén"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
