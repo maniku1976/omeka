@@ -143,7 +143,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Öhman":
             $years = '1842 - 1847';
             break;
-          case "Lönnrot to cannelin":
+          case "Lönnrot to Cannelin":
             $years = '1848 - 1875';
             break;
           case "Lönnrot to Dahlberg":
