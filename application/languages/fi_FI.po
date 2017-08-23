@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-08-16 14:06+0300\n"
-"PO-Revision-Date: 2017-08-16 14:17+0300\n"
+"POT-Creation-Date: 2017-08-23 09:06+0300\n"
+"PO-Revision-Date: 2017-08-23 09:09+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -4030,6 +4030,30 @@ msgstr "Lönnrot Eva Törngrenille"
 msgid "Lönnrot to Toppelius"
 msgstr "Lönnrot Toppeliukselle"
 
+msgid "Lönnrot to Frosterus"
+msgstr "Lönnrot Frosterukselle"
+
+msgid "Lönnrot to Holmström"
+msgstr "Lönnrot Holmströmille"
+
+msgid "Lönnrot to Johansson"
+msgstr "Lönnrot Johanssonille"
+
+msgid "Lönnrot to Liljeblad"
+msgstr "Lönnrot Liljebladille"
+
+msgid "Lönnrot to Savolin"
+msgstr "Lönnrot Savolinille"
+
+msgid "Lönnrot to Sirén"
+msgstr "Lönnrot Sirénille"
+
+msgid "Lönnrot to von Essen"
+msgstr "Lönnrot von Essenille"
+
+msgid "Lönnrot to Aejmelaeus"
+msgstr "Lönnrot Aejmelaeukselle"
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr "Lönnrotin kirjeet Frans Johan Rabbelle"
 
@@ -4176,6 +4200,30 @@ msgstr "Lönnrotin kirjeet Gustaf Toppeliukselle"
 
 msgid "Letters sent by Lönnrot to Johan Ernst Adhemar Wirzén"
 msgstr "Lönnrotin kirjeet Johan Ernst Adhemar Wirzénille"
+
+msgid "Letters sent by Lönnrot to Robert Valentin Frosterus"
+msgstr "Lönnrotin kirjeet Robert Valentin Frosterukselle"
+
+msgid "Letters sent by Lönnrot to Anders Nils Holmström"
+msgstr "Lönnrotin kirjeet Anders Nils Holmströmille"
+
+msgid "Letters sent by Lönnrot to Gustaf Johansson"
+msgstr "Lönnrotin kirjeet Gustaf Johanssonille"
+
+msgid "Letters sent by Lönnrot to Jakob Fredrik Liljeblad"
+msgstr "Lönnrotin kirjeet Jakob Fredrik Liljebladille"
+
+msgid "Letters sent by Lönnrot to Emil Joakim Savolin"
+msgstr "Lönnrotin kirjeet Emil Joakim Savolinille"
+
+msgid "Letters sent by Lönnrot to Carl Wilhelm Sirén"
+msgstr "Lönnrotin kirjeet Carl Wilhelm Sirénille"
+
+msgid "Letters sent by Lönnrot to Carl Gustav von Essen"
+msgstr "Lönnrotin kirjeet Carl Gustav von Essenille"
+
+msgid "Letters sent by Lönnrot to Carl Aejmelaeus"
+msgstr "Lönnrotin kirjeet Carl Aejmelaeukselle"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26

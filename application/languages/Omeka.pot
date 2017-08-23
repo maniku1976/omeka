@@ -3886,6 +3886,30 @@ msgstr ""
 msgid "Lönnrot to Toppelius"
 msgstr ""
 
+msgid "Lönnrot to Frosterus"
+msgstr ""
+
+msgid "Lönnrot to Holmström"
+msgstr ""
+
+msgid "Lönnrot to Johansson"
+msgstr ""
+
+msgid "Lönnrot to Liljeblad"
+msgstr ""
+
+msgid "Lönnrot to Savolin"
+msgstr ""
+
+msgid "Lönnrot to Sirén"
+msgstr ""
+
+msgid "Lönnrot to von Essen"
+msgstr ""
+
+msgid "Lönnrot to Aejmelaeus"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr ""
 
@@ -4031,6 +4055,30 @@ msgid "Letters sent by Lönnrot to Gustaf Toppelius"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Johan Ernst Adhemar Wirzén"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Robert Valentin Frosterus"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Anders Nils Holmström"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Gustaf Johansson"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Jakob Fredrik Liljeblad"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Emil Joakim Savolin"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Wilhelm Sirén"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Gustav von Essen"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Aejmelaeus"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69
