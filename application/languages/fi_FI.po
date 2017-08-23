@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-08-23 09:06+0300\n"
-"PO-Revision-Date: 2017-08-23 09:09+0300\n"
+"POT-Creation-Date: 2017-08-23 13:08+0300\n"
+"PO-Revision-Date: 2017-08-23 13:11+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3937,8 +3937,11 @@ msgstr "Lönnrot Grandlundille"
 msgid "Lönnrot to Akiander"
 msgstr "Lönnrot Akianderille"
 
-msgid "Lönnrot to Appelgren"
-msgstr "Lönnrot Appelgrenille"
+msgid "Lönnrot to Simon Appelgren"
+msgstr "Lönnrot Simon Appelgrenille"
+
+msgid "Lönnrot to Gustaf Appelgren"
+msgstr "Lönnrot Gustaf Appelgrenille"
 
 msgid "Lönnrot to Asp"
 msgstr "Lönnrot Aspille"
@@ -4110,6 +4113,9 @@ msgstr "Lönnrotin kirjeet Johan Fredrik Granlundille"
 
 msgid "Letters sent by Lönnrot to Simon Wilhelm Appelgren"
 msgstr "Lönnrotin kirjeet Simon Wilhelm Appelgrenille"
+
+msgid "Letters sent by Lönnrot to Gustaf Wilhelm Appelgren"
+msgstr "Lönnrotin kirjeet Gustaf Wilhelm Appelgrenille"
 
 msgid "Letters sent by Lönnrot to Gustaf Asp"
 msgstr "Lönnrotin kirjeet Gustaf Aspille"
@@ -4316,6 +4322,9 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Lönnrot to Appelgren"
+#~ msgstr "Lönnrot Appelgrenille"
 
 #~ msgid "Letters sent by Lönnrot to Johan Gabrile Linsén"
 #~ msgstr "Lönnrotin kirjeet Johan"

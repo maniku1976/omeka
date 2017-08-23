@@ -98,7 +98,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Tikkanen":
             $years = '1849 - 1870';
             break;
-          case "Lönnrot to Appelgren":
+          case "Lönnrot to Simon Appelgren":
             $years = '1833 - 1837';
             break;
           case "Lönnrot to Asp":
@@ -199,6 +199,9 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Aejmelaeus":
             $years = '1834 - 1849';
+            break;
+          case "Lönnrot to Gustaf Appelgren":
+            $years = '1859 - 1861';
             break;
         }
         ?>

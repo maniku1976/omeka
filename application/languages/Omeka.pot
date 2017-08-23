@@ -3793,7 +3793,10 @@ msgstr ""
 msgid "Lönnrot to Akiander"
 msgstr ""
 
-msgid "Lönnrot to Appelgren"
+msgid "Lönnrot to Simon Appelgren"
+msgstr ""
+
+msgid "Lönnrot to Gustaf Appelgren"
 msgstr ""
 
 msgid "Lönnrot to Asp"
@@ -3965,6 +3968,9 @@ msgid "Letters sent by Lönnrot to Johan Fredrik Granlund"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Simon Wilhelm Appelgren"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Gustaf Wilhelm Appelgren"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Gustaf Asp"
