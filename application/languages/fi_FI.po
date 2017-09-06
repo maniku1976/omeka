@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-08-23 13:08+0300\n"
-"PO-Revision-Date: 2017-08-23 13:11+0300\n"
+"POT-Creation-Date: 2017-09-06 16:14+0300\n"
+"PO-Revision-Date: 2017-09-06 16:17+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -4057,6 +4057,27 @@ msgstr "Lönnrot von Essenille"
 msgid "Lönnrot to Aejmelaeus"
 msgstr "Lönnrot Aejmelaeukselle"
 
+msgid "Lönnrot to von Haartman"
+msgstr "Lönnrot von Haartmanille"
+
+msgid "Lönnrot to Topelius"
+msgstr "Lönnrot Topeliukselle"
+
+msgid "Lönnrot to Lagus"
+msgstr "Lönnrot Lagukselle"
+
+msgid "Lönnrot to Frans Lönnrot"
+msgstr "Lönnrot Frans Lönnrotille"
+
+msgid "Lönnrot to Fredrik & Ulrika Lönnrot"
+msgstr "Lönnrot Fredrik & Ulrika Lönnrotille"
+
+msgid "Lönnrot to Gabriel Lönnrot"
+msgstr "Lönnrot Gabriel Lönnrotille"
+
+msgid "Lönnrot to Henrik Lönnrot"
+msgstr "Lönnrot Henrik Lönnrotille"
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr "Lönnrotin kirjeet Frans Johan Rabbelle"
 
@@ -4230,6 +4251,27 @@ msgstr "Lönnrotin kirjeet Carl Gustav von Essenille"
 
 msgid "Letters sent by Lönnrot to Carl Aejmelaeus"
 msgstr "Lönnrotin kirjeet Carl Aejmelaeukselle"
+
+msgid "Letters sent by Lönnrot to Carl Daniel von Haartman"
+msgstr "Lönnrotin kirjeet Carl Daniel von Haartmanille"
+
+msgid "Letters sent by Lönnrot to Zacharias Topelius"
+msgstr "Lönnrotin kirjeet Zacharias Topeliukselle"
+
+msgid "Letters sent by Lönnrot to Jakob Johan Wilhelm Lagus"
+msgstr "Lönnrotin kirjeet Jakob Johan Wilhelm Lagukselle"
+
+msgid "Letters sent by Lönnrot to Frans Fredrik Lönnrot"
+msgstr "Lönnrotin kirjeet Frans Fredrik Lönnrotille"
+
+msgid "Letters sent by Lönnrot to Fredrik Johan & Ulrika Lönnrot"
+msgstr "Lönnrotin kirjeet Fredrik Johan & Ulrika Lönnrotille"
+
+msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
+msgstr "Lönnrotin kirjeet Gabriel Martin Lönnrotille"
+
+msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
+msgstr "Lönnrotin kirjeet Henrik Johan Lönnrotille"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
