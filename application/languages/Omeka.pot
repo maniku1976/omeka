@@ -3814,7 +3814,10 @@ msgstr ""
 msgid "Lönnrot to Höglund"
 msgstr ""
 
-msgid "Lönnrot to Ingman"
+msgid "Lönnrot to Erik Ingman"
+msgstr ""
+
+msgid "Lönnrot to Anders Ingman"
 msgstr ""
 
 msgid "Lönnrot to Kellgren"
@@ -3934,6 +3937,24 @@ msgstr ""
 msgid "Lönnrot to Henrik Lönnrot"
 msgstr ""
 
+msgid "Lönnrot to Karsten"
+msgstr ""
+
+msgid "Lönnrot to Lagervall"
+msgstr ""
+
+msgid "Lönnrot to Lilius"
+msgstr ""
+
+msgid "Lönnrot to Christina Lönnrot"
+msgstr ""
+
+msgid "Lönnrot to Gottlund"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr ""
 
@@ -4007,6 +4028,9 @@ msgid "Letters sent by Lönnrot to Anders Magnus Höglund"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Erik Alexander Ingman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Anders Wilhelm Ingman"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to August Kellgren"
@@ -4127,6 +4151,18 @@ msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Anton Karsten"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Fredrik Lagervall"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Karl Adolf Lilius"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Christina & Stina-Liisa Lönnrot"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

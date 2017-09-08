@@ -113,8 +113,11 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Höglund":
             $years = '1833 - 1849';
             break;
-          case "Lönnrot to Ingman":
+          case "Lönnrot to Erik Ingman":
             $years = '1834 - 1836';
+            break;
+          case "Lönnrot to Anders Ingman":
+            $years = '1848 - 1872';
             break;
           case "Lönnrot to Kellgren":
             $years = '1834 - 1847';
@@ -223,6 +226,21 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Henrik Lönnrot":
             $years = '1833 - 1838';
+            break;
+          case "Lönnrot to Karsten":
+            $years = '1843 - 1850';
+            break;
+          case "Lönnrot to Lagervall":
+            $years = '1836 - 1847';
+            break;
+          case "Lönnrot to Lilius":
+            $years = '1849 - 1853';
+            break;
+          case "Lönnrot to Christina Lönnrot":
+            $years = '1838 - 1849';
+            break;
+          case "Lönnrot to Gottlund":
+            $years = '1829 - 1849';
             break;
         }
         ?>
