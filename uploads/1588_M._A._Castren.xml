@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-15">15.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Omistaja Standertskjöld–Nordenstam –suku, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:17</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1588</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1849-08-09">9.8.1849</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_017a"/>
+                <p>Käre Broder!</p>
+                <p>Tack för din kärkomna skrifvelse, som jag med sista post erhöll. Från Uleåborg
+                    kom jag för 2 a 3 veckor sedan och icke denna gång ensam, utan med sal. Heicku
+                    Piponii syster, Mari, till hustru. Der träffade jag äfven din yngsta broder, som
+                    nu drifver egen handelsrörelse, och mycket frågte af mig, om Du i sommar ej
+                    skulle komma till Uleåborg, hvarpå jag ej kunde lemna honom annat än obestämdt
+                    svar. Nu kan jag väl ej ens hoppas mer, att se Dig här i 
+                    
+                <pb n="2" facs="lnak657_064_017b"/>   
+                    denna sommar, men jag hoppas att nästa sommar medför bättre lycka. </p>
+                <p>Emot ert fattade beslut att trycka Kalevala oförändradt efter Mscr kan jag
+                    naturligtvis ej hafva något att anmärka, så öfvertygad jag än är derom, att
+                    arbetet i formelt hänseende skulle vinna vid en noga nagelfaring. Men såsom Du
+                    nämner kan sådant alltförväl lemnas åt kommande tider. En samling af enskildta
+                    episka och mag. runor vore visst lätt att åstadkomma, hvad materialierne dertill
+                    beträffar, men någon redaktion skulle den dock behöfva, så att ej 10 och flere
+                    varianter af samma runo skulle komma att tryckas, de der blott litet skilja sig
+                    från hvarandra. De gemensamma 
+                    
+                <pb n="3" facs="lnak657_064_017c"/>    
+                    ställen borde väl ej tryckas i samlingen, bara vid
+                    en enda, emedan samlingen eljest blefve alltför voluminös. En sådan redaktion
+                    åter skulle medtaga mer tid, än man i början lätt kan föreställa sig. Emedlertid
+                    skall jag, såsnart jag lyckats få i Kanteletar infördt, hvad dertill hörer,
+                    skicka alltsammans, hvad jag af runor har upptecknadt, och som utgör kanske
+                    inemot 100 pappersark, till Litt. Sällskapets disposition. </p>
+                <p>Något revider ark af Kalevala kan jag väl ej få, ej heller anser jag det
+                    behöfvas, men gerna önskade jag att efter hvad tryckningen lider bekomma de
+                    afdragna färdiga arken i ett eller par exemplar, för att om ej annat 
+                    
+               <pb n="3" facs="lnak657_064_017c"/> 
+                    så för att
+                    anmärka möjliga tryckfelen. Af dem kunde ju skickas 5 a 6 eller flere ark i
+                    sender, för att ej hvarje vecka ha besvär dermed. </p>
+                <p>Golownins kartor har jag knapphändigast genomgått och skickar dem nu under
+                    Sällsk:s adress till Rektor Rein. De tyckes vara tämmeligen korrekta, men om de
+                    ännu framdeles behöfde genomses, så tror jag att Europæus skulle göra det med
+                    mesta nöje och intresse.</p>
+                <p>Helsa vännerna Rabbe, Snellman, Collan m. fl. från Din</p>
+                <p>broderlig vän</p>
+                <p>Elias Lönnrot</p>
+                <p>Kajana den </p>
+                <p>9 Aug. 1849.</p>
+                <p>Den behöfliga nyheter om D:r Fredr. Borgs död i Uleåborg läres Du redan hafva
+                    hört. Han hade dessförinnan i flere månader legat sjuk i vattsot. En ung, rik
+                    enka med tvänne barn blefvo jemte allmän saknad efter honom.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

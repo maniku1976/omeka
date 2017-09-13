@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-14">16.4.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Standertskjöld–Nordenstam –suku, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:12</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1583</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">svenska</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1846-06-06">6.6.1846</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_012a"/>
+                <p><hi rend="underline">Kajana den 6 Junii 1846.</hi></p>
+                <p>Käre Broder! Tack för dina bref, hvilka jag här i Finlands Siberien riktigt
+                    bekommit, det sednaste med uppmaning till Collan, att ej låta Tsch. Grammat. för
+                    tidigt afgå. I öfvermorgon reser jag af till Kuopio och skall bestyra, hvad du
+                    önskar, förmodandes ej annat, än att exx. ännu finnas oafsände, efter Rabbe i
+                    sitt sista bref nämnde, det han ännu inga bekommit. Grot anställer d. 14 Rysk
+                    examen och skref för några veckor sedan, att han derifrån ämnar sig hit och
+                    möjligen ända till Torneå och Avasaxa. Ryska språklärare-lönerne skola nyligen
+                    hafva fått betydlig tillökning, så att framdeles infödda Ryssar troligen mer än
+                    hittills ansöka sådana befattningar. Äfven har jag hört talas om, att framdeles
+                    äfven de studerande vid lägre läroverken, som tillhöra den lärda afdelningen,
+                    skola läsa Ryska, då saken hittills berott på deras eget godtycke.</p>
+                <p><hi rend="underline">Kajana d. 22 Aug</hi> Föregående raderna hafva länge väntat
+                    på fortsättning, hvilket är dumt nog. Med Grot reste jag från Kuopio till
+                    Avasaxa, under hvilken resa jag träffade äfven Pastor Lars, hvilken jag på Kemi
+                    prestgård som hastigast besökte. På återvägen ordnade Gr. här i Kajana sina
+                    reseanteckningar, hvilka väl redan torde vara att läsas i Современникъ.  
+                    Efter honom har Kajana i sommar mer än vanligt haft besök af resande Idensalmiter och andra, så att jag
+                    en och annan gång redan önskat vara i Siberien för att få arbeta mera ostörd.
+                    Efter halfannan vecka sker slussarnes högtidliga öppning, hvartill väntas både
+                    från Uleåborg och H:fors fremmande. Som Ehrström i Torneå ej torde hafva kommit
+                    sig till att sjelf skrifva, så får åtminstone jag hälsa dig från honom. Han var
+                    synnerligen nöjd med sin utländska resa och mest med Böhmen, der han ock dröjt
+                    den längsta tiden. Just samma tid, jag i Torneå besökt honom, hemkom hans lilla
+                    fru från sin Tysklandsresa med en liten dotter. &#x2013; Alrik Castren, som fordan på
+                    Kemi prestgård sjöng itkettää ja surettaa ja hulluksi taijan tulla &#x2013; &#x2013; befinner
+                    sig nu här i Kajana, der han äfven framdeles kommer att arbeta. Emmas syster,
+                    Sophie Castren, är nu förelyst med Adjunkten Staudinger, som så snart bröllopet
+                    hunnit gå för sig, flyttar till Kuhmo dit han blifvit förordnad till
+                    nådårspredikant i stället för Lagus, som blifver kapellans adj. i Säräsniemi.
+                    Att g:la Högman i Kuhmo dött lärer du redan veta förut. Länsman Durchmann
+                    Inarensis, numera Sotkamoensis, har gift sig med en mamsell Thodén ifrån Malax
+                    eller Solf. Andra systern skall i höst stå brud för Rector Scholæ
+                    tavasteburgensis Holsti; vore du närmare blefve du råkast bjuden på bröllopp. </p>
+                
+                <pb n="2" facs="lnak657_064_012b"/>
+                <p>Tidningar tyckes du sjelfv få till Siberien, hvarföre jag ej kan traktera dig med
+                    några utplockade nyheter. Nordström har med en kongl. gratification och med
+                    kongliga priset för litterära förtjenster blifvit emottagen på Svensk botten.
+                    Måtte helst det hålla honom vid humeur, ty han sades redan ångra sin flyttning.
+                    Saima, som nyss förut grälade rätt tappert med honom i National-ekonomin, synes
+                    djupt sörja hans afflyttning. Annat Tidningsgräl har Saima sednare haft med
+                    Nervander angående Crusell. Grälet uppstod deraf att då Saima i en artikel, der
+                    hon releverade Crusells förtjenster, kom att förebrå fosterlandet att så helt
+                    och hållet hafva ignorerat honom, upptog N-r förebråelsen såsom riktad mot
+                    Universitetet, hvilket Saima förklarar så mycket mindre kunna hafva varit
+                    fallet, som tidningarne äro förbjudna att på något sätt yttra sig tadlande om
+                    Univers. och andra institutioner. Emot åtskilligt annat som N-r anförde till
+                    bevis, att Crusell ej blifvit så bortglömd, som Saima trott, har nu Crusell
+                    sjelf uppträdt. Redan före N-r hade Willebrand äfvenledes sökt på Morgonbl.
+                    bevisa, att Cr. ingalunda varit bortglömd.</p>
+                <p>På annat fält gräla pietisterna sinsemellan. Renqvist utgaf en diger skrift
+                    ”Väärän opin kauhistus ja oikian opin puolustus”, hvari han rätt på allvare
+                    tilltvålar i synnerhet Ruotsalainens sekt. Emot denna Renqvists skrift utkom
+                    nyligen af Hedbergs parti en brochüre: ”Muutama sana väärän opin kauhistuksesta
+                    etc, hvari både Renqvist och Ruotsalainen blifva grundeligen tilltygade. Af
+                    andra Finska skrifter hafva utk. 1. Enon opetuksia luonnon asioista (Anders
+                    Warelius), en god skrift; 2. Mintähden ja Sentähden, kysymyksiä ja vastauksia
+                    luonnon tietoon kuuluvissa asioissa (D:r Roos) äfvenledes god skrift och godt
+                    språk; begge dessa äro utstyrda med åtskilliga förklarande afbildningar; 3.
+                    Lukemisia S:n kansan hyödyksi toinen vihko, Savokarjalaisten toimittamia, med
+                    Finlands karta; 4. Annikka tahi Suomennoksia ulkomaalaisten
+                    kauniskirjallisuudesta, två häften innehåll. Kapellet af Almqvist Eremiter af
+                    Oehlenschläger; 5. Naapurit merensaaristossa (Pastor Johan Lindberg i
+                    Idensalmi); <add>6.</add> Kr. <hi rend="underline">Kolumbuksen</hi> Elämän vaihet
+                    (Tandefeldt); 7. Fosterl. Album 2:dra Hft, der äfven en Afhandl. om F. språket
+                    af Kellgren (3:dje Hftet af samma skrift väntas snart); 8. Finska kadetten,
+                    sammanskrifven af f. d. och f. närvarande kadetter, inkomsten bestämd för F.
+                    Litter. Sällskapet; 9. Koranders Finska Grammat.; 10. Finelii d:o (bägge ej
+                    tillfylles tgörande) 11. Suomi 5:te Delen, der äfven af dig tvänne artiklar.
+                    Äfven din Tscheremissiska Gr. såg jag annoncerad på Morgonbl.</p>
+                
+                <pb n="3" facs="lnak657_064_012c"/>
+                <p>Litteratur Sällskapet, som nu utgifver Suomi, har hela sista våren lidit mycken
+                    smälek af Gottlund i hans Suomalainen. Flere N:r hafva ifrån början till slut ej
+                    innehållit annat, än glåpord åt Litter. Sällsk. med interfoliering af Gottl:s
+                    egna förtjenster, de <del>of</del> sednare ofta så plumpt till skurna, att han
+                    t.ex. ger sidohugg åt Regeringen för att hafva ihogkommit Runeberg med pension
+                    och glömt (honom sjelf bort, som dock är så mycket öfver). Till olycka hann han
+                    ej fortsätta, ty hans Suomal. blef för någon sedan indragen, eller såsom det
+                    heter: Regeringen återtog de honom gifna privilegierne. Gouverneurerne äro nu
+                    eljest på alla ställen <add>utom hufvudstaden</add> der Tidningar utkomma, de närmaste
+                    Censorer, såsom det icke varit nog af de förra Censorerna! Men Saima sade nyss i
+                    en artikel, att ordet är ett smidigt vapen, som ej bryr sig om Censuren &#x2013;</p>
+                <p>Om Wiborska Litter. Sällsk. har äfven grälats, förty några tyckt Sällskapet stått
+                    sig bättre såsom Filialsällskap. Min tanke är att Sällskapet står sig bäst såsom
+                    sjelfständigt. </p>
+                <p>= Alopæus (Lector) Kyrkoherde i Jockus; Woldstedt Professor i Astron.; E.
+                    Bonsdorff d:o i Anatomien etc; R. Tengström, docent i Philosophien, Tigerstedt
+                    <add>d:o</add> i Historien. </p>
+                <p>Af Brockhaus i Leipzig hade jag <add>nyl.</add> bref, der han förklarar sig mycket nöjd med
+                    Kellgren och lofvar i nästa höst en metrisk öfversättn. af Kalevala. Genom
+                    Europæi högst betydliga Samlingar kommer Kalevala i sinom tid att få <add>mycken
+                    tillökning</add> <del>helt annat afseende</del>; skada bara
+                    att jag nu ej har tid att genast vemphtaga med tillsamlingarnes inpassande.
+                    Äfven har samma Europæus samlat mycket lyriska sånger under sina 1 ½ års färder.
+                    Nu som bäst är äfven Ahlqvist (Stud.) på vandring. 
+                    
+                <pb n="4" facs="lnak657_064_012d"/>   
+                    Snellman i Kuopio har annoncerat ett Litteraturblad <hi rend="underline">Kallavesi</hi>, som
+                    oförtöfvadt utkommer. </p>
+                <p>= Wallgren är antagen till Stadsläkare i Borgå.</p>
+                <p>= Friman har blifvit d:o i Brahestad.</p>
+                <p>= Vattenkuranstalter i Kuppis (Åbo) a la Priessnitz är mycket besökt. </p>
+                <p>Vidare hinner jag nu ej med, utan önskar, att du må sörja för din hälsa och
+                    lifslefvande engång återkomma ifrån Siberien. Dock något ännu: Regeringen har
+                    bestämt åtskilliga stipendier för uppmuntran i Finska Språket, och Committeen
+                    som varit nedsatt <add>för</add> att yttra sig om deras utdelande har utlåtit sig att ett
+                    Finskt Professorat är nödvändigt för samma saks skull.</p>
+                <p>Tuus</p>
+                <p>Elias Lönnrot.</p>
+                <p>22/8 46.</p>
+                <p>
+                    <hi rend="underline">Kajana.</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

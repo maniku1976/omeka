@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-14">14.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Standertskjöld–Nordenstam –suku, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:11</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1582</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1846-04-14">14.4.1846</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_011a"/>
+                <p>Käre Broder!</p>
+                <p>Ditt bref ifrån trakterna af Ob fick jag med sista posten. Datumet har du glömt
+                    att sätta, så att jag ej vet huru gammalt det är. Det fägnesammaste är att din
+                    helsa så till pass stadgat sig; akta nu blott att ånyo genom sittande ifrån
+                    morgonen till aftonen förderfva den, utan tag dageligen motion, så att du med
+                    ens ej sitter öfver högst 1 ½ timmar, förrän du åter tar en ¼ timmas motion
+                    helst ute i fria luften, då det låter göra sig. Wisserligen är det ofta svårt
+                    att ens för ¼ timma slita sig lös ifrån ett arbete, som man skulle önska att
+                    kunna oafbrutet fortsätta till och med i flere dygn å råd, men tidspillan
+                    ersättes dock på längden. Men jag glömmer att du ju är en half läkare sjelf och
+                    alltförväl kan umbära mina råd, så välmenta de än må vara. Wallin, Araben,
+                    tyckes snart blifva tillochmed en hel läkare enligt de bref Allm. Tidn. då och
+                    då meddelt från honom. Han tyckes spela sin roll väl såsom muselman, skrifver
+                    koraniska talismänner åt Araberne mot allt möjligt ondt, och dispenserar dagarne
+                    <add>ut</add> ögon- och andra medikamenter. Ibland tyckas dock Araberne draga litet
+                    misstroende om hans rätt-trogenhet och nödga
+                    
+                <pb n="2" facs="lnak657_064_011b"/>   
+                    honom läsa upp sin trosbekännelse. Må hans resa slutas väl! den tyckes vara ännu 
+                    äfventyrligare än din. I kunde just inga ett kristligt byte, du sända till honom något 
+                    af de Siberiska dimmorna, och han till dig en portion af samumsvindarne i Arabien. Genom 
+                    ett mixtum compositum kunde af dessa tvänne ingredienser blifva något för hvardera
+                    välgörande. Ett nästan afundas jag dig der du nu finnes så <add>nära</add> det himmelska
+                    rikets gräns, nämligen theet, som åtminstone der måste vara både godt och
+                    billigt. Ofta flyger tanken dit, när jag dricker mitt Uleåborgska the här i
+                    Kajana och önskade jag åtminstone thetiden vara der du är. &#x2013;</p>
+                <p>Nu skulle jag komma till ett annat kapitel, hvars innehåll skulle utgöras af
+                    notiser från Finland, hvilka du dock från H:fors får dit nästan lika fort, som
+                    jag får dem hit till Kajana. Nordströms afflyttning till Sverge är för dig en
+                    g:l nyhet, äfvensom att han lemnar efter sig ett stort vacuum vid Universitetet.
+                    Öfverdrifna anspråk hos mannen sjelf äro efter min tanke orsaken till hans
+                    vantrefnad här. Åtminstone borde anspråken alldrig få växa utöfver
+                    fosterlandskärleken. Om Groten sqvallras här, att han fått sina fönster
+                    inslagna! Det är synd om den beskedliga Grot att vara så misskänd. Ursin har
+                    blifvit emeritus, men äges dock ännu säte och stämma i Consistorium.
+                    Blom–Tengström har blifvit tillsagd att packa in; lät se hvem nu blifver hans
+                    efterträdare. Mig anar, att det blifver vår Fredric Nylander. Geitlin säges
+                    öfvergå till Theologien efter Borg, som alltredan mår väl i Limingo. Då kommer
+                    väl Wallin hem för att efterträda Geitlin. Gottlund 
+                    
+                <pb n="3" facs="lnak657_064_011b"/> 
+                    utgifver från sitt tryckeri en finsk tidning ”Suomalainen”, som hittills <add>utgjort</add> och troligen äfven
+                    framdeles kommer att utgöra en panegyrik öfver honom sjelf. I Wiborg finnes ett
+                    nytt oafhängigt Litteratur Sällskap, hvars vice Ordförande Ståhlberg är, den
+                    ordinarie är HofRRådet Bergbom. Det har utsatt ett pris af 100 R. S. för en
+                    finsk skolgrammatik och det H:forska L. S. har för samma sak bestämt 200 R. S.
+                    Månne nu ej grammatiker skola fås? Med min om händer varande har jag ej tänkt
+                    brådska, utan lärer väl vänta, tills Sällskapernas premier framkalla några,
+                    hvilka väl torde göra min öfverflödig, så att jag odeladt får använda min tid på
+                    lexicografien. Hittills har jag delat tiden nästan för mycket med andra
+                    sysselsättningar, näml. Chrestomathien, öfversättningar af Kanteletar och en
+                    finsk Tolk, hvilken sednast nämnda Öhman i Borgå velat hafva. Robert Tengström
+                    har blifvit en väldig skribent i Finskan och sednast råkat i delo med Saima, som
+                    grundeligen gjort gäck af honom för hans mythologiska upptäckt, att björnen var
+                    finnarnes högsta gudomlighet. Första delen af hans finska Anthologi har du väl
+                    redan fått. Den innehåller öfverss. ifrån Kalevala ord för ord efter din, och
+                    dessutom andra, hopsamlade ifrån tidningar och andra skrifter med så
+                    samvetsgrann afskrifning, att hvarje tryckfel tillochmed finnes i sitt
+                    ursprungliga skick. Din tscherem. gramm. är nu färdig och har väl troli-
+                    
+                <pb n="4" facs="lnak657_064_011c"/> 
+                    gen afgått till Rabbe, dit jag bad Karsten skicka hela tutten med undantag af några
+                    honorar. ex. näml. åt Collan, Snellman, Kuopio Gymnasium, Ståhlberg och
+                    undert:d. Rabbe får nog sedan skicka till Vetenskaps Acad. etc. Laga nu så
+                    mycket nya grammatiker, som du nånsin medhinner väl ihogkommande, att någon
+                    efter dig ej så lätt lärer uppstå för att undersöka de siberiska språken.
+                    Intressant var höra att de Tomska Samojedernas språk dock har så mycket
+                    gemensamt med Finskan. Kanske du framdeles träffar ännu andra dialekter, som
+                    komma tillochmed närmare F. &#x2013;</p>
+
+                <p>= Angående lokalkasus i F. språk ber jag dig fundera, om ej i stället för
+                    benämningarne <hi rend="underline">interior</hi> och <hi rend="underline">exterior</hi>, 
+                    eller <hi rend="underline">adessivus</hi>, <hi rend="underline">inessivus</hi>, 
+                    <hi rend="underline">allativus</hi>, <hi rend="underline">illativus</hi> etc. andra
+                    borde väljas, som skulle närmare uttrycka samma kasus’ begrepp, <del>som</del> 
+                    <add>hvilket</add> ej angår såmycket det <hi rend="underline">inre</hi> eller <hi rend="underline">yttre</hi>
+                    förhållandet, att ej mer, huruvida förhållandet är <hi rend="underline">bestämdt</hi>, 
+                    <hi rend="underline">begränsadt</hi>, eller <hi rend="underline">obestämdt</hi>, 
+                    <hi rend="underline">obegränsadt</hi>, z. B. meni <hi rend="underline">rannalle</hi>, meni 
+                    <hi rend="underline">rantaan</hi>, kävi <hi rend="underline">kylässä</hi>, kävi 
+                    <hi rend="underline">kylällä</hi> etc. Från detta begrepp måste man väl utgå för
+                    att kunna skrifva en förnuftig finsk syntaxis, såmycket den har att göra med
+                    lokalkasus, ty eljest skulle intet förnuft finnas i talesätt sådana som veti
+                    saappaan <hi rend="underline">jalkaansa</hi>, kävi saapas <hi rend="underline">jalassa</hi> etc. 
+                    Dock har jag ännu ej ens sjelf närmare begrundat saken,
+                    emedan jag först sednare kommit att fästa mig vid detta, såsom jag tror, egentl.
+                    begrepp hos nämnde kasus. </p>
+                <p>= Isaac Montin från Siikajoki fick nästan enhällig kallelse till Kemi.</p>
+                <p>Hälsningar till landsmän i Siberien</p>
+                <p>Tuus</p>
+                <p>Elias Lönnrot.</p>
+                <p>I sista påsk träffade jag Snellman med sin fru på Idensalmi prestgård, dit vi
+                    hvar från vårt håll blifvit bjudna. I sista nummern af Saima beklagade han att
+                    man på lång tid ej haft några underrättelser från dig, hvarföre jag nu med denna
+                    post trakterar honom med dem som af ditt sednaste bref till mig stå att
+                    inhemtas. Europæus fortsätter allt ännu sina vandringar i Ryska Karelen och har
+                    samlat stora luntor af runor och annat, dem jag tid efter annat fått 
+                    inhändiga. H:forska L. S. har nyligen gifvit medel åt en annan, Stud. Ahlqvist, som i nästa
+                    sommar skall börja samla dylika saker, hvarpå ännu ingen brist förspörjes.</p>
+                <p>Lnr</p>
+                <p>Kajana den 14/26 April 1846.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

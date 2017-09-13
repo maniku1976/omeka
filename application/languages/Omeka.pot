@@ -3925,18 +3925,6 @@ msgstr ""
 msgid "Lönnrot to Lagus"
 msgstr ""
 
-msgid "Lönnrot to Frans Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Fredrik & Ulrika Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Gabriel Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Henrik Lönnrot"
-msgstr ""
-
 msgid "Lönnrot to Karsten"
 msgstr ""
 
@@ -3946,10 +3934,13 @@ msgstr ""
 msgid "Lönnrot to Lilius"
 msgstr ""
 
-msgid "Lönnrot to Christina Lönnrot"
+msgid "Lönnrot to Gottlund"
 msgstr ""
 
-msgid "Lönnrot to Gottlund"
+msgid "Lönnrot to Meurman"
+msgstr ""
+
+msgid "Lönnrot's family letters"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
@@ -4141,18 +4132,6 @@ msgstr ""
 msgid "Letters sent by Lönnrot to Jakob Johan Wilhelm Lagus"
 msgstr ""
 
-msgid "Letters sent by Lönnrot to Frans Fredrik Lönnrot"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Fredrik Johan & Ulrika Lönnrot"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
-msgstr ""
-
 msgid "Letters sent by Lönnrot to Johan Anton Karsten"
 msgstr ""
 
@@ -4162,7 +4141,10 @@ msgstr ""
 msgid "Letters sent by Lönnrot to Karl Adolf Lilius"
 msgstr ""
 
-msgid "Letters sent by Lönnrot to Christina & Stina-Liisa Lönnrot"
+msgid "Letters sent by Lönnrot to daughters Maria and Elina, parents Fredrik Johan and Ulrika, brothers Gabriel Martin and Henrik Johan, Henrik's wife Christina Elisabet and son Frans Fredrik, and other family members"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Otto Adolf Daniel Meurman"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

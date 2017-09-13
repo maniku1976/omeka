@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-09-08 15:59+0300\n"
-"PO-Revision-Date: 2017-09-08 16:03+0300\n"
+"POT-Creation-Date: 2017-09-13 10:15+0300\n"
+"PO-Revision-Date: 2017-09-13 10:24+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4053,18 +4053,6 @@ msgstr "Lönnrot till Topelius"
 msgid "Lönnrot to Lagus"
 msgstr "Lönnrot till Lagus"
 
-msgid "Lönnrot to Frans Lönnrot"
-msgstr "Lönnrot till Frans Lönnrot"
-
-msgid "Lönnrot to Fredrik & Ulrika Lönnrot"
-msgstr "Lönnrot till Fredrik & Ulrika Lönnrot"
-
-msgid "Lönnrot to Gabriel Lönnrot"
-msgstr "Lönnrot till Gabriel Lönnrot"
-
-msgid "Lönnrot to Henrik Lönnrot"
-msgstr "Lönnrot till Henrik Lönnrot"
-
 msgid "Lönnrot to Karsten"
 msgstr "Lönnrot till Karsten"
 
@@ -4074,11 +4062,14 @@ msgstr "Lönnrot till Lagervall"
 msgid "Lönnrot to Lilius"
 msgstr "Lönnrot till Lilius"
 
-msgid "Lönnrot to Christina Lönnrot"
-msgstr "Lönnrot till Christina Lönnrot"
-
 msgid "Lönnrot to Gottlund"
 msgstr "Lönnrot till Gottlund"
+
+msgid "Lönnrot to Meurman"
+msgstr "Lönnrot till Meurman"
+
+msgid "Lönnrot's family letters"
+msgstr "Lönnrots familjebrev"
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrots brev till Carl Axel Gottlund"
@@ -4269,18 +4260,6 @@ msgstr "Lönnrots brev till Zacharias Topelius"
 msgid "Letters sent by Lönnrot to Jakob Johan Wilhelm Lagus"
 msgstr "Lönnrots brev till Jakob Johan Wilhelm Lagus"
 
-msgid "Letters sent by Lönnrot to Frans Fredrik Lönnrot"
-msgstr "Lönnrots brev till Frans Fredrik Lönnrot"
-
-msgid "Letters sent by Lönnrot to Fredrik Johan & Ulrika Lönnrot"
-msgstr "Lönnrots brev till Fredrik Johan & Ulrika Lönnrot"
-
-msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
-msgstr "Lönnrots brev till Gabriel Martin Lönnrot"
-
-msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
-msgstr "Lönnrots brev till Henrik Johan Lönnrot"
-
 msgid "Letters sent by Lönnrot to Johan Anton Karsten"
 msgstr "Lönnrots brev till Johan Anton Karsten"
 
@@ -4290,8 +4269,17 @@ msgstr "Lönnrots brev till Johan Fredrik Lagervall"
 msgid "Letters sent by Lönnrot to Karl Adolf Lilius"
 msgstr "Lönnrots brev till Karl Adolf Lilius"
 
-msgid "Letters sent by Lönnrot to Christina & Stina-Liisa Lönnrot"
-msgstr "Lönnrots brev till Christina & Stina-Liisa Lönnrot"
+msgid ""
+"Letters sent by Lönnrot to daughters Maria and Elina, parents Fredrik Johan "
+"and Ulrika, brothers Gabriel Martin and Henrik Johan, Henrik's wife "
+"Christina Elisabet and son Frans Fredrik, and other family members"
+msgstr ""
+"Lönnrots brev till döttrar Maria och Elina, föräldrar Fredrik Johan och "
+"Ulrika, bröder Gabriel Martin och Henrik Johan, Henriks maka Christina "
+"Elisabet och son Frans Fredrik samt andra släktingar"
+
+msgid "Letters sent by Lönnrot to Otto Adolf Daniel Meurman"
+msgstr "Lönnrots brev till Otto Adolf Daniel Meurman"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
@@ -4384,6 +4372,36 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Lönnrot to Frans Lönnrot"
+#~ msgstr "Lönnrot till Frans Lönnrot"
+
+#~ msgid "Lönnrot to Fredrik & Ulrika Lönnrot"
+#~ msgstr "Lönnrot till Fredrik & Ulrika Lönnrot"
+
+#~ msgid "Lönnrot to Gabriel Lönnrot"
+#~ msgstr "Lönnrot till Gabriel Lönnrot"
+
+#~ msgid "Lönnrot to Henrik Lönnrot"
+#~ msgstr "Lönnrot till Henrik Lönnrot"
+
+#~ msgid "Lönnrot to Christina Lönnrot"
+#~ msgstr "Lönnrot till Christina Lönnrot"
+
+#~ msgid "Letters sent by Lönnrot to Frans Fredrik Lönnrot"
+#~ msgstr "Lönnrots brev till Frans Fredrik Lönnrot"
+
+#~ msgid "Letters sent by Lönnrot to Fredrik Johan & Ulrika Lönnrot"
+#~ msgstr "Lönnrots brev till Fredrik Johan & Ulrika Lönnrot"
+
+#~ msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
+#~ msgstr "Lönnrots brev till Gabriel Martin Lönnrot"
+
+#~ msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
+#~ msgstr "Lönnrots brev till Henrik Johan Lönnrot"
+
+#~ msgid "Letters sent by Lönnrot to Christina & Stina-Liisa Lönnrot"
+#~ msgstr "Lönnrots brev till Christina & Stina-Liisa Lönnrot"
 
 #~ msgid "Lönnrot to Ingman"
 #~ msgstr "Lönnrot till Ingman"

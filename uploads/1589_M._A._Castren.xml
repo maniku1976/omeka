@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-15">15.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Omistaja Standertskjöld–Nordenstam –suku, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:18</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1589</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1849-09-13">13.9.1849</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_018a"/>
+                <p>Kajana d. 13 Sept:r 1849</p>
+                <p>Käraste Broder!</p>
+                <p>Ditt kärk. bref af d. 7 dennes fick jag igår ock derjemte fortsättning af
+                    Kalevala ända till 9 halfark. Tryckfelen äro hvarken många eller stora, och
+                    komma på långt när ej upp mot föregående upplagas. Jag skall väl, när
+                    tryckningen kommer till slutet, skicka en förteckning på mina upptäckten i den
+                    vägen. </p>
+                <p>Jag har nu hållit på att genomgå Europæi förfinskning af det Meurmanska
+                    
+                <pb n="2" facs="lnak657_064_018b"/>
+                    Ryskt-Svenskt-Finska Lexicon, hvars sista ord i Mscr för det närvarande är отлучение. 
+                    I nästa lördag tror jag mig kunna skicka det till Litt. Sällsk, för att genom dess försorg komma till
+                    Meurman eller till Nordensvahns tryckeri i Tavastehus. Sjelf begifver jag mig
+                    derpå till Kiando för att inspektera Vaccinations arbetet, och dröjer på var
+                    färden sino par veckor. Din gamla boningskamrat Janne Wegelius, som jag då äfven besöker,
+                    har redan i par års tid lidit af styfhet i knälederna, så att han endast med tils hjelp 
+                    
+                <pb n="3" facs="lnak657_064_018c"/>    
+                    af tvänne käppar kan röra sig från ett ställe till annat. Troligen är han nu återigen en full pietist, ty han
+                    var det engång förut, men sansade sig åter derpå, men nu hörs den vara en Mag.
+                    Tenlén, såsom curam gerens, äfven pietist, hvarföre jag ej annat förmodar, nu
+                    att Wegelius håller honom sällskap. </p>
+                <p>Din yngsta bror, Handlande i Uleåborg, höres nu vara gift med Fellmans dotter,
+                    hvilket Du väl sjelf äfven vet. Men af Kyrkoherden Fellman erinrar jag mig nu,
+                    att jag allt ännu har hos mig den 
+                    
+                <pb n="4" facs="lnak657_064_018d"/> 
+                    af honom åt Dig förärade Leemska Grammatiken.
+                    Den kan jag med nästa post skicka till Dig under Litt. Sällsk:s adress, och då
+                    tillika hans Loppska öfversättng af Möllers katkes, för hvars tryckning han
+                    utfäst sig att betala 300 Riksdaler i ett g:lt bref till mig. Kanske får Du tid
+                    att låta trycka det. </p>
+                <p>Helsa vännerna och må sjelf väl onskar af allt hjerta Din</p>
+                <p>tillgifne</p>
+                <p>Elias Lönnrot.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

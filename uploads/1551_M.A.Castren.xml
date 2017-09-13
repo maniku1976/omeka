@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &amp;gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-08-24">24.8.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+                        <idno></idno>
+<!-- Signum puuttuu                       -->
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1551</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader> 
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Olonets">Olonets</placeName>
+<!--  Onko Olonets standardimuoto?                      -->
+                        <date when="1842-09-27">27.9.1842</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_003a"/> 
+                <p>Käre Broder!</p>
+                <p>Ehuru jag ej haft något bref af Dig, och således ej säkert vet, om Du för det närvarande är i Archangelsk eller 
+                    Wadsöe eller annorstädes, så förmodar jag dock, att Du sannolikast nu befinner Dig på det förstnämnda stället, 
+                    och skickar dit ej allenast Heinrichs Lexicon, som Du väl torde behöfva, utan ock det öfriga hosföljande. På 
+                    Morgonbladet skickade Rabbe ej fortsättning, emedan Collan hela sommarn varit i Sverge, och har derföre ej kunnat
+                    sjelf, såsom han sade, få det. </p>
+                <p>Emedan jag ej fick förlängning på min tjenstledighet, hvarom jag anhöll, så måste jag lemna Tjsuderna och befinner 
+                    mig nu på hemfärden. Ganska rätt hade Sjögren deruti, att språket (Tjsudiskan) är upplysande för Finskan, men att 
+                    det skulle vara en mellanlänk emellan Lappskan och Finskan, det har jag just icke funnit, utan anser det hellre 
+                    för en mellanlänk emellan Finskan och Estniskan (eller Syrjeniskan?)  &#x2013; Tjsudiskan har Ryskans alla blöta 
+                    konsonanter och alla ryska s (з, ж, ш, с) samt dessutom en egen konsonant, hvars ljud står så midtemellan 
+                    <hi rend="underline">l</hi>, och <hi rend="underline">v</hi>, att det ej kan betecknas med någotdera, t. ex. 
+                    vå<add>l</add><hi rend="underline">v</hi>ged, hvit, Genit. vå<add>l</add><hi rend="underline">v</hi>gtan, 
+                    o<add>l</add><hi rend="underline">v</hi>da, vara, ku<add>l</add><hi rend="underline">v</hi>daine (också kuudaine) 
+                    gyllne. Ett annat konsonantljud emellan <hi rend="underline">b</hi> och <hi rend="underline">v</hi> förekommer äfven, 
+                    och ett emellan <hi rend="underline">d</hi> och <hi rend="underline">r</hi>, dock skilja sig dessa ganska litet 
+                    ifrån ett rent <hi rend="underline">b</hi> och <hi rend="underline">d</hi>. Ännu ett eget sådant ljud är en underlig 
+                    konsonant emellan Lappskans ž och Ryskans ж  t. ex. kužu l kuжu, hvalp, det 
+                <pb n="2" facs="lnak657_064_003b"/> 
+                    skiljer sig dock obetydligt ifrån ž i lappskan. Egna vokalljud finnas äfven nämligen à (emellan a och ä) t. ex. 
+                    àla jàtà f. älä jätä, è l. ò (emellan <hi rend="underline">e</hi> och <hi rend="underline">o</hi>) t. ex. liineb 
+                    l. liinob han skall vara, och det ryska ы t. ex. i sanыj l. sanui l. sanij, han sade (sanoi).</p> 
+                <p>Men det interessantaste i Tjsudiskan är dess verbalbyggnad med former, som hvarken Finskan, Lappskan eller Estniskan 
+                    äger. Så vidt jag nu kan, då anmärkningarne äro alldeles oordnade, skrifver jag och bifogar på ett särskilt papper 
+                    en conjugation. Det är eljest en förarglig sak att medelst den formfattiga Ryskan nödgas leta sig till formerna 
+                    i ett annat språk. På flere dagar ville jag ej få något præsens Conjunctivi, huru jag än stälde och regerte med 
+                    de orden, som skola uttrycka det conjunctiva begreppet i Ryskan. Jag trodde redan hela formen saknades i språket, 
+                    tills jag händelsevis i samtal hörde den: häen silei dengat maksab, ku <hi rend="underline">maltnet</hi> min 
+                    pajatusen d. ä. h. sinule rahan m. kun malttanet jonkun laulun. Deremot hade jag i flere dagars tid ett eget 
+                    futurum i Tjsudiskan, uppkommet sålunda, att <hi rend="underline">Я буду читать</hi> l. <hi rend="underline">стану читать,
+                    </hi> hvilket, såsom du vet, <hi rend="underline">skall vara</hi> det ryska futurum, alltid återgafs med miǹà (миня) 
+                    lugeskanden, och lika så alla andra infinitiver med буду l. стану framför sig med t. ex. minà tegeskanden, 
+                    tuleskanden, salptaskanden (буду затворить), opendaskanden (стану обучать) o. s. v. Men detta futurum förvandlade 
+                    sig sedan till ett verbum inchoativum, utan att jag just mycket sörjde öfver förlusten deraf. Detta verbum inchoativum 
+                    är påtagligen detsamma, 
+                <pb n="3" facs="lnak657_064_003c"/> 
+                    som Lappskans = goattet, och torde förut hafva funnits äfven i Finskan, men sedan gått förloradt, 
+                    då språket börjat bilda sig efter Svenskan, som saknar inchoativa. Det böjes i Tjsudiskan: lugeskanden, -skansin, 
+                    -skandenen, -skandeisin, infin. –skata, -skanu l. –skant o. s. v.</p>
+                <p>Nominernas casus bifogar jag på samma lösa blad, som verbconjugationen. Utom dem finnes det oegentliga casus t. 
+                    ex. randaha –sai, ända till stranden, randas-pài, ifrån stranden (rannasta), randal-pài (rannalta), randan-ked, 
+                    med stranden, hvilka –sai, -pái, l-pæi ocj –ked utsägas såsom ett ord med det föregående, men dock ej äro egentl. 
+                    casusändelser, hvarföre ett vidfogadt adjectivum ej antager dem t. ex. syvàhà randaha-sai, ända till djupa stranden. 
+                    Likaså randan-non (randanlon, hos stranden, randan-nost l. randan-lost till stranden. </p>
+                <p>Suffixerna i Tjsudiskan nyttjas numera ganska sällan, utan vid pronomina personalia och deras vederlike itse (itjse). 
+                    Diminutiver finnas nästan i samma öfverflöd, som i ryskan t. ex. <hi rend="underline">uk</hi>, старикь, 
+                    <hi rend="underline">ukoinen</hi>, старикь, <hi rend="underline">ukoisut</hi>, старичёкь, <hi rend="underline">ukrukainen</hi>, 
+                    <hi rend="underline">ukkuluinen</hi> стариченко, <hi rend="underline">ukkulu</hi>, старичищь, och ännu: 
+                    <hi rend="underline">ukrukaisut</hi>; <hi rend="underline">ukkuluisut</hi>.</p>
+                <p>En egen märkvärdighet är den öfverallt förekommande contractioner midt i orden t. ex. andlen, maksnen, upsin, 
+                    langten, langsin, palktan, palksin o. s. v. för Finskans antelen, maksanen, upposin, lankeen (eg. lanketen), 
+                    lankesin, palkkaan (eg. palkatan), palkkasin. Och en ännu större märkvärdighet är, att accenten i några fall 
+                    flyttar sig ifrån den egentliga plats, första stafvelsen t. ex. raudàine<del>n</del>, hobedàine, kuvdàine o. s. v. – 
+                    Sådana ord, som t. ex. kuvd l. kuld, raud m. m. torde tala emot det påståendet att kulta, ranta m. m. i Finskan 
+                    vore lånade ifrån Sv., ty dessa Tjsuder hafva väl aldrig varit i beröring med Svenskar, utan om de behöft låna, 
+                    så skulle de väl gjort lånet ifrån Ryskan. – I lexicaliskt hänseende kan Tjsudiskan 
+                <pb n="4" facs="lnak657_064_003d"/> 
+                    lemna likaså rika bidrag, som i grammatikaliskt, och ibland annat visa flere finska ord ursprung ifrån, 
+                    eller gemenskap med ryska ord, ty i Tjsudiskan är likheten större t. ex. <hi rend="underline">laittaa</hi> 
+                    tadla af Ryskans лаять, skälla. I Tjsud. finnes deraf lajin, lajida, gräla, banna. Vajeh, Gen. vaihen betyder 
+                    ord (sana) och af dess caritivus casus vaiheta har adverbiet vaiti (eg. vaiheti, vaihti) bildat sig. </p>
+                <p>Till slut ett litet språkprof efter Ponomarens i Karhela öfversättning ifrån Ryskan</p>
+                <p>Въ началъ Богъ изъ ничего сотворилъ небо и землю:</p>
+                <p>Esmäi Synd ni miš tegi taivhan i man:   </p>
+                <p>Въ первый день свѣть; Въ вторый день видимое небо;</p>
+                <p>Ezmäitsel päivàl volgtan; Toišel päivàl nägymisen taivhan.</p>
+                <p>Въ третій  вмъстилище водь на землъ, и сушу и растенія; Въ четвертый солнце, луну и звъзды;</p>
+                <p>Ko(l)<hi rend="underline">v</hi>mandel yhtijšen veden màl, i kuivan i kasvatusen; Neljændel päivan, 
+                    kun i ŧähtet;</p>
+                <p>въ пятый рыбь и птицъ; Вь шестый животных четвероногихъ, живущихъ на сушъ и наконец человыка.</p>
+                <p>Viidendel kalat i lindut; Kuudendel elàbid neljjo(l)<hi rend="underline">v</hi>gašid, elàjid kuival i jälgmäi 
+                    ristityn(suddogas?).</p>
+                <p>Человѣкомъ твореніе кончилось, и въ седмый день Богъ почилъ отъ всѣхъ дѣлъ своихъ.</p>
+                <p>Ristityl tegend lopihe, i seiŧsemändel päivàl Synd otkasi kaikiš raadoiš iŧseze.</p> 
+                <p>Otъ село седмыи день названь субботою, что Еврейскoго языка означаеть токой.</p>
+                <p>Siitpài seiŧsemäns päiv sanutud sobbataks, mi Jevrejeden kelel sanutud hengäidys.</p>
+                <p>Obs. I stället för Synd (syndy) nyttjas äfven Jumal, och i stället för ristitt (ristitty) äfven inehminen, 
+                    ehuru sällan det sednare. Som der ej äro andra bekanta är bröderna Sturtzen, så ber jag ej heller helsa andra. </p>
+                <p>Din vän och broder</p>
+                <p>Elias Lönnrot</p>
+                <pb n="5" facs="lnak657_064_003e"/>
+                <table>
+                    <row role="label">
+                        <cell><hi rend="underline">Præsens Indicativi</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">Præsens Conjuctivi</hi></cell>
+                        <cell/>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">active</hi></cell>
+                        <cell><hi rend="underline">reflexive</hi></cell>
+                        <cell><hi rend="underline">activ.</hi></cell>
+                        <cell><hi rend="underline">reflexiv.</hi></cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">affirmative</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">affirmative</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>s. lugen</cell>
+                        <cell>s. lugemoi</cell>
+                        <cell>s. lugènen</cell>
+                        <cell>s. lugenemoi</cell>
+                    </row>
+                    <row>
+                        <cell>luget</cell>
+                        <cell>lugetei</cell>
+                        <cell>lugenet</cell>
+                        <cell>lugenetei</cell>
+                    </row>
+                    <row>
+                        <cell>lugeb</cell>
+                        <cell>luge&#353;e</cell>
+                        <cell>lugenob</cell>
+                        <cell>lugene&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>pl. lugemai</cell>
+                        <cell>pl. lugemoi&#353;ei</cell>
+                        <cell>pl. lugenemai</cell>
+                        <cell>pl. lugenemoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>lugetei</cell>
+                        <cell>lugetei&#353;ei</cell>
+                        <cell>lugenetei</cell>
+                        <cell>lugenetei&#353;ei </cell>
+                    </row>
+                    <row>
+                        <cell>*lugeba</cell>
+                        <cell>*(lugeba&#353;ei)</cell>
+                        <cell>*lugeneba</cell>
+                        <cell>*(lugeneba&#353;ei)</cell>
+                    </row>
+                    <row>
+                        <cell>*lugeta&#353;</cell>
+                        <cell>*lugeta&#353;ei</cell>
+                        <cell>*lugetane&#353;</cell>
+                        <cell>*lugetane&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>*luge&#353;ei</cell>
+                        <cell/>
+                        <cell>*lugene&#353;ei</cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">negative:</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">negative:</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>s. en luge</cell>
+                        <cell>s. en lugete</cell>
+                        <cell>s. lugene</cell>
+                        <cell>s. lugenete</cell>
+                    </row>
+                    <row>
+                        <cell>et luge</cell>
+                        <cell>et lugete</cell>
+                        <cell>pl. *lugenekoi</cell>
+                        <cell>pl. *lugenekoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>ei luge</cell>
+                        <cell>ei lugete</cell>
+                        <cell>*lugetane</cell>
+                        <cell>*lugetanei&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>pl. emai lugekoi</cell>
+                        <cell>pl. emai lugekoi&#353;ei</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>etei lugekoi</cell>
+                        <cell>etei lugekoi&#353;ei</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>eba lugekoi</cell>
+                        <cell>eba lugekoi&#353;ei</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">Præteritum I Indicativi.</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">Præterit. (plusqvam perf.) Conjunct.</hi></cell>
+                        <cell/>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">affirmative:</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">affirmative:</hi></cell>
+                        <cell/>
+                    </row>  
+                    <row>
+                        <cell>s. lugin</cell>
+                        <cell>s. lugimoi</cell>
+                        <cell>s. lugenui&#353;in</cell>
+                        <cell>s. lugenui&#353;imoi</cell>
+                    </row>
+                    <row>
+                        <cell>lugit</cell>
+                        <cell>lugitei</cell>
+                        <cell>s. lugenui&#353;it</cell>
+                        <cell>s. lugenui&#353;itei</cell>
+                    </row>
+                    <row>
+                        <cell>lugi</cell>
+                        <cell>lugihe</cell>
+                        <cell>s. lugenui&#353;</cell>
+                        <cell>s. lugenui&#353;ihe</cell>
+                    </row>
+                    <row>
+                        <cell>pl. lugimai</cell>
+                        <cell>pl. lugimoi&#353;ei</cell>
+                        <cell>pl. lugenui&#353;imai</cell>
+                        <cell>pl. lugenui&#353;imoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>lugitei</cell>
+                        <cell>lugitei&#353;ei</cell>
+                        <cell>lugenui&#353;itei</cell>
+                        <cell>lugenui&#353;itei&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>*lugiba</cell>
+                        <cell>*(lugiba&#353;ei)</cell>
+                        <cell>*lugenui&#353;iba</cell>
+                        <cell>*(lugenui&#353;iba&#353;ei)</cell>
+                    </row>
+                    <row>
+                        <cell>*lugettihe</cell>
+                        <cell>*lugettihe&#353;ei</cell>
+                        <cell>(*luget<del>an</del>ui&#353;)</cell>
+                        <cell>*lugenui&#353;ihe&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>*lugihe&#353;ei</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">negative:</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">negative:</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>s. lugi&#353;ke</cell>
+                        <cell>s.*lugi&#353;kete</cell>
+                        <cell>s. lugenui&#353;</cell>
+                        <cell>s. lugenui&#353;ihe</cell>
+                    </row>
+                    <row>
+                        <cell>s. lugi&#353;ket</cell>
+                        <cell>s.*lugi&#353;kete&#353;ei</cell>
+                        <cell>s. lugetui&#353;</cell>
+                        <cell>*lugenui&#353;ihe&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>*lugi&#353;kenu&#353;ei</cell>
+                        <cell/>
+                        <cell>*lugetui&#353;ihe&#353;ei</cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">Præteritum II Indicativi:</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">Futurum (Imperfect.) I Conjunct.</hi></cell>
+                        <cell/>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">affirmative:</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">affirmative:</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>s. minä lugenu  l.</cell>
+                        <cell>s. minä lugenu&#353;e</cell>
+                        <cell>s. lugenei&#353;in</cell>
+                        <cell>s. lugenei&#353;imoi</cell>
+                    </row>
+                    <row>
+                        <cell>sinä lugent</cell>
+                        <cell>sinä lugenu&#353;e</cell>
+                        <cell>lugenei&#353;it</cell>
+                        <cell>lugenei&#353;itei</cell>
+                    </row>
+                    <row>
+                        <cell>hæn lugent</cell>
+                        <cell>hän lugenu&#353;e</cell>
+                        <cell>lugenei&#353;</cell>
+                        <cell>lugenei&#353;ihe</cell>
+                    </row>
+                    <row>
+                        <cell>pl mᴕᴕ lugetud l.</cell>
+                        <cell>pl. mö lugenu&#353;ei l.</cell>
+                        <cell>pl. lugenei&#353;imai</cell>
+                        <cell>pl. lugenei&#353;imoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>tᴕᴕ lugenudet</cell>
+                        <cell>tö lugetu&#353;ei</cell>
+                        <cell>lugenei&#353;itei</cell>
+                        <cell>lugenei&#353;itei&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>hᴕᴕ lugenudet </cell>
+                        <cell>hö lugetu&#353;ei</cell>
+                        <cell>*lugenei&#353;iba</cell>
+                        <cell>*lugenei&#353;iba&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>*(lugetanei&#353;)</cell>
+                        <cell>*lugenei&#353;ihe&#353;ei</cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">negative:</hi></cell>
+                        <cell/>
+                        <cell><hi rend="underline">negative:</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>s. *lugenu</cell>
+                        <cell>s. lugenu&#353;e</cell>
+                        <cell>s. lugenei&#353;</cell>
+                        <cell>s. lugenei&#353;ihe</cell>
+                    </row>
+                    <row>
+                        <cell>*lugent</cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>pl. *lugetud</cell>
+                        <cell>pl. *lugenu&#353;ei</cell>
+                        <cell>pl. lugetanei&#353;</cell>
+                        <cell>pl.*lugenei&#353;ihe&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>*lugenudet</cell>
+                        <cell>*lugetu&#353;ei</cell>
+                        <cell/>
+                        <cell>*lugetanei&#353;ihe&#353;ei</cell>
+                    </row>
+                </table>
+                <pb n="6" facs="lnak657_064_003f"/>
+                <table>
+                    <row role="label">
+                        <cell><hi rend="underline">Futurum (Imperfect.) II Conjunct.</hi></cell>
+                        <cell></cell>
+                    </row>                
+                    <row role="label">
+                        <cell><hi rend="underline">affirmative:</hi></cell>
+                        <cell></cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">activ.</hi></cell>
+                        <cell><hi rend="underline">reflexiv.</hi></cell>
+                    </row>
+                    <row>
+                        <cell>s. lugei&#353;in</cell>
+                        <cell>s. lugei&#353;imoi</cell>
+                    </row>
+                    <row>
+                        <cell>lugei&#353;it</cell>
+                        <cell>lugei&#353;itei</cell>
+                    </row>
+                    <row>
+                        <cell>lugei&#353;</cell>
+                        <cell>lugei&#353;ihe</cell>
+                    </row>
+                    <row>
+                        <cell>pl. lugei&#353;imai</cell>
+                        <cell>pl. lugei&#353;imoiśei</cell>
+                    </row>
+                    <row>
+                        <cell>lugei&#353;itei</cell>
+                        <cell>lugei&#353;itei&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>*lugei&#353;iba</cell>
+                        <cell>*(lugei&#353;iba&#353;ei)</cell>
+                    </row>
+                    <row>
+                        <cell>*lugetai&#353;</cell>
+                        <cell>*lugei&#353;ihe&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>*lugetai&#353;ihe&#353;ei</cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">negative:</hi></cell>
+                    </row>
+                    <row>
+                        <cell>s. lugei&#353;</cell>
+                        <cell>s. lugei&#353;ihe</cell>
+                    </row>
+                    <row>
+                        <cell>pl. lugetai&#353;</cell>
+                        <cell>lugei&#353;ihe&#353;ei</cell>
+                    </row>               
+                    <row role="label">
+                        <cell><hi rend="underline">Imperativus.</hi></cell>
+                        <cell/>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">affirmative:</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>s. luge</cell>
+                        <cell>s. lugete</cell>
+                    </row>
+                    <row>
+                        <cell>lugekaha</cell>
+                        <cell>lugekaha&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>pl. *lugekamai</cell>
+                        <cell>pl. lugekamoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>*lugekam</cell>
+                        <cell>lugekatei&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>*lugekatei</cell>
+                        <cell>*lugekaha&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>*lugekat</cell>
+                        <cell>*lugetakaha&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>*lugekaha</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>*lugetakaha</cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">negative:</hi></cell>
+                        <cell/>
+                    </row>
+                    <row><cell>s. ala luge</cell>
+                         <cell>s. ala lugete</cell>
+                    </row>
+                    <row>
+                        <cell>alkha *lugekaha</cell>
+                        <cell>alkha lugekaha&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell><del>lugekoa</del></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>pl. alkam lugekoi</cell>
+                        <cell>pl. alkam lugekoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>alkat lugekoi</cell>
+                        <cell>alkat lugekoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>alkha *lugekoi</cell>
+                        <cell>alkha *lugekaha&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell>*lugetakoi</cell>
+                        <cell>*lugekoi&#353;ei</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>*lugetakoi&#353;ei</cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">Infinitivus.</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>lugeda</cell>
+                        <cell>lugeda&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>lugedes</cell>
+                        <cell>(lugedesehe)</cell>
+                    </row>
+                    <row>
+                        <cell>lugemaha</cell>
+                        <cell>lugemaha&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>lugemas</cell>
+                        <cell>(lugemasehe)</cell>
+                    </row>
+                    <row>
+                        <cell>lugemal</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>lugemata</cell>
+                        <cell>lugemata&#353;e</cell>
+                    </row>
+                    <row role="label">
+                        <cell><hi rend="underline">Participium.</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>*lugeja</cell>
+                        <cell>*lugeja&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>*lugeba</cell>
+                        <cell>*lugeba&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>lugenu</cell>
+                        <cell>lugenu&#353;e</cell>
+                    </row>
+                    <row>
+                        <cell>lugetab passiva</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>lugetud passiva</cell>
+                        <cell/>
+                    </row>
+                </table>
+                <table>
+                    <row role="label">
+                        <cell><hi rend="underline">Nomina</hi></cell>
+                        <cell><hi rend="underline">Singul.</hi></cell>
+                        <cell><hi rend="underline">Plural.</hi></cell>
+                        <cell><hi rend="underline">S.</hi></cell>
+                        <cell><hi rend="underline">Pl.</hi></cell>
+                        <cell><hi rend="underline">S.</hi></cell>
+                        <cell><hi rend="underline">Pl.</hi></cell>
+                        <cell><hi rend="underline">S.</hi></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell role="label">Nominat.</cell>
+                        <cell><hi rend="underline">d</hi><add>t</add></cell>
+                        <cell>randat</cell>
+                        <cell>lähte (brunn)</cell>
+                        <cell>lähtket</cell>
+                        <cell>sange<hi rend="underline">d</hi><add>t</add> (tjock)</cell>
+                        <cell>sangtat</cell>
+                        <cell>kyndu&#353; (tröskel)</cell>
+                        <cell>kynduset</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Genitiv.</cell>
+                        <cell>randan</cell>
+                        <cell>randoiden</cell>
+                        <cell>lähtken</cell>
+                        <cell>lähtkiden</cell>
+                        <cell>sangtan</cell>
+                        <cell>sangtiden</cell>
+                        <cell>kyndusen</cell>
+                        <cell>kyndusiden</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Infinit.</cell>
+                        <cell>randat</cell>
+                        <cell>randoit</cell>
+                        <cell>lähtet</cell>
+                        <cell>lähtkit</cell>
+                        <cell>sangtat</cell>
+                        <cell>sangtit</cell>
+                        <cell>kyndust</cell>
+                        <cell>kyndusit</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Allativ.</cell>
+                        <cell>randale</cell>
+                        <cell>randoile</cell>
+                        <cell>lähtkele</cell>
+                        <cell>lähtkile</cell>
+                        <cell>sangtale</cell>
+                        <cell>sangtile</cell>
+                        <cell>kyndusele</cell>
+                        <cell>kyndusile</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Adessiv.</cell>
+                        <cell>randal</cell>
+                        <cell>randoil</cell>
+                        <cell>lähtkel</cell>
+                        <cell>lähtkil</cell>
+                        <cell>sangtal</cell>
+                        <cell>sangtit</cell>
+                        <cell>kyndusel</cell>
+                        <cell>kyndusil</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Illativ.</cell>
+                        <cell>randaha</cell>
+                        <cell>randoihi</cell>
+                        <cell>lähtkehe</cell>
+                        <cell>lähtkihi</cell>
+                        <cell>sangtaha</cell>
+                        <cell>sangtihi</cell>
+                        <cell>kyndusehe</cell>
+                        <cell>kyndusihi</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Iness.</cell>
+                        <cell>randas</cell>
+                        <cell>randois</cell>
+                        <cell>lähtkes</cell>
+                        <cell>lähtkis</cell>
+                        <cell>sangtas</cell>
+                        <cell>sangtis</cell>
+                        <cell>kynduses</cell>
+                        <cell>kyndusis</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Instructiv.</cell>
+                        <cell>(randan)</cell>
+                        <cell>randoin</cell>
+                        <cell>(lähtken)</cell>
+                        <cell>lähtkin</cell>
+                        <cell>(sangtan)</cell>
+                        <cell>sangtin</cell>
+                        <cell>(kyndusen)</cell>
+                        <cell>kyndusin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Caritiv.</cell>
+                        <cell>randata</cell>
+                        <cell>randoita</cell>
+                        <cell>lähtketà</cell>
+                        <cell>lähtkità</cell>
+                        <cell>sangtata</cell>
+                        <cell>sangtita</cell>
+                        <cell>kynduseta</cell>
+                        <cell>kyndusita</cell>
+                    </row>
+                </table>
+                <p>Obs. för ran<emph rend="font-style:Times New Roman Cyr"/>doiden, randoit o. s. v. sades af andra randûden, 
+                    randût, eller randijden, randijt o. s. v.  </p>
+            </div>
+        </body>
+    </text>
+</TEI>
