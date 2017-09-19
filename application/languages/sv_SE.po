@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-09-13 10:15+0300\n"
-"PO-Revision-Date: 2017-09-13 10:24+0300\n"
+"POT-Creation-Date: 2017-09-19 12:51+0300\n"
+"PO-Revision-Date: 2017-09-19 12:51+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4071,6 +4071,9 @@ msgstr "Lönnrot till Meurman"
 msgid "Lönnrot's family letters"
 msgstr "Lönnrots familjebrev"
 
+msgid "Lönnrot to Bergström"
+msgstr "Lönnrot till Bergström"
+
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrots brev till Carl Axel Gottlund"
 
@@ -4280,6 +4283,9 @@ msgstr ""
 
 msgid "Letters sent by Lönnrot to Otto Adolf Daniel Meurman"
 msgstr "Lönnrots brev till Otto Adolf Daniel Meurman"
+
+msgid "Letters sent by Lönnrot to I. Bergström"
+msgstr "Lönnrots brev till I. Bergström"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26

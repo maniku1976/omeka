@@ -3943,6 +3943,9 @@ msgstr ""
 msgid "Lönnrot's family letters"
 msgstr ""
 
+msgid "Lönnrot to Bergström"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr ""
 
@@ -4145,6 +4148,9 @@ msgid "Letters sent by Lönnrot to daughters Maria and Elina, parents Fredrik Jo
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Otto Adolf Daniel Meurman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to I. Bergström"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69
