@@ -33,7 +33,7 @@ $(document).ready(function() {
         str = key;
       } else if (key == 'Rein' && key + ending == 'Reine') {
         str = '';
-      } else if (key == 'Rein' && key + ending == 'Reinholm') {
+      } else if (key == 'Rein' && strpos(key + ending, 'Reinholm') !== false) {
         str = '';
       } else if (key == 'Cajan' && key + ending == 'Cajander') {
         str = '';
