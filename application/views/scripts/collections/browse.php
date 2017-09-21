@@ -215,6 +215,18 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Lagus":
             $years = '1870 - 1881';
             break;
+          case "Lönnrot to Frans Lönnrot":
+            $years = '1848 - 1883';
+            break;
+          case "Lönnrot to Fredrik & Ulrika Lönnrot"
+            $years = '1836 - 1849';
+            break;
+          case "Lönnrot to Gabriel Lönnrot":
+            $years = '1826 - 1836';
+            break;
+          case "Lönnrot to Henrik Lönnrot":
+            $years = '1833 - 1838';
+            break;
           case "Lönnrot to Karsten":
             $years = '1843 - 1850';
             break;
@@ -229,12 +241,6 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Gottlund":
             $years = '1829 - 1849';
-            break;
-          case "Lönnrot's family letters":
-            $years = '1826 - 1883';
-            break;
-          case "Lönnrot to Meurman":
-            $years = '1847 - 1849';
             break;
         }
         ?>
