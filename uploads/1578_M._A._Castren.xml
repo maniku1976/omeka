@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-14">16.4.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Standertskjöld–Nordenstam –suku, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1578</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1845-10-30">30.10.1845</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_007a" />
+                <p>Käre Broder!</p>
+                <p>Ditt bref med anmärkningarne till Tscherem. Gramm. fick jag i god tid och skickade genast 
+                    till Collan. Nyss hade jag äfven af honom ett bref, hvilket han börjar med ”hvad f-n skall 
+                    jag göra med Karsten etc hvarpå han berättar, att oaktadt allt sitt pådrifvande har ej 
+                    fått fulla 2 ark färdigt af Gramm. -Tröstar sig dock slutligen dermed, att om arbetets 
+                    tryckning fortgått med den fart, Karsten lofvat, så hade dina sednare anmärkningar kommit 
+                    post festum. Äfven har han något hopp om att tryckningen härnäst skall gå fortare, sedan 
+                    Saima fått sina Litteratur blad tryckta, hvilka nyligen utgåfvas två veckor å rad
+                    innehållande en kort recension af Suomi och en lång förteckning på Schildtens och Europe&#230;i
+                    mathematiska konstord jemte anmärkningar dertill af Borenius, Akiander och undert:d.</p>
+                <p>Den 15 November ernar Snellman fira sitt bröllopp (med mamsell Wennberg), möjligtvis reser
+                    äfven jag då till Kuopio, om jag endast får tid dertill. Sista tiderna har jag sysselsatt
+                    mig med att införa en hel hop tillägg till Kalevala, Kanteletar, Loihtoja etc. hvarmed 
+                    Europ&#230;us försett mig. Han kom för ungefär en vecka tillbaka hem, sedan han allt ifrån
+                    början af Junii vandrat i Ilomants, Repola, Himola, Korpiselkä, Suojärvi, Suistamo, Impi-
+                <pb n="2" facs="lnak657_064_007b" />                    
+                    laks och Olonets. Gouvern. ända till Petrosavodsk. Så snart han hunnit få nytt pass och 
+                    hunnit rensa sin kropp ifrån klådan, tänker han till hela vintern begifva sig till Arch. 
+                    och Olonets G-menterna, för att skaffa nya samlingar och en ny upplaga af löss <add>och</add> 
+                    klåda. Att döma efter de insamlingar, han nu gjort, tycker han just vara skapt för 
+                    sådana färder. Jag skall begagna honom så länge jag kan, hvilket dock troligen ej lärer 
+                    räcka längre än till nästa vår <del>en</del>, emedan han funderar på att resa till Leipzig
+                    för att hjelpa Professor Brockhaus i Finskan. Denne skref nyligen till mig och berättade
+                    att han af en händelse kommit öfver Kalevala och din ofversättning deraf. Med tillhjelp 
+                    af Renvalls Lex. och Grammat. hade han börjat studera Finskan men säger sig ännu ofta 
+                    komma i pumpen, hvarföre han frågar, om ej någon student härifrån ville fara till 
+                    Leipzig för att af honom lära Sanscrit och Alt-persiska, och undervisa honom tillbaka
+                    i Finskan. Han säger sig neml. ej upphöra förrän han fått Kalevala öfversatt på Tyska.
+                    Jag annoncerte på Saima hans önskan och vet redan tillochmed tre sådana Finn-apostlar:
+                    Kellgren, hvilken dock ej förr än i höst 1846 kunde företaga sin resa; Borg, hvilken
+                    skrifver att han gerna företoge den om genast, blott han hade 
+                <pb n="3" facs="lnak657_064_007c" />      
+                    medel dertill, och Europæus, hvilken tror sig kunna komma till rätta utan medel 
+                   (han tror sig kunna förtjena med finsk information så mycket till hans uppehälle behöfves).
+                   Snellman anser saken vara af den vigt, att man för all del nu borde skaffa en sådan 
+                   emissarie för Finskan, emedan, såsom han tror, Finskan lätt kunde fås till ett
+                   mode-studium i Tyskland och kanske intaga Sanscrits höga plats, hvarmed den finge 
+                   europaeisk fasta för sig. Med anledning deraf uppmanar han mig att packa in mina lexicalia
+                   och der utarbeta den vidare. Sic stantibus rebus qvid faciendum? </p>
+                <p>Tidningsnyheter: nytt Litter. Sällsk. i Wiborg med Ståhlberg till ordförande – 
+                    Prof. Borg blifvit Kyrkoh. i Limingo – Nordström ännu qvar – Linsén ännu vid lifvet – 
+                    Berg af Consistor. utn. Lector i Kuopio – Lagman Clásen i Uleåb. död – Mag. Wilh. Boxström d:o – 
+                    Tre savolaxska runosångare införskrifna till H:fors för att porträtteras af Budkoffski 
+                   (på åtsk. studenters infall och bekostnad) – Årsvexten i landet medelmåttig med en till
+                   det mesta vacker sommar – Eugene Suës ”eviga Jude” fulländad (skördar nu samma beröm in, 
+                   som Pariser hemligheterna förut, och ännu mer i Förf:s ficka – Tryckningen af Suomi och 
+                   Fosterländskt Album påbörjas i November – Cajans Suomen Historia, 2:dra totalt omarbetade
+                   uppl. under pressen – I Kuopio utkommit en allm. historie och en kyrkohistorie 
+                <pb n="3" facs="lnak657_064_007d" />                         
+                   begge ad modum Regneri och obetydliga. – Dock hvarföre skulle jag fortsätta dessa rhapsodistiska
+                   Tidningsnyheterne, då Du ju tänkte prenumerera dit våra F. Tidningar och sjelf kan der läsa
+                   dem. Några andra nyheter kan jag ej heller påminna mig, troligen hafva inga sådana 
+                   passerat heller. Om Wallin i Arabien har man ej haft ett ord till underrättelse, 
+                   sedan man engång hjelpt honom ifrån repet, hvari han i sista vinter var hängd.</p>
+                <p>Bland alla andra önskar jag dig och Bergstadi en lycklig fortsättning på färderna till 
+                    Finnarnes urland. Rabben har i par månader rest i Sverge, hvarföre dina bref till honom 
+                    legat oupprutna och man derföre ej fått höra något om dig på Tidningarne. Nu är han trol. 
+                    återkommen.</p>
+                <p>Hälsa Bergstadi</p>
+                <p>Din broderlige vän</p>
+                <p>Elias Lönnrot.</p>
+                <p>Kajana den</p>
+                <p>30 Octob. 1845.</p>
+             </div>
+        </body>
+    </text>
+</TEI>

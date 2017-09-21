@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Carl Niklas Keckman</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-09-26">26.9.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+                        <idno>20:28</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Keckman</surname>
+                                <forename>Carl Niklas</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>2151</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fi-FI" usage="100">suomi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Uhutkylä">Uhutkylä</placeName>
+                        <date when="1836-11-24">24.11.1836</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak020_028a" />
+                <p><hi rend="underline">Uhutkylästä 24 Marrask. 1836</hi></p>
+                <p>Rakas Weljeni!</p>
+                <p>Kajaanista lähtiissäni oli Mehiläisen ja muien kera niin äiä toimittamista, etten ennättänyt matkalle päästä, 
+                    kun vasta 16 Syyskuuta. Aikomukseni oli Kiannan pappilasta Sinulle kirjottaa, vaan hupenipa se aika siinä niin, 
+                    etten saanut tolkkuun. Nyt vasta täältä Uhtuen kylästä saan toivoni täytetyksi ja samassa vähin kertoa matkani 
+                    ensialkeista, kun jo olenki pian kaksi kuukautta Venäjän puolella ollut. Tässä kylässä yksin olen jo lähes 3 
+                    viikkoa viipynyt ja kirjotellut, mitä on sattunut runoja, lauluja, tarinoita, sanalaskuja, arvuutuksia, outoja
+                    sanoja ja muita senlaisia. Taitaispa jos vielä kaheksi kuukaueksi olla kirjottamista tässä kylässä, erittäinki
+                    tarinoissa eli <hi rend="underline">saarnoissa</hi>, jolla nimellä niitä myös täällä mainitaan ja joista ei
+                    näytä loppua heti saavan; vaan kui-</p>
+                <pb n="2" facs="lnak020_028b" />
+                <p>tenki olen päättänyt, lähteä tänäpänä muitaki kyliä katsomaan. Sanalaskuja ja arvuutuksia on jo niin keräytynyt, 
+                    että uusille enää ei saa siaa entisissä kirjoissa, jonka tähen pitää ruveta entisiä vähitellen selvään kirjottamaan.
+                    Kalevalaan on myös tullut montaki lisäystä. Tästä lähen nyt esinnä <hi rend="underline">Tuoppajärven</hi> 
+                    kylilöihin, siitä <hi rend="underline">Pääjärven</hi>, <hi rend="underline">Kantalahen</hi> ja 
+                    <hi rend="underline">Imantran</hi> Seutuloille. Helmikuussa arvattavasti olen Kuolan kaupungissa, josta taasen 
+                    lähen jälelle etsimään kyliä ja paikkoja, jotka mennessä jäivät käymättä. Lopulla Huhtikuuta taian tulla Kemin
+                    kaupunkiin Vienamerenran nalla ja siitä lähen poikki meren Vienan eli Arkangelin kaupunkiin. Sitä väliä kuuluu 
+                    yhtäläiseen kulettavan, etten siinä pitkää aikaa mennekän, ennenkun taasen olen tällä puolen merta ja alotan 
+                    kulkea halkimaisin Nurmeksen pitäjän</p>
+                <pb n="3" facs="lnak020_028c" />
+                <p>rajoille. Niin siitä sitte alan astua pitkin rajaa Laatokan meren rannoille ja vähin Aunuksen Läänissäki käytyäni, 
+                    lähtiä Suomen Karjalan ja Wiipurin läänin halki Helsinkiin, johon toion Lokakuun aikoina tulevana syyssä päästä.
+                    Sillä tavalla olen aikonut matkata, enkä ulommaksi yritellä, kun missä selvää suomea puhutaan.</p>
+                <p>Muuta nyt mitä en ni muista, josta tällä kerralla kirjottaisin, kun että viimmesessä kirjotuksessasi pyysit minunki
+                    sanomaan, miltä hoti näyttäisi aviisissa Hels:fors Morgonblad luettava ruotsal. kääntö Kalevalan 15:nestä runosta.
+                    Hyvinpä näyttää onnistuneen ja toivotettava asia olisi, saaha kaikki runon niin somasti käännetyksi. Muutamia 
+                    erehyksiä siinä taisi olla, vaan ei monta. Niin esim. v. 19 sana <hi rend="underline">valvatta</hi> ei ollut juuri
+                    oikein käätty, sillä se merkitsee sitä, ketä uotetaan, oikein unta saamatta eli <hi rend="underline">valvomalla</hi> 
+                    uotetaan (morsianta); v. 22 <hi rend="underline">viikon</hi> merkitsee yhteisesti 
+                    <hi rend="underline">pitempää aikaa</hi>, uskottavasti venäläisestä sanasta <hi rend="underline">вѣкъ</hi> 
+                    suomeen tullut;</p> 
+                <pb n="4" facs="lnak020_028d" />
+                <p>v. 82 <hi rend="underline">polvemmaksi</hi>, pitkäksi epätietoseksi ajaksi; v. 86 <hi rend="underline">laklut</hi>,
+                    diminut. sanasta <hi rend="underline">lakla</hi>, sorsan, sotkan eli allinsukunen vesilintu; v. 228 
+                    <hi rend="underline">karsina</hi> <hi rend="underline">uunipuolus</hi> pirtistä ja myös kellarihuone pirtin 
+                    lattian alla, johon ovi muurinvierestä käypi. Viimmeisen arkin lähetetyistä oudommista sanoista, panen tätä 
+                    kirjotusta seuraavaksi. Stud. Cajanilta, joka tähän asti tämän sykysyn on minua Venäjän puolella matkatessani 
+                    seurannut ja hartaasti kysellyt kaikkia outoja sanoja, taiat tulevana vuonna Hels:stä soaha joitakuita selvityksiä
+                    Kalevalassa ja hyvinpä minultaki, jos Kuolaan taikka Vienaan kirjotat. Mehiläisestä kirjotan viimmen, jotta sihen
+                    toivoisin Sinulta jotain apua. Ennen lähtöäni Kajaanista laitin sihen kirjotusta hyväsesti noin puoleksi vuoeksi 
+                    ja Kuolasta taian soaha jotai lisäksi lähettää, vaan en tahtoiskan sillä aikoani kovin viivytellä. Voi hyvin 
+                    - Veljellinen ystäväsi.</p> 
+                <p>Elias Lönnrot</p>
+            </div>
+        </body>
+    </text>
+</TEI>

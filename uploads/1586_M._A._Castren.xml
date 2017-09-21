@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-14">14.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository> Omistaja Standertskjöld–Nordenstam –suku, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:15</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1586</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Laucko">Laucko</placeName>
+                        <date when="1849-04-18">18.4.1849</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_015a"/>
+                <p>
+                    <hi rend="underline">Laucko d. 18 April 1849</hi>
+                </p>
+                <p>Käre Broder!</p>
+                <p>För din vänskapsfulla bjudning till Hfors har jag ej för hunnit tacka Dig, emedan
+                    jag ända tills igår middagstiden så träget arbetade på Kalevalas förord etc, att
+                    jag knappt hann tänka på något annat. Igår, på min namnsdag, fick jag ändteligen
+                    det 26 månads gamla arbetet färdigt och lemnade det genast åt den väntande
+                    postbonden för att föras till T-fors. Skulle vid förordet något behöfva
+                    tilläggas eller bortstrykas, så <add>må</add> det gerna göras, hvartill jag lemnar öppen
+                    fullmakt; äfven språket deri hade jag ej tid att noggrannare genomse. Jag tror
+                    ej att Kalevala genom att fördela runorna i två eller flere cykler skulle vinna,
+                    utan tvärtom förlora. Dock kunde ej skada att i förordet nämna något om de olika
+                    cyklerna, hvilket jag äfven ämnade göra, men sedermera dock lemnade ogjordt, då
+                    förordet äfven detförutan blef, såsom jag tyckte, för långt. </p>
+                
+                <pb n="2" facs="lnak657_064_015b"/>
+                <p>En god sak vore, om arbetet blefve försedt med ett register öfver alla der
+                    förekommande mythologiska och andra namn med hänvisning, hvar de finnas. Det
+                    kunde vara en aftonstunds göra för 10 eller flere, som skulle församlas hos
+                    någon och genom gå hvar sina runor. Wid uppsättandet af runornas innehåll märkte
+                    jag i 5. och 13. runon några fel, som du finner på följande sidor <add>anmärkta</add>, och
+                    hvilka borde afhjelpas. För dylika ringhaltiga ändringar fick jag under arbetet
+                    ofta omskrifva många ställen, hvarföre Du alldeles ej bör förundra Dig deröfver,
+                    att 2 år och 2 månader åtgingo dertill, helst jag under halfva tiden ej hann
+                    annat, än ifrån de voluminösa runosamlingarna införa allt på sitt ställe i den
+                    gamla upplagans interfolier, ock sedan under sjelfva redigerandet af den nya
+                    texten ofta ej fick ens 100 verser för dagen färdiga. Ännu en sak om Kalevala:
+                    under granskningen kunde alla ovanligare Finska ord, som ännu äro utan
+                    förklaring, understrykas med blyerts och sedan förklaras äfven de, kanske helst
+                    i slutet, dit mina förklaringar äfven från margo kunde förflyttas, så att texten
+                    blefve ren utan några streck och noter under sig. Du, Ingman, Ahlqvist och andra
+                    kunde göra det, utan att jag mer behöfde befatta mig dermed. </p>
+                <p>Utan afseende på, att jag numera ej ens skulle slippa till H-fors, ber jag Dig
+                    vara välkommen</p> 
+                <p>[Lisätty s. 2 marginaaliin] till Kajana i sommar, men låt
+                    din resa ej stanna vid blotta tankar! Efter par veckor, eller såsnart man med
+                    hjulåkdon väl slipper fram, tänker jag begifva mig härifrån. Helsa mycket bröder
+                    och bekanta derstädes! Tuus Elias Lönnrot.</p>
+                
+                <pb n="3" facs="lnak657_064_015c"/>
+                <p>
+                    <hi rend="underline">Förslag till ändring i 5. runon vv. 97–134.</hi>
+                </p>
+                <p>= = =</p>
+
+               <lg> 
+                <l>Sieltä tuon sanoiksi virkki,</l>
+                <l>Itse lausui ja pakisi:</l>
+                <l>”Oi sie vanha Wäinämöinen!</l>
+                <l>En ollut minä tuleva</l>
+                <l>100. Lohi leikkaellaksesi,</l>
+                <l> Kala palstoin pannaksesi,</l>
+                <l> Aamuisiksi atrioiksi,</l>
+                <l> Murkinaisiksi muruiksi,</l>
+                <l> Lohisiksi lounahiksi,</l>
+                <l> Iltaruo’iksi isoiksi.”</l>
+              </lg>
+              <lg>
+                <l> Sanoi vanha Wäinämöinen:</l>
+                <l> ”Miksi sie olit tuleva?”</l>
+                <l> ”Olinpa minä tuleva</l>
+                <l>110. Kainaloiseksi kanaksi,</l>
+                <l> = = =</l>
+                <l> Atrian asettajaksi.”</l>
+                <l> ”En <add>ole</add> <hi rend="underline">ollut</hi> merilohia,</l>
+                <l> Syvän aallon ahvenia;</l>
+                <l> Ol<add>e</add><hi rend="underline">i</hi>n kapo, neiti nuori,</l>
+                <l> Sisar nuoren Joukahaisen,</l>
+                <l> Kuta pyy’it kuun ikäsi,</l>
+                <l> Puhki polvesi halasit.”</l>
+              </lg>
+              <lg>
+                <l> ”Ohoh sinua, ukko utra,</l>
+                <l>130. Wähämieli Wäinämöinen,</l>
+                <l> Kun et tuntenut pitä’ä</l>
+                <l> Wellamon vetistä neittä,</l>
+                <l> Ahón lasta ainokaista!”</l>
+                <l> Sanoi vanha Wäinämöinen</l>
+                <l> j. n. e.</l>
+              </lg>
+                
+                <pb n="4" facs="lnak657_064_015d"/>
+                <p>I 13. runon borde emellan vv. 52 och 53 tillsättas:</p>
+                
+              <lg>  
+                <l> Lyylikki sanan sanovi,</l>
+                <l> Kauppi kielin kerkiävi:</l>
+                <l> ”Suotta lähet Lemminkäinen</l>
+                <l> Hiien hirveä ajohon:</l>
+                <l> Saat palan lahoa puuta,</l>
+                <l> Senki suurella surulla.”</l>
+                <l> Mitä huoli Lemminkäinen,</l>
+                <l>60. Itse tuon sanoiksi virkki:</l>
+                <l>”Tee lyly lykittäväksi</l>
+                <l> Kalhu kalpoeltavaksi!</l>
+                <l> Lähen hirven hiihäntähän</l>
+                <l> Hiien peltojen periltä.”</l>
+              </lg>
+                
+                <p>Genom denna tillsatts blifver versantalet i runon förökt och måste omnumreras,
+                    men vid den å föregående sidan anförda skulle <add>föröfrigt</add> ingen förändring i
+                    numreringen behöfvas.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

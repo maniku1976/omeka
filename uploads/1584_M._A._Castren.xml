@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-14">14.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Standertskjöld–Nordenstam, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:13</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1584</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1847-06-06">6.6.1847</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_013a"/>
+                <p>Käre Broder! Redan för par veckor tillbaka erhöll jag ditt sednaste bref från
+                    Narymova af 6 Mars (22 Febr.). Emedan jag för afståndets skull velat skrifva
+                    flere än par rader till svar, så hafva posttimmarne öfverraskat mig förrän jag
+                    blifvit färdig helst med en. Först och främst får jag berätta dig, att jag mår
+                    och befinner mig alldeles likasom då vi skildes i Borgå, der jag allt sedan ej
+                    varit, likaså litet som i H:fors. Sista vintern tillbragte jag väl ej så alltför
+                    långt derifrån hos Archiater Törngren i Wesilax, men återvände derifrån om våren
+                    utan att hafva sett Universitets staden. I Kuopio har jag deremot varit flere
+                    gånger och en gång i Uleåborg. I medlet af denna månad reser Snellman utrikes
+                    till England, Frankrike och Tyskland i sällskap med en Brukspatron Längman, som
+                    består honom fri resa. I October eller Novemb. återvänder han hit. Att Saima i
+                    sista årets slut blef indragen, vet du väl. Troligen skedde indragn. för dess
+                    oppositionela hållning i allm., någon speciell anledning känner man ej. Den hade
+                    under sitt sista lefnadsår framfödt en liten pilt vid namn <hi rend="underline">Kallavesi</hi>, 
+                    hvarpå prenumerertes särskilt, och hvilken höll sig enkom
+                    till litterära saker. Pilten följde sin mor i grafven. I dess ställe utk:r nu i
+                    Kuopio ett <hi rend="underline">Litteraturblad</hi> som utgifves af undert:d och
+                    till det mesta redigeres af Snellman. Blott till 4 ark har jag förbundit mig att
+                    lemna mscr., och årgången utgöres af 50. Wåra öfriga tidningar äro pa F.
+                    språket: <add>1.</add> <hi rend="underline">Suometar</hi>, som redigeras af Cand. Warelius
+                    och Tikkanen samt Stud. Ahlqvist och Europæus; den sistn. har hittills skrifvit
+                    det mesta. 2. <hi rend="underline">Kanava</hi> 3. <hi rend="underline">Maamiehen
+                        ystävä</hi> 4. <hi rend="underline">Suomi</hi> redig. af Gottlund, som nu
+                    har eget tryckeri. Förra hälften af sista året utgaf han en annan F. tidning vid
+                    namn <hi rend="underline">Suomalainen</hi>, som blef indragen i anledning af en
+                    liten artikel, som var förnärmande den Ryska kyrkan. På Sv. språket utgifvas: 5.
+                        <hi rend="underline">Morgonbladet</hi> 6. <hi rend="underline">Hels.
+                        Tidningar</hi> 7. <hi rend="underline">Åbo Underrättelser</hi> 8. <hi
+                        rend="underline">Borgå Tidning</hi> 9. <hi rend="underline">Åbo Tidning</hi>
+                    10. <hi rend="underline">Wasa Tidning</hi> 11. <hi rend="underline">Allm.
+                        Evangelisk Tidning</hi> 12 <hi rend="underline">Teknologen</hi> <add>13 <hi
+                        rend="underline">Skoltidning</hi></add>, således med Litteraturbladet och Finlands
+                    Allm. Tidning inalles 15 st. Tidningar och en 16:de är anmäld till prenumeration
+                    under namn af <hi rend="underline">Wäktaren</hi>, som skulle redigeras af
+                    Laurell, Lille, Schauman. De öfriga redaktörer äro för 5 Elmgren och Berndtson,
+                    för 7. Sohlberg, för 8 Notarien Sirén, för 10 Renvall, för 11 Hedberg, för 12
+                    En apothekare Hammardahl, för 13 Heikel, Eurén och några andra Skol- och Gymn.
+                    lärare i Åbo. Westfinska afdelningen hade ock begärt tillstånd till utgifvande
+                    af en Finsk-Svensk Tidning under namn af <hi rend="underline">Kaukomieli</hi>,
+                    men hvilket ej blef beviljadt. Föröfrigt stå Tidningarne nu under
+                    Gouverneurernes inseende, hvilket förorsakar mycken svårighet vid utgifvandet.
+                    Jag nämnde om <hi rend="underline">vestfinska afdelningen</hi>, men månne du 
+                    ens vet, att de fordna borealiska, satakunta och åbo afdd. nu äro förenade 
+                    till en enda, äfvensom syd- och nordösterbottningarne åter
+                    blifvit blott en afdelning, således tvärtemot, hvad för några år sedan stäfvade
+                    att åstadkomma. </p>
+                <p>Då jag engång kommit i farten, så skall jag omnämna äfven andra saker, ty någon
+                    af dem torde du dock ej känna förut. Ett finskt profess<add>orat</add> är under görande,
+                    hvilket du bör söka att erhålla, i fall ej gubben von Becker för blifvande
+                    emeriti-lön ansöker det. Endast i det fallet, att hvarken du eller han skulle
+                    bry sig derom, ansåge jag mig böra göra det, ty eljest kunde det råka ut för
+                    allt-
+                    
+                <pb n="2" facs="lnak657_064_013b"/>    
+                    för ovärdiga händer. Detta leder tanken på Algoth Skomakaren, som nu
+                    ändteligen blef professor efter Borg. Trägen vinner. Det ngn Pharmacologiæ
+                    professoratet är ännu obesatt; Wirzén söker sig alltännu meriter dertill på
+                    utländsk botten; hvar han nu vistas, känner jag ej. Fredr. Nylander torde blifva
+                    J. M. af Tengströms efterträdare och Gyldén blef Sjöströms, som i sista höst dog
+                    af en häftig slag attak; Runeberg gjorde ej ens försök denna gång att komma till
+                    Hfors. Äfven Blomqvist fick i vintras ett slag anfall, hvarefter han nu dock
+                    något repat sig. Han hade lofvat i höst lägga in en afsked, ifall hans tillstånd
+                    om sommarn ej så mycket förbättras, att han med egen hjelp slipper upp på
+                    bibliotheket, och i sådant fall blefve Törnegren nog ung Professor. Nordström,
+                    som nu är kongl. Svensk Riksarchivarie, har ännu ej fåt någon efterträdare. Den
+                    mest skicklige och hoppgifvande unga Juristen, Juris Candidaten Alfthan dog
+                    under en resa i Italien. Om Cygnæus lefver eller är död vet jag ej, ty allt
+                    sedan hans nya poesier under namn af <hi rend="underline">Ljus och Skugga</hi>
+                    utkommo för sista jul, har jag ej hört ett verbulum om honom. Dessförinnan hade
+                    han en tid varit mäcklare i Marseille, förmodl. förestått tjensten. Wallin lärer
+                    allt ännu vara i Kairo och vänta på nytt stipendium, men sedan det nu blifvit
+                    bortgat åt Willebrand, lärer han väl finna sig nödsakad att komma hem. Kellgren
+                    och Rob. Tengström äro i Paris. Den förstnämnde har redan öfver ett år varit i
+                    Tyskland och Leipzig under Prof. Brockhaus ledning studerat Sanscrit. Brockhaus
+                    åter har studerat Finska under K:s ledning och öfversatt Kalevala på Tyska, som
+                    dock ännu ej läres vara tryckt. Nyligen anmäldes en skrift: ” Die Grundzüge d.
+                    Finnischen Sprache mit Rücksicht auf den Ural-Altaischen Sprachstamm”, hvilken
+                    Kellgren i Tyskland utgifvit. I Berlin skall för det närvarande en prof. Scott
+                    gifva undervisning i Finskan 3 gånger i veckan och en annan professor dels
+                    annanstädes vid namn Stuhr håller föreläsningar öfver Kalevala. I nästa höst
+                    skall vår J. J. Tengström taga afsked; låt se hvilken då kommer i fråga: Aminoff
+                    för sina långa meriter eller Snellman för sin skicklighet. </p>
+                <p>Finska Litt.Sällsk. har utgifvit första delen af Suomen historia utarbetad af J.
+                    Fr. Cajan /två delar utkommen ännu/ och Euklideen Alkeet 4. ensim. kirjaa
+                    
+                <pb n="3" facs="lnak657_064_013c"/>     
+                    /suomensi Schildt/; under tryckning finnas Euklid. 1 Bok af Heikell på F.
+                    öfversatt af Europæus och Bredows histor. förfinskad af prosten Aejmelæus i
+                    Paldamo. Lagervall låter som bäst trycka hela 4 stycken theaterpjesen på F. och
+                    dessa heta: <hi rend="underline">Tuhkapöperö</hi>, <hi rend="underline">Kainin
+                        murhateko</hi>, <hi rend="underline">Judithi</hi>, <hi rend="underline"
+                        >Joseppi</hi>. Andra bättre F. skrifter hafva utkommit af D:r Roos en sorts
+                    popular physik under namn af: <hi rend="underline">Mintähden ja sentähden</hi> 
+                    och af Cand. Warelius <hi rend="underline">Enon opetuksia luonnon tietoon kuuluvissa
+                    aineissa</hi>, af Savol. karelska afdelningen <hi rend="underline">Lukemisia S:n
+                        kansan hyödyksi</hi> 1. II. hft af Ignatius i Wiborg <hi rend="underline"
+                        >Martti Luterus</hi>. Äfven på Sv. har ett och annat skrifvits: Ljus och
+                    skugga af Cygnæus, Nordens Sjukdomshistoria af Ilmoni, 3 bandet af
+                    medicinalförfattn. af Rabbe, Necken n:o 3 af Berndtson et Comp., Fosterlandskt
+                    Album Hft. 3. af Kellgren, Tengström och Tigerstedt, Euklides 6 första böcker
+                    bearbetade af Heikell, om Auktoritet och Auktoritets tro af Granfelt, Väggkarta
+                    öfver Finland af kadettläraren Heikell, Finska grammatiken af Filén och Eurén,
+                    den sednares ganska god. Äfven Collan har utarbetat och låter nu trycka en ny F.
+                    grammatik och i sista postens Tidningen läste jag, att Kellgren utgifvit något
+                    dyl. på Tyska. Om slutaspirationen i F. och om k=förmildringstecken har en egen
+                    hårdnackad strid blifvit förd på Tidningar med Warelius och Europæus på ena och
+                    en hop anonymiteter på andra sidan, men Akianders Ljudbildningslära har ej ännu
+                    fått några correction, så mycket den också skulle behöfva det. De förnämsta
+                    tidnings artiklarne föröfrigt hafva varit om söndags- och folkskolor,
+                    skoldisciplinen, näringsfriheten, kyrkolagsförslag, stattorpare, sursillska
+                    slägtregistret /som nu håller på att tryckas/ m. m. strunt.</p>
+                <p>En philos. mag. –och Medic. D:rs promotion förestås i sommar. Europæus skref nyl.
+                    att flere /jag vill minnas hela 16 stycken/ studenter och magistrar tänkt sig ut
+                    på vandring i sommar; det kan vara lika godt, som att ligga i Esbo skären. Han
+                    sjelf jemte en Reinholm skulle till Tverska Finnarne och Tschuderna vid
+                    Bjelosero. Under sista sommar vandrade på Sällsk:s räkning en Polen, Sirelius
+                    och Ahlqvist. Europæus fick efter sin slutade vandring en gratifikation af
+                    thronföljaren 150 Rub S:r, hvilka kommo hans två toma händer väl till pass.</p>
+                <p>Ytterligare nyheter: Baron Rosenkampff &#10013; i slag och i hans ställe ny Chef
+                    Stjernvall; Landtmätarenes nya chef efter Bergenheim heter Rechenberg, g:l
+                    Finländare 
+                    
+                <pb n="4" facs="lnak657_064_013d"/>  
+                    Geyer &#10013;, Tegner &#10013;, vår Linsén har åter tillqvicknat, så att han
+                    sjelf håller föreläsningarne. D:r Lindfors i Kuopio söker sig till Matheseos
+                    lektor i Wiborg efter Alopæus, som är pastor i Jockas. Grot har studerat F. och
+                    skref sistas ett tämmeligen felfritt finskt bref till mig. Nya tryckerier hafva
+                    uppstått i Tavastehus, St Michel, Sordavala och 2 st. i Hfors, det ena
+                    Gottlunds, det andra F. Litt. Sallsk:s som Rabbe kommer att handhafva. I
+                    Tammerfors skall Frenckell ännu anlägga ett dyl. En högre elementar skola i
+                    Heinola och en lägre d:o i Jyväskylä. Priessnitzska vattenkuranstalter i Abo och
+                    i H:fors, den sednare påtänkt. Ett nytt Hvalfisksfångst bolag i Abo. En nyl.
+                    afliden Hand. bokhållare Wilcke testamenterte 11  000 rub. s:r åt Litt. Sällsk.
+                    i Wiborg. </p>
+                <p>Vidare: Enare-Durchmann kapellan i Ylistaro, Stjerncreutz Pastor i Utsjoki, Adolf
+                    Durchman gift med en mamsell Thodén, Alkula Castren jemte Nyman på förslag till
+                    NederTorneå pastorat efter din afl. farbror, Ulrik Castren på förslag efter Bohm
+                    till sacellaniet derstäds. Lars Castren reste i förgår härigenom till Kuhmoniemi
+                    för att predika prof, ty det är nu ledigt efter Hägman som dött. Dock tros han
+                    ej få stället, sedan Lagus genom sina 7 mils långa predikningar gjorde
+                    kuhmoiterne förbittdrade mot pietisteriet. Petterson på Carlö †, Bergstedt efter
+                    afl. Appelgren bergmästare i Uleåborg. Ijo ledigt efter Frosterus, som aflidit.
+                    Saxa kyrkoherde i Hyrynsalmi. Lars Stenbäck rector i Wasa. </p>
+                <p>Af Fellman hade jag bref der han lofvar bestå tryckningsomkostnad för sin Lappsk.
+                    Cateches och gör in på att för <hi rend="underline">tsch</hi>, <hi rend="underline">dsch</hi>, 
+                    <hi rend="underline">sch</hi>, <hi rend="underline">ts</hi> begagna <hi rend="underline">z’</hi>, 
+                    <hi rend="underline">dǯ</hi>, <hi rend="underline">s’</hi> <hi rend="underline">z’</hi>.</p>
+                <p>Sist får jag tillägga att jag nu hållit på med en ny redaction af Kalevala; den
+                    torde bli 50 procent digrare och i formalt hänseende bättre, än den förra
+                    upplagan. En Finsk Tolk, Finsk Chrestomathi hafva nu circulerat emellan Litt.
+                    Sälsk:rna. Begge äro tämmeligen voluminös och borttogo mycken tid vid
+                    utarbetandet. Öfversattningen om Kanteletar (omkr. 150) skickade jag redan i
+                    sista höst till Öhman och lära snart bli tryckta. &#x2013; <add>Rector</add> Holsti har lofvat
+                    komma hit till sommar, han har här näml. två svågrar; prosten Aejmelæus och
+                    Länsm. Durchman, ty äfven han är nu gift med en mamsell Thoden. Wälkommen öfver
+                    och snart till dessa orter; tog ej dock för så säkert, att Du får bosätta dig på
+                    någon annan ort än Hfors. Helsa Bergstadi och hvilka andra bekanta der må
+                    träffas.</p>
+                <p>Kajana n. st. 6 Junii 1847.</p>
+                <p>Tuus Elias Lönnrot</p>
+            </div>
+        </body>
+    </text>
+</TEI>

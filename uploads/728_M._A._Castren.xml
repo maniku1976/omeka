@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elias Lönnrot > Matthias Alexander Castrén</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden
+          Seura</distributor>
+          <date when="2016-06-14">14.6.2016</date>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <settlement>Helsinki</settlement>
+              <repository>Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+              <idno>Lna 81</idno>
+            </msIdentifier>
+            <msContents>
+              <msItem n="1" class="letter">
+                <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+                <title type="adressee"><surname>Castrén</surname>
+                <forename>Matthias Alexander</forename> </title>
+              </msItem>
+              <msItem n="2" class="transcription">
+                <bibl>728</bibl>
+              </msItem>
+            </msContents>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="kirjekonsepti">
+          <opener>
+            <dateline>
+              <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+              <date when="1847-06-06">6.6.1847</date>
+            </dateline>
+          </opener>
+          <pb n="1" facs="lna081_026"/>
+          <p><hi rend="underline">Till Dr Castren i Siber. Kajana d. 6 <add>Junii</add> <del>Maj</del> 1847 </hi></p>
+          <p>Åter här, vintern borta &#x2013; Med nyheter från årets borjan: Saima
+            blef indragen och framlefde i sl. ett svårt lif, ty nu dubbla censorer,
+            af hvilka den ena utstr. tvarsöfver raderna den andra längsefter. Den hade på
+            sitt tredje år framfödt en liten gosse <hi rend="underline">Kallavesi</hi>, som dog med modren.
+            I dess ställe utk. nu i Kuopio Litteratur tidningen hvilken till det mesta redigeras af Snellm., så att
+            undertecknad som är dess utgifvare ej förb. sig att 1. mscr till mer än 4 ark årligen. 50 tr. ark utk.
+            och de första i Maj månad lemnade nyss pressen. Våra ofriga tidningar äro &#x2013; &#x2013; Deras
+            redaktörer &#x2013; Värde &#x2013; Uppå Väktaren prenumeration, men hörs ej af &#x2013;
+            Redaktorerne &#x2013; Kaukomieli ej tillstånd, Vestf afdeln. hade ämnat utge den. Vestfinska d.ä. den
+            fordna boreal. Åbo och Satak. afd:n &#x2013; Österb:rne förenade ånyo &#x2013; En läseforening <add>med
+            egen lokal</add>. Vid univers. En finsk profession under görande &#x2013; I fall v Becker ej söker,
+            bör du göra det J.M. Tengström afsked. Fredr. Nylander lärer blifva efterträdare &#x2013;
+            Farmacologiska professionen ej ännu besatt &#x2013; Wirzén, sedan specimen gick så olyckligt, på
+            utrikes ort &#x2013;  Ej ännu återkommen hvar han finns, vet man ej ens så noga &#x2013; Blomqvist
+            slag och har lofvat taga afsked, ifall om sommarn ej bättre och då Törnegren i stället Sjöström &#10013;
+            i slag och Gylden eftr., R-g ansökte ej tjensten &#x2013; <add>Cygnæus &#x2013; Willebrand &#x2013;
+            Wallin &#x2013; Alftan &#10013; i Ital. &#x2013; Snellman.</add> Kellgren och Tengstr. i Paris, den
+            förra varit borta ren halfannat år i Leipzig och understund. i Berlin och utgifvit der Die
+            Grundzüge d. Finn. Sprache mit Rücksicht auf den Ural &#x2013; Altaischen Sprachstamm &#x2013;
+            I Berlin skall Prof.</p>
+          <pb n="2" facs="lna081_027"/>
+          <p>Scott lära F. privatim 3 ggr i veckan och en annan Prof. Stuhr skall hålla förelasn:r öfver
+            Kalevala &#x2013; <add>Prof.</add> Brockhaus lärer så här vid pass få den öfversatt på
+            Tyska &#x2013;</p>
+          <p>F. Litt.Sällsk har utg. 1 delen af Kajan:s Suomen historia och Euklideen alkeet 4 ens.
+            kirjaa (suoment. Schildt) Under tryckn. finnes Euklides 1 Bok af Heikell, förfinskad
+            af Europæus, och Bredows historie öfversatt till F. af prost. Aejmelæus i Paldamo &#x2013;
+            Lagervall ger ut hela 4 st. F. theaterpjeser vid namn: Tuhkapopero, Judithi, Joseppi, Kainin
+            murhateko &#x2013;  Andra bättre F. skrifter hafva utk. af D:r Roos en sorts popular natur
+            lära under titel <hi rend="underline">Mintähden ja sentahden</hi> och af Cand. Warelius
+            <hi rend="underline">Enon opetuksia luonnon asioihin kuuluvissa aineissa</hi> äfvensom
+            Lukemisia S:n kansan hyödyksi af Sav. karelska afd. I. II. Häften. <add>Dessutom på Sv.
+            Ljus och skugga, Necken, Thalia, Nord. Sjkdr hist, med.författn. Ljudlära &#x2013;
+            F. Gramm. af Filén och Eurén, Heikells Geometr., Fosterl. Alb. 3 Hft. Auktor. af Granfelt.
+            Pietist.</add> En egen strid om slut aspirationen och k=elisions­tecken har blifvit förd i
+            tidningarne, emellan Warelius och Europæus å ena och <gap/> å andra sidan. Söndagsskolor,
+            Nykterhetsföreningar, Socknebibliotheker, Anmärkng:r till kyrkolagsförslag, Skaldiscipliner,
+            Statstorpare, Sursillska slagt registret /som nu tryckes/ hafva föröfrigt utgjort
+            <add>de förnämsta</add> ämnen för tidningslitteraturen.</p>
+          <p>En ph. Magister &#x2013; och Med. D:r promotion i sommar. Af Eur. hade
+            nyl. bref, der nämner att fl. tänkt ut på vandring för saml:r. Jag tror han
+            nämnde hela 16 st. I sista sommar hade Litt. Sällsk. utskickat en Polen, Sirelius,
+            Ahlqvist utom Eur. som äfven hade understöd och efter hemkomsten af thronfölj
+            fick en gratific af
+          <pb n="3" facs="lna081_027"/>
+          150 Rub S:r, hvilka kommo hans två toma händer väl till pass</p>
+          <p>Öfriga nyheter: döda Rosenkampff och Chef i stället Stjernvall, Landtmatares nya
+            Chef är en Rechenberg. döde ytterl. Geyer och Tegner i Sverge. Dr Lindfors i Kuopio söker
+            sig till Matesios Lektor &#x2013; Grot har lärt sig Finska &#x2013; Nya tryckerie i Sordavala
+            St Michel, Tavastehus, Hfors (Gottl.), och ämnade: af Öhman i Borgå, af Fr. i Tammerfors Nya
+            skolor: högre elem. i Heinola och lägre d:o i Jyväskylä. Vattenburanstalter a la Piesnik i
+            Åbo och påtänkt i Hfors. <add>Hvalfiskfångstbolag</add>. En handelsbokh. Wilcke testament.
+            11 000 rub. S:r åt Vib.Litt.Sällsk.</p>
+          <p>Enare &#x2013; Durchman kapell. i Ylistaro, Stjerncreutz pastor i
+            Utsjoki. Adolph Durchm. /länsm./ gift med en mamsell Thuden, Alkula Castren tillika med Nyman på
+            förslag till Neder &#x2013; Torneå pastorat efter din &#10013; farbror, Ulrik Castren på försl. efter
+            Bohm till sacellaniet jemte Kohlström. En ny kejserl. förordn. som gör afs. på
+            Finska &#x2013; Lars Castren på förslag till Kuhmoniemi efter Högman, tros ej få, emedan Lagus
+            gjorde kuhmoiterne uppbragta på Pietismen genom sina 7 mil långa pred:r &#x2013; Petterson på
+            Carlö &#10013;. Bergstedt borgmästare efter Appelgren som &#10013; &#x2013; Ijo ledigt efter Frosterus &#10013; &#x2013;
+            Saxa kyrkoherde i Hyryns. &#x2013; Lars Stenbäck rektor i Wasa &#x2013; Fellman Kateches
+            /lofvar sjelf påkosta tryckn:n blott Du 1. jag corrector/ går äfven in på att begagna
+            <hi rend="underline">z', d', s', z</hi> för <hi rend="underline">tsch, dsch, sch, ts</hi></p>
+            <p><hi rend="underline">Ego ipse</hi> Wintern i Wesil. Finsk tolk. Korhon:s runor. Öfvers. af
+            Kanteletar. Chrestomathi. Kalevala edit. <add>Finsk botan.</add> Din bosättning gratul.
+            till hemkomst. Holsti hit i sommar.</p>
+          </div>
+      </body>
+    </text>
+</TEI>

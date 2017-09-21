@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-14">14.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Standertskjöld–Nordenstam –suku, Helsinki. Kopi: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:5</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1577</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1845-06-20">20.6.1845</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_005a"/>
+                <p>Käre Broder!</p>
+                <p>Ditt kärkomna bref dat. Kasan d. 11 Maj erhöll jag med sista posten d. 16 dennes,
+                    men Mscr till Tscherem. Gr. skickade Rabbe ej ännu, såvida han behöfde det för
+                    inlagan till Consistor. om tryckningshjelp. Det kommer väl snart. Såväl det ena
+                    som det andra, som Du angående samma opus anmodar mig göra, skall jag efter
+                    förmågan verkställa, och skrifver nu till Karsten med förfrågan, om arbetet kan
+                    blifva tryckt hos honom, hvarom han till vinnande af tid får directe svara till
+                    Rabbe.</p>
+                <p>Jag valde dock slutligen att åtminstone tills vidare bo qvar i Kajana, der jag
+                    mera ostörd, än kanske på någon annan ort, kan arbeta. Kanhända jag dock
+                    framdeles måste förflytta mig till en tryckningsort. Europ&#230;us skickade jag för
+                    sommarn uti till Karelen, för att samla nya ord och saker. Han ämnade vandra
+                    öfver Ilomants till Suojärvi, Suistamo, Salmis och derifrån återvända genom
+                    Sordavala och andra trakter. Min egen tid har jag hittills användt till att
+                    ifrån sina hundrade ställen uppsamla finska orden i ett stort interfol. exemplar
+                    af Renvall, hvilket arbete väl medtager hela detta år och vore eljest trefligt
+                    nog, om det ej vore så tidsödande.</p>
+                <p>Sedan din afresa har Finska Litteraturen riktats med en <add>allm.</add> Geographie på
+                    Finska af Ahlqvist i Kuopio /tämmeligen god/. Af samma auctor tryckes som bäst
+                    en allm. Historie på Finska. Ignatii <hi rend="underline">Harjulan Onnettomuus</hi> 
+                    /originalnovell och ganska förtjenstfull/ har blifvit tryckt och
+                    
+                <pb n="2" facs="lnak657_064_005b"/>   
+                    hunnit redan äfven hit till Kajana. Savolax Karelska afdelningen har
+                    utgifvit Lukemisia Suomen Kansalle och en Globcharta med finska Ortnamn och
+                    andra benämningar. Joukahainens 2:dra Hft har ock redan lemnat pressen, men
+                    Suomi svettas ännu derunder. Grot har utgifvit en skrift обь основныхъ формахъ Русскаго Глагола 
+                    och af Meurmans Sv. Ryska Lexicon har första Hft /A-D/ utkommit. F. Litteratur Sällsk. utgifver under året
+                    Schildts öfvers. af Euclides’ 4 första böcker, och Öhman Europaei öfvers. af den
+                    Heikelska bearbetningen af den 1:sta boken. Kellgren blef vald till Secreterare
+                    i Litt Sällsk. Man har talt och äfven på Tidningarne skrifvit om inrättandet af
+                    filial sällskaper i Kuopio och Wiborg för F. L. Sällsk. Cygn&#230;i 
+                    <hi rend="underline">några Ögnakast kring Europa</hi> har jag sett annoncerade, men hans 
+                    <hi rend="underline">Wandringsbilder</hi> komma ej att utgifvas af brist på ett
+                    tillräckligt antal af prenum. Förslaget till en ny kyrkolag, hvarpå Nordström i
+                    3 år arbetat, sedan Comiteen i 30 år gjort ingenting derpå, har blifvit
+                    inlemnadt till Regeringen.</p>
+                <p>Widare nyheter: Pipping, Sjögren, Grot Stats Råder; Ursin adlad; Lagus
+                    Universitetets Rector; Nervander Phys. professor; Linsén lefver allt ännu;
+                    Wallin hade genom egenhändig skrifvelse ifrån Kairo vederlagt ryktet om hans
+                    upphängande; Bergenheim Gouverneur i Wasa, sedan den förra, Cronstadt, blifvit
+                    Senator; Kejsaren har fastställt 20 Procents tull på böcker ifrån Sverge; Rabbe
+                    har annoncerat en Uppfostrings- och Cur-anstalt för Rhachitiska; 4 värfvade
+                    bataljoner 
+                    
+                <pb n="3" facs="lnak657_064_005c"/>
+                    Landstrupper upprättas i landet /p 3000 man/ i Borg har första förslagsrummet till Limingo, 
+                    det andra hos S. W. Appelgren och det 3:dje Lector Heikel; Borenius /Borgoënsis/ har 1:sta rummet
+                    till Jockas pastorat och hans medtäflare äro Alopaeus från Wiborg och en Kapell.
+                    Lyra; Stenbäck /Utsjoki/ är på förslag till Kuortane; Asp utn. till Tammerfors
+                    Prov. Läkare; Snellman säges vara förlofvad med Apoth. Wennbergs i Kuopio
+                    dotter. Huru det dermed må vara, men mycket fredligare har Saima i sednare tider
+                    blifvit; knappt något ord åt H. T. har på par månader vankats. D:r Ingman i
+                    Kuopio har testamenterat medel till aflönande af en lärare för lägre Elementar
+                    skolan i Kuopio, som kommer att lära allt på bara Finska, hvilket testamente
+                    Regeringen <add>godkännt och</add> stadfäst. En ny reformation fortgår i Tyskland under
+                    Ronges och Crenskys banér. Ehuru nästan i allt
+                    öfverensstämmande med Lutheranerne kalla de sig dock ej så eller protestanter,
+                    utan Tysk-Catholiken.</p>
+                <p>Den sorgliga nyheten om din farbrors i Kemi död har du väl redan inhemtat. Lars
+                    är en Curam Gerens, sedan Kohlström midt för hans näsa knep Tervola ifrån honom.
+                    Emma är förlofvad med vår fordna bordskamrat Mag. Lagus /en sträng pietist
+                    numera/. Ibland andra dödsfall erinrar jag nu ej mer än Mag. Fredr. Idmans,
+                    dens, hvilken studerte bergsvettenskapen, och philosopfen
+                    
+                <pb n="4" facs="lnak657_064_005d"/>
+                    Steffens i Berlin. Nu
+                    lärer jag hafva uttömt mitt förråd af nyheter, hvilka ock till stor del lära
+                    vara förut bekanta för dig, emedan du nästan på lika kort tid kan hafva
+                    underrättelsen ifrån Hfors till Siberien som jag hit. Med de politiska ides jag
+                    ej, såsom att man i Schweits för Jesuiternas skull haft ett litet inbördes krig,
+                    och att Peel nyligen stött sig med de conservativa genom sina åtgärden för
+                    Irlands upplysning.</p>
+                <p>Af Fellman i Lappajärvi hade jag bref, deri han testamenterar Leems Grammatica
+                    Lapponica åt dig till evärdelig egendom. Naturligtvis behåller jag den här,
+                    tills jag får höra, om du behöfver den på dina resor. Innan jag slutar får jag
+                    ännu nämna att Seminarii examen skall vara afskaffadt, men hvad som kommer i
+                    stället, derpå har jag ej ännu någon reda. Det satt för någon tid sedan en
+                    ordentl. Comité i Hfors för prestbildningens skull i landet.</p>
+                <p>Hälsa Bergstadi och sörjan bägge för er hälsa, så mycket i kunnen. Blifver ditt
+                    bröst åter sämre, så kom hem så fort du hinner!</p>
+                <p>Din redelige broder</p>
+                <p>Elias Lönnrot.</p>
+                <p>Kajana den</p>
+                <p>20 Junii 1845</p>
+            </div>
+        </body>
+    </text>
+</TEI>

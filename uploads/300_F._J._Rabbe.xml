@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot > Frans Johan Rabbe</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+                <date when="2016-07-11">11.7.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran
+                            kirjallisuusarkisto</repository>
+                        <idno>20:54</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Rabbe</surname>
+                                <forename>Frans Johan</forename>
+                            </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>300</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+          <body>
+              <div type="kirje">
+                <opener>
+                  <dateline>
+                    <placeName n="Kajaani">Kajaani</placeName>
+                    <date when="1835-10-23">23.10.1835</date>
+                  </dateline>
+                </opener>
+                  <pb n="1" facs="lnak020_054a"/>
+                  <p>Waka Weljeni!</p>
+                  <p>Tack för dina hittills hafda och så väl uträttade mångfalldiga bestyr för
+                      mig. Nu måste jag åter besvära Dig med nya. Jag borde nu nämligen anslå
+                      i Landets Tidningar Mehiläinen till prenumeration, men känner ej så
+                      noga, huruvida det är tillbörligt att före PostDirectionens anmälan om
+                      saken göra sådant. Och som jag saknar Tummelitens Sjumils stöflor, genom
+                      hvilka jag eljest snart kunde komma i tillfälle att personligen göra mig
+                      om saken underrättad och till och med i förbigående helsa på Dig, så
+                      finner jag för denna fatala brist ingen annan utväg, än att åter vända
+                      mig till Dig, som med dina vanliga, väl icke stort öfver sjutums långa
+                      stöflor, kan hjelpa mig ur min förlägenhet. Om nu, såsom jag nästan
+                      ville tro, mina annoncer, utan att förnärma lag eller någon annan
+                      Christlig själ, kunna föregå PostDirectionens, så låt då på mina vägnar
+                      renskrifva 4 a 5 ex. af medföljande anmälan på Svenska och insinuera dem
+                      sedan med ett behörigt tiotal kopekar enligt blif- <pb n="2"
+                          facs="lnak020_054b"/> vande radernas mängd hos Tidningarnes
+                      Redactioner i H:fors och skicka med posten åtminstone 1 ex. att intagas
+                      i Åbo Underrättelser. Huruvida den äfven i Åbo Tidningar må införas, det
+                      må Du sjelf besluta. Den på Finska skrifva och nu äfven med följande
+                      annoncer skulle Du på samma sätt affärda till Redactionen för Sanan
+                      Saattaja Wiipurista.</p>
+                  <p>Nu ökes min skuld och förbindelse hos Dig härigenom och äfven den
+                      närvarande blifver för denna gång oligviderad. Orsaken är att min Cassa
+                      nu består af endast 3 <ref>Rß<note>Erikoismerkki, ks.
+                      facsimile.</note></ref> B:co och RGS sedlar, hvilka, om de ock eljest kunde vara användbara,
+                      dock göra brefvet för oformligt. Jag har derföre trott mig böra vänta på
+                      mina resemedels utanordnande och inhändigande, vid reqvisitioner af
+                      hvilka jag lärer hafva begått den försummelsen att ej då tillika vidfoga
+                      sjelfva reseberättelsen. Om denna skulle fordras, så får jag underrätta,
+                      att den så snart jag af Vaccinateurerne får deras Journaler, skall
+                      komma. För några i somras ankomna böcker ifrån Tysk balder är jag äfven
+                      något skyldig J. M. Tengström. Den skulden skall då äfven betalas,
+                      hvarom, om du eljest träffar honom, du kunde nämna och <pb n="3"
+                          facs="lnak020_054b"/> föröfrigt rätt mycket helsa honom.</p>
+                  <p>Hvad Registratoren Calonii anmärkning om Fullmagternes lösen beträffar,
+                      så erkännes rigtigheten deraf beträffande E. O. Läkare Fullmagter,
+                      hvilken skall till sägandes ännu ligger olöst och gerna för mig skulle
+                      få ligga om till yttersta domen; men högeligen protesterar jag emot hvad
+                      af samma anmärkning kan röra provincial och slottsläkareFullmagten. Den
+                      har jag redan här och lösen derföre har blifvit erlagd, hvarpå jag kan
+                      uppte åtminstone 5 särskilta gertteucer af Enbom och Löthman i Uleåborg.
+                      Så olöst E. O. Läkarefullmagten också ligger, så torde den ännu få vara
+                      tills jag af prenumerations medlen för Mehiläinen, hvilka ändock komma
+                      att der lyftas, kan erlägga densamma.</p>
+                  <p>Om Du då på allvare vill upprätta en förteckning på landets i botten
+                      ärliga och bra karlar, så tror jag mig med <add>tämmelig
+                          säkerhet</add><del>skäl</del> kunna på förhand säga ”den listan blir
+                      ej lång”. Otvifvelaktigt skulle man göra vår Herre orätt med att påstå
+                      det hans händers verk öfverallt så illa utfallit, att någon sådan ej
+                      finnes, som dock (så skulle man tycka) hade bordt ligga honom till
+                      förebild vid skapel <pb n="4" facs="lnak020_054c"/> sen, men den
+                      onde hade väl så stor magt i spelet, att säkert ganska få äro lemnade,
+                      som vår Herre gjorde dem. Dock torde hvad denna ort beträffar
+                      jemförelsen deraf i detta hänseende med andra orter i landet i det hela
+                      falla till vår fördel. Såsom hederliga och bra karlar har jag
+                      företrädesvis ansett vara Pastor Saxa och hans adjunkt Comminister
+                      Liljeblad i Kiando, Kronofogden Wichman, Pädag.
+                      <!-- ä käytetty merkistä ae                    --> Forbus, Apoth.
+                      Malmgren, Häradsskrifvaren Örnhjelm, Kyrkoh. Aejmelæus m. flere.</p>
+                  <p>Såsom sådan betraktar jag likaledes af den yngre generationen v
+                      Häradshfdgn Castrén och Flander, HofRAuscultantt. Elfving och Flander,
+                      Postmerstn. Gosman, Comminister Högman i Kuhmo, Landsfiscalen Æjmelæus
+                      till och med mig sjelf så jäfvig jag än torde finnas att yttra det
+                      sista.</p>
+                  <p>Såsom en välkommen nyhet för några Österbottningar och andra af äldre
+                      stammar bland studerande corpsen får du underrätta att ofvannämnda A.
+                      Elfving numera aflaggt alla spirituosa och blifvit den ordentligaste
+                      menniska. Öfver ½ år har han redan motstått djefvulens frestelser. Helsa
+                      nu tusendefallt Vännerne</p>
+                  <p>Kajana den 23 October</p>
+                  <p>Din</p>
+                  <p>Elias Lönnrot.</p>
+              </div>
+          </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Sven Gabriel Elmgren</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-16">16.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+                        <idno>19:204</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Elmgren</surname>
+                                <forename>Sven Gabriel</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1683</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Laukko">Laukko</placeName>
+                        <date when="1849-03-31">31.3.1849</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak019_204a"/>
+                <p>Laukko den 31 Mars 1849</p>
+                <p>Käre Broder!</p>
+                <p>För brefvet och boken af Cannelin får jag tacka. Så snart jag härifrån i Maj
+                    kommer till Kajana, skall jag uppleta sagomanuskripten och insända dem till
+                    Sällskapet; förut kan jag ej göra det, emedan jag ej 
+                    
+                <pb n="2" facs="lnak019_204b"/>
+                    har dem här. Jag vill erinra mig att jag hade af dem efter egen uppteckning omkr. 60, och åtskilliga
+                    häften finnas der upptecknade af Europaeus, Ahlqvist o.a. Ehuru olika
+                    varianterne af en och samma saga efter olika uppteckningar ofta äro, skulle jag
+                    dock anse det vara bättre att sammanslå dem, än att trycka särskildt. Det
+                    ursprungliga uttryckssättet anser jag böra bibehållas utan någon mer ingripande
+                    förändring, än att någon partikel eller annat vid 
+                    
+                <pb n="3" facs="lnak019_204b"/>   
+                    upptecknandet lätt undfallet ord tillsättes. Sådana omskapningar, som D:r Fählmann tillåtit sig med de
+                    estniska sagorna, skulle jag ej anse höra till saken, om de ock kunde
+                    åstadkommas och göras med samma skicklighet, hvartill jag åtminstone ej skulle
+                    äga förmåga. </p>
+                <p>Din vän och broder <add>1840 om sommaren blifven.</add></p>
+                <p>Elias Lönnrot</p>
+            </div>
+        </body>
+    </text>
+</TEI>

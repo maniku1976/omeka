@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot &gt; Mathias Alexander Castrén</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-06-15">15.6.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Omistaja Standertskjöld-Nordenstam –suku, Helsinki. Kopio: Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>657:64:21</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Castrén</surname>
+                                <forename>Mathias Alexander</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>1592</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="se-SE" usage="100">ruotsi</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                    <dateline>
+                        <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                        <date when="1851-07-06">6.7.1851</date>
+                    </dateline>
+                </opener>
+                <pb n="1" facs="lnak657_064_021a"/>
+                <p>Käre Broder!</p>
+                <p>Som jag ännu ej kommit mig till att gratulera Dig till den första professor i
+                    finska språket, så får jag nu af hjertans grund göra det och önska Dig lycka,
+                    framgång och fortfarande arbetsdrift. Wisst borde Du nu med din unga fru litet
+                    röra på Dig under den vackra sommarn, men litet lärer jag derföre få hoppas att
+                    någongång se eder här, så välkommet det ock vore för mig. Skulle Du dock
+                    någongång helsa på dina slägtingar i Uleåborg, så skulle vägen alltförväl kunna
+                    tagas öfver Kajana. 
+                    
+                <pb n="2" facs="lnak657_064_021b"/>   
+                    Sjelf reser jag nu i nästa onsdag med hustru och barn till
+                    Uleåborg, der jag ämnar dröja en veckas tid, och sedan genom Idensalmi
+                    återvända. Jag har nu ej vidare att tillägga, än att jag mått väl, önskandes
+                    detsamma för Dig och Din Fru. </p>
+                <p>Tuus </p>
+                <p>Elias Lönnrot.</p>
+                <p>Kajana den </p>
+                <p>6 Juli 1851. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

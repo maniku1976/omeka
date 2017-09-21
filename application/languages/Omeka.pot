@@ -3814,10 +3814,7 @@ msgstr ""
 msgid "Lönnrot to Höglund"
 msgstr ""
 
-msgid "Lönnrot to Erik Ingman"
-msgstr ""
-
-msgid "Lönnrot to Anders Ingman"
+msgid "Lönnrot to Ingman"
 msgstr ""
 
 msgid "Lönnrot to Kellgren"
@@ -3916,45 +3913,6 @@ msgstr ""
 msgid "Lönnrot to Aejmelaeus"
 msgstr ""
 
-msgid "Lönnrot to von Haartman"
-msgstr ""
-
-msgid "Lönnrot to Topelius"
-msgstr ""
-
-msgid "Lönnrot to Lagus"
-msgstr ""
-
-msgid "Lönnrot to Frans Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Fredrik & Ulrika Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Gabriel Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Henrik Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Karsten"
-msgstr ""
-
-msgid "Lönnrot to Lagervall"
-msgstr ""
-
-msgid "Lönnrot to Lilius"
-msgstr ""
-
-msgid "Lönnrot to Christina Lönnrot"
-msgstr ""
-
-msgid "Lönnrot to Gottlund"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
-msgstr ""
-
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr ""
 
@@ -4028,9 +3986,6 @@ msgid "Letters sent by Lönnrot to Anders Magnus Höglund"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Erik Alexander Ingman"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Anders Wilhelm Ingman"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to August Kellgren"
@@ -4130,39 +4085,6 @@ msgid "Letters sent by Lönnrot to Carl Gustav von Essen"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Carl Aejmelaeus"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Carl Daniel von Haartman"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Zacharias Topelius"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Jakob Johan Wilhelm Lagus"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Frans Fredrik Lönnrot"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Fredrik Johan & Ulrika Lönnrot"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Johan Anton Karsten"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Johan Fredrik Lagervall"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Karl Adolf Lilius"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to Christina & Stina-Liisa Lönnrot"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

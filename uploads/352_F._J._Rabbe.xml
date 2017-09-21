@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elias Lönnrot > Frans Johan Rabbe</title>
+                <author>Elias Lönnrot</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elias Lönnrotin kirjeenvaihdon digitaalinen editio</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Suomalaisen Kirjallisuuden
+                    Seura</distributor>
+                <date when="2016-07-11">11.7.2016</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Helsinki</settlement>
+                        <repository>Suomalaisen Kirjallisuuden Seuran kirjallisuusarkisto</repository>
+                        <idno>20:59</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1" class="letter">
+                            <author><surname>Lönnrot</surname>
+                                <forename>Elias</forename></author>
+                            <title type="adressee"><surname>Rabbe</surname>
+                                <forename>Frans Johan</forename> </title>
+                        </msItem>
+                        <msItem n="2" class="transcription">
+                            <bibl>352</bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kirje">
+                <opener>
+                  <dateline>
+                    <placeName type="kirjoituspaikka" n="Kajaani">Kajaani</placeName>
+                    <date when="1836-05-06">6.5.1836</date>
+                  </dateline>
+                </opener>
+                <pb n="1" facs="lnak020_059a"/>
+                <p>Broder!</p>
+                <p>Efter all uträkning träffa dessa rader Dig, redan invigd uti det
+                    ägta lifvet, och låt derföre ibland de många lyckönskningar, Du såsom sådan
+                    emottager och redan emottagit, äfven min få sin plats. O måtte Ditt föregående
+                    oägta lif, ehuru rikt på glädje och njutningar det än må hafva varit, qvarstå,
+                    endast på minnets område, såsom ett intet i jemförelse med den sällhet och de
+                    fröjder, Du ur ”lifvets fulla bägare” nu njuter! En behaglig dröm må det
+                    föregående vara emot det närvarande, som förbytt drömmen i verklighet! Men
+                    framtiden må vexa i sällhet, fröjd och lycksalighet, så att engång, då Du räknar
+                    lifvets dagar till dubbelt emot närvarande Du må ega den närvarande stundens
+                    goda oafkortadt och förökt med glädjen af uppblomstrande eller redan fullmogna
+                    söner
+
+                <pb n="2" facs="lnak020_059b"/>
+                    och döttrar! Och slutligen, måtte jag sjelf då kunna gratulera Dig på ett
+                    smakligare sätt, om ock aldrig mera ur hjertat, än jag det nu gjort!</p>
+                <p>Men ”non semper arbusta juvant” och jag måste åter förfoga mig till
+                    andra ämnen. För det första, tack för Ditt bref af den 22 April, mig
+                    tillhandakommit den 4 dennes. I anledn. af den hugnesamma underrättelsen att
+                    ingen E. O. här under tiden anses behöfvas, skref jag nu till Ticklén och bad
+                    honom om en sådan förbindelse, Du i ditt bref nämnde. I den händelse, att han ej
+                    ville eller kunde, vore väl Hedberg att anlita och äfven eljest skullee han vara
+                    vacantare, men olyckligtvis har mannen ledsnat på Uleåborg och tänker söka sig
+                    bort med det första, så att man derföre ej kan lita på honom. Dock skref jag
+                    äfven till honom en billet, den jag infogade i Tickléns bref, för att i händelse
+                    af hans refus framskickas. Af endera får Du väl höra, hvad de tänka, ty jag bad
+                    dem directe underrätta Dig derom. Härmed följer nu en ny Fullmagt med
+                    specificeradt ärende och dessutom ett stycke noter på Hexametern, som jag
+                    önskade få lithographeradt hos Tengström. Det är väl en ursprunglig Finsk
+
+                <pb n="3" facs="lnak020_059b"/>
+                    melodie, den på hvilken flickorna i Ridvala by uti Tavastland sjunga sina
+                    urgamla runor, men jag är böjd för att tro, det melodien är en återklang ifrån
+                    de gamla klassiska tiderna och ville derföre skrifva derom något i Mehil., utom
+                    det att den behöfves, vid hvad jag särskildt skrifvit något om Hexametern. Du
+                    lärer skratta åt min lättrogenhet vis a vis melodiens ålder, men en
+                    anmärkningsvärd sak är i alla fall uti Ridvala sångerne, att flere af dem äro
+                    fullkoml. Hexametrar t.ex.:</p>
+                <p>”Kauan kasvoi kauas kuului kauniisa joukos” </p>
+                <p>”Kolmannen kaivoit karkeesen kauniisa joukos” o.s.v.</p>
+                <p>Högst märkvärdigt vore derföre, om närvarande melodie kunde
+                    erkännas, såsom den, på hvilken Hexametern fordom sjöngs, och nästan lika
+                    märkvärdigt, att jag, som ej har musikaliskt öra för två styfver, skulle hafva
+                    återgifvit den på noter. Derföre bör Du också visa den först åt någon Musicus
+                    och låta honom rätta, hvad som kan vara aldeles besatt eller galet deruti, ifrån
+                    hvilket besvär jag väl kunnat frikalla Dig, om jag haft tid att med Ticklén
+                    communicera derom, men saken är den, att jag önskade med. Candid. Wegelius eller
+                    Stud.
+
+                <pb n="4" facs="lnak020_059c"/>
+                    Cajan återbekomma det lithographerade. Begge komma de näml. hit i sommar.
+                    750 ex. skulle tagas i sådan format, som sjelfva originalet visar, men väl
+                    bättre kalligrapheradt. Om de fås <add>med</add> nämnde Herrar hit, så kunna de väl
+                    aftryckas på bättre skrifpapper, eljest, om posten behöfver anlitas, på
+                    postpapper. Det å andra sidan befintliga Alphabetet skulle äfven tryckas. Och af
+                    för Mehil. inflytande medel skulle Du betala alltsammans.</p>
+                <p>PunktMajorens angående Rust fick jag tillika med ditt bref. Väl
+                    fick jag af gränsepostmestaren Montgomery åtskilligt af Rust men det saknade
+                    finnes just emellan det med honom komma och det sednast erhållna. Jag måste väl
+                    derom skrifva till honom sjelf och bedja honom reqvirera ånyo. </p>
+                <p><hi rend="underline">Isoisä</hi>
+<!-- ä-merkkiä käytetty ae-merkin sijaan                   -->
+                    som Du ville hafva för <hi rend="underline">Isovaari</hi> kunde kanske vara bättre, dock anser jag
+                    äfven <hi rend="underline">vaari</hi> vara, ej ett lånt, utan ursprungl.
+                    finskt ord och sammansättningen med <hi rend="underline">iso</hi> blir
+                    fylligare af <hi rend="underline">vaari</hi> än af <hi rend="underline">isä</hi>. Stick äfven
+                    framdeles några anmärkn. in i Dina bref.</p>
+                <p>Tuus totissimus.</p>
+                <p>Elias Lönnrot. </p>
+                <p>Kaj. d. 6 Maj 1836.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

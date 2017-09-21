@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-09-08 15:59+0300\n"
-"PO-Revision-Date: 2017-09-08 16:03+0300\n"
+"POT-Creation-Date: 2017-08-23 13:09+0300\n"
+"PO-Revision-Date: 2017-08-23 13:10+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3942,11 +3942,8 @@ msgstr "Lönnrot till Hedberg"
 msgid "Lönnrot to Höglund"
 msgstr "Lönnrot till Höglund"
 
-msgid "Lönnrot to Erik Ingman"
-msgstr "Lönnrot till Erik Ingman"
-
-msgid "Lönnrot to Anders Ingman"
-msgstr "Lönnrot till Anders Ingman"
+msgid "Lönnrot to Ingman"
+msgstr "Lönnrot till Ingman"
 
 msgid "Lönnrot to Kellgren"
 msgstr "Lönnrot till Kellgren"
@@ -4044,45 +4041,6 @@ msgstr "Lönnrot till von Essen"
 msgid "Lönnrot to Aejmelaeus"
 msgstr "Lönnrot till Aejmelaeus"
 
-msgid "Lönnrot to von Haartman"
-msgstr "Lönnrot till von Haartman"
-
-msgid "Lönnrot to Topelius"
-msgstr "Lönnrot till Topelius"
-
-msgid "Lönnrot to Lagus"
-msgstr "Lönnrot till Lagus"
-
-msgid "Lönnrot to Frans Lönnrot"
-msgstr "Lönnrot till Frans Lönnrot"
-
-msgid "Lönnrot to Fredrik & Ulrika Lönnrot"
-msgstr "Lönnrot till Fredrik & Ulrika Lönnrot"
-
-msgid "Lönnrot to Gabriel Lönnrot"
-msgstr "Lönnrot till Gabriel Lönnrot"
-
-msgid "Lönnrot to Henrik Lönnrot"
-msgstr "Lönnrot till Henrik Lönnrot"
-
-msgid "Lönnrot to Karsten"
-msgstr "Lönnrot till Karsten"
-
-msgid "Lönnrot to Lagervall"
-msgstr "Lönnrot till Lagervall"
-
-msgid "Lönnrot to Lilius"
-msgstr "Lönnrot till Lilius"
-
-msgid "Lönnrot to Christina Lönnrot"
-msgstr "Lönnrot till Christina Lönnrot"
-
-msgid "Lönnrot to Gottlund"
-msgstr "Lönnrot till Gottlund"
-
-msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
-msgstr "Lönnrots brev till Carl Axel Gottlund"
-
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr "Lönnrots brev till Frans Johan Rabbe"
 
@@ -4157,9 +4115,6 @@ msgstr "Lönnrots brev till Anders Magnus Höglund"
 
 msgid "Letters sent by Lönnrot to Erik Alexander Ingman"
 msgstr "Lönnrots brev till Erik Alexander Ingman"
-
-msgid "Letters sent by Lönnrot to Anders Wilhelm Ingman"
-msgstr "Lönnrots brev till Anders Wilhelm Ingman"
 
 msgid "Letters sent by Lönnrot to August Kellgren"
 msgstr "Lönnrots brev till August Kellgren"
@@ -4260,39 +4215,6 @@ msgstr "Lönnrots brev till Carl Gustav von Essen"
 msgid "Letters sent by Lönnrot to Carl Aejmelaeus"
 msgstr "Lönnrots brev till Carl Aejmelaeus"
 
-msgid "Letters sent by Lönnrot to Carl Daniel von Haartman"
-msgstr "Lönnrots brev till Carl Daniel von Haartman"
-
-msgid "Letters sent by Lönnrot to Zacharias Topelius"
-msgstr "Lönnrots brev till Zacharias Topelius"
-
-msgid "Letters sent by Lönnrot to Jakob Johan Wilhelm Lagus"
-msgstr "Lönnrots brev till Jakob Johan Wilhelm Lagus"
-
-msgid "Letters sent by Lönnrot to Frans Fredrik Lönnrot"
-msgstr "Lönnrots brev till Frans Fredrik Lönnrot"
-
-msgid "Letters sent by Lönnrot to Fredrik Johan & Ulrika Lönnrot"
-msgstr "Lönnrots brev till Fredrik Johan & Ulrika Lönnrot"
-
-msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
-msgstr "Lönnrots brev till Gabriel Martin Lönnrot"
-
-msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
-msgstr "Lönnrots brev till Henrik Johan Lönnrot"
-
-msgid "Letters sent by Lönnrot to Johan Anton Karsten"
-msgstr "Lönnrots brev till Johan Anton Karsten"
-
-msgid "Letters sent by Lönnrot to Johan Fredrik Lagervall"
-msgstr "Lönnrots brev till Johan Fredrik Lagervall"
-
-msgid "Letters sent by Lönnrot to Karl Adolf Lilius"
-msgstr "Lönnrots brev till Karl Adolf Lilius"
-
-msgid "Letters sent by Lönnrot to Christina & Stina-Liisa Lönnrot"
-msgstr "Lönnrots brev till Christina & Stina-Liisa Lönnrot"
-
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
 msgid "missing"
@@ -4384,9 +4306,6 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
-
-#~ msgid "Lönnrot to Ingman"
-#~ msgstr "Lönnrot till Ingman"
 
 #~ msgid "Lönnrot to Appelgren"
 #~ msgstr "Lönnrot till Appelgren"

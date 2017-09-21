@@ -19651,8 +19651,3 @@ convert: no images defined `/tmp/fullsize_05063ccb8b30fa9d89d937e9186ad461.jpg' 
 convert: no images defined `/tmp/fullsize_6830bbdcfe219f4eb9943ed21a6910a2.jpg' @ error/convert.c/ConvertImageCommand/3241.
 
 2017-08-02T08:02:39+00:00 ERR (3): ImageMagick failed with status code 1.
-2017-09-08T09:18:50+00:00 WARN (4): Error output from ImageMagick:
-convert: no images defined `/tmp/fullsize_8766d8448c1a9031800f56c81028b8f3.jpg' @ error/convert.c/ConvertImageCommand/3241.
-
-2017-09-08T09:18:50+00:00 ERR (3): ImageMagick failed with status code 1.
-2017-09-08T12:29:37+00:00 WARN (4): Omeka_Storage_Adapter_Filesystem: Tried to delete missing file 'original/65b93b965803401c9c4d9139b002e300.jpg'.
