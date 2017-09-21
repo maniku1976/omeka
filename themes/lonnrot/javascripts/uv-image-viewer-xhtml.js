@@ -33,6 +33,10 @@ $(document).ready(function() {
         str = key;
       } else if (key == 'Rein' && key + ending == 'Reine') {
         str = '';
+      } else if (key == 'Rein' && key + ending == 'Reinholm') {
+        str = '';
+      } else if (key == 'Rein' && key + ending == 'Reinholms') {
+        str = '';
       } else if (key == 'Cajan' && key + ending == 'Cajander') {
         str = '';
       } else {

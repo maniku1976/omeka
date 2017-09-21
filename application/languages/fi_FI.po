@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-08-23 13:08+0300\n"
-"PO-Revision-Date: 2017-08-23 13:11+0300\n"
+"POT-Creation-Date: 2017-09-19 12:49+0300\n"
+"PO-Revision-Date: 2017-09-19 12:50+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3958,8 +3958,11 @@ msgstr "Lönnrot Hedbergille"
 msgid "Lönnrot to Höglund"
 msgstr "Lönnrot Höglundille"
 
-msgid "Lönnrot to Ingman"
-msgstr "Lönnrot Ingmanille"
+msgid "Lönnrot to Erik Ingman"
+msgstr "Lönnrot Erik Ingmanille"
+
+msgid "Lönnrot to Anders Ingman"
+msgstr "Lönnrot Anders Ingmanille"
 
 msgid "Lönnrot to Kellgren"
 msgstr "Lönnrot Kellgrenille"
@@ -4057,6 +4060,39 @@ msgstr "Lönnrot von Essenille"
 msgid "Lönnrot to Aejmelaeus"
 msgstr "Lönnrot Aejmelaeukselle"
 
+msgid "Lönnrot to von Haartman"
+msgstr "Lönnrot von Haartmanille"
+
+msgid "Lönnrot to Topelius"
+msgstr "Lönnrot Topeliukselle"
+
+msgid "Lönnrot to Lagus"
+msgstr "Lönnrot Lagukselle"
+
+msgid "Lönnrot to Karsten"
+msgstr "Lönnrot Karstenille"
+
+msgid "Lönnrot to Lagervall"
+msgstr "Lönnrot Lagervallille"
+
+msgid "Lönnrot to Lilius"
+msgstr "Lönnrot Liliukselle"
+
+msgid "Lönnrot to Gottlund"
+msgstr "Lönnrot Gottlundille"
+
+msgid "Lönnrot to Meurman"
+msgstr "Lönnrot Meurmanille"
+
+msgid "Lönnrot's family letters"
+msgstr "Lönnrotin perhekirjeet"
+
+msgid "Lönnrot to Bergström"
+msgstr "Lönnrot Bergströmille"
+
+msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
+msgstr "Lönnrotin kirjeet Carl Axel Gottlundille"
+
 msgid "Letters sent by Lönnrot to Frans Johan Rabbe"
 msgstr "Lönnrotin kirjeet Frans Johan Rabbelle"
 
@@ -4131,6 +4167,9 @@ msgstr "Lönnrotin kirjeet Anders Magnus Höglundille"
 
 msgid "Letters sent by Lönnrot to Erik Alexander Ingman"
 msgstr "Lönnrotin kirjeet Erik Alexander Ingmanille"
+
+msgid "Letters sent by Lönnrot to Anders Wilhelm Ingman"
+msgstr "Lönnrotin kirjeet Anders Wilhelm Ingmanille"
 
 msgid "Letters sent by Lönnrot to August Kellgren"
 msgstr "Lönnrotin kirjeet August Kellgrenille"
@@ -4231,6 +4270,40 @@ msgstr "Lönnrotin kirjeet Carl Gustav von Essenille"
 msgid "Letters sent by Lönnrot to Carl Aejmelaeus"
 msgstr "Lönnrotin kirjeet Carl Aejmelaeukselle"
 
+msgid "Letters sent by Lönnrot to Carl Daniel von Haartman"
+msgstr "Lönnrotin kirjeet Carl Daniel von Haartmanille"
+
+msgid "Letters sent by Lönnrot to Zacharias Topelius"
+msgstr "Lönnrotin kirjeet Zacharias Topeliukselle"
+
+msgid "Letters sent by Lönnrot to Jakob Johan Wilhelm Lagus"
+msgstr "Lönnrotin kirjeet Jakob Johan Wilhelm Lagukselle"
+
+msgid "Letters sent by Lönnrot to Johan Anton Karsten"
+msgstr "Lönnrotin kirjeet Johan Anton Karstenille"
+
+msgid "Letters sent by Lönnrot to Johan Fredrik Lagervall"
+msgstr "Lönnrotin kirjeet Johan Fredrik Lagervallille"
+
+msgid "Letters sent by Lönnrot to Karl Adolf Lilius"
+msgstr "Lönnrotin kirjeet Karl Adolf Liliukselle"
+
+msgid ""
+"Letters sent by Lönnrot to daughters Maria and Elina, parents Fredrik Johan "
+"and Ulrika, brothers Gabriel Martin and Henrik Johan, Henrik's wife "
+"Christina Elisabet and son Frans Fredrik, and other family members"
+msgstr ""
+"Lönnrotin kirjeet tyttärilleen Marialle ja Elinalle, vanhemmilleen Fredrik "
+"Johanille ja Ulrikalle, veljilleen Gabriel Martinille ja Henrik Johanille, "
+"Henrikin puolisolle Christina Elisabetille ja pojalle Frans Fredrikille sekä "
+"muille sukulaisille"
+
+msgid "Letters sent by Lönnrot to Otto Adolf Daniel Meurman"
+msgstr "Lönnrotin kirjeet Otto Adolf Daniel Meurmanille"
+
+msgid "Letters sent by Lönnrot to I. Bergström"
+msgstr "Lönnrotin kirjeet I. Bergströmille"
+
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
 msgid "missing"
@@ -4322,6 +4395,39 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Lönnrot to Frans Lönnrot"
+#~ msgstr "Lönnrot Frans Lönnrotille"
+
+#~ msgid "Lönnrot to Fredrik & Ulrika Lönnrot"
+#~ msgstr "Lönnrot Fredrik & Ulrika Lönnrotille"
+
+#~ msgid "Lönnrot to Gabriel Lönnrot"
+#~ msgstr "Lönnrot Gabriel Lönnrotille"
+
+#~ msgid "Lönnrot to Henrik Lönnrot"
+#~ msgstr "Lönnrot Henrik Lönnrotille"
+
+#~ msgid "Lönnrot to Christina Lönnrot"
+#~ msgstr "Lönnrot Christina Lönnrotille"
+
+#~ msgid "Letters sent by Lönnrot to Frans Fredrik Lönnrot"
+#~ msgstr "Lönnrotin kirjeet Frans Fredrik Lönnrotille"
+
+#~ msgid "Letters sent by Lönnrot to Fredrik Johan & Ulrika Lönnrot"
+#~ msgstr "Lönnrotin kirjeet Fredrik Johan & Ulrika Lönnrotille"
+
+#~ msgid "Letters sent by Lönnrot to Gabriel Martin Lönnrot"
+#~ msgstr "Lönnrotin kirjeet Gabriel Martin Lönnrotille"
+
+#~ msgid "Letters sent by Lönnrot to Henrik Johan Lönnrot"
+#~ msgstr "Lönnrotin kirjeet Henrik Johan Lönnrotille"
+
+#~ msgid "Letters sent by Lönnrot to Christina & Stina-Liisa Lönnrot"
+#~ msgstr "Lönnrotin kirjeet Christina ja Stina-Liisa Lönnrotille"
+
+#~ msgid "Lönnrot to Ingman"
+#~ msgstr "Lönnrot Ingmanille"
 
 #~ msgid "Lönnrot to Appelgren"
 #~ msgstr "Lönnrot Appelgrenille"
