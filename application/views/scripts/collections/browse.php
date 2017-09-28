@@ -230,7 +230,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Gottlund":
             $years = '1829 - 1849';
             break;
-          case "Lönnrot's family letters":
+          case "Family letters":
             $years = '1826 - 1883';
             break;
           case "Lönnrot to Meurman":
@@ -238,6 +238,27 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Bergström":
             $years = '1835 - 1850';
+            break;
+          case "Lönnrot to Heickell":
+            $years = '1835';
+            break;
+          case "Lönnrot to Hortling":
+            $years = '1833 - 1853';
+            break;
+          case "Lönnrot to Amalia Perander":
+            $years = '1860 - 1871';
+            break;
+          case "Lönnrot to Sophie Perander":
+            $years = '1868 - 1871';
+            break;
+          case "Lönnrot to Sabelli":
+            $years = '1834 - 1835';
+            break;
+          case "Lönnrot to Sachsendahl":
+            $years = '1847 - 1851';
+            break;
+          case "Lönnrot to Stockfleth":
+            $years = '1839 - 1849';
             break;
         }
         ?>

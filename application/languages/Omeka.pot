@@ -3940,10 +3940,34 @@ msgstr ""
 msgid "Lönnrot to Meurman"
 msgstr ""
 
-msgid "Lönnrot's family letters"
+msgid "Family letters"
 msgstr ""
 
 msgid "Lönnrot to Bergström"
+msgstr ""
+
+msgid "Lönnrot to Heickell"
+msgstr ""
+
+msgid "Lönnrot to Hortling"
+msgstr ""
+
+msgid "Lönnrot to Amalia Perander"
+msgstr ""
+
+msgid "Sophie Perander"
+msgstr ""
+
+msgid "Lönnrot to Wichmann"
+msgstr ""
+
+msgid "Lönnrot to Sabelli"
+msgstr ""
+
+msgid "Lönnrot to Sachsendahl"
+msgstr ""
+
+msgid "Lönnrot to Stockfleth"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
@@ -4138,19 +4162,40 @@ msgstr ""
 msgid "Letters sent by Lönnrot to Johan Anton Karsten"
 msgstr ""
 
-msgid "Letters sent by Lönnrot to Johan Fredrik Lagervall"
+msgid "Letters sent by Lönnrot to Jakob Fredrik Lagervall"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Karl Adolf Lilius"
-msgstr ""
-
-msgid "Letters sent by Lönnrot to daughters Maria and Elina, parents Fredrik Johan and Ulrika, brothers Gabriel Martin and Henrik Johan, Henrik's wife Christina Elisabet and son Frans Fredrik, and other family members"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Otto Adolf Daniel Meurman"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to I. Bergström"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Heickell"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Hortling"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Amalia Perander"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Sophie Louise Perander"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Kristian Wichmann"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Erik Sabelli"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Emil Sachsendahl"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to N.J.C.V. Stockfleth"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

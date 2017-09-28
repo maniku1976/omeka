@@ -79,7 +79,19 @@ var comments = {
   'Rein': 'Gabriel Rein (1800−1867), professori, kanslianeuvos. Rein oli yksi SKS:n' +
   ' perustajista, ja seuran esimies vuosina 1841–1853 ja 1863–1867. ' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3595" target="_blank">Kansallisbiografia</a>',
-  'Törngren': 'Johan Agapetus Törngren (1772−1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
+  'Arch. Törngren': 'Johan Agapetus Törngren (1772−1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
+  ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
+  ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
+  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
+  'Archiater Törngren': 'Johan Agapetus Törngren (1772−1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
+  ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
+  ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
+  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
+  'Ark. Törngren': 'Johan Agapetus Törngren (1772−1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
+  ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
+  ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
+  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
+  'Professor Törngren': 'Johan Agapetus Törngren (1772−1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
   ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
   ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
   ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
@@ -160,5 +172,86 @@ var comments = {
   'Linsén': 'Johan Gabriel Linsén (1785−1848), kaunopuheisuuden ja runousopin professori, kirjailija. Linsén toimi' +
   ' vuosina 1833−1841 SKS:n esimiehenä. <em>Kalevalan</em> ilmestyttyä Linsén lausui seuran vuosikokouksessa:' +
   ' "Suomi voi sanoa itselleen: Myös minulla on historia!".' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3538" target="_blank">Kansallisbiografia</a>'
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3538" target="_blank">Kansallisbiografia</a>',
+  'Ganander': 'Christfried Ganander (myös Gananderi) (1741−1790), rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
+  ' Lönnrot piti Gananderin teosta <em>Mythologia Fennica</em> (1789) merkittävänä suomalaisen kansanuskon hakuteoksena. Ganander' +
+  ' toimitti myös suomalais-ruotsalais-latinalaisen sanakirjan <em>Nytt Finskt Lexicon</em> (1787, julk. 1997).' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" target="_blank">Kansallisbiografia</a>',
+  'Gananderi': 'Christfried Ganander (myös Gananderi) (1741−1790), rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
+  ' Lönnrot piti Gananderin teosta <em>Mythologia Fennica</em> (1789) merkittävänä suomalaisen kansanuskon hakuteoksena. Ganander' +
+  ' toimitti myös suomalais-ruotsalais-latinalaisen sanakirjan <em>Nytt Finskt Lexicon</em> (1787, julk. 1997).' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" target="_blank">Kansallisbiografia</a>',
+  'Haartman': 'Carl Daniel von Haartman (1792−1877) toimi lääkintöhallituksen ylijohtajana vuodesta 1837 lähtien. Haartman uudisti' +
+  ' lääkärien toimintaa monella tavalla ja otti osaa aikansa keskusteluun lasten imettämisestä.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/7589" target="_blank">Kansallisbiografia</a>',
+  'Ehrström': 'Carl Robert Ehrström (1803−1881), lääkäri, joka toimi Oulun piirilääkärinä vuosina 1839−1855. Ehström ja Lönnrot' +
+  ' kävivät kirjeenvaihtoa erityisesti 1840-luvulla molempien toimiessa piirilääkäreinä.',
+  'Rothsten': 'Frans Wilhelm Rothsten (1833−1900) oli kielimies, joka julkaisi erilaisia Kalevalan selityksiä. Rothsten toimi' +
+  ' Suomalaisen Kirjallisuuden Seuran sihteerinä 1870−1900.',
+  'Karsten': 'Johan Anton Karsten (1795−1871) oli Kuopion ensimmäinen kirjapainaja ja kustantaja.',
+  'Wichmann': 'Johan Kristian Wichmann (1794−1848) toimi kruununvoutina Kajaanissa 1826 lähtien. Hänet nimitettiin asessoriksi' +
+  ' 1837 ja Oulun läänin rahastonhoitajaksi 1840.',
+  'Höglund': 'Anders Magnus Höglund (1807−1858) toimi Mikkelin piirilääkärinä vuoteen 1844. Höglund toimitti Lönnrotille tietoja' +
+  ' kotipaikkakuntansa Heinolan asioista ja ihmisistä.',
+  'Barck': 'Christian Evert Barck (1795−1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
+  'Bark': 'Christian Evert Barck (1795−1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
+  'Barkki': 'Christian Evert Barck (1795−1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
+  'Bergenheim': 'Edward Bergenheim (1798−1884) oli opettaja ja arkkipiispa. Lönnrotin ja Bergenheimin kirjeenvaihto koski lähinnä' +
+  ' virsikirjauudistusta.' + ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  'Hedberg': 'Anders Erik (Antus) Hedberg (1804−1837) oli lääkäri, joka toimi mm. Oulun piirilääkärinä.',
+  'Johansson': 'Gustaf Johansson (1844−1930) oli dogmatiikan ja siveysopin professori sekä myöhemmin arkkipiispa.',
+  '': 'Adolf  (1795−1870) oli opettaja ja Paltamon kappalainen.',
+  'Sophie Louise Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
+  ' <em>Kanteletar</em>-käsikirjoitusta 1880-luvulla. Sophie Louise oli Amalia Peranderin sisar.',
+  'Sofi Luise Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
+  ' <em>Kanteletar</em>-käsikirjoitusta 1880-luvulla. Sophie Louise oli Amalia Peranderin sisar.',
+  'mamsell Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
+  ' <em>Kanteletar</em>-käsikirjoitusta 1880-luvulla. Sophie Louise oli Amalia Peranderin sisar.',
+  'Mamsell Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
+  ' <em>Kanteletar</em>-käsikirjoitusta 1880-luvulla. Sophie Louise oli Amalia Peranderin sisar.',
+  'fröken Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
+  ' <em>Kanteletar</em>-käsikirjoitusta 1880-luvulla. Sophie Louise oli Amalia Peranderin sisar.',
+  'fr. Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
+  ' <em>Kanteletar</em>-käsikirjoitusta 1880-luvulla. Sophie Louise oli Amalia Peranderin sisar.',
+  'Amalia Perander': 'Amalia Perander (1821−1912) toimi Lönnrotin kasvattilasten, Eva ja Amanda Ingmanin hoitajana. Amalia oli Sophie' +
+  ' Louise Peranderin sisar.',
+  'A. Perander': 'Amalia Perander (1821−1912) toimi Lönnrotin kasvattilasten, Eva ja Amanda Ingmanin hoitajana. Amalia oli Sophie' +
+  ' Louise Peranderin sisar.',
+  'Am. Perander': 'Amalia Perander (1821−1912) toimi Lönnrotin kasvattilasten, Eva ja Amanda Ingmanin hoitajana. Amalia oli Sophie' +
+  ' Louise Peranderin sisar.',
+  'Rector Appelgren': 'Simon Wilhelm Appelgren (1786−1854), rovasti, opettaja ja sanomalehtimies. Appelgren toimi <em>Oulun Wiikkosanomien</em>' +
+  ' toimittajana 1829−1837.',
+  'Rektor Appelgren': 'Simon Wilhelm Appelgren (1786−1854), rovasti, opettaja ja sanomalehtimies. Appelgren toimi <em>Oulun Wiikkosanomien</em>' +
+  ' toimittajana 1829−1837.',
+  'Appelgreini': 'Simon Wilhelm Appelgren (1786−1854), rovasti, opettaja ja sanomalehtimies. Appelgren toimi <em>Oulun Wiikkosanomien</em>' +
+  ' toimittajana 1829−1837.',
+  'Apothekaren Kellgren': 'August Kellgren (1792−1850) oli Kuopion apteekkari. Kellgrenin talossa toimi Kuopion kirjapaino.',
+  'Apothek. Kellgren': 'August Kellgren (1792−1850) oli Kuopion apteekkari. Kellgrenin talossa toimi Kuopion kirjapaino.',
+  'Apoth. Kellgren': 'August Kellgren (1792−1850) oli Kuopion apteekkari. Kellgrenin talossa toimi Kuopion kirjapaino.',
+  'Herman Kellgren': 'Abraham Herman August Kellgren (1822−1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845−1846.' +
+  ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3502" target="_blank">Kansallisbiografia</a>',
+  'Herm. Kellgren': 'Abraham Herman August Kellgren (1822−1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845−1846.' +
+  ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  'Doktor Kellgren': 'Abraham Herman August Kellgren (1822−1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845−1846.' +
+  ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  'A. W. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
+  ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  'Prof. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
+  ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  'prof. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
+  ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  'Professor A. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
+  ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  'Professor Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
+  ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  'kyrkoherden Holmström': 'Anders Nils Holmström  (1808−1871) pappi. Toimi Kuhmonniemen kappalaisena 1849−1859 ja Haapajärven' +
+  ' kirkkoherrana 1859−1871.',
 };
