@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-09-29 09:26+0300\n"
-"PO-Revision-Date: 2017-09-29 09:28+0300\n"
+"POT-Creation-Date: 2017-09-29 15:56+0300\n"
+"PO-Revision-Date: 2017-09-29 15:57+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -4123,6 +4123,9 @@ msgstr "Lönnrot Waseniuksele"
 msgid "Lönnrot to Slöör"
 msgstr "Lönnrot Slöörille"
 
+msgid "Lönnrot to Petter Malmgren"
+msgstr "Lönnrot Petter Malmgrenille"
+
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrotin kirjeet Carl Axel Gottlundille"
 
@@ -4359,6 +4362,9 @@ msgstr "Lönnrotin kirjeet Johan Edvard Öhmanille"
 
 msgid "Letters sent by Lönnrot to Karl Slöör"
 msgstr "Lönnrotin kirjeet Karl Slöörille"
+
+msgid "Letters sent by Lönnrot to Petter Malmgren"
+msgstr "Lönnrotin kirjeet Petter Malmgrenille"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26

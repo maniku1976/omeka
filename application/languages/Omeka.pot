@@ -3979,6 +3979,9 @@ msgstr ""
 msgid "Lönnrot to Slöör"
 msgstr ""
 
+msgid "Lönnrot to Petter Malmgren"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr ""
 
@@ -4214,6 +4217,9 @@ msgid "Letters sent by Lönnrot to Johan Edvard Öhman"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Karl Slöör"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Petter Malmgren"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69
