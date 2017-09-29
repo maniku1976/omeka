@@ -3856,7 +3856,10 @@ msgstr ""
 msgid "Lönnrot to Tikkanen"
 msgstr ""
 
-msgid "Lönnrot to Öhman"
+msgid "Lönnrot to Alexander Öhman"
+msgstr ""
+
+msgid "Lönnrot to Johan Öhman"
 msgstr ""
 
 msgid "Lönnrot to Cannelin"
@@ -3968,6 +3971,12 @@ msgid "Lönnrot to Sachsendahl"
 msgstr ""
 
 msgid "Lönnrot to Stockfleth"
+msgstr ""
+
+msgid "Lönnrot to Wasenius"
+msgstr ""
+
+msgid "Lönnrot to Slöör"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
@@ -4196,6 +4205,15 @@ msgid "Letters sent by Lönnrot to Emil Sachsendahl"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to N.J.C.V. Stockfleth"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to G.O. Wasenius"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Edvard Öhman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Karl Slöör"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

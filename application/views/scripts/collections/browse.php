@@ -143,7 +143,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Skogman":
             $years = '1833 - 1836';
             break;
-          case "Lönnrot to Öhman":
+          case "Lönnrot to Alexander Öhman":
             $years = '1842 - 1847';
             break;
           case "Lönnrot to Cannelin":
@@ -259,6 +259,15 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Stockfleth":
             $years = '1839 - 1849';
+            break;
+          case "Lönnrot to Slöör":
+            $years = '1869';
+            break;
+          case "Lönnrot to Johan Öhman":
+            $years = '1843';
+            break;
+          case "Lönnrot to Wasenius":
+            $years = '1837 - 1838';
             break;
         }
         ?>

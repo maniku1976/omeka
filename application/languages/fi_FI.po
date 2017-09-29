@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-09-28 12:10+0300\n"
-"PO-Revision-Date: 2017-09-28 12:10+0300\n"
+"POT-Creation-Date: 2017-09-29 09:26+0300\n"
+"PO-Revision-Date: 2017-09-29 09:28+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -4000,8 +4000,11 @@ msgstr "Lönnrot Thunebergille"
 msgid "Lönnrot to Tikkanen"
 msgstr "Lönnrot Tikkaselle"
 
-msgid "Lönnrot to Öhman"
-msgstr "Lönnrot Öhmanille"
+msgid "Lönnrot to Alexander Öhman"
+msgstr "Lönnrot Alexander Öhmanille"
+
+msgid "Lönnrot to Johan Öhman"
+msgstr "Lönnrot Johan Öhmanille"
 
 msgid "Lönnrot to Cannelin"
 msgstr "Lönnrot Cannelinille"
@@ -4113,6 +4116,12 @@ msgstr "Lönnrot Sachsendahlille"
 
 msgid "Lönnrot to Stockfleth"
 msgstr "Lönnrot Stockflethille"
+
+msgid "Lönnrot to Wasenius"
+msgstr "Lönnrot Waseniuksele"
+
+msgid "Lönnrot to Slöör"
+msgstr "Lönnrot Slöörille"
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrotin kirjeet Carl Axel Gottlundille"
@@ -4342,6 +4351,15 @@ msgstr "Lönnrotin kirjeet Emil Sachsendahlille"
 msgid "Letters sent by Lönnrot to N.J.C.V. Stockfleth"
 msgstr "Lönnrotin kirjeet N.J.C.V. Stockflethille"
 
+msgid "Letters sent by Lönnrot to G.O. Wasenius"
+msgstr "Lönnrotin kirjeet G.O. Waseniukselle"
+
+msgid "Letters sent by Lönnrot to Johan Edvard Öhman"
+msgstr "Lönnrotin kirjeet Johan Edvard Öhmanille"
+
+msgid "Letters sent by Lönnrot to Karl Slöör"
+msgstr "Lönnrotin kirjeet Karl Slöörille"
+
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
 msgid "missing"
@@ -4433,6 +4451,9 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Lönnrot to Öhman"
+#~ msgstr "Lönnrot Öhmanille"
 
 #~ msgid ""
 #~ "Daughters Maria and Elina, parents Fredrik Johan and Ulrika,\n"

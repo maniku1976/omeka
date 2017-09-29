@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-09-28 12:12+0300\n"
-"PO-Revision-Date: 2017-09-28 12:15+0300\n"
+"POT-Creation-Date: 2017-09-29 09:29+0300\n"
+"PO-Revision-Date: 2017-09-29 09:31+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3984,8 +3984,11 @@ msgstr "Lönnrot till Thuneberg"
 msgid "Lönnrot to Tikkanen"
 msgstr "Lönnrot till Tikkanen"
 
-msgid "Lönnrot to Öhman"
-msgstr "Lönnrot till Öhman"
+msgid "Lönnrot to Alexander Öhman"
+msgstr "Lönnrot till Alexander Öhman"
+
+msgid "Lönnrot to Johan Öhman"
+msgstr "Lönnrot till Johan Öhman"
 
 msgid "Lönnrot to Cannelin"
 msgstr "Lönnrot till Cannelin"
@@ -4097,6 +4100,12 @@ msgstr "Lönnrot till Sachsendahl"
 
 msgid "Lönnrot to Stockfleth"
 msgstr "Lönnrot till Stockfleth"
+
+msgid "Lönnrot to Wasenius"
+msgstr "Lönnrot till Wasenius"
+
+msgid "Lönnrot to Slöör"
+msgstr "Lönnrot till Slöör"
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrots brev till Carl Axel Gottlund"
@@ -4326,6 +4335,15 @@ msgstr "Lönnrots brev till Emil Sachsendahl"
 msgid "Letters sent by Lönnrot to N.J.C.V. Stockfleth"
 msgstr "Lönnrots brev till N.J.C.V. Stockfleth"
 
+msgid "Letters sent by Lönnrot to G.O. Wasenius"
+msgstr "Lönnrots brev till G.O. Wasenius"
+
+msgid "Letters sent by Lönnrot to Johan Edvard Öhman"
+msgstr "Lönnrots brev till Johan Edvard Öhman"
+
+msgid "Letters sent by Lönnrot to Karl Slöör"
+msgstr "Lönnrots brev till Karl Slöör"
+
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
 msgid "missing"
@@ -4417,6 +4435,9 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Lönnrot to Öhman"
+#~ msgstr "Lönnrot till Öhman"
 
 #~ msgid "Letters sent by Lönnrot to Johan Fredrik Lagervall"
 #~ msgstr "Lönnrots brev till Johan Fredrik Lagervall"
