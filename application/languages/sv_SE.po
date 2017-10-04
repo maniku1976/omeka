@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-03 15:46+0300\n"
-"PO-Revision-Date: 2017-10-03 15:47+0300\n"
+"POT-Creation-Date: 2017-10-04 15:20+0300\n"
+"PO-Revision-Date: 2017-10-04 15:21+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4026,8 +4026,8 @@ msgstr "Lönnrot till Toppelius"
 msgid "Lönnrot to Frosterus"
 msgstr "Lönnrot till Frosterus"
 
-msgid "Lönnrot to Holmström"
-msgstr "Lönnrot till Holmström"
+msgid "Lönnrot to Anders Holmström"
+msgstr "Lönnrot till Anders Holmström"
 
 msgid "Lönnrot to Johansson"
 msgstr "Lönnrot till Johansson"
@@ -4112,6 +4112,12 @@ msgstr "Lönnrot till Petter Malmgren"
 
 msgid "Lönnrot to Bisi"
 msgstr "Lönnrot till Bisi"
+
+msgid "Lönnrot to J. Holmström"
+msgstr "Lönnrot till J. Holmström"
+
+msgid "Lönnrot to Emeleus"
+msgstr "Lönnrot till Emeleus"
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrots brev till Carl Axel Gottlund"
@@ -4356,6 +4362,12 @@ msgstr "Lönnrots brev till Petter Malmgren"
 msgid "Letters sent by Lönnrot to Eric Bisi"
 msgstr "Lönnrots brev till Eric Bisi"
 
+msgid "Letters sent by Lönnrot to J. Holmström"
+msgstr "Lönnrots brev till J. Holmström"
+
+msgid "Letters sent by Lönnrot to Curt Emeleus"
+msgstr "Lönnrots brev till Curt Emeleus"
+
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
 msgid "missing"
@@ -4447,6 +4459,9 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Lönnrot to Holmström"
+#~ msgstr "Lönnrot till Holmström"
 
 #~ msgid "Lönnrot to Öhman"
 #~ msgstr "Lönnrot till Öhman"

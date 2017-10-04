@@ -3898,7 +3898,7 @@ msgstr ""
 msgid "Lönnrot to Frosterus"
 msgstr ""
 
-msgid "Lönnrot to Holmström"
+msgid "Lönnrot to Anders Holmström"
 msgstr ""
 
 msgid "Lönnrot to Johansson"
@@ -3983,6 +3983,12 @@ msgid "Lönnrot to Petter Malmgren"
 msgstr ""
 
 msgid "Lönnrot to Bisi"
+msgstr ""
+
+msgid "Lönnrot to J. Holmström"
+msgstr ""
+
+msgid "Lönnrot to Emeleus"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
@@ -4226,6 +4232,12 @@ msgid "Letters sent by Lönnrot to Petter Malmgren"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Eric Bisi"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to J. Holmström"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Curt Emeleus"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

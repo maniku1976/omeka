@@ -182,7 +182,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Frosterus":
             $years = '1847 - 1850';
             break;
-          case "Lönnrot to Holmström":
+          case "Lönnrot to Anders Holmström":
             $years = '1837 - 1857';
             break;
           case "Lönnrot to Johansson":
@@ -274,6 +274,12 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Bisi":
             $years = '1839 - 1849'
+            break;
+          case "Lönnrot to J. Holmström":
+            $years = '1834 - 1839';
+            break;
+          case "Lönnrot to Emeleus":
+            $years = '1834 - 1835';
             break;
         }
         ?>
