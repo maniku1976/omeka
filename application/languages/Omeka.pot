@@ -3991,6 +3991,12 @@ msgstr ""
 msgid "Lönnrot to Emeleus"
 msgstr ""
 
+msgid "Lönnrot to Jurva"
+msgstr ""
+
+msgid "Miscellaneous letters"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr ""
 
@@ -4238,6 +4244,12 @@ msgid "Letters sent by Lönnrot to J. Holmström"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Curt Emeleus"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Karl Adolf Jurva"
+msgstr ""
+
+msgid "Recipients with 1-3 letters"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69
