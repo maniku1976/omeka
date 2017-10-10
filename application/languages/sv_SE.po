@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-05 15:26+0300\n"
-"PO-Revision-Date: 2017-10-05 15:28+0300\n"
+"POT-Creation-Date: 2017-10-10 10:55+0300\n"
+"PO-Revision-Date: 2017-10-10 10:58+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3906,8 +3906,11 @@ msgstr "Lönnrot till Sjögren"
 msgid "Lönnrot to Ståhlberg"
 msgstr "Lönnrot till Ståhlberg"
 
-msgid "Lönnrot to Ticklén"
-msgstr "Lönnrot till Ticklén"
+msgid "Lönnrot to Johan Ticklén"
+msgstr "Lönnrot till Johan Ticklén"
+
+msgid "Lönnrot to Pehr Ticklén"
+msgstr "Lönnrot till Pehr Ticklén"
 
 msgid "Lönnrot to Warelius"
 msgstr "Lönnrot till Warelius"
@@ -4086,8 +4089,8 @@ msgstr "Lönnrot till Hortling"
 msgid "Lönnrot to Amalia Perander"
 msgstr "Lönnrot till Amalia Perander"
 
-msgid "Sophie Perander"
-msgstr ""
+msgid "Lönnrot to Sophie Perander"
+msgstr "Lönnrot till Sophie Perander"
 
 msgid "Lönnrot to Wichmann"
 msgstr "Lönnrot till Wichmann"
@@ -4121,6 +4124,12 @@ msgstr "Lönnrot till Emeleus"
 
 msgid "Lönnrot to Jurva"
 msgstr "Lönnrot till Jurva"
+
+msgid "Lönnrot to Tengström"
+msgstr "Lönnrot till Tengström"
+
+msgid "Lönnrot to Salin"
+msgstr "Lönnrot till Salin"
 
 msgid "Miscellaneous letters"
 msgstr "Brokiga brev"
@@ -4377,6 +4386,24 @@ msgstr "Lönnrots brev till Curt Emeleus"
 msgid "Letters sent by Lönnrot to Karl Adolf Jurva"
 msgstr "Lönnrots brev till Karl Adolf Jurva"
 
+msgid "Letters sent by Lönnrot to Karl Mårten Kiljander"
+msgstr "Lönnrots brev till Karl Mårten Kiljander"
+
+msgid ""
+"Letters to daughters, parents, brothers and their families, and other "
+"relatives"
+msgstr ""
+"Brev till döttrar, föräldrar, bröder och deras familjer samt andra släktingar"
+
+msgid "Letters sent by Lönnrot to Pehr Ticklén"
+msgstr "Lönnrots brev till Pehr Ticklén"
+
+msgid "Letters sent by Lönnrot to Fr. Tengström"
+msgstr "Lönnrots brev till Fr. Tengström"
+
+msgid "Letters sent by Lönnrot to Serafina Salin"
+msgstr "Lönnrots brev till Serafina Salin"
+
 msgid "Recipients with 1-3 letters"
 msgstr "Mottagare med 1-3 brev"
 
@@ -4471,6 +4498,9 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Lönnrot to Ticklén"
+#~ msgstr "Lönnrot till Ticklén"
 
 #~ msgid "Lönnrot to Holmström"
 #~ msgstr "Lönnrot till Holmström"

@@ -68,7 +68,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Ståhlberg":
             $years = '1836 - 1876';
             break;
-          case "Lönnrot to Ticklén":
+          case "Lönnrot to Johan Ticklén":
             $years = '1833 - 1837';
             break;
           case "Lönnrot to Warelius":
@@ -286,6 +286,18 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Miscellaneous letters":
             $years = '1826 - 1884';
+            break;
+          case "Lönnrot to Wichmann":
+            $years = '1833 - 1847';
+            break;
+          case "Lönnrot to Pehr Ticklén":
+            $years = '1835 - 1847';
+            break;
+          case "Lönnrot to Tengström":
+            $years = '1834 - 1836';
+            break;
+          case "Lönnrot to Salin":
+            $years = '1870 - 1875';
             break;
         }
         ?>

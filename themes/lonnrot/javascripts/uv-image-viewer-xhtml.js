@@ -39,6 +39,10 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Cajan' && key + ending == 'Cajander') {
         str = '';
+      } else if (key == 'Hedberg' && key + ending == 'Hedbergiläisyyden') {
+        str = '';
+      } else if (key == 'Collan' && key + ending == 'Collander') {
+        str = '';
       } else {
         str = key + ending;
       }
