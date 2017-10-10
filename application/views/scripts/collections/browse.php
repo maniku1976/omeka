@@ -299,6 +299,12 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Salin":
             $years = '1870 - 1875';
             break;
+          case "Lönnrot to Bergh":
+            $years = '1839 - 1863';
+            break;
+          case "Lönnrot to Bäckvall":
+            $years = '1847 - 1858';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>

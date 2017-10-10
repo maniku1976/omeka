@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-10 10:51+0300\n"
-"PO-Revision-Date: 2017-10-10 10:55+0300\n"
+"POT-Creation-Date: 2017-10-10 15:52+0300\n"
+"PO-Revision-Date: 2017-10-10 15:53+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -4147,6 +4147,12 @@ msgstr "Lönnrot Tengströmille"
 msgid "Lönnrot to Salin"
 msgstr "Lönnrot Salinille"
 
+msgid "Lönnrot to Bergh"
+msgstr "Lönnrot Berghille"
+
+msgid "Lönnrot to Bäckvall"
+msgstr "Lönnrot Bäckvallille"
+
 msgid "Miscellaneous letters"
 msgstr "Sekalaiset kirjeet"
 
@@ -4420,6 +4426,12 @@ msgstr "Lönnrotin kirjeet Fr. Tengströmille"
 
 msgid "Letters sent by Lönnrot to Serafina Salin"
 msgstr "Lönnrotin kirjeet Serafina Salinille"
+
+msgid "Letters sent by Lönnrot to Johan Fredrik Bergh"
+msgstr "Lönnrotin kirjeet Johan Fredrik Berghille"
+
+msgid "Letters sent by Lönnrot to Johan Bäckvall"
+msgstr "Lönnrotin kirjeet Johan Bäckvallille"
 
 msgid "Recipients with 1-3 letters"
 msgstr "1-3 kirjeen vastaanottajat"
