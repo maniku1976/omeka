@@ -4009,6 +4009,9 @@ msgstr ""
 msgid "Lönnrot to Bäckvall"
 msgstr ""
 
+msgid "Lönnrot to Durchman"
+msgstr ""
+
 msgid "Miscellaneous letters"
 msgstr ""
 
@@ -4283,6 +4286,9 @@ msgid "Letters sent by Lönnrot to Johan Fredrik Bergh"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Johan Bäckvall"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Josef Wilhelm Durchman"
 msgstr ""
 
 msgid "Recipients with 1-3 letters"
