@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-23 15:09+0300\n"
-"PO-Revision-Date: 2017-10-23 15:10+0300\n"
+"POT-Creation-Date: 2017-10-23 15:32+0300\n"
+"PO-Revision-Date: 2017-10-23 15:33+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3985,8 +3985,8 @@ msgstr "Lönnrot Linsénille"
 msgid "Lönnrot to Rein"
 msgstr "Lönnrot Reinille"
 
-msgid "Lönnrot to Roos"
-msgstr "Lönnrot Roosille"
+msgid "Lönnrot to Samuel Roos"
+msgstr "Lönnrot Samuel Roosille"
 
 msgid "Lönnrot to Rothsten"
 msgstr "Lönnrot Rothstenille"
@@ -4164,6 +4164,9 @@ msgstr "Lönnrot F. Ståhlbergille"
 
 msgid "Lönnrot to Aron Borg"
 msgstr "Lönnrot Aron Borgille"
+
+msgid "Lönnrot to Anders Roos"
+msgstr "Lönnrot Anders Roosille"
 
 msgid "Miscellaneous letters"
 msgstr "Sekalaiset kirjeet"
@@ -4432,6 +4435,9 @@ msgstr "Lönnrotin kirjeet F.A. Ståhlbergille"
 msgid "Letters sent by Lönnrot to Aron Gustaf Borg"
 msgstr "Lönnrotin kirjeet Aron Gustaf Borgille"
 
+msgid "Letters sent by Lönnrot to Anders Jakob Roos"
+msgstr "Lönnrotin kirjeet Anders Jakob Roosille"
+
 msgid ""
 "Letters to daughters, parents, brothers and their families, and other "
 "relatives"
@@ -4551,6 +4557,9 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Lönnrot to Roos"
+#~ msgstr "Lönnrot Roosille"
 
 #~ msgid "Lönnrot to Borg"
 #~ msgstr "Lönnrot Borgille"

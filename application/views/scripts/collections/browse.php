@@ -86,7 +86,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Barck":
             $years = '1833 - 1865';
             break;
-          case "Lönnrot to Roos":
+          case "Lönnrot to Samuel Roos":
             $years = '1831 - 1847';
             break;
           case "Lönnrot to Snellman":
@@ -316,6 +316,9 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Aron Borg":
             $years = '1843 - 1881';
+            break;
+          case "Lönnrot to Anders Roos":
+            $years = '1843 - 1849';
             break;
         }
         ?>

@@ -3841,7 +3841,7 @@ msgstr ""
 msgid "Lönnrot to Rein"
 msgstr ""
 
-msgid "Lönnrot to Roos"
+msgid "Lönnrot to Samuel Roos"
 msgstr ""
 
 msgid "Lönnrot to Rothsten"
@@ -4019,6 +4019,9 @@ msgid "Lönnrot to F. Ståhlberg"
 msgstr ""
 
 msgid "Lönnrot to Aron Borg"
+msgstr ""
+
+msgid "Lönnrot to Anders Roos"
 msgstr ""
 
 msgid "Miscellaneous letters"
@@ -4286,6 +4289,9 @@ msgid "Letters sent by Lönnrot to F.A. Ståhlberg"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Aron Gustaf Borg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Anders Jakob Roos"
 msgstr ""
 
 msgid "Letters to daughters, parents, brothers and their families, and other relatives"
