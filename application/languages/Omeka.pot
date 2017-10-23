@@ -3739,7 +3739,7 @@ msgstr ""
 msgid "Lönnrot to Rabbe"
 msgstr ""
 
-msgid "Lönnrot to Castrén"
+msgid "Lönnrot to Mathias Castrén"
 msgstr ""
 
 msgid "Lönnrot to Keckman"
@@ -3775,7 +3775,7 @@ msgstr ""
 msgid "Lönnrot to Sjögren"
 msgstr ""
 
-msgid "Lönnrot to Ståhlberg"
+msgid "Lönnrot to Carl Ståhlberg"
 msgstr ""
 
 msgid "Lönnrot to Johan Ticklén"
@@ -4010,6 +4010,12 @@ msgid "Lönnrot to Bäckvall"
 msgstr ""
 
 msgid "Lönnrot to Durchman"
+msgstr ""
+
+msgid "Lönnrot to A. Castrén"
+msgstr ""
+
+msgid "Lönnrot to F. Ståhlberg"
 msgstr ""
 
 msgid "Miscellaneous letters"
@@ -4268,6 +4274,12 @@ msgid "Letters sent by Lönnrot to Karl Adolf Jurva"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Karl Mårten Kiljander"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to A.G. Castrén"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to F.A. Ståhlberg"
 msgstr ""
 
 msgid "Letters to daughters, parents, brothers and their families, and other relatives"

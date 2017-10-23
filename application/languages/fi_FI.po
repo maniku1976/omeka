@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-11 15:15+0300\n"
-"PO-Revision-Date: 2017-10-11 15:15+0300\n"
+"POT-Creation-Date: 2017-10-23 13:55+0300\n"
+"PO-Revision-Date: 2017-10-23 13:56+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3883,8 +3883,8 @@ msgstr "Transkriptioiden merkinnät"
 msgid "Lönnrot to Rabbe"
 msgstr "Lönnrot Rabbelle"
 
-msgid "Lönnrot to Castrén"
-msgstr "Lönnrot Castrénille"
+msgid "Lönnrot to Mathias Castrén"
+msgstr "Lönnrot Mathias Castrénille"
 
 msgid "Lönnrot to Keckman"
 msgstr "Lönnrot Keckmanille"
@@ -3919,8 +3919,8 @@ msgstr "Lönnrot Saxalle"
 msgid "Lönnrot to Sjögren"
 msgstr "Lönnrot Sjögrenille"
 
-msgid "Lönnrot to Ståhlberg"
-msgstr "Lönnrot Ståhlbergille"
+msgid "Lönnrot to Carl Ståhlberg"
+msgstr "Lönnrot Carl Ståhlbergille"
 
 msgid "Lönnrot to Johan Ticklén"
 msgstr "Lönnrot Johan Ticklénille"
@@ -4155,6 +4155,12 @@ msgstr "Lönnrot Bäckvallille"
 
 msgid "Lönnrot to Durchman"
 msgstr "Lönnrot Durchmanille"
+
+msgid "Lönnrot to A. Castrén"
+msgstr "Lönnrot A. Castrénille"
+
+msgid "Lönnrot to F. Ståhlberg"
+msgstr "Lönnrot F. Ståhlbergille"
 
 msgid "Miscellaneous letters"
 msgstr "Sekalaiset kirjeet"
@@ -4414,6 +4420,12 @@ msgstr "Lönnrotin kirjeet Karl Adolf Jurvalle"
 msgid "Letters sent by Lönnrot to Karl Mårten Kiljander"
 msgstr "Lönnrotin kirjeet Karl Mårten Kiljanderille"
 
+msgid "Letters sent by Lönnrot to A.G. Castrén"
+msgstr "Lönnrotin kirjeet A.G. Castrénille"
+
+msgid "Letters sent by Lönnrot to F.A. Ståhlberg"
+msgstr "Lönnrotin kirjeet F.A. Ståhlbergille"
+
 msgid ""
 "Letters to daughters, parents, brothers and their families, and other "
 "relatives"
@@ -4533,6 +4545,12 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Lönnrot to Castrén"
+#~ msgstr "Lönnrot Castrénille"
+
+#~ msgid "Lönnrot to Ståhlberg"
+#~ msgstr "Lönnrot Ståhlbergille"
 
 #~ msgid "Letters sent by Lönnrot to Josef Wilhelm Durchmann"
 #~ msgstr "Lönnrotin kirjeet Josef Wilhelm Durchmanille"

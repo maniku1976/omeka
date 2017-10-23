@@ -29,7 +29,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Rabbe":
             $years = '1833 - 1871';
             break;
-          case "Lönnrot to Castrén":
+          case "Lönnrot to Mathias Castrén":
             $years = '1839 - 1851';
             break;
           case "Lönnrot to Keckman":
@@ -65,7 +65,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Sjögren":
             $years = '1840 - 1852';
             break;
-          case "Lönnrot to Ståhlberg":
+          case "Lönnrot to Carl Ståhlberg":
             $years = '1836 - 1876';
             break;
           case "Lönnrot to Johan Ticklén":
@@ -307,6 +307,12 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Durchman":
             $years = '1834 - 1870';
+            break;
+          case "Lönnrot to A. Castrén":
+            $years = '1833 - 1852';
+            break;
+          case "Lönnrot to F. Ståhlberg":
+            $years = '1851 - 1853';
             break;
         }
         ?>
