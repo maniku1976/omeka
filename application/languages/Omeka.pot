@@ -3751,7 +3751,7 @@ msgstr ""
 msgid "Lönnrot to Ahlqvist"
 msgstr ""
 
-msgid "Lönnrot to Borg"
+msgid "Lönnrot to Carl Borg"
 msgstr ""
 
 msgid "Lönnrot to Cajan"
@@ -4018,6 +4018,9 @@ msgstr ""
 msgid "Lönnrot to F. Ståhlberg"
 msgstr ""
 
+msgid "Lönnrot to Aron Borg"
+msgstr ""
+
 msgid "Miscellaneous letters"
 msgstr ""
 
@@ -4280,6 +4283,9 @@ msgid "Letters sent by Lönnrot to A.G. Castrén"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to F.A. Ståhlberg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Aron Gustaf Borg"
 msgstr ""
 
 msgid "Letters to daughters, parents, brothers and their families, and other relatives"

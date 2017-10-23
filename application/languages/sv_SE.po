@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-23 13:57+0300\n"
-"PO-Revision-Date: 2017-10-23 13:58+0300\n"
+"POT-Creation-Date: 2017-10-23 15:11+0300\n"
+"PO-Revision-Date: 2017-10-23 15:12+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3879,8 +3879,8 @@ msgstr "Lönnrot till Elmgren"
 msgid "Lönnrot to Ahlqvist"
 msgstr "Lönnrot till Ahlqvist"
 
-msgid "Lönnrot to Borg"
-msgstr "Lönnrot till Borg"
+msgid "Lönnrot to Carl Borg"
+msgstr "Lönnrot till Carl Borg"
 
 msgid "Lönnrot to Cajan"
 msgstr "Lönnrot till Cajan"
@@ -4146,6 +4146,9 @@ msgstr "Lönnrot till A. Castrén"
 msgid "Lönnrot to F. Ståhlberg"
 msgstr "Lönnrot till F. Ståhlberg"
 
+msgid "Lönnrot to Aron Borg"
+msgstr "Lönnrot till Aron Borg"
+
 msgid "Miscellaneous letters"
 msgstr "Brokiga brev"
 
@@ -4410,6 +4413,9 @@ msgstr "Lönnrots brev till A.G. Castrén"
 msgid "Letters sent by Lönnrot to F.A. Ståhlberg"
 msgstr "Lönnrots brev till F.A. Ståhlberg"
 
+msgid "Letters sent by Lönnrot to Aron Gustaf Borg"
+msgstr "Lönnrots brev till Aron Gustaf Borg"
+
 msgid ""
 "Letters to daughters, parents, brothers and their families, and other "
 "relatives"
@@ -4528,6 +4534,9 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Lönnrot to Borg"
+#~ msgstr "Lönnrot till Borg"
 
 #~ msgid "Lönnrot to Castrén"
 #~ msgstr "Lönnrot till Castrén"
