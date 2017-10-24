@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-23 15:35+0300\n"
-"PO-Revision-Date: 2017-10-23 15:36+0300\n"
+"POT-Creation-Date: 2017-10-24 12:20+0300\n"
+"PO-Revision-Date: 2017-10-24 12:22+0300\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4152,6 +4152,15 @@ msgstr "Lönnrot till Aron Borg"
 msgid "Lönnrot to Anders Roos"
 msgstr "Lönnrot till Anders Roos"
 
+msgid "Lönnrot to Forssell"
+msgstr "Lönnrot till Forssell"
+
+msgid "Lönnrot to Dahl"
+msgstr "Lönnrot till Dahl"
+
+msgid "Lönnrot to Rajander"
+msgstr "Lönnrot till Rajander"
+
 msgid "Miscellaneous letters"
 msgstr "Brokiga brev"
 
@@ -4445,6 +4454,15 @@ msgstr "Lönnrots brev till Johan Bäckvall"
 
 msgid "Letters sent by Lönnrot to Josef Wilhelm Durchman"
 msgstr "Lönnrots brev till Josef Wilhelm Durchman"
+
+msgid "Letters sent by Lönnrot to M. Forssell"
+msgstr "Lönnrots brev till M. Forssell"
+
+msgid "Letters sent by Lönnrot to O.E. Dahl"
+msgstr "Lönnrots brev till O.E. Dahl"
+
+msgid "Letters sent by Lönnrot to Anders Rajander"
+msgstr "Lönnrots brev till Anders Rajander"
 
 msgid "Recipients with 1-3 letters"
 msgstr "Mottagare med 1-3 brev"
