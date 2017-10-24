@@ -29,19 +29,25 @@ $(document).ready(function() {
         ending = ending.substring(0, ending.indexOf(":"));
       }
 
+      // Exceptions for specific surnames, e.g. multiple people with same surname
+      var st_before = $('.textFrame').text().substring(first-10, first);
+      var st_after = $('.textFrame').text().substring(first, first+10);
+
       if (key == 'Ilmoni' && !endings.includes(ending)) {
         str = key;
-      } else if (key == 'Rein' && key + ending == 'Reine') {
-        str = '';
-      } else if (key == 'Rein' && key + ending == 'Reinholm') {
-        str = '';
-      } else if (key == 'Rein' && key + ending == 'Reinholms') {
+      } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {
         str = '';
       } else if (key == 'Cajan' && key + ending == 'Cajander') {
         str = '';
       } else if (key == 'Hedberg' && key + ending == 'Hedbergiläisyyden') {
         str = '';
       } else if (key == 'Collan' && key + ending == 'Collander') {
+        str = '';
+      } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0 || st_after.indexOf('Aron')
+        >= 0 || key + ending == 'Borgå')) {
+        str = '';
+      } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
+        || st_before.indexOf('Zacharias') >= 0)) {
         str = '';
       } else {
         str = key + ending;

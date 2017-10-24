@@ -200,7 +200,6 @@ var comments = {
   ' virsikirjauudistusta.' + ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3133" target="_blank">Kansallisbiografia</a>',
   'Hedberg': 'Anders Erik (Antus) Hedberg (1804−1837) oli lääkäri, joka toimi mm. Oulun piirilääkärinä.',
   'Johansson': 'Gustaf Johansson (1844−1930) oli dogmatiikan ja siveysopin professori sekä myöhemmin arkkipiispa.',
-  '': 'Adolf  (1795−1870) oli opettaja ja Paltamon kappalainen.',
   'Sophie Louise Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
   ' <em>Kanteletar</em>-käsikirjoitusta 1880-luvulla. Sophie Louise oli Amalia Peranderin sisar.',
   'Sofi Luise Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
@@ -254,4 +253,8 @@ var comments = {
   ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
   'kyrkoherden Holmström': 'Anders Nils Holmström  (1808−1871) pappi. Toimi Kuhmonniemen kappalaisena 1849−1859 ja Haapajärven' +
   ' kirkkoherrana 1859−1871.',
+  'Borg': 'Carl Gustaf Borg (1823-1895), suomen kielen lehtori, kanslianeuvos, kääntäjä, kirjailija. Paitsi ystävä ja perhetuttu' +
+  ' Borg oli myös Lönnrotin asiamies ja raha-asioiden hoitaja',
+  'Borgh': 'Carl Gustaf Borg (1823-1895), suomen kielen lehtori, kanslianeuvos, kääntäjä, kirjailija. Paitsi ystävä ja perhetuttu' +
+  ' Borg oli myös Lönnrotin asiamies ja raha-asioiden hoitaja'
 };

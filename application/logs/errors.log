@@ -19651,3 +19651,7 @@ convert: no images defined `/tmp/fullsize_05063ccb8b30fa9d89d937e9186ad461.jpg' 
 convert: no images defined `/tmp/fullsize_6830bbdcfe219f4eb9943ed21a6910a2.jpg' @ error/convert.c/ConvertImageCommand/3241.
 
 2017-08-02T08:02:39+00:00 ERR (3): ImageMagick failed with status code 1.
+2017-10-23T13:07:16+00:00 WARN (4): Error output from ImageMagick:
+convert: no images defined `/tmp/fullsize_c2895bafce20da0d454b65e3817785ab.jpg' @ error/convert.c/ConvertImageCommand/3241.
+
+2017-10-23T13:07:16+00:00 ERR (3): ImageMagick failed with status code 1.
