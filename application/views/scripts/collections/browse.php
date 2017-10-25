@@ -329,6 +329,9 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Rajander":
             $years = '1847 - 1852';
             break;
+          case "Lönnrot to Anders Malmgren":
+            $years = '1833 - 1873';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
