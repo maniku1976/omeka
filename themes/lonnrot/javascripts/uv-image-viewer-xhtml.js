@@ -29,9 +29,9 @@ $(document).ready(function() {
         ending = ending.substring(0, ending.indexOf(":"));
       }
 
-      // Exceptions for specific surnames, e.g. multiple people with same surname
-      var st_before = $('.textFrame').text().substring(first-10, first);
-      var st_after = $('.textFrame').text().substring(first, first+10);
+      // Exceptions for specific surnames: multiple people with same surname, surnames part of other strings
+      var st_before = $('.textFrame').text().substring(first-15, first);
+      var st_after = $('.textFrame').text().substring(first, first+15);
 
       if (key == 'Ilmoni' && !endings.includes(ending)) {
         str = key;
@@ -43,11 +43,20 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Collan' && key + ending == 'Collander') {
         str = '';
-      } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0 || st_after.indexOf('Aron')
-        >= 0 || key + ending == 'Borgå')) {
+      } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0
+        || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || key + ending == 'Borgå')) {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
-        || st_before.indexOf('Zacharias') >= 0)) {
+        || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Länsman') >= 0)) {
+        str = '';
+      } else if (key == 'Roos' && (st_before.indexOf('A. J.') >= 0 || st_before.indexOf('Höfdingan') >= 0
+        || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0)) {
+        str = '';
+      } else if (key == 'Ståhlberg' && (st_before.indexOf('F. A.') >= 0 || st_before.indexOf('Länsman') >= 0
+        || st_before.indexOf('Kronof.') >= 0)) {
+        str = '';
+      } else if (key == 'Ticklén' && (st_before.indexOf('Pehr') >= 0 || st_before.indexOf('Prosten') >= 0
+        || st_before.indexOf('G.') >= 0)) {
         str = '';
       } else {
         str = key + ending;
