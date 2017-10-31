@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-25 10:14+0300\n"
-"PO-Revision-Date: 2017-10-25 10:15+0300\n"
+"POT-Creation-Date: 2017-10-31 12:55+0200\n"
+"PO-Revision-Date: 2017-10-31 13:00+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3901,8 +3901,8 @@ msgstr "Lönnrot Carl Borgille"
 msgid "Lönnrot to Cajan"
 msgstr "Lönnrot Cajanille"
 
-msgid "Lönnrot to Collan"
-msgstr "Lönnrot Collanille"
+msgid "Lönnrot to Fabian Collan"
+msgstr "Lönnrot Fabian Collanille"
 
 msgid "Lönnrot to Europaeus"
 msgstr "Lönnrot Europaeukselle"
@@ -4042,8 +4042,8 @@ msgstr "Lönnrot Eva Törngrenille"
 msgid "Lönnrot to Toppelius"
 msgstr "Lönnrot Toppeliukselle"
 
-msgid "Lönnrot to Frosterus"
-msgstr "Lönnrot Frosterukselle"
+msgid "Lönnrot to Robert Frosterus"
+msgstr "Lönnrot Robert Frosterukselle"
 
 msgid "Lönnrot to Anders Holmström"
 msgstr "Lönnrot Anders Holmströmille"
@@ -4153,8 +4153,8 @@ msgstr "Lönnrot Berghille"
 msgid "Lönnrot to Bäckvall"
 msgstr "Lönnrot Bäckvallille"
 
-msgid "Lönnrot to Durchman"
-msgstr "Lönnrot Durchmanille"
+msgid "Lönnrot to Josef Durchman"
+msgstr "Lönnrot Josef Durchmanille"
 
 msgid "Lönnrot to A. Castrén"
 msgstr "Lönnrot A. Castrénille"
@@ -4179,6 +4179,42 @@ msgstr "Lönnrot Rajanderille"
 
 msgid "Lönnrot to Anders Malmgren"
 msgstr "Lönnrot Anders Malmgrenille"
+
+msgid "Lönnrot to Elfström"
+msgstr "Lönnrot Elfströmille"
+
+msgid "Lönnrot to Friman"
+msgstr "Lönnrot Frimanille"
+
+msgid "Lönnrot to Högman"
+msgstr "Lönnrot Högmanille"
+
+msgid "Lönnrot to Gosman"
+msgstr "Lönnrot Gosmanille"
+
+msgid "Lönnrot to Ekelund"
+msgstr "Lönnrot Ekelundille"
+
+msgid "Lönnrot to Edlund"
+msgstr "Lönnrot Edlundille"
+
+msgid "Lönnrot to Claës Collan"
+msgstr "Lönnrot Claës Collanille"
+
+msgid "Lönnrot to Hougberg"
+msgstr "Lönnrot Hougbergille"
+
+msgid "Lönnrot to J. Durchman"
+msgstr "Lönnrot J. Durchmanille"
+
+msgid "Lönnrot to C. Frosterus"
+msgstr "Lönnrot C. Frosterukselle"
+
+msgid "Lönnrot to Fellman"
+msgstr "Lönnrot Fellmanille"
+
+msgid "Lönnrot to Hahnsson"
+msgstr "Lönnrot Hahnssonille"
 
 msgid "Miscellaneous letters"
 msgstr "Sekalaiset kirjeet"
@@ -4487,6 +4523,42 @@ msgstr "Lönnrotin kirjeet Anders Rajanderille"
 msgid "Letters sent by Lönnrot to Anders Johan Malmgren"
 msgstr "Lönnrotin kirjeet Anders Johan Malmgrenille"
 
+msgid "Letters sent by Lönnrot to Elfström"
+msgstr "Lönnrotin kirjeet Elfströmille"
+
+msgid "Letters sent by Lönnrot to Johan Alexander Friman"
+msgstr "Lönnrotin kirjeet Johan Alexander Frimanille"
+
+msgid "Letters sent by Lönnrot to Gustaf Fredrik Högman"
+msgstr "Lönnrotin kirjeet Gustaf Fredrik Högmanille"
+
+msgid "Letters sent by Lönnrot to Carl E. Gosman"
+msgstr "Lönnrotin kirjeet Carl E. Gosmanille"
+
+msgid "Letters sent by Lönnrot to E. Ekelund"
+msgstr "Lönnrotin kirjeet E. Ekelundille"
+
+msgid "Letters sent by Lönnrot to Gustaf Wilhelm Edlund"
+msgstr "Lönnrotin kirjeet Gustaf Wilhelm Edlundille"
+
+msgid "Letters sent by Lönnrot to Claës Collan"
+msgstr "Lönnrotin kirjeet Claës Collanille"
+
+msgid "Letters sent by Lönnrot to M.V. Hougberg"
+msgstr "Lönnrotin kirjeet M.V. Hougbergille"
+
+msgid "Letters sent by Lönnrot to J. Durchman"
+msgstr "Lönnrotin kirjeet J. Durchmanille"
+
+msgid "Letters sent by Lönnrot to C.J. Frosterus"
+msgstr "Lönnrotin kirjeet C.J. Frosterukselle"
+
+msgid "Letters sent by Lönnrot to Jakob Fellman"
+msgstr "Lönnrotin kirjeet Jakob Fellmanille"
+
+msgid "Letters sent by Lönnrot to Johan Adrian Hahnsson"
+msgstr "Lönnrotin kirjeet Johan Adrian Hahnssonille"
+
 msgid "Recipients with 1-3 letters"
 msgstr "1-3 kirjeen vastaanottajat"
 
@@ -4581,6 +4653,15 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Lönnrot to Collan"
+#~ msgstr "Lönnrot Collanille"
+
+#~ msgid "Lönnrot to Frosterus"
+#~ msgstr "Lönnrot Frosterukselle"
+
+#~ msgid "Lönnrot to Durchman"
+#~ msgstr "Lönnrot Durchmanille"
 
 #~ msgid "Lönnrot to Roos"
 #~ msgstr "Lönnrot Roosille"

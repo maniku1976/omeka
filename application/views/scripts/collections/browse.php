@@ -47,7 +47,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Cajan":
             $years = '1836 - 1845';
             break;
-          case "Lönnrot to Collan":
+          case "Lönnrot to Fabian Collan":
             $years = '1834 - 1852';
             break;
           case "Lönnrot to Europaeus":
@@ -305,7 +305,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Bäckvall":
             $years = '1847 - 1858';
             break;
-          case "Lönnrot to Durchman":
+          case "Lönnrot to Josef Durchman":
             $years = '1834 - 1870';
             break;
           case "Lönnrot to A. Castrén":
@@ -331,6 +331,42 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Anders Malmgren":
             $years = '1833 - 1873';
+            break;
+          case "Lönnrot to Elfström":
+            $years = '1850';
+            break;
+          case "Lönnrot to Friman":
+            $years = '1870';
+            break;
+          case "Lönnrot to Högman":
+            $years = '1835 - 1849';
+            break;
+          case "Lönnrot to Gosman":
+            $years = '1835 - 1837';
+            break;
+          case "Lönnrot to Ekelund":
+            $years = '1849 - 1850';
+            break;
+          case "Lönnrot to Edlund":
+            $years = '1870 - 1873';
+            break;
+          case "Lönnrot to Claës Collan":
+            $years = '1834';
+            break;
+          case "Lönnrot to Hougberg":
+            $years = '1836 - 1838';
+            break;
+          case "Lönnrot to J. Durchman":
+            $years = '1835 - 1838';
+            break;
+          case "Lönnrot to C. Frosterus":
+            $years = '1834 - 1853';
+            break;
+          case "Lönnrot to Fellman":
+            $years = '1845 - 1856';
+            break;
+          case "Lönnrot to Hahnsson":
+            $years = '1848 - 1880';
             break;
         }
         ?>

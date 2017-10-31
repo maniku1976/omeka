@@ -58,6 +58,8 @@ $(document).ready(function() {
       } else if (key == 'Ticklén' && (st_before.indexOf('Pehr') >= 0 || st_before.indexOf('Prosten') >= 0
         || st_before.indexOf('G.') >= 0)) {
         str = '';
+      } else if (key == 'Collan' && (st_before.indexOf('Claës') >= 0 || st_before.indexOf('Studerande') >= 0)) {
+        str = '';
       } else {
         str = key + ending;
       }

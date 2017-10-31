@@ -3757,7 +3757,7 @@ msgstr ""
 msgid "Lönnrot to Cajan"
 msgstr ""
 
-msgid "Lönnrot to Collan"
+msgid "Lönnrot to Fabian Collan"
 msgstr ""
 
 msgid "Lönnrot to Europaeus"
@@ -3898,7 +3898,7 @@ msgstr ""
 msgid "Lönnrot to Toppelius"
 msgstr ""
 
-msgid "Lönnrot to Frosterus"
+msgid "Lönnrot to Robert Frosterus"
 msgstr ""
 
 msgid "Lönnrot to Anders Holmström"
@@ -4009,7 +4009,7 @@ msgstr ""
 msgid "Lönnrot to Bäckvall"
 msgstr ""
 
-msgid "Lönnrot to Durchman"
+msgid "Lönnrot to Josef Durchman"
 msgstr ""
 
 msgid "Lönnrot to A. Castrén"
@@ -4034,6 +4034,42 @@ msgid "Lönnrot to Rajander"
 msgstr ""
 
 msgid "Lönnrot to Anders Malmgren"
+msgstr ""
+
+msgid "Lönnrot to Elfström"
+msgstr ""
+
+msgid "Lönnrot to Friman"
+msgstr ""
+
+msgid "Lönnrot to Högman"
+msgstr ""
+
+msgid "Lönnrot to Gosman"
+msgstr ""
+
+msgid "Lönnrot to Ekelund"
+msgstr ""
+
+msgid "Lönnrot to Edlund"
+msgstr ""
+
+msgid "Lönnrot to Claës Collan"
+msgstr ""
+
+msgid "Lönnrot to Hougberg"
+msgstr ""
+
+msgid "Lönnrot to J. Durchman"
+msgstr ""
+
+msgid "Lönnrot to C. Frosterus"
+msgstr ""
+
+msgid "Lönnrot to Fellman"
+msgstr ""
+
+msgid "Lönnrot to Hahnsson"
 msgstr ""
 
 msgid "Miscellaneous letters"
@@ -4337,6 +4373,42 @@ msgid "Letters sent by Lönnrot to Anders Rajander"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Anders Johan Malmgren"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Elfström"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Alexander Friman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Gustaf Fredrik Högman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl E. Gosman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to E. Ekelund"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Gustaf Wilhelm Edlund"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Claës Collan"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to M.V. Hougberg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to J. Durchman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to C.J. Frosterus"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Jakob Fellman"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Johan Adrian Hahnsson"
 msgstr ""
 
 msgid "Recipients with 1-3 letters"
