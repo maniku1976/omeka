@@ -4090,6 +4090,9 @@ msgstr ""
 msgid "Lönnrot to Löwenmark"
 msgstr ""
 
+msgid "Lönnrot to Lavonius"
+msgstr ""
+
 msgid "Miscellaneous letters"
 msgstr ""
 
@@ -4445,6 +4448,9 @@ msgid "Letters sent by Lönnrot to Lorenz Johan Bjugg"
 msgstr ""
 
 msgid "Letters sent by Lönnrot to Frans von Becker"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Alexander Lavonius"
 msgstr ""
 
 msgid "Recipients with 1-3 letters"
