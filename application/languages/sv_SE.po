@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-10-31 13:02+0200\n"
-"PO-Revision-Date: 2017-10-31 13:06+0200\n"
+"POT-Creation-Date: 2017-11-01 12:01+0200\n"
+"PO-Revision-Date: 2017-11-01 12:03+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4200,6 +4200,24 @@ msgstr "Lönnrot till Fellman"
 msgid "Lönnrot to Hahnsson"
 msgstr "Lönnrot till Hahnsson"
 
+msgid "Lönnrot to von Becker"
+msgstr "Lönnrot till von Becker"
+
+msgid "Lönnrot to Bjugg"
+msgstr "Lönnrot till Bjugg"
+
+msgid "Lönnrot to Carger"
+msgstr "Lönnrot till Carger"
+
+msgid "Lönnrot to Landzett"
+msgstr "Lönnrot till Landzett"
+
+msgid "Lönnrot to Latysev"
+msgstr "Lönnrot till Latysev"
+
+msgid "Lönnrot to Löwenmark"
+msgstr "Lönnrot till Löwenmark"
+
 msgid "Miscellaneous letters"
 msgstr "Brokiga brev"
 
@@ -4541,6 +4559,24 @@ msgstr "Lönnrots brev till Jakob Fellman"
 
 msgid "Letters sent by Lönnrot to Johan Adrian Hahnsson"
 msgstr "Lönnrots brev till Johan Adrian Hahnsson"
+
+msgid "Letters sent by Lönnrot to Gustaf Löwenmark"
+msgstr "Lönnrots brev till Gustaf Löwenmark"
+
+msgid "Letters sent by Lönnrot to Ivan Vasiljevits Latysev"
+msgstr "Lönnrots brev till Ivan Vasiljevits Latysev"
+
+msgid "Letters sent by Lönnrot to Clem Landzett"
+msgstr "Lönnrots brev till Clem Landzett"
+
+msgid "Letters sent by Lönnrot to Henric Carger"
+msgstr "Lönnrots brev till Henric Carger"
+
+msgid "Letters sent by Lönnrot to Lorenz Johan Bjugg"
+msgstr "Lönnrots brev till Lorenz Johan Bjugg"
+
+msgid "Letters sent by Lönnrot to Frans von Becker"
+msgstr "Lönnrots brev till Frans von Becker"
 
 msgid "Recipients with 1-3 letters"
 msgstr "Mottagare med 1-3 brev"
