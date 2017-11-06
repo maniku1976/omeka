@@ -29,7 +29,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Rabbe":
             $years = '1833 - 1871';
             break;
-          case "Lönnrot to Mathias Castrén":
+          case "Lönnrot to Matthias Castrén":
             $years = '1839 - 1851';
             break;
           case "Lönnrot to Keckman":
@@ -179,7 +179,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot to Wirzén":
             $years = '1833 - 1843';
             break;
-          case "Lönnrot to Frosterus":
+          case "Lönnrot to Robert Frosterus":
             $years = '1847 - 1850';
             break;
           case "Lönnrot to Anders Holmström":
@@ -397,6 +397,12 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot to Montgomery":
             $years = '1836 - 1839';
+            break;
+          case "Lönnrot to Jacob Ståhlberg":
+            $years = '1843 - 1851';
+            break;
+          case "Lönnrot to Planting":
+            $years = '1840 - 1849';
             break;
         }
         ?>

@@ -44,7 +44,8 @@ $(document).ready(function() {
       } else if (key == 'Collan' && key + ending == 'Collander') {
         str = '';
       } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0
-        || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || key + ending == 'Borgå')) {
+        || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || key + ending == 'Borgå'
+        || key + ending == 'Borgm.' || key + ending == 'Borgmestar')) {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Länsman') >= 0)) {
@@ -53,7 +54,7 @@ $(document).ready(function() {
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0)) {
         str = '';
       } else if (key == 'Ståhlberg' && (st_before.indexOf('F. A.') >= 0 || st_before.indexOf('Länsman') >= 0
-        || st_before.indexOf('Kronof.') >= 0)) {
+        || st_before.indexOf('Kronof') >= 0 || st_before.indexOf('J. G.') >= 0)) {
         str = '';
       } else if (key == 'Ticklén' && (st_before.indexOf('Pehr') >= 0 || st_before.indexOf('Prosten') >= 0
         || st_before.indexOf('G.') >= 0)) {

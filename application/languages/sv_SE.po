@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-02 10:55+0200\n"
-"PO-Revision-Date: 2017-11-02 10:56+0200\n"
+"POT-Creation-Date: 2017-11-06 12:57+0200\n"
+"PO-Revision-Date: 2017-11-06 12:58+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -3867,8 +3867,8 @@ msgstr "Markeringar som används i transkriptioner"
 msgid "Lönnrot to Rabbe"
 msgstr "Lönnrot till Rabbe"
 
-msgid "Lönnrot to Mathias Castrén"
-msgstr "Lönnrot till Mathias Castrén"
+msgid "Lönnrot to Matthias Castrén"
+msgstr "Lönnrot till Matthias Castrén"
 
 msgid "Lönnrot to Keckman"
 msgstr "Lönnrot till Keckman"
@@ -4229,6 +4229,12 @@ msgstr "Lönnrot till Melander"
 
 msgid "Lönnrot to Montgomery"
 msgstr "Lönnrot till Montgomery"
+
+msgid "Lönnrot to Jacob Ståhlberg"
+msgstr "Lönnrot till Jacob Ståhlberg"
+
+msgid "Lönnrot to Planting"
+msgstr "Lönnrot till Planting"
 
 msgid "Miscellaneous letters"
 msgstr "Brokiga brev"
@@ -4602,6 +4608,12 @@ msgstr "Lönnrots brev till H.L. Melander"
 msgid "Letters sent by Lönnrot to Edvard Montgomery"
 msgstr "Lönnrots brev till Edvard Montgomery"
 
+msgid "Letters sent by Lönnrot to Jacob Gabriel Ståhlberg"
+msgstr "Lönnrots brev till Jacob Gabriel Ståhlberg"
+
+msgid "Letters sent by Lönnrot to Herman Planting"
+msgstr "Lönnrots brev till Herman Planting"
+
 msgid "Recipients with 1-3 letters"
 msgstr "Mottagare med 1-3 brev"
 
@@ -4696,6 +4708,9 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Lönnrot to Mathias Castrén"
+#~ msgstr "Lönnrot till Mathias Castrén"
 
 #~ msgid "Lönnrot to Collan"
 #~ msgstr "Lönnrot till Collan"

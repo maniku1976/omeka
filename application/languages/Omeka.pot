@@ -3739,7 +3739,7 @@ msgstr ""
 msgid "Lönnrot to Rabbe"
 msgstr ""
 
-msgid "Lönnrot to Mathias Castrén"
+msgid "Lönnrot to Matthias Castrén"
 msgstr ""
 
 msgid "Lönnrot to Keckman"
@@ -4100,6 +4100,12 @@ msgid "Lönnrot to Melander"
 msgstr ""
 
 msgid "Lönnrot to Montgomery"
+msgstr ""
+
+msgid "Lönnrot to Jacob Ståhlberg"
+msgstr ""
+
+msgid "Lönnrot to Planting"
 msgstr ""
 
 msgid "Miscellaneous letters"
@@ -4470,7 +4476,13 @@ msgstr ""
 
 msgid "Letters sent by Lönnrot to Edvard Montgomery"
 msgstr ""
-  
+
+msgid "Letters sent by Lönnrot to Jacob Gabriel Ståhlberg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Herman Planting"
+msgstr ""
+
 msgid "Recipients with 1-3 letters"
 msgstr ""
 
