@@ -124,7 +124,7 @@
         <?php echo __('Browse Letters'); ?>
       </a>
       <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('collections')); ?>">
-        <?php echo __('Browse Recipients'); ?></a>
+        <?php echo __('Browse Collections'); ?></a>
         <a style="margin-left:50px;font-size:18px;" href="<?php echo html_escape(url('tiedot')); ?>"><?php echo __('Information'); ?></a>
         <a style="margin-left:16px;font-size:18px;" href="<?php echo html_escape(url('ohjeet')); ?>"><?php echo __('Instructions'); ?></a>
         <!-- Extended search and Solr text search -->

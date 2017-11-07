@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-06 12:57+0200\n"
-"PO-Revision-Date: 2017-11-06 12:58+0200\n"
+"POT-Creation-Date: 2017-11-07 09:48+0200\n"
+"PO-Revision-Date: 2017-11-07 09:50+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -491,8 +491,8 @@ msgstr "Utvald"
 #: themes/light-blue/common/header.php:123 themes/sand/common/header.php:123
 #: themes/lilac/common/header.php:123 themes/yellow/common/header.php:123
 #: themes/red/common/header.php:123
-msgid "Browse Recipients"
-msgstr "Bläddra mottagare"
+msgid "Browse Collections"
+msgstr "Bläddra samlingar"
 
 #: application/views/scripts/items/browse.php:22
 #: plugins/SolrSearch/views/shared/results/index.php:299
@@ -4236,8 +4236,11 @@ msgstr "Lönnrot till Jacob Ståhlberg"
 msgid "Lönnrot to Planting"
 msgstr "Lönnrot till Planting"
 
-msgid "Miscellaneous letters"
-msgstr "Brokiga brev"
+msgid "Diverse letters"
+msgstr "Lilla samlingar"
+
+msgid "Lists of recipients"
+msgstr "Mottagarelistor"
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrots brev till Carl Axel Gottlund"
@@ -4614,8 +4617,11 @@ msgstr "Lönnrots brev till Jacob Gabriel Ståhlberg"
 msgid "Letters sent by Lönnrot to Herman Planting"
 msgstr "Lönnrots brev till Herman Planting"
 
-msgid "Recipients with 1-3 letters"
-msgstr "Mottagare med 1-3 brev"
+msgid "Small collections of letters"
+msgstr "Lilla brevsamlingar"
+
+msgid "Lists with various recipients"
+msgstr "Listor med flera mottagare"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
@@ -4708,6 +4714,15 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Miscellaneous letters"
+#~ msgstr "Brokiga brev"
+
+#~ msgid "Recipients with 1-3 letters"
+#~ msgstr "Mottagare med 1-3 brev"
+
+#~ msgid "Browse Recipients"
+#~ msgstr "Bläddra mottagare"
 
 #~ msgid "Lönnrot to Mathias Castrén"
 #~ msgstr "Lönnrot till Mathias Castrén"
@@ -4905,9 +4920,6 @@ msgstr "Transporter till tabell"
 
 #~ msgid "Items in the collection"
 #~ msgstr "Brev i samlingen"
-
-#~ msgid "Browse Collections"
-#~ msgstr "Brevens mottagar"
 
 #~ msgid "Browse Items"
 #~ msgstr "Alla brev"

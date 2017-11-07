@@ -26,382 +26,382 @@ $sortLinks[__('Date Added')] = 'added';
         <?php $title = metadata('collection', array('Dublin Core', 'Title'));
         $years = '';
         switch ($title) {
-          case "Lönnrot to Rabbe":
+          case "Lönnrot &gt; Rabbe, Frans Johan":
             $years = '1833 - 1871';
             break;
-          case "Lönnrot to Matthias Castrén":
+          case "Lönnrot &gt; Castrén, Matthias Alexander":
             $years = '1839 - 1851';
             break;
-          case "Lönnrot to Keckman":
+          case "Lönnrot &gt; Keckman, Carl Niklas":
             $years = '1826 - 1838';
             break;
-          case "Lönnrot to Elmgren":
+          case "Lönnrot &gt; Elmgren, Sven Gabriel":
             $years = '1848 - 1865';
             break;
-          case "Lönnrot to Ahlqvist":
+          case "Lönnrot &gt; Ahlqvist, August Engelbrekt":
             $years = '1845 - 1881';
             break;
-          case "Lönnrot to Carl Borg":
+          case "Lönnrot &gt; Borg, Carl Gustaf":
             $years = '1863 - 1884';
             break;
-          case "Lönnrot to Cajan":
+          case "Lönnrot &gt; Cajan, Johan Fredrik":
             $years = '1836 - 1845';
             break;
-          case "Lönnrot to Fabian Collan":
+          case "Lönnrot &gt; Collan, Fabian":
             $years = '1834 - 1852';
             break;
-          case "Lönnrot to Europaeus":
+          case "Lönnrot &gt; Europaeus, David Emanuel Daniel":
             $years = '1845 - 1850';
             break;
-          case "Lönnrot to Ilmoni":
+          case "Lönnrot &gt; Ilmoni, Immanuel":
             $years = '1833 - 1849';
             break;
-          case "Lönnrot to Lindfors":
+          case "Lönnrot &gt; Lindfors, Mårten Johan":
             $years = '1835 - 1843';
             break;
-          case "Lönnrot to Saxa":
+          case "Lönnrot &gt; Saxa, Carl":
             $years = '1833 - 1848';
             break;
-          case "Lönnrot to Sjögren":
+          case "Lönnrot &gt; Sjögren, Anders Johan":
             $years = '1840 - 1852';
             break;
-          case "Lönnrot to Carl Ståhlberg":
+          case "Lönnrot &gt; Ståhlberg, Carl Henrik":
             $years = '1836 - 1876';
             break;
-          case "Lönnrot to Johan Ticklén":
+          case "Lönnrot &gt; Ticklén, Johan Fredrik":
             $years = '1833 - 1837';
             break;
-          case "Lönnrot to Warelius":
+          case "Lönnrot &gt; Warelius, Antero":
             $years = '1848 - 1883';
             break;
-          case "Lönnrot to Schildt-Kilpinen":
+          case "Lönnrot &gt; Schildt-Kilpinen, Wolmar Styrbjörn":
             $years = '1843 - 1874';
             break;
-          case "Lönnrot to Granlund":
+          case "Lönnrot &gt; Granlund, Johan Fredrik":
             $years = '1856 - 1874';
             break;
-          case "Lönnrot to Akiander":
+          case "Lönnrot &gt; Akiander, Matthias":
             $years = '1840 - 1869';
             break;
-          case "Lönnrot to Barck":
+          case "Lönnrot &gt; Barck, Christian Evert":
             $years = '1833 - 1865';
             break;
-          case "Lönnrot to Samuel Roos":
+          case "Lönnrot &gt; Roos, Samuel":
             $years = '1831 - 1847';
             break;
-          case "Lönnrot to Snellman":
+          case "Lönnrot &gt; Snellman, Johan Vilhelm":
             $years = '1844 - 1868';
             break;
-          case "Lönnrot to Thuneberg":
+          case "Lönnrot &gt; Thuneberg, Bengt Adolf":
             $years = '1833 - 1840';
             break;
-          case "Lönnrot to Tikkanen":
+          case "Lönnrot &gt; Tikkanen, Paavo":
             $years = '1849 - 1870';
             break;
-          case "Lönnrot to Simon Appelgren":
+          case "Lönnrot &gt; Appelgren, Simon Wilhelm":
             $years = '1833 - 1837';
             break;
-          case "Lönnrot to Asp":
+          case "Lönnrot &gt; Asp, Gustaf":
             $years = '1842 - 1849';
             break;
-          case "Lönnrot to Forbus":
+          case "Lönnrot &gt; Forbus, Adolf":
             $years = '1833 - 1868';
             break;
-          case "Lönnrot to Hedberg":
+          case "Lönnrot &gt; Hedberg, Andreas Erik":
             $years = '1833 - 1836';
             break;
-          case "Lönnrot to Höglund":
+          case "Lönnrot &gt; Höglund, Anders Magnus":
             $years = '1833 - 1849';
             break;
-          case "Lönnrot to Erik Ingman":
+          case "Lönnrot &gt; Ingman, Erik Alexander":
             $years = '1834 - 1836';
             break;
-          case "Lönnrot to Anders Ingman":
+          case "Lönnrot &gt; Ingman, Anders Wilhelm":
             $years = '1848 - 1872';
             break;
-          case "Lönnrot to Kellgren":
+          case "Lönnrot &gt; Kellgren, August":
             $years = '1834 - 1847';
             break;
-          case "Lönnrot to Kiljander":
+          case "Lönnrot &gt; Kiljander, Karl Mårten":
             $years = '1847 - 1871';
             break;
-          case "Lönnrot to Krohn":
+          case "Lönnrot &gt; Krohn, Julius Leopold Fredrik":
             $years = '1863 - 1882';
             break;
-          case "Lönnrot to Lindh":
+          case "Lönnrot &gt; Lindh, Anton":
             $years = '1847 - 1850';
             break;
-          case "Lönnrot to Linsén":
+          case "Lönnrot &gt; Linsén, Johan Gabriel":
             $years = '1834 - 1838';
             break;
-          case "Lönnrot to Rein":
+          case "Lönnrot &gt; Rein, Gabriel":
             $years = '1835 - 1866';
             break;
-          case "Lönnrot to Rothsten":
+          case "Lönnrot &gt; Rothsten, Frans Wilhelm":
             $years = '1871 - 1880';
             break;
-          case "Lönnrot to Skogman":
+          case "Lönnrot &gt; Skogman, Daniel Johan":
             $years = '1833 - 1836';
             break;
-          case "Lönnrot to Alexander Öhman":
+          case "Lönnrot &gt; Öhman, Alexander Constantin":
             $years = '1842 - 1847';
             break;
-          case "Lönnrot to Cannelin":
+          case "Lönnrot &gt; Cannelin, Gustaf":
             $years = '1848 - 1875';
             break;
-          case "Lönnrot to Dahlberg":
+          case "Lönnrot &gt; Dahlberg, Karl":
             $years = '1869 - 1872';
             break;
-          case "Lönnrot to Ehrström":
+          case "Lönnrot &gt; Ehrström, Carl Robert":
             $years = '1838 - 1877';
             break;
-          case "Lönnrot to Elfving":
+          case "Lönnrot &gt; Elfving, Johan Fredrik":
             $years = '1831 - 1874';
             break;
-          case "Lönnrot to Flander":
+          case "Lönnrot &gt; Flander, Carl Peter":
             $years = '1835 - 1855';
             break;
-          case "Lönnrot to Runeberg":
+          case "Lönnrot &gt; Runeberg, Johan Ludvig":
             $years = '1833 - 1838';
             break;
-          case "Lönnrot to Törnegren":
+          case "Lönnrot &gt; Törnegren, Carl Wilhelm":
             $years = '1824 - 1858';
             break;
-          case "Lönnrot to Adolf Törngren":
+          case "Lönnrot &gt; Törngren, Adolf":
             $years = '1828 - 1850';
             break;
-          case "Lönnrot to Eva Törngren":
+          case "Lönnrot &gt; Törngren, Eva Agatha":
             $years = '1828 - 1847';
             break;
-          case "Lönnrot to Toppelius":
+          case "Lönnrot &gt; Toppelius, Gustaf":
             $years = '1833 - 1853';
             break;
-          case "Lönnrot to Wirzén":
+          case "Lönnrot &gt; Wirzén, Johan Ernst Adhemar":
             $years = '1833 - 1843';
             break;
-          case "Lönnrot to Robert Frosterus":
+          case "Lönnrot &gt; Frosterus, Robert Valentin":
             $years = '1847 - 1850';
             break;
-          case "Lönnrot to Anders Holmström":
+          case "Lönnrot &gt; Holmström, Anders Nils":
             $years = '1837 - 1857';
             break;
-          case "Lönnrot to Johansson":
+          case "Lönnrot &gt; Johansson, Gustaf":
             $years = '1868 - 1872';
             break;
-          case "Lönnrot to Liljeblad":
+          case "Lönnrot &gt; Liljeblad, Jakob Fredrik":
             $years = '1835 - 1843';
             break;
-          case "Lönnrot to Savolin":
+          case "Lönnrot &gt; Savolin, Emil Joakim":
             $years = '1872 - 1878';
             break;
-          case "Lönnrot to Sirén":
+          case "Lönnrot &gt; Sirén, Carl Wilhelm":
             $years = '1844 - 1849';
             break;
-          case "Lönnrot to von Essen":
+          case "Lönnrot &gt; Essen von, Carl Gustav":
             $years = '1869 - 1883';
             break;
-          case "Lönnrot to Aejmelaeus":
+          case "Lönnrot &gt; Aejmelaeus, Carl":
             $years = '1834 - 1849';
             break;
-          case "Lönnrot to Gustaf Appelgren":
+          case "Lönnrot &gt; Appelgren, Gustaf Wilhelm":
             $years = '1859 - 1861';
             break;
-          case "Lönnrot to von Haartman":
+          case "Lönnrot &gt; Haartman von, Carl Daniel":
             $years = '1835 - 1848';
             break;
-          case "Lönnrot to Topelius":
+          case "Lönnrot &gt; Topelius, Zacharias":
             $years = '1847 - 1882';
             break;
-          case "Lönnrot to Lagus":
+          case "Lönnrot &gt; Lagus, Jakob Johan Wilhelm":
             $years = '1870 - 1881';
             break;
-          case "Lönnrot to Karsten":
+          case "Lönnrot &gt; Karsten, Johan Anton":
             $years = '1843 - 1850';
             break;
-          case "Lönnrot to Lagervall":
+          case "Lönnrot &gt; Lagervall, Jakob Fredrik":
             $years = '1836 - 1847';
             break;
-          case "Lönnrot to Lilius":
+          case "Lönnrot &gt; Lilius, Karl Adolf":
             $years = '1849 - 1853';
             break;
-          case "Lönnrot to Christina Lönnrot":
-            $years = '1838 - 1849';
-            break;
-          case "Lönnrot to Gottlund":
+          case "Lönnrot &gt; Gottlund, Carl Axel":
             $years = '1829 - 1849';
             break;
           case "Family letters":
             $years = '1826 - 1883';
             break;
-          case "Lönnrot to Meurman":
+          case "Lönnrot &gt; Meurman, Otto Adolf Daniel":
             $years = '1847 - 1849';
             break;
-          case "Lönnrot to Bergström":
+          case "Lönnrot &gt; Bergström, I.":
             $years = '1835 - 1850';
             break;
-          case "Lönnrot to Heickell":
+          case "Lönnrot &gt; Heickell, Carl":
             $years = '1835';
             break;
-          case "Lönnrot to Hortling":
+          case "Lönnrot &gt; Hortling, Johan":
             $years = '1833 - 1853';
             break;
-          case "Lönnrot to Amalia Perander":
+          case "Lönnrot &gt; Perander, Amalia":
             $years = '1860 - 1871';
             break;
-          case "Lönnrot to Sophie Perander":
+          case "Lönnrot &gt; Perander, Sophie Louise":
             $years = '1868 - 1871';
             break;
-          case "Lönnrot to Sabelli":
+          case "Lönnrot &gt; Sabelli, Johan Erik":
             $years = '1834 - 1835';
             break;
-          case "Lönnrot to Sachsendahl":
+          case "Lönnrot &gt; Sachsendahl, Emil":
             $years = '1847 - 1851';
             break;
-          case "Lönnrot to Stockfleth":
+          case "Lönnrot &gt; Stockfleth, N. J. C. V.":
             $years = '1839 - 1849';
             break;
-          case "Lönnrot to Slöör":
+          case "Lönnrot &gt; Slöör, Karl":
             $years = '1869';
             break;
-          case "Lönnrot to Johan Öhman":
+          case "Lönnrot &gt; Öhman, Johan Edvard":
             $years = '1843';
             break;
-          case "Lönnrot to Wasenius":
+          case "Lönnrot &gt; Wasenius, G. O.":
             $years = '1837 - 1838';
             break;
-          case "Lönnrot to Petter Malmgren":
+          case "Lönnrot &gt; Malmgren, Petter":
             $years = '1848 - 1849';
             break;
-          case "Lönnrot to Bisi":
+          case "Lönnrot &gt; Bisi, Eric":
             $years = '1839 - 1849';
             break;
-          case "Lönnrot to J. Holmström":
+          case "Lönnrot &gt; Holmström, J.":
             $years = '1834 - 1839';
             break;
-          case "Lönnrot to Emeleus":
+          case "Lönnrot &gt; Emeleus, Curt":
             $years = '1834 - 1835';
             break;
-          case "Lönnrot to Jurva":
+          case "Lönnrot &gt; Jurva, Karl Adolf":
             $years = '1872 - 1873';
             break;
-          case "Miscellaneous letters":
+          case "Diverse letters":
             $years = '1826 - 1884';
             break;
-          case "Lönnrot to Wichmann":
+          case "Lists of recipients":
+            $years = '1826 - 1884';
+            break;
+          case "Lönnrot &gt; Wichmann, Johan Kristian":
             $years = '1833 - 1847';
             break;
-          case "Lönnrot to Pehr Ticklén":
+          case "Lönnrot &gt; Ticklén, Pehr":
             $years = '1835 - 1847';
             break;
-          case "Lönnrot to Tengström":
+          case "Lönnrot &gt; Tengström, Fr.":
             $years = '1834 - 1836';
             break;
-          case "Lönnrot to Salin":
+          case "Lönnrot &gt; Salin, Serafina":
             $years = '1870 - 1875';
             break;
-          case "Lönnrot to Bergh":
+          case "Lönnrot &gt; Bergh, Johan Fredrik":
             $years = '1839 - 1863';
             break;
-          case "Lönnrot to Bäckvall":
+          case "Lönnrot &gt; Bäckvall, Johan":
             $years = '1847 - 1858';
             break;
-          case "Lönnrot to Josef Durchman":
+          case "Lönnrot &gt; Durchman, Josef Wilhelm":
             $years = '1834 - 1870';
             break;
-          case "Lönnrot to A. Castrén":
+          case "Lönnrot &gt; Castrén, A. G.":
             $years = '1833 - 1852';
             break;
-          case "Lönnrot to F. Ståhlberg":
+          case "Lönnrot &gt; Ståhlberg, F. A.":
             $years = '1851 - 1853';
             break;
-          case "Lönnrot to Aron Borg":
+          case "Lönnrot &gt; Borg, Aron Gustaf":
             $years = '1843 - 1881';
             break;
-          case "Lönnrot to Anders Roos":
+          case "Lönnrot &gt; Roos, Anders Jakob":
             $years = '1843 - 1849';
             break;
-          case "Lönnrot to Forssell":
+          case "Lönnrot &gt; Forssell, M.":
             $years = '1834 - 1836';
             break;
-          case "Lönnrot to Dahl":
+          case "Lönnrot &gt; Dahl, O. E.":
             $years = '1844 - 1853';
             break;
-          case "Lönnrot to Rajander":
+          case "Lönnrot &gt; Rajander, Anders":
             $years = '1847 - 1852';
             break;
-          case "Lönnrot to Anders Malmgren":
+          case "Lönnrot &gt; Malmgren, Anders Johan":
             $years = '1833 - 1873';
             break;
-          case "Lönnrot to Elfström":
+          case "Lönnrot &gt; Elfström":
             $years = '1850';
             break;
-          case "Lönnrot to Friman":
+          case "Lönnrot &gt; Friman, Johan Alexander":
             $years = '1870';
             break;
-          case "Lönnrot to Högman":
+          case "Lönnrot &gt; Högman, Gustaf Fredrik":
             $years = '1835 - 1849';
             break;
-          case "Lönnrot to Gosman":
+          case "Lönnrot &gt; Gosman, Carl E.":
             $years = '1835 - 1837';
             break;
-          case "Lönnrot to Ekelund":
+          case "Lönnrot &gt; Ekelund, E.":
             $years = '1849 - 1850';
             break;
-          case "Lönnrot to Edlund":
+          case "Lönnrot &gt; Edlund, Gustaf Wilhelm":
             $years = '1870 - 1873';
             break;
-          case "Lönnrot to Claës Collan":
+          case "Lönnrot &gt; Collan, Claës":
             $years = '1834';
             break;
-          case "Lönnrot to Hougberg":
+          case "Lönnrot &gt; Hougberg, M. V.":
             $years = '1836 - 1838';
             break;
-          case "Lönnrot to J. Durchman":
+          case "Lönnrot &gt; Durchman, J.":
             $years = '1835 - 1838';
             break;
-          case "Lönnrot to C. Frosterus":
+          case "Lönnrot &gt; Frosterus, C. J.":
             $years = '1834 - 1853';
             break;
-          case "Lönnrot to Fellman":
+          case "Lönnrot &gt; Fellman, Jakob":
             $years = '1845 - 1856';
             break;
-          case "Lönnrot to Hahnsson":
+          case "Lönnrot &gt; Hahnsson, Johan Adrian":
             $years = '1848 - 1880';
             break;
-          case "Lönnrot to Carger":
+          case "Lönnrot &gt; Carger, Henric":
             $years = '1833';
             break;
-          case "Lönnrot to von Becker":
+          case "Lönnrot &gt; Becker von, Frans":
             $years = '1848 - 1849';
             break;
-          case "Lönnrot to Bjugg":
+          case "Lönnrot &gt; Bjugg, Lorenz Johan":
             $years = '1831 - 1835';
             break;
-          case "Lönnrot to Landzett":
+          case "Lönnrot &gt; Landzett, Clem":
             $years = '1870 - 1873';
             break;
-          case "Lönnrot to Latysev":
+          case "Lönnrot &gt; Latysev, Ivan Vasiljevits":
             $years = '1842 - 1843';
             break;
-          case "Lönnrot to Löwenmark":
+          case "Lönnrot &gt; Löwenmark, Gustaf":
             $years = '1849 - 1850';
             break;
-          case "Lönnrot to Lavonius":
+          case "Lönnrot &gt; Lavonius, Alexander":
             $years = '1849 - 1872';
             break;
-          case "Lönnrot to Maconi":
+          case "Lönnrot &gt; Maconi, Peter Henrik":
             $years = '1835 - 1836';
             break;
-          case "Lönnrot to Melander":
+          case "Lönnrot &gt; Melander, H. L.":
             $years = '1847';
             break;
-          case "Lönnrot to Montgomery":
+          case "Lönnrot &gt; Montgomery, Edvard":
             $years = '1836 - 1839';
             break;
-          case "Lönnrot to Jacob Ståhlberg":
+          case "Lönnrot &gt; Ståhlberg, Jacob Gabriel":
             $years = '1843 - 1851';
             break;
-          case "Lönnrot to Planting":
+          case "Lönnrot &gt; Planting, Herman":
             $years = '1840 - 1849';
             break;
         }

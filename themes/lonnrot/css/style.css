@@ -1973,7 +1973,7 @@ th {
   #collection-list {
     width: 100%;
     clear: both;
-    margin-left: 3%;
+    margin-left: 2%;
   }
   #collection-list div.collection p.view-items-link a {
     text-transform: uppercase;
@@ -1983,6 +1983,7 @@ th {
   }
   #collection-list .collection {
     margin-bottom: 2em;
+    margin-left: 1%;
   }
   #collection-list .collection h2 a {
     color: #333;
