@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-07 09:47+0200\n"
-"PO-Revision-Date: 2017-11-07 09:47+0200\n"
+"POT-Creation-Date: 2017-11-09 08:57+0200\n"
+"PO-Revision-Date: 2017-11-09 09:06+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -4310,7 +4310,7 @@ msgid "Letters sent by Lönnrot to Antero Warelius"
 msgstr "Lönnrotin kirjeet Antero Wareliukselle"
 
 msgid "Letters sent by Lönnrot to Wolmar Styrbjörn Schildt-Kilpinen"
-msgstr "Lönnrotin kirjeet Wolmar Styrbjörn schildt-Kilpiselle"
+msgstr "Lönnrotin kirjeet Wolmar Styrbjörn Schildt-Kilpiselle"
 
 msgid "Letters sent by Lönnrot to Johan Fredrik Granlund"
 msgstr "Lönnrotin kirjeet Johan Fredrik Granlundille"
@@ -4634,11 +4634,23 @@ msgstr "Lönnrotin kirjeet Jacob Gabriel Ståhlbergille"
 msgid "Letters sent by Lönnrot to Herman Planting"
 msgstr "Lönnrotin kirjeet Herman Plantingille"
 
+msgid "Letters sent by Lönnrot to Hilma Wallenius"
+msgstr "Lönnrotin kirjeet Hilma Walleniukselle"
+
+msgid "Letters sent by Lönnrot to Birger Wegelius"
+msgstr "Lönnrotin kirjeet Birger Wegeliukselle"
+
+msgid "Letters sent by Lönnrot to Anders Wennberg"
+msgstr "Lönnrotin kirjeet Anders Wennbergille"
+
+msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
+msgstr "Lönnrotin kirjeet Carl Erik Öhrnhjelmille"
+
 msgid "Small collections of letters"
 msgstr "Pienet kirjekokoelmat"
 
-msgid "Lists with various recipients"
-msgstr "Usean vastaanottajan luettelot"
+msgid "Lists of letters sent to multiple recipients"
+msgstr "Luetteloita useille vastaanottajille menneistä kirjeistä"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
@@ -4731,6 +4743,9 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Lists with various recipients"
+#~ msgstr "Usean vastaanottajan luettelot"
 
 #~ msgid "Miscellaneous letters"
 #~ msgstr "Sekalaiset kirjeet"

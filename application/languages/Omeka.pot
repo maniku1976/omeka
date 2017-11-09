@@ -4486,10 +4486,22 @@ msgstr ""
 msgid "Letters sent by Lönnrot to Herman Planting"
 msgstr ""
 
+msgid "Letters sent by Lönnrot to Hilma Wallenius"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Birger Wegelius"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Anders Wennberg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
+msgstr ""
+
 msgid "Small collections of letters"
 msgstr ""
 
-msgid "Lists with various recipients"
+msgid "Lists of letters sent to multiple recipients"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:69

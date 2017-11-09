@@ -404,6 +404,18 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Planting, Herman":
             $years = '1840 - 1849';
             break;
+          case "Lönnrot &gt; Wallenius, Hilma":
+            $years = '1872';
+            break;
+          case "Lönnrot &gt; Wegelius, Birger":
+            $years = '1840 - 1847';
+            break;
+          case "Lönnrot &gt; Wennberg, Anders":
+            $years = '1843 - 1868';
+            break;
+          case "Lönnrot &gt; Öhrnhjelm, Carl Erik":
+            $years = '1836 - 1838';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>

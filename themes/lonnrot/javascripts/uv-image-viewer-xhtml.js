@@ -45,7 +45,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0
         || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || key + ending == 'Borgå'
-        || key + ending == 'Borgm.' || key + ending == 'Borgmestar')) {
+        || key + ending == 'Borgm.' || key + ending == 'Borgmestar' || key + ending == 'Borgoensi')) {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Länsman') >= 0)) {

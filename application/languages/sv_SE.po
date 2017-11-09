@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-07 09:48+0200\n"
-"PO-Revision-Date: 2017-11-07 09:50+0200\n"
+"POT-Creation-Date: 2017-11-09 08:59+0200\n"
+"PO-Revision-Date: 2017-11-09 09:02+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4617,11 +4617,23 @@ msgstr "Lönnrots brev till Jacob Gabriel Ståhlberg"
 msgid "Letters sent by Lönnrot to Herman Planting"
 msgstr "Lönnrots brev till Herman Planting"
 
+msgid "Letters sent by Lönnrot to Hilma Wallenius"
+msgstr "Lönnrots brev till Hilma Wallenius"
+
+msgid "Letters sent by Lönnrot to Birger Wegelius"
+msgstr "Lönnrots brev till Birger Wegelius"
+
+msgid "Letters sent by Lönnrot to Anders Wennberg"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
+msgstr "Lönnrots brev till Carl Erik Öhrnhjelm"
+
 msgid "Small collections of letters"
 msgstr "Lilla brevsamlingar"
 
-msgid "Lists with various recipients"
-msgstr "Listor med flera mottagare"
+msgid "Lists of letters sent to multiple recipients"
+msgstr "Listor på brev till flera mottagare"
 
 #: application/views/scripts/items/browse.php:69
 #: application/views/scripts/items/single.php:26
@@ -4714,6 +4726,9 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Lists with various recipients"
+#~ msgstr "Listor med flera mottagare"
 
 #~ msgid "Miscellaneous letters"
 #~ msgstr "Brokiga brev"
