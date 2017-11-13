@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-09 08:59+0200\n"
-"PO-Revision-Date: 2017-11-09 09:02+0200\n"
+"POT-Creation-Date: 2017-11-13 12:11+0200\n"
+"PO-Revision-Date: 2017-11-13 12:12+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4624,10 +4624,20 @@ msgid "Letters sent by Lönnrot to Birger Wegelius"
 msgstr "Lönnrots brev till Birger Wegelius"
 
 msgid "Letters sent by Lönnrot to Anders Wennberg"
-msgstr ""
+msgstr "Lönnrots brev till Anders Wennberg"
 
-msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
-msgstr "Lönnrots brev till Carl Erik Öhrnhjelm"
+msgid "Letters sent by Lönnrot to Carl Erik Örnhjelm"
+msgstr "Lönnrots brev till Carl Erik Örnhjelm"
+
+msgid "Letters sent by Lönnrot to Anders Fabian Neovius"
+msgstr "Lönnrots brev till Anders Fabian Neovius"
+
+msgid ""
+"Letters sent by Lönnrot to Adolf Reinhold Lang and Gustaf Adolf Cavonius"
+msgstr "Lönnrots brev till Adolf Reinhold Lang och Gustaf Adolf Cavonius"
+
+msgid "Letters sent by Lönnrot to Henrik Ravelin"
+msgstr "Lönnrots brev till Henrik Ravelin"
 
 msgid "Small collections of letters"
 msgstr "Lilla brevsamlingar"
@@ -4726,6 +4736,9 @@ msgstr "Anslutning"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Transporter till tabell"
+
+#~ msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
+#~ msgstr "Lönnrots brev till Carl Erik Öhrnhjelm"
 
 #~ msgid "Lists with various recipients"
 #~ msgstr "Listor med flera mottagare"

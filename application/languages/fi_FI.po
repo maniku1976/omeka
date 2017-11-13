@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-09 08:57+0200\n"
-"PO-Revision-Date: 2017-11-09 09:06+0200\n"
+"POT-Creation-Date: 2017-11-13 12:09+0200\n"
+"PO-Revision-Date: 2017-11-13 12:10+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -4643,8 +4643,19 @@ msgstr "Lönnrotin kirjeet Birger Wegeliukselle"
 msgid "Letters sent by Lönnrot to Anders Wennberg"
 msgstr "Lönnrotin kirjeet Anders Wennbergille"
 
-msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
-msgstr "Lönnrotin kirjeet Carl Erik Öhrnhjelmille"
+msgid "Letters sent by Lönnrot to Carl Erik Örnhjelm"
+msgstr "Lönnrotin kirjeet Carl Erik Örnhjelmille"
+
+msgid "Letters sent by Lönnrot to Anders Fabian Neovius"
+msgstr "Lönnrotin kirjeet Anders Fabian Neoviukselle"
+
+msgid ""
+"Letters sent by Lönnrot to Adolf Reinhold Lang and Gustaf Adolf Cavonius"
+msgstr ""
+"Lönnrotin kirjeet Adolf Reinhold Langille ja Gustaf Adolf Cavoniukselle"
+
+msgid "Letters sent by Lönnrot to Henrik Ravelin"
+msgstr "Lönnrotin kirjeet Henrik Ravelinille"
 
 msgid "Small collections of letters"
 msgstr "Pienet kirjekokoelmat"
@@ -4743,6 +4754,9 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
+#~ msgstr "Lönnrotin kirjeet Carl Erik Öhrnhjelmille"
 
 #~ msgid "Lists with various recipients"
 #~ msgstr "Usean vastaanottajan luettelot"

@@ -413,8 +413,17 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Wennberg, Anders":
             $years = '1843 - 1868';
             break;
-          case "Lönnrot &gt; Öhrnhjelm, Carl Erik":
+          case "Lönnrot &gt; Örnhjelm, Carl Erik":
             $years = '1836 - 1838';
+            break;
+          case "Lönnrot &gt; Lang, Adolf Reinhold &amp; Cavonius, Gustaf Adolf":
+            $years = '1833 - 1868';
+            break;
+          case "Lönnrot &gt; Neovius, Anders Fabian":
+            $years = '1831 - 1835';
+            break;
+          case "Lönnrot &gt; Ravelin, Henrik":
+            $years = '1850 - 1851';
             break;
         }
         ?>

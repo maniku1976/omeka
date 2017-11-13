@@ -4495,7 +4495,16 @@ msgstr ""
 msgid "Letters sent by Lönnrot to Anders Wennberg"
 msgstr ""
 
-msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
+msgid "Letters sent by Lönnrot to Carl Erik Örnhjelm"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Anders Fabian Neovius"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Adolf Reinhold Lang and Gustaf Adolf Cavonius"
+msgstr ""
+
+msgid "Letters sent by Lönnrot to Henrik Ravelin"
 msgstr ""
 
 msgid "Small collections of letters"
