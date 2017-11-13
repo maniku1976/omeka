@@ -4504,6 +4504,9 @@ msgstr ""
 msgid "Letters sent by Lönnrot to Adolf Reinhold Lang and Gustaf Adolf Cavonius"
 msgstr ""
 
+msgid "Letters sent by Lönnrot to Adolf Reinhold Lang"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Henrik Ravelin"
 msgstr ""
 
