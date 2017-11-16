@@ -416,7 +416,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Örnhjelm, Carl Erik":
             $years = '1836 - 1838';
             break;
-          case "Lönnrot &gt; Lang, Adolf Reinhold"
+          case "Lönnrot &gt; Lang, Adolf Reinhold":
             $years = '1835 - 1868';
             break;
           case "Lönnrot &gt; Lang, Adolf Reinhold &amp; Cavonius, Gustaf Adolf":
