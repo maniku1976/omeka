@@ -3666,7 +3666,7 @@ msgid "Letters found: %s"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:106
-msgid "(%1$s letters, %2$s)"
+msgid "%1$s letters, %2$s"
 msgstr ""
 
 #: application/views/scripts/items/browse.php:28

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-16 15:40+0200\n"
-"PO-Revision-Date: 2017-11-16 15:40+0200\n"
+"POT-Creation-Date: 2017-11-22 10:59+0200\n"
+"PO-Revision-Date: 2017-11-22 10:59+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/omeka/omeka/"
 "language/fi_FI/)\n"
@@ -3811,8 +3811,8 @@ msgid "Letters found: %s"
 msgstr "Kirjeitä löytyi: %s"
 
 #: application/views/scripts/items/browse.php:106
-msgid "(%1$s letters, %2$s)"
-msgstr "(%1$s kirjettä, %2$s)"
+msgid "%1$s letters, %2$s"
+msgstr "%1$s kirjettä, %2$s"
 
 #: application/views/scripts/items/browse.php:28
 msgid "%s letters"
@@ -4763,6 +4763,9 @@ msgstr "Affiliaatio"
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr "Vie taulukkoon"
+
+#~ msgid "(%1$s letters, %2$s)"
+#~ msgstr "(%1$s kirjettä, %2$s)"
 
 #~ msgid "Letters sent by Lönnrot to Carl Erik Öhrnhjelm"
 #~ msgstr "Lönnrotin kirjeet Carl Erik Öhrnhjelmille"

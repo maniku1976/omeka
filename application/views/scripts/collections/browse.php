@@ -439,7 +439,7 @@ $sortLinks[__('Date Added')] = 'added';
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
         <?php $count = metadata($collection, 'total_items');
         /* Show number of letters and correspondence years for each collection */
-        echo __('(%1$s letters, %2$s)', $count, $years);
+        /*echo __('(%1$s letters, %2$s)', $count, $years);*/
         ?>
       </h2>
       <?php if ($collectionImage = record_image('collection', 'square_thumbnail')): ?>
@@ -449,8 +449,12 @@ $sortLinks[__('Date Added')] = 'added';
 
       <?php if (metadata('collection', array('Dublin Core', 'Subject'))): ?>
         <div class="collection-description">
-          <?php $descr = metadata('collection', array('Dublin Core', 'Subject'));?>
-          <?php echo text_to_paragraphs(__($descr)); ?>
+          <?php $count = metadata($collection, 'total_items');
+          /* Show number of letters and correspondence years for each collection */
+          ?>
+          <?php $descr = __('%1$s letters, %2$s', $count, $years);
+          /*metadata('collection', array('Dublin Core', 'Subject'));*/ ?>
+          <?php echo text_to_paragraphs(__($descr));  ?>
           <?php echo text_to_paragraphs(metadata('collection', array('Dublin Core', 'Description'))); ?>
         </div>
       <?php endif; ?>
