@@ -33,6 +33,9 @@ $(document).ready(function() {
       var st_before = $('.textFrame').text().substring(first-15, first);
       var st_after = $('.textFrame').text().substring(first, first+15);
 
+      // key + ending includes 'Borg'
+      var borg = ['Borgå','Borgm.','Borgmestar','Borgoensi','Borgmäst.','Borgmestarilla','Borgesmän'];
+
       if (key == 'Ilmoni' && !endings.includes(ending)) {
         str = key;
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {
@@ -41,15 +44,12 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Hedberg' && key + ending == 'Hedbergiläisyyden') {
         str = '';
-      } else if (key == 'Collan' && key + ending == 'Collander') {
-        str = '';
       } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0
-        || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || key + ending == 'Borgå'
-        || key + ending == 'Borgm.' || key + ending == 'Borgmestar' || key + ending == 'Borgoensi' || key + ending == 'Borgmäst.')) {
+        || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || borg.includes(key + ending)))  {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Zachris') >= 0 || st_before.indexOf('Länsman') >= 0
-        || st_before.indexOf('OrdensLedam') >= 0)) {
+        || st_before.indexOf('OrdensLedam. M.') >= 0)) {
         str = '';
       } else if (key == 'Roos' && (st_before.indexOf('A. J.') >= 0 || st_before.indexOf('Höfdingan') >= 0
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0)) {
@@ -61,9 +61,11 @@ $(document).ready(function() {
         || st_before.indexOf('G.') >= 0)) {
         str = '';
       } else if (key == 'Collan' && (st_before.indexOf('Claës') >= 0 || st_before.indexOf('Studerande') >= 0
-        || st_before.indexOf('Doktor') >= 0)) {
+        || st_before.indexOf('Doktor') >= 0 || key + ending == 'Collander')) {
         str = '';
       } else if (key == 'Europaeus' && st_before.indexOf('Prosten') >= 0) {
+        str = '';
+      } else if (key == 'Lindfors' && (st_before.indexOf('Rector') >= 0 || st_before.indexOf('Conrector') >= 0)) {
         str = '';
       } else {
         str = key + ending;

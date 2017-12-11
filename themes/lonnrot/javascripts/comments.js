@@ -173,11 +173,11 @@ var comments = {
   ' vuosina 1833−1841 SKS:n esimiehenä. <em>Kalevalan</em> ilmestyttyä Linsén lausui seuran vuosikokouksessa:' +
   ' "Suomi voi sanoa itselleen: Myös minulla on historia!".' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3538" target="_blank">Kansallisbiografia</a>',
-  'Ganander': 'Christfried Ganander (myös Gananderi) (1741−1790), rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
+  'Ganander': 'Christfried Ganander (1741−1790), rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
   ' Lönnrot piti Gananderin teosta <em>Mythologia Fennica</em> (1789) merkittävänä suomalaisen kansanuskon hakuteoksena. Ganander' +
   ' toimitti myös suomalais-ruotsalais-latinalaisen sanakirjan <em>Nytt Finskt Lexicon</em> (1787, julk. 1997).' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" target="_blank">Kansallisbiografia</a>',
-  'Gananderi': 'Christfried Ganander (myös Gananderi) (1741−1790), rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
+  'Gananderi': 'Christfried Ganander (1741−1790), rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
   ' Lönnrot piti Gananderin teosta <em>Mythologia Fennica</em> (1789) merkittävänä suomalaisen kansanuskon hakuteoksena. Ganander' +
   ' toimitti myös suomalais-ruotsalais-latinalaisen sanakirjan <em>Nytt Finskt Lexicon</em> (1787, julk. 1997).' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" target="_blank">Kansallisbiografia</a>',
@@ -256,5 +256,56 @@ var comments = {
   'Borg': 'Carl Gustaf Borg (1823-1895), suomen kielen lehtori, kanslianeuvos, kääntäjä, kirjailija. Paitsi ystävä ja perhetuttu' +
   ' Borg oli myös Lönnrotin asiamies ja raha-asioiden hoitaja',
   'Borgh': 'Carl Gustaf Borg (1823-1895), suomen kielen lehtori, kanslianeuvos, kääntäjä, kirjailija. Paitsi ystävä ja perhetuttu' +
-  ' Borg oli myös Lönnrotin asiamies ja raha-asioiden hoitaja'
+  ' Borg oli myös Lönnrotin asiamies ja raha-asioiden hoitaja',
+  'Petter Malmgren': 'Petter Malmgren (1802 - 1854), maanmittausinsinööri Kajaanista',
+  'Ingenieur Malmgren': 'Petter Malmgren (1802 - 1854), maanmittausinsinööri Kajaanista',
+  'P. Malmgren': 'Petter Malmgren (1802 - 1854), maanmittausinsinööri Kajaanista',
+  'Apothekar Malmgren': 'Anders Johan Malmgren (1799 - 1860), Kajaanin apteekkari',
+  'Apoth. Malmgren': 'Anders Johan Malmgren (1799 - 1860), Kajaanin apteekkari',
+  'Apothekaren Malmgren': 'Anders Johan Malmgren (1799 - 1860), Kajaanin apteekkari',
+  'Apothek. Malmgren': 'Anders Johan Malmgren (1799 - 1860), Kajaanin apteekkari',
+  'A. J. Malmgren': 'Anders Johan Malmgren (1799 - 1860), Kajaanin apteekkari',
+  'Apothekarn Malmgren': 'Anders Johan Malmgren (1799 - 1860), Kajaanin apteekkari',
+  'Wennberg': 'Anders Wennberg (1794 - 1873) toimi apteekkarina Kuopiossa.',
+  'Örnhjelm': 'Car Erik Örnhjelm (1803 - 1879), henkikirjuri',
+  'Hilma Wallenius': 'Hilma Wallenius, kotiopettaja. Toimi Lönnrotin tyttärien kotiopettajana 1867 - 1871.',
+  'mamsell Wallenius': 'Hilma Wallenius, kotiopettaja. Toimi Lönnrotin tyttärien kotiopettajana 1867 - 1871.',
+  'H. Wallenius': 'Hilma Wallenius, kotiopettaja. Toimi Lönnrotin tyttärien kotiopettajana 1867 - 1871.',
+  'Slöör': 'Karl Slöör (1833 - 1905), toimittaja, kirjailija, suomentaja. Toimi Suomalaisen Kirjallisuuden Seurassa' +
+  ' monissa luottamustehtävissä vuosina 1866 - 1893. Slöör oli <em>Suomalaisen Virallisen Lehden</em> päätoimittaja' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/6415" target="_blank">Kansallisbiografia</a>',
+  'Sachsendahl': 'Emil Sachsendahl (1814 - 1856), virolainen tutkija',
+  'Stockfleth': 'Nils Joakim Christian Vibe Stockfleth (1787 - 1866), norjalainen tiedemies. Opetti saamen kieltä' +
+  ' ja suomea Oslon (aik. Christiania) yliopistossa. Matkusti 1838 Suomeen. Sai mm. Reinhold von Beckerin ja' +
+  ' Elias Lönnrotin tuen ja kannustuksen matkalleen.',
+  'Lektoren Öhman': 'Johan Edvard Öhman (1809 - 1856), opettaja, pappi, toimittaja. Suomalaisen Kirjallisuuden Seuran' +
+  ' jäsen 1832 - 1856. Perusti 1838 <em>Borgå Tidning</em> -lehden.',
+  'Lector Öhman': 'Johan Edvard Öhman (1809 - 1856), opettaja, pappi, toimittaja. Suomalaisen Kirjallisuuden Seuran' +
+  ' jäsen 1832 - 1856. Perusti 1838 <em>Borgå Tidning</em> -lehden.',
+  'Wasenius': 'Gustaf Otto Wasenius (1789 - 1852), kirjakauppias, kustantaja. Julkaisu vuonna 1829 perustamaansa' +
+  ' <em>Helsingfors Tidning</em> -lehteä. Suurkauppiaana ylitti säätyrajoja ja toimi monissa luottamustehtävissä' +
+  ' Helsingin säätyläispiireissä.',
+  'Sabelli': 'Johan Erik Sabelli (1781 - 1856), lääkäri. Toimi Hämeenlinnan ja Vaasan piirilääkärinä. Suosi Lönnrotia' +
+  ' ja tuki tätä taloudellisesti erityisesti Lönnrotin opiskeluaikana.',
+  'Pehr Ticklén': 'Pehr Ticklén (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
+  'Prosten Ticklén': 'Pehr Ticklén (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
+  'P. Ticklén': 'Pehr Ticklén (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
+  'Aron Borg': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  'Dompr. A. Borg': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  'Dompr. Borg': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  'Borg, Aron': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  'Pastoren Durchman': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
+  'Joseph Durchman, Kapellan': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
+  'Prosten Durchman': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
+  'Joseph Wilhelm Durchman': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
+  'Pastoren Joseph Durchman': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
+  'Kapellanen J. Durchman': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
+  'Lindh': 'Anton Lindh (1811 - 1881), lääkäri. Lähetti sanoja Lönnrotin sanakirjaa varten.',
+  'Asp': 'Gustaf Asp (1808 - 1855), piirilääkäri',
+  'Bisi': 'Eric Bisi (1819 - 1868), sanomalehtikirjoittaja, lukkari. Toimi lukkarina Suomussalmella 1838 - 1868.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/492" target="_blank">Kansallisbiografia</a>'
 };

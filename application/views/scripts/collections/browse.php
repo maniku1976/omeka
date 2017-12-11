@@ -449,6 +449,21 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Hazelius, Arthur":
             $years = '1872';
             break;
+          case "Lönnrot &gt; Lagus, Eliel Thiodolf":
+            $years = '1859 - 1872';
+            break;
+          case "Lönnrot &gt; Lindström, Knut Legat":
+            $years = '1872 - 1875';
+            break;
+          case "Lönnrot &gt; Malmström, K. R.":
+            $years = '1872 - 1875';
+            break;
+          case "Lönnrot &gt; Rafn, Carl Christian":
+            $years = '1834 - 1842';
+            break;
+          case "Lönnrot &gt; Reinholm, Henrik August":
+            $years = '1848 - 1849';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
