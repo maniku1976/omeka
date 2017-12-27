@@ -183,7 +183,7 @@ var comments = {
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" target="_blank">Kansallisbiografia</a>',
   'Haartman': 'Carl Daniel von Haartman (1792−1877) toimi lääkintöhallituksen ylijohtajana vuodesta 1837 lähtien. Haartman uudisti' +
   ' lääkärien toimintaa monella tavalla ja otti osaa aikansa keskusteluun lasten imettämisestä.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/7589" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/7589" target="_blank">Kansallisbiografia</a>',
   'Ehrström': 'Carl Robert Ehrström (1803−1881), lääkäri, joka toimi Oulun piirilääkärinä vuosina 1839−1855. Ehström ja Lönnrot' +
   ' kävivät kirjeenvaihtoa erityisesti 1840-luvulla molempien toimiessa piirilääkäreinä.',
   'Rothsten': 'Frans Wilhelm Rothsten (1833−1900) oli kielimies, joka julkaisi erilaisia Kalevalan selityksiä. Rothsten toimi' +
@@ -197,7 +197,7 @@ var comments = {
   'Bark': 'Christian Evert Barck (1795−1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
   'Barkki': 'Christian Evert Barck (1795−1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
   'Bergenheim': 'Edward Bergenheim (1798−1884) oli opettaja ja arkkipiispa. Lönnrotin ja Bergenheimin kirjeenvaihto koski lähinnä' +
-  ' virsikirjauudistusta.' + ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  ' virsikirjauudistusta.' + ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3133" target="_blank">Kansallisbiografia</a>',
   'Hedberg': 'Anders Erik (Antus) Hedberg (1804−1837) oli lääkäri, joka toimi mm. Oulun piirilääkärinä.',
   'Johansson': 'Gustaf Johansson (1844−1930) oli dogmatiikan ja siveysopin professori sekä myöhemmin arkkipiispa.',
   'Sophie Louise Perander': 'Sophie Louise Perander  (1824−1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
@@ -229,28 +229,28 @@ var comments = {
   'Apoth. Kellgren': 'August Kellgren (1792−1850) oli Kuopion apteekkari. Kellgrenin talossa toimi Kuopion kirjapaino.',
   'Herman Kellgren': 'Abraham Herman August Kellgren (1822−1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845−1846.' +
   ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3502" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3502" target="_blank">Kansallisbiografia</a>',
   'Herm. Kellgren': 'Abraham Herman August Kellgren (1822−1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845−1846.' +
   ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3133" target="_blank">Kansallisbiografia</a>',
   'Doktor Kellgren': 'Abraham Herman August Kellgren (1822−1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845−1846.' +
   ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3133" target="_blank">Kansallisbiografia</a>',
   'A. W. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
   ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3492" target="_blank">Kansallisbiografia</a>',
   'Prof. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
   ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3492" target="_blank">Kansallisbiografia</a>',
   'prof. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
   ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3492" target="_blank">Kansallisbiografia</a>',
   'Professor A. Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
   ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3492" target="_blank">Kansallisbiografia</a>',
   'Professor Ingman': 'Anders Wilhelm Ingman (1819−1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
   ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/3492" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3492" target="_blank">Kansallisbiografia</a>',
   'kyrkoherden Holmström': 'Anders Nils Holmström  (1808−1871) pappi. Toimi Kuhmonniemen kappalaisena 1849−1859 ja Haapajärven' +
   ' kirkkoherrana 1859−1871.',
   'Borg': 'Carl Gustaf Borg (1823-1895), suomen kielen lehtori, kanslianeuvos, kääntäjä, kirjailija. Paitsi ystävä ja perhetuttu' +
@@ -273,7 +273,7 @@ var comments = {
   'H. Wallenius': 'Hilma Wallenius, kotiopettaja. Toimi Lönnrotin tyttärien kotiopettajana 1867 - 1871.',
   'Slöör': 'Karl Slöör (1833 - 1905), toimittaja, kirjailija, suomentaja. Toimi Suomalaisen Kirjallisuuden Seurassa' +
   ' monissa luottamustehtävissä vuosina 1866 - 1893. Slöör oli <em>Suomalaisen Virallisen Lehden</em> päätoimittaja' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/6415" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/6415" target="_blank">Kansallisbiografia</a>',
   'Sachsendahl': 'Emil Sachsendahl (1814 - 1856), virolainen tutkija',
   'Stockfleth': 'Nils Joakim Christian Vibe Stockfleth (1787 - 1866), norjalainen tiedemies. Opetti saamen kieltä' +
   ' ja suomea Oslon (aik. Christiania) yliopistossa. Matkusti 1838 Suomeen. Sai mm. Reinhold von Beckerin ja' +
@@ -287,17 +287,18 @@ var comments = {
   ' Helsingin säätyläispiireissä.',
   'Sabelli': 'Johan Erik Sabelli (1781 - 1856), lääkäri. Toimi Hämeenlinnan ja Vaasan piirilääkärinä. Suosi Lönnrotia' +
   ' ja tuki tätä taloudellisesti erityisesti Lönnrotin opiskeluaikana.',
-  'Pehr Ticklén': 'Pehr Ticklén (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
+  'Pehr Ticklén': 'Pehr Ticklén (Myös Per, Pietari), (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
+  'Per Ticklén': 'Pehr Ticklén (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
   'Prosten Ticklén': 'Pehr Ticklén (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
   'P. Ticklén': 'Pehr Ticklén (1792 - 1838), pappi, runoilija, <em>Oulun Wiikko-Sanomien</em> toimittaja.',
   'Aron Borg': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5900" target="_blank">Kansallisbiografia</a>',
   'Dompr. A. Borg': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5900" target="_blank">Kansallisbiografia</a>',
   'Dompr. Borg': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5900" target="_blank">Kansallisbiografia</a>',
   'Borg, Aron': 'Aron Gustaf Borg (1810 - 1883), Kuopion tuomiorovasti, eksegetiikan professori.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/5900" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5900" target="_blank">Kansallisbiografia</a>',
   'Pastoren Durchman': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
   'Joseph Durchman, Kapellan': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
   'Prosten Durchman': 'Josef Wilhelm Durchman (1806 - 1891), pappi',
@@ -307,5 +308,102 @@ var comments = {
   'Lindh': 'Anton Lindh (1811 - 1881), lääkäri. Lähetti sanoja Lönnrotin sanakirjaa varten.',
   'Asp': 'Gustaf Asp (1808 - 1855), piirilääkäri',
   'Bisi': 'Eric Bisi (1819 - 1868), sanomalehtikirjoittaja, lukkari. Toimi lukkarina Suomussalmella 1838 - 1868.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografiak/henkilo/492" target="_blank">Kansallisbiografia</a>'
-};
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/492" target="_blank">Kansallisbiografia</a>',
+  'Kyrkoherden Aejmelaeus': 'Carl Aejmelaeus (1796 - 1870), Pyhäjoen kirkkoherra',
+  'Bjugg': 'Lorenz Johan Bjugg (1768 - 1839), apteekkari. Toimi Hämeenlinnan apteekkarina vuodesta 1795.' +
+  ' Lönnrot oli Bjuggin apteekkioppilas.',
+  'Bäckvall': 'Johan Bäckvall (1817 - 1883), pappi. Oli mukana <em>Mehiläisen</em> ja <em>Oulun Wiikko-Sanomien' +
+  ' toimitustyössä. Bäckvall avusti myös Lönnrotin sanakirjatyötä.',
+  'Cannelin': 'Gustaf Cannelin (1815 - 1885), lehtori, rovasti. Avusti Lönnrotia sanakirjatyössä.',
+  'Claës Collan': 'Claës Collan (1816 - 1901), pappi, opettaja.',
+  'Uno Cygnaeus': 'Uno Cygnaeus (1810 - 1888), kansakoulujen ylitarkastaja, pappi. Tunnetaan Suomen kansakoulun isänä.',
+  'Skolöfverinspektor Cygnaeus': 'Uno Cygnaeus (1810 - 1888), kansakoulujen ylitarkastaja, pappi. Tunnetaan Suomen kansakoulun isänä.',
+  'öfverinspektor Cygnaeus': 'Uno Cygnaeus (1810 - 1888), kansakoulujen ylitarkastaja, pappi. Tunnetaan Suomen kansakoulun isänä.',
+  'pastor Cygnaeus': 'Uno Cygnaeus (1810 - 1888), kansakoulujen ylitarkastaja, pappi. Tunnetaan Suomen kansakoulun isänä.',
+  'Edlund': 'Gustaf Wilhelm Edlund (1829 - 1907), kustantaja, kirjakauppias.',
+  'Elfving': 'Johan Fredrik Elfving (1801 - 1891), lääkäri. Lönnrotin opiskelutoveri. Lönnrotin kirjeiden "Major", "Majori".',
+  'Essen': 'Carl Gustav von Essen (1815 - 1895), tiedemies, pappi. Kuului virsikirjakomiteaan ja tutki virsiä yhdessä' +
+  ' Lönnrotin kanssa. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3186" target="_blank">Kansallisbiografia</a>.',
+  'Flander': 'Carl Peter Flander (1806 - 1887), asessori Paltamossa.',
+  'Böningh': 'Gustav Friedrich von Böningh (1806 - 1891), virolainen konsuli.',
+  'Bönigh': 'Gustav Friedrich von Böningh (1806 - 1891), virolainen konsuli.',
+  'Böning': 'Gustav Friedrich von Böningh (1806 - 1891), virolainen konsuli.',
+  'Doktor Frosterus': 'Robert Valentin Frosterus (1795 - 1884), piispa, kirkkoherra. Oli mukana Perustamassa Suomalaisen' +
+  ' Kirjallisuuden Seuraa 1831. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3209" target="_blank">Kansallisbiografia</a>.',
+  'Dr Frosterus': 'Robert Valentin Frosterus (1795 - 1884), piispa, kirkkoherra. Oli mukana Perustamassa Suomalaisen' +
+  ' Kirjallisuuden Seuraa 1831. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3209" target="_blank">Kansallisbiografia</a>.',
+  'Doctor Frosterus': 'Robert Valentin Frosterus (1795 - 1884), piispa, kirkkoherra. Oli mukana Perustamassa Suomalaisen' +
+  ' Kirjallisuuden Seuraa 1831. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3209" target="_blank">Kansallisbiografia</a>.',
+  'Biskop Frosterus': 'Robert Valentin Frosterus (1795 - 1884), piispa, kirkkoherra. Oli mukana Perustamassa Suomalaisen' +
+  ' Kirjallisuuden Seuraa 1831. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3209" target="_blank">Kansallisbiografia</a>.',
+  'Prosten Frosterus': 'Robert Valentin Frosterus (1795 - 1884), piispa, kirkkoherra. Oli mukana Perustamassa Suomalaisen' +
+  ' Kirjallisuuden Seuraa 1831. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3209" target="_blank">Kansallisbiografia</a>.',
+  'Granlund': 'Johan Fredrik Granlund (1809 - 1874), kirjapainaja, kirjailija, kääntäjä. Vuosina 1864 - 1867 Granlund toimitti Lönnrotin' +
+  ' avustamaa <em>Tähti</em>-lehteä ja vuonna 1869 <em>Kristillisiä Sanomia</em>.',
+  'Heickell': 'Carl Heickell (1797 - 1876), pappi.',
+  'Gosman': 'Carl E. Gosman (s. 1807), Kajaanin postimestari.',
+  'Grot': 'Jakov Karlovits Grot (1812 - 1893), venäläinen tiedemies. Lönnrot tutustui Grotiin yliopiston riemujuhlan yhteydessä 1840.' +
+  'Grot otettiin Suomalaisen Kirjallisuuden Seuran jäseneksi. Teki Suomessa tunnetuksi venäläistä kirjallisuutta ja kulttuuria.',
+  'Forssell': 'M. Forssell, helsinkiläinen kauppias.',
+  'Anna Ingman': 'Anna Ingman (1851 - 1930), pianonsoiton opettaja, musiikkiarvostelija. Anna Ingman oli sisarensa Evan kanssa' +
+  ' Lönnrotin holhouksessa vuodesta 1858. Tyttöjen hoitajana toimi Amalia Perander.',
+  'Anna och Eva': 'Anna Ingman (1851 - 1930), pianonsoiton opettaja, musiikkiarvostelija. Eva Ingman (1853 - 1914), taidemaalari.' +
+  ' Anna Ingman oli sisarensa Evan kanssa Lönnrotin holhouksessa vuodesta 1858. Tyttöjen hoitajana toimi Amalia Perander.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3403" target="_blank">Kansallisbiografia</a>.',
+  'Eva Ingman': 'Eva Ingman (1853 - 1914), taidemaalari. Eva Ingman oli sisarensa Annan kanssa Lönnrotin holhouksessa vuodesta' +
+  ' 1858. Tyttöjen hoitajana toimi Amalia Perander.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3403" target="_blank">Kansallisbiografia</a>.',
+  'Erik Alexander Ingman': 'Erik Alexander Ingman (1810 - 1858), lääkäri, suomen kielen tutkija. Ingman oli Suomalaisen Kirjallisuuden' +
+  ' Seuran jäsen sen perustamisesta alkaen 1831. Ingman määräsi testamentissaan tyttärensä Annan ja Evan Lönnrotin holhoukseen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3493" target="_blank">Kansallisbiografia</a>.',
+  'Alexander Ingman': 'Erik Alexander Ingman (1810 - 1858), lääkäri, suomen kielen tutkija. Ingman oli Suomalaisen Kirjallisuuden' +
+  ' Seuran jäsen sen perustamisesta alkaen 1831. Ingman määräsi testamentissaan tyttärensä Annan ja Evan Lönnrotin holhoukseen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3493" target="_blank">Kansallisbiografia</a>.',
+  'Alex. Ingman': 'Erik Alexander Ingman (1810 - 1858), lääkäri, suomen kielen tutkija. Ingman oli Suomalaisen Kirjallisuuden' +
+  ' Seuran jäsen sen perustamisesta alkaen 1831. Ingman määräsi testamentissaan tyttärensä Annan ja Evan Lönnrotin holhoukseen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3493" target="_blank">Kansallisbiografia</a>.',
+  'Can\u00E7ellister Ingman': 'Erik Alexander Ingman (1810 - 1858), lääkäri, suomen kielen tutkija. Ingman oli Suomalaisen Kirjallisuuden' +
+  ' Seuran jäsen sen perustamisesta alkaen 1831. Ingman määräsi testamentissaan tyttärensä Annan ja Evan Lönnrotin holhoukseen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3493" target="_blank">Kansallisbiografia</a>.',
+  'E. A. Ingman': 'Erik Alexander Ingman (1810 - 1858), lääkäri, suomen kielen tutkija. Ingman oli Suomalaisen Kirjallisuuden' +
+  ' Seuran jäsen sen perustamisesta alkaen 1831. Ingman määräsi testamentissaan tyttärensä Annan ja Evan Lönnrotin holhoukseen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3493" target="_blank">Kansallisbiografia</a>.',
+  'Eric Alexander Ingman': 'Erik Alexander Ingman (1810 - 1858), lääkäri, suomen kielen tutkija. Ingman oli Suomalaisen Kirjallisuuden' +
+  ' Seuran jäsen sen perustamisesta alkaen 1831. Ingman määräsi testamentissaan tyttärensä Annan ja Evan Lönnrotin holhoukseen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3493" target="_blank">Kansallisbiografia</a>.',
+  'Lagervall': 'Jakob Fredrik Lagervall (1787 - 1865), kirjailija, majuri. Lagervallin tunnetuin näytelmä <em>Ruunulinna</em>' +
+  ' ilmestyi 1834. Kirjeissään Lönnrotille Lagervall puolusti suomen kielen murteellista käyttöä.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2909" target="_blank">Kansallisbiografia</a>.',
+  'Rektor Lagus': 'Jakob Johan Wilhelm Lagus (1821 - 1909), tiedemies, yliopiston rehtori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3519" target="_blank">Kansallisbiografia</a>.',
+  'Lagus Universitetets Rector': 'Jakob Johan Wilhelm Lagus (1821 - 1909), tiedemies, yliopiston rehtori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3519" target="_blank">Kansallisbiografia</a>.',
+  'prof. Lagus': 'Jakob Johan Wilhelm Lagus (1821 - 1909), tiedemies, yliopiston rehtori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3519" target="_blank">Kansallisbiografia</a>.',
+  'Prof. Lagus': 'Jakob Johan Wilhelm Lagus (1821 - 1909), tiedemies, yliopiston rehtori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3519" target="_blank">Kansallisbiografia</a>.',
+  'Wilh. Lagus': 'Jakob Johan Wilhelm Lagus (1821 - 1909), tiedemies, yliopiston rehtori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3519" target="_blank">Kansallisbiografia</a>.',
+  'prosten Lagus': 'Eliel Thiodolf Lagus (1833 - 1904), pappi.',
+  'Prosten Lagus': 'Eliel Thiodolf Lagus (1833 - 1904), pappi.',
+  'kyrkoherden Lagus': 'Eliel Thiodolf Lagus (1833 - 1904), pappi.',
+  'Hortling': 'Johan Hortling, nimismies.',
+  'Latyscheff': 'Ivan Vasiljevits Latyshev, ispravnikka eli poliisipäällikkö Venäjällä.',
+  'Latys\u00E7hev': 'Ivan Vasiljevits Latyshev, ispravnikka eli poliisipäällikkö Venäjällä.',
+  'Lavoniu': 'Alexander Lavonius (1802 - 1875), Oulun läänin kuvernööri.',
+  'Liljeblad': 'Jakob Fredrik Liljeblad (1809 - 1861), pappi.',
+  'Runeberg': 'Johan Ludvig Runeberg (1804 - 1877), runoilija, lehtori, professori. Suomen kansallisrunoilija, jonka' +
+  ' kirjallinen tuotanto, Lönnrotin <em>Kalevalan</em> rinnalla, loi ihannekuvan Suomesta ja suomalaisista.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2846" target="_blank">Kansallisbiografia</a>.',
+  'Fru Runeberg': 'Fredrika Charlotta Runeberg (1807 - 1879), kirjaiija. Johan Ludvig Runebergin puoliso, joka oli Z.' +
+  ' Topeliuksen ohella Suomen ensimmäisiä romaanikirjailijoita.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2845" target="_blank">Kansallisbiografia</a>.',
+  'Alopaeus': 'Carl Henrik Alopaeus (1825 - 1892), piispa, valtiopäivämies.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5836" target="_blank">Kansallisbiografia</a>.',
+  'Alop\u00E6us': 'Carl Henrik Alopaeus (1825 - 1892), piispa, valtiopäivämies.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5836" target="_blank">Kansallisbiografia</a>.',
+  'Ida': 'Ida Karolina Lönnrot (1855 - 1915), Lönnrotin tytär.',
+  'Thekla': 'Tekla Natalia Lönnrot (1860 - 1879), Lönnrotin tytär.',
+  'Tekla': 'Tekla Natalia Lönnrot (1860 - 1879), Lönnrotin tytär.',
+  'Maria': 'Maria Ulrika Lönnrot (1852 - 1874), Lönnrotin tytär.',
+}

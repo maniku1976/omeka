@@ -36,6 +36,7 @@ $(document).ready(function() {
       // key + ending includes 'Borg'
       var borg = ['Borgå','Borgm.','Borgmestar','Borgoensi','Borgmäst.','Borgmestarilla','Borgesmän'];
 
+      // Exceptions for certain strings appearing before or after key or key + ending forming certain strings
       if (key == 'Ilmoni' && !endings.includes(ending)) {
         str = key;
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {
@@ -66,6 +67,20 @@ $(document).ready(function() {
       } else if (key == 'Europaeus' && st_before.indexOf('Prosten') >= 0) {
         str = '';
       } else if (key == 'Lindfors' && (st_before.indexOf('Rector') >= 0 || st_before.indexOf('Conrector') >= 0)) {
+        str = '';
+      } else if (key == 'Elfving' && st_before.indexOf('Axel') >= 0) {
+        str = '';
+      } else if (key == 'Korhonen' && st_before.indexOf('Elsa') >= 0) {
+        str = '';
+      } else if (key == 'Flander' && (st_before.indexOf('Fr.') >= 0 || st_before.indexOf('Stud.') >= 0)) {
+        str = '';
+      } else if (key == 'Runeberg' && st_before.indexOf('Fru') >= 0) {
+        str = '';
+      } else if (key == 'Ida' && st_after.indexOf('Roos') >= 0) {
+        str = '';
+      } else if (key == 'Maria' && (st_after.indexOf('Holm') >= 0 || st_after.indexOf('Nissinen') >= 0
+        || st_after.indexOf('Tervonen') >= 0 || st_after.indexOf('Piponius') >= 0 || st_after.indexOf('Pipponius') >= 0
+        || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.IndexOf('Elfving, ') >= 0)) {
         str = '';
       } else {
         str = key + ending;
