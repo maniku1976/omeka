@@ -33,8 +33,11 @@ $(document).ready(function() {
       var st_before = $('.textFrame').text().substring(first-15, first);
       var st_after = $('.textFrame').text().substring(first, first+15);
 
-      // key + ending includes 'Borg'
+      // key + ending, exceptions for 'Borg'
       var borg = ['Borgå','Borgm.','Borgmestar','Borgoensi','Borgmäst.','Borgmestarilla','Borgesmän'];
+
+      // key + ending, exceptions for 'Frans'
+      var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna'];
 
       // Exceptions for certain strings appearing before or after key or key + ending forming certain strings
       if (key == 'Ilmoni' && !endings.includes(ending)) {
@@ -81,6 +84,20 @@ $(document).ready(function() {
       } else if (key == 'Maria' && (st_after.indexOf('Holm') >= 0 || st_after.indexOf('Nissinen') >= 0
         || st_after.indexOf('Tervonen') >= 0 || st_after.indexOf('Piponius') >= 0 || st_after.indexOf('Pipponius') >= 0
         || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.IndexOf('Elfving, ') >= 0)) {
+        str = '';
+      } else if (key == 'Frans' && (frans.includes(key + ending) || st_after.indexOf('J. Rabbe') >= 0 || st_after.indexOf('Johan Rabbe') >= 0
+        || st_after.indexOf('och Atte') >= 0 || st_after.indexOf('Munkin') >= 0 || st_after.indexOf('Muck') >= 0
+        || st_after.indexOf('Becker') >= 0)) {
+        str = '';
+      } else if (key == 'Lagi' && st_before.indexOf('Prostinnan') >= 0) {
+        str = '';
+      } else if (key == 'Mellin' && (st_before.indexOf('Fru') >= 0 || st_before.indexOf('Mamsell') >= 0 || st_before.indexOf('Robert') >= 0)) {
+        str = '';
+      } else if (key == 'Friman' && st_before.indexOf('Skolläraren') >= 0) {
+        str = '';
+      } else if (key == 'Thauvon' && (st_before.indexOf('Fru') >= 0 || st_before.indexOf('Augusta') >= 0 || st_before.indexOf('Augusta Sophia') >= 0)) {
+        str = '';
+      } else if (key == 'Porthan' && key + ending == 'Porthansmonumentet') {
         str = '';
       } else {
         str = key + ending;

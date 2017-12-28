@@ -406,4 +406,92 @@ var comments = {
   'Thekla': 'Tekla Natalia Lönnrot (1860 - 1879), Lönnrotin tytär.',
   'Tekla': 'Tekla Natalia Lönnrot (1860 - 1879), Lönnrotin tytär.',
   'Maria': 'Maria Ulrika Lönnrot (1852 - 1874), Lönnrotin tytär.',
+  'Maria Piponius': 'Maria Lönnrot (Piponius) (1823 - 1868), Lönnrotin vaimo.',
+  'Maria Pipponius': 'Maria Lönnrot (Piponius) (1823 - 1868), Lönnrotin vaimo.',
+  'Frans': 'Frans Fredrik Lönnrot (1830 - 1907), pappi. Lönnrotin veljen, Henrik Johan Lönnrotin poika.',
+  'Gabriel': 'Gabriel Martin Lönnrot (1805 - 1876), Lönnrotin veli, "Kaappa".',
+  'Henric Johan': 'Henrik Johan Lönnrot (1793 - 1838), räätäli. Lönnrotin veli, sisaruksista vanhin.',
+  'Henri\u00E7 Johan': 'Henrik Johan Lönnrot (1793 - 1838), räätäli. Lönnrotin veli, sisaruksista vanhin.',
+  'Jurva': 'Karl Adolf Jurva, opettaja Sammatissa vuodet 1866 - 1872.',
+  'Anthoni': 'Berndt Johan Anthoni (1833 - 1905), Karjalohjan kirkkoherra.',
+  'Lagi': 'Rudolf Teodor Lagi (1823 - 1868), urkuri, opettaja. Lagi kuului virsikirjakomiteaan ja teki Lönnrotin kanssa' +
+  ' yhteistyötä <em>Kantelettaren</em> nuottiliitteen kanssa.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/6181" target="_blank">Kansallisbiografia</a>.',
+  'Hirvo': 'Johannes Wilhelm Hirvonen (1850 - 1883). Toimi Sammatissa Karl Adolf Jurvan jälkeen kansakoulunopettajana' +
+  ' 1872 - 1873, mutta siirtyi Edlundin kirjakauppaan Helsinkiin. Julkaisi hengellisiä virsiä kokoelmassa' +
+  ' <em>Halleluja! Hengellisiä lauluja 1872 - 1878</em>.',
+  'Maconi': 'Peter Henric Maconi (1795 - 1850), piirilääkäri Sortavalassa.',
+  'Ma\u00E7oni': 'Peter Henric Maconi (1795 - 1850), piirilääkäri Sortavalassa.',
+  'Meurman': 'Otto Adolf Daniel Meurman (1817 - 1850), protokollasihteeri.',
+  'Rosenplänter': 'Johann Heinrich Rosenplänter (1782 - 1846), baltiansaksalainen pappi, kielitieteilijä, kirjailija.' +
+  ' Toimi vuodesta 1809 Pärnun virolaisen seurakunnan pappina.',
+  'Montgomer': 'Edvard Montgomery (1793 - 1857), postimestari.',
+  'Wirzén': 'Johan Ernest Adhemar Wirzén (1812 - 1857), lääkäri, pappi.',
+  'Wirzen': 'Johan Ernest Adhemar Wirzén (1812 - 1857), lääkäri, pappi.',
+  'Mellin': 'Jonas Mellin (1784 - 1850), pappi, Ristijärven kappalainen.',
+  'Fabritiu': 'Erik Wilhelm Fabritius (1782 - 1850), Oulun postitarkastaja.',
+  'unga Ervast': 'Petter Ervast (1814 - 1857), piirilääkäri Kajaanissa Lönnrotin jälkeen 1854.',
+  'Joh. Henr. Ervast': 'Petter Ervast (1814 - 1857), piirilääkäri Kajaanissa Lönnrotin jälkeen 1854.',
+  'D:r Ervast': 'Petter Ervast (1814 - 1857), piirilääkäri Kajaanissa Lönnrotin jälkeen 1854.',
+  'Schildt': 'Wolmar Styrbjörn Schildt (Kilpinen, 1810 - 1893), Jyväskylän piirilääkäri, suomalaisuusmies.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2847" target="_blank">Kansallisbiografia</a>.',
+  'Kilpinen': 'Wolmar Styrbjörn Schildt (Kilpinen, 1810 - 1893), Jyväskylän piirilääkäri, suomalaisuusmies.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2847" target="_blank">Kansallisbiografia</a>.',
+  'Fählmann': 'Friedrich Robert Faehlmann (1798 - 1850), virolainen lääkäri, kielitieteilijä. Perusti' +
+  ' Kreutzwaldin kanssa Viron oppineiden seuran. Keräsi <em>Kalevalan</em> innoittamana kansanrunoja.',
+  'Faehlmann': 'Friedrich Robert Faehlmann (1798 - 1850), virolainen lääkäri, kielitieteilijä. Perusti' +
+  ' Kreutzwaldin kanssa Viron oppineiden seuran. Keräsi <em>Kalevalan</em> innoittamana kansanrunoja.',
+  'Zitting': 'Joachim Zitting (1806 - 1876), Kreikan kirjallisuuden lehtori Kuopiossa.',
+  'Frenckell': 'Johan Christoffer Frenckell (1789 - 1844), kustantaja.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5788" target="_blank">Kansallisbiografia</a>.',
+  'Fren\u00E7kell': 'Johan Christoffer Frenckell (1789 - 1844), kustantaja.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5788" target="_blank">Kansallisbiografia</a>.',
+  'Frenkkell': 'Johan Christoffer Frenckell (1789 - 1844), kustantaja.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5788" target="_blank">Kansallisbiografia</a>.',
+  'Fellman': 'Jakob Fellman (1795 - 1875), pappi, tiedemies. Keräsi saamelaista kansanperinnettä ja kokosi' +
+  ' ensimmäisen saamenkielisen aapisen.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4435" target="_blank">Kansallisbiografia</a>.',
+  'Friman': 'Johan Alexander Friman (1819 - 1875), piirilääkäri.',
+  'Boreniu': 'Aksel August Borenius (Lähteenkorva, 1846 - 1931), kansanrunoudentutkija ja -kerääjä. Toimi' +
+  ' Suomalaisen Kirjallisuuden Seuran kirjaston hoitajana 1876 - 1879 sekä vuodesta 1879 kansakoulujen ylitarkastajana.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4466" target="_blank">Kansallisbiografia</a>.',
+  'A. Durchman': 'Anders Durchman (1815 - 1857), Kajaanin pormestari.',
+  'Borgmestar Durchman': 'Anders Durchman (1815 - 1857), Kajaanin pormestari.',
+  'Borgmestaren Durchman': 'Anders Durchman (1815 - 1857), Kajaanin pormestari.',
+  'Landzett': 'Clem Landzett, Lohjan postitoimiston hoitaja.',
+  'C. A. Lilius': 'Karl Adolf Lilius (1811 - 1868), pappi.',
+  'Pastor Lilius': 'Karl Adolf Lilius (1811 - 1868), pappi.',
+  'Pastoren Lilius': 'Karl Adolf Lilius (1811 - 1868), pappi.',
+  'Kapellänen Lilius': 'Karl Adolf Lilius (1811 - 1868), pappi.',
+  'Lindström': 'Knut Legat Lindström (1809 - 1879), rehtori, virsikirjakomitean jäsen.',
+  'Neovius': 'Anders Fabian Neovius (1793 - 1854), pappi. Toimi Pielaveden kirkkoherrana 1830 - 1854.',
+  'Planting': 'Konrad Planting (1800 - 1876), nimismies.',
+  'Savolin': 'Emil Joakim Savolin (1846 - 1919), pappi. Avusti Lönnrotia sanakirjatyössä.',
+  'Saxa': 'Carl Saxa (1796 - 1849), pappi, suomentaja. Toimi <em>Oulun Wiikko-Sanomien</em> ja <em>Mehiläisen</em> avustajana.',
+  'Sirén': 'Carl Wilhelm Sirén (1795 - 1866), pappi.',
+  'Siren': 'Carl Wilhelm Sirén (1795 - 1866), pappi.',
+  'Skogman': 'Daniel Johan Skogman (1792 - 1878), oululainen apteekkari.',
+  'Strömborg': 'Johan Elias Strömborg (1833 - 1900), opettaja, Runeberg-tutkija.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2951" target="_blank">Kansallisbiografia</a>.',
+  'Strömberg': 'Johan Otto Strömberg (1812 - 1900), lääkäri.',
+  'Thauvon': 'Johan Fredrik Thauvon (1828 - 1918), pappi.',
+  'Thuneberg': 'Bengt Adolf Thuneberg (1806 - 1873), kirjakauppias, kustantaja.',
+  'Thunberg': 'Bengt Adolf Thuneberg (1806 - 1873), kirjakauppias, kustantaja.',
+  'Tikka': 'Paavo Tikkanen (1823 - 1873), lehtimies. Toimi <em>Suomettaren</em> päätoimittajana.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2959" target="_blank">Kansallisbiografia</a>.',
+  'Toppelius': 'Gustaf Toppelius (1786 - 1864), oululainen lääkäri.',
+  'Z. Topelius': 'Zacharias Topelius nuorempi (1818 - 1899), kirjailija, toimittaja, historian professori.' +
+  ' Tunnetaan myös "satusetänä", sillä kirjoitti opettavaisia ja suosittuja lastensatuja. Topeliuksen tunnetuimpia' +
+  ' teoksia ovat aluksi jatkokertomuksena <em>Helsingfors Tidningarissa</em> ilmestynyt <em>Välskärin kertomuksia</em>' +
+  ' ja <em>Maamme kirja</em> (1875). <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2854" target="_blank">Kansallisbiografia</a>.',
+  'Törnegren': 'Carl Wilhelm Törnegren (1817 - 1860), Helsingin yliopiston kirjastonhoitaja ja oppihistorian professori.' +
+  ' Lönnrotin oppilapsi Laukon kartanossa.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3670" target="_blank">Kansallisbiografia</a>.',
+  'Zetterqvist': 'Carl Gustaf Zetterqvist (1816 - 1902), ruotsalainen konsulaatinsihteeri ja kirjanpitäjä. Keräsi' +
+  ' käännöksiä runosta <em>Jos mun tuttuni tulisi</em>.',
+  'Porthan': 'Henrik Gabriel Porthan (1739 - 1804), historiantutkija, kaunopuheisuuden professori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2599" target="_blank">Kansallisbiografia</a>.',
+  'Herman Carger': 'Johan Herman Carger (1766 - 1832), Oulun piirilääkäri 1817 - 1832.',
+  'Saxbäck': 'Gustaf Adolf Saxbäck (1805 - 1877), pappi, virsirunoilija.',
+  'Hisinger': 'C. A. Hisinger (1816 - 1902), luonnonsuojelija.'
 }
