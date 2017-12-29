@@ -99,6 +99,8 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Porthan' && key + ending == 'Porthansmonumentet') {
         str = '';
+      } else if (key == 'Morgonbladet' && st_before.indexOf('Helsingfors') >= 0) {
+        str = '';
       } else {
         str = key + ending;
       }

@@ -19655,3 +19655,9 @@ convert: no images defined `/tmp/fullsize_6830bbdcfe219f4eb9943ed21a6910a2.jpg' 
 convert: no images defined `/tmp/fullsize_c2895bafce20da0d454b65e3817785ab.jpg' @ error/convert.c/ConvertImageCommand/3241.
 
 2017-10-23T13:07:16+00:00 ERR (3): ImageMagick failed with status code 1.
+2017-12-29T07:48:11+00:00 WARN (4): Error output from ImageMagick:
+convert: negative or zero image size `/tmp/fc1e7f0ad60c5e7031d79292e8676940.xml' @ error/image.c/SetImageExtent/2601.
+convert: no decode delegate for this image format `/tmp/fc1e7f0ad60c5e7031d79292e8676940.xml' @ error/svg.c/ReadSVGImage/3067.
+convert: no images defined `/tmp/fullsize_fc1e7f0ad60c5e7031d79292e8676940.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2017-12-29T07:48:11+00:00 ERR (3): ImageMagick failed with status code 1.
