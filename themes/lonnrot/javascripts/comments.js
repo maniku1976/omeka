@@ -566,5 +566,6 @@ var comments = {
   'Litteratur Tidning': '<em>Allmän Litteratur-Tidning</em>. Turussa vuonna 1803 ilmestynyt ruotsinkielinen aikakauslehti.',
   'Åbo Tidning': 'Turussa vuosina 1882 - 1906 ilmestynyt ruotsinkielinen sanomalehti.',
   'Suomen lähetyssanomia': 'Suomen vanhinta yhtäjaksoisesti ilmestynyttä aikakauslehteä alettiin julkaista vuonna 1859.',
-  'Lähet. Sanomia': '<em>Suomen lähetyssanomia</em>. Suomen vanhinta yhtäjaksoisesti ilmestynyttä aikakauslehteä alettiin julkaista vuonna 1859.'
+  'Lähet. Sanomia': '<em>Suomen lähetyssanomia</em>. Suomen vanhinta yhtäjaksoisesti ilmestynyttä aikakauslehteä alettiin julkaista vuonna 1859.',
+  'Nuorukainen': 'Kuukausilehti.'
 }
