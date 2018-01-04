@@ -88,7 +88,7 @@ class SolrSearch_Helpers_Index
         // For Date facet, replace individual years with decades
         } else if ($field->label == 'Date') {
           if (substr($text->text,0,3) === '182') {
-            $text->text = str_replace($text->text, '1826 - 1829', $text->text);
+            $text->text = str_replace($text->text, '1823 - 1829', $text->text);
           } else if (substr($text->text,0,3) === '183') {
             $text->text = str_replace($text->text, '1830 - 1839', $text->text);
           } else if (substr($text->text,0,3) === '184') {

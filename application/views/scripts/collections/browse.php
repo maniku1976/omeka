@@ -467,6 +467,12 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Törmänen, Carl Edvard":
             $years = '1872 - 1873';
             break;
+          case "Lönnrot &gt; Föreningen för värnlösa barns uppfostran":
+            $years = '1870 - 1874';
+            break;
+          case "Lönnrot &gt; Bergenheim, Edvard":
+            $years = '1863 - 1870';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
