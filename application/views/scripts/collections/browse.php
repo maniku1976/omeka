@@ -164,6 +164,9 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Runeberg, Johan Ludvig":
             $years = '1833 - 1838';
             break;
+          case "Lönnrot &gt; Runeberg, Fredrika Charlotta":
+            $years = '1833 - 1838';
+            break;
           case "Lönnrot &gt; Törnegren, Carl Wilhelm":
             $years = '1824 - 1858';
             break;
