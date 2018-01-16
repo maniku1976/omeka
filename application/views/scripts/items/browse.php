@@ -138,3 +138,4 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
 <?php fire_plugin_hook('public_items_browse', array('items'=>$items, 'view' => $this)); ?>
 
 <?php echo foot(); ?>
+<script type="text/javascript" src="//eu1.snoobi.com/snoop.php?tili=codicesfennici_fi"></script>

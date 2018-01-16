@@ -99,6 +99,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
 </nav>
 
 <?php echo foot(); ?>
+<script type="text/javascript" src="//eu1.snoobi.com/snoop.php?tili=codicesfennici_fi"></script>
 
 <!-- The following prints a citation for this item. -->
 <!--<div id="item-citation" class="element">
