@@ -41,20 +41,20 @@
         <!-- Translations for applied facet labels (language files) -->
         <?php switch ($label) {
           case "Collection":
-            $label = __('Collection');
-            break;
+          $label = __('Collection');
+          break;
           case "Type":
-            $label = __('Type');
-            break;
+          $label = __('Type');
+          break;
           case "Language":
-            $label = __('Language');
-            break;
+          $label = __('Language');
+          break;
           case "XML File":
-            $label = __('Sent from');
-            break;
+          $label = __('Sent from');
+          break;
           case "Date":
-            $label = __('Date');
-            break;
+          $label = __('Date');
+          break;
 
         }
         $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
@@ -104,20 +104,20 @@
       <!-- Translations for labels in facet list (language files) -->
       <?php switch ($label) {
         case "Collection":
-          $label = __('Collection');
-          break;
+        $label = __('Collection');
+        break;
         case "Type":
-          $label = __('Type');
-          break;
+        $label = __('Type');
+        break;
         case "Language":
-          $label = __('Language');
-          break;
+        $label = __('Language');
+        break;
         case "XML File":
-          $label = __('Sent from');
-          break;
+        $label = __('Sent from');
+        break;
         case "Date":
-          $label = __('Date');
-          break;
+        $label = __('Date');
+        break;
       }
       ?>
 
@@ -141,9 +141,9 @@
               }
               ?>
               <?php
-                $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
-                $value = str_replace('kirjekonsepti', __('draft letter'), $value);
-                $value = str_replace('kirje', __('letter'), $value);
+              $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
+              $value = str_replace('kirjekonsepti', __('draft letter'), $value);
+              $value = str_replace('kirje', __('letter'), $value);
               ?>
               <?php echo $value; ?>
             </a>
@@ -152,17 +152,17 @@
             (<span class="facet-count"><?php echo $count; ?></span>)
 
           </li>
-          <?php endforeach; ?>
-        </ul>
+        <?php endforeach; ?>
+      </ul>
 
-      <?php endif; ?>
+    <?php endif; ?>
 
-    <?php endforeach; ?>
-  </div>
+  <?php endforeach; ?>
+</div>
 
-  <!-- Results. -->
-  <div id="solr-results">
-    <p>
+<!-- Results. -->
+<div id="solr-results">
+  <p>
     <!-- Number found. -->
     <h2 id="num-found">
       <?php echo __('Letters found: %s', $results->response->numFound); ?>
@@ -262,6 +262,12 @@
                     break;
                     case "75_t":
                     $prop = __('Recipient');
+                    break;
+                    case "47_t":
+                    $prop = __('Rights');
+                    break;
+                    case "48_t":
+                    $prop = __('Source');
                     break;
                   }
                   if ($prop != __('Text')) {
