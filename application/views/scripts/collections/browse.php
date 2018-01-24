@@ -21,7 +21,8 @@ $sortLinks[__('Date Added')] = 'added';
 
     <div class="collection">
 
-      <!-- Link to separate collection page replaced with link to items in the collection; variable for correspondence years -->
+      <!-- Link to separate collection page replaced with link to items in the collection; variable for correspondence years,
+      value depends on collection title -->
       <h2 style="padding-bottom: 0.5em;">
         <?php $title = metadata('collection', array('Dublin Core', 'Title'));
         $years = '';
@@ -493,6 +494,9 @@ $sortLinks[__('Date Added')] = 'added';
             break;
           case "Lönnrot &gt; Törngren, Johan Agapetus":
             $years = '1833 - 1836';
+            break;
+          case "Lönnrot &gt; Yliopiston rehtori":
+            $years = '1828 - 1832';
             break;
         }
         ?>
