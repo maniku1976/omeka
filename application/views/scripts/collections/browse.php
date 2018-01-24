@@ -491,10 +491,13 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Willebrand von, Knut Felix":
             $years = '1839 - 1869';
             break;
+          case "Lönnrot &gt; Törngren, Johan Agapetus":
+            $years = '1833 - 1836';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
-        <?php $count = metadata($collection, 'total_items');  
+        <?php $count = metadata($collection, 'total_items');
         /* Show number of letters and correspondence years for each collection */
         /*echo __('(%1$s letters, %2$s)', $count, $years);*/
         ?>
