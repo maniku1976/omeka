@@ -34,7 +34,7 @@ $(document).ready(function() {
       var st_after = $('.textFrame').text().substring(first, first+15);
 
       // key + ending, exceptions for 'Borg'
-      var borg = ['Borgå','Borgm.','Borgmestar','Borgoensi','Borgmäst.','Borgmestarilla','Borgesmän'];
+      var borg = ['Borgå','Borgm.','Borgmestar','Borgmestare','Borgoensi','Borgmäst.','Borgmestarilla','Borgesmän'];
 
       // key + ending, exceptions for 'Frans'
       var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna'];
