@@ -32,3 +32,4 @@ echo head(array(
 </div>
 
 <?php echo foot(); ?>
+<script type="text/javascript" src="//eu1.snoobi.com/snoop.php?tili=codicesfennici_fi"></script>
