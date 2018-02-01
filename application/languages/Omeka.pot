@@ -4114,6 +4114,12 @@ msgstr ""
 msgid "Lists of recipients"
 msgstr ""
 
+msgid "Lönnrot &gt; Newspapers and Magazines"
+msgstr ""
+
+msgid "Lönnrot &gt; Finnish Literature Society"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr ""
 

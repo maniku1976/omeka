@@ -498,6 +498,17 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Yliopiston rehtori":
             $years = '1828 - 1832';
             break;
+          case "Lönnrot &gt; Finnish Literature Society":
+            $years = '1831 - 1880';
+            break;
+          case "Lönnrot &gt; Suomalaisen Kirjallisuuden Seura":
+            $years = '1831 - 1880';
+            break;
+          case "Lönnrot &gt; Finska Litteratursällskapet":
+            $years = '1831 - 1880';
+            break;
+
+
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>

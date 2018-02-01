@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: omeka-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-11-22 11:00+0200\n"
-"PO-Revision-Date: 2017-11-22 11:01+0200\n"
+"POT-Creation-Date: 2018-02-01 09:24+0200\n"
+"PO-Revision-Date: 2018-02-01 09:31+0200\n"
 "Last-Translator: Maria Niku <maria.niku@gmail.com>\n"
 "Language-Team: Swedish (Sweden) (http://www.transifex.com/omeka/omeka/"
 "language/sv_SE/)\n"
@@ -4241,6 +4241,12 @@ msgstr "Lilla samlingar"
 
 msgid "Lists of recipients"
 msgstr "Mottagarelistor"
+
+msgid "Lönnrot &gt; Newspapers and Magazines"
+msgstr "Lönnrot &gt; Tidningar och tidskrifter"
+
+msgid "Lönnrot &gt; Finnish Literature Society"
+msgstr "Lönnrot &gt; Finska Litteratursällskapet"
 
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr "Lönnrots brev till Carl Axel Gottlund"
