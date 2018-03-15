@@ -313,7 +313,7 @@ var comments = {
   'pastor Cygnaeus': 'Uno Cygnaeus (1810 - 1888), kansakoulujen ylitarkastaja, pappi. Tunnetaan Suomen kansakoulun isänä.',
   'Edlund': 'Gustaf Wilhelm Edlund (1829 - 1907), kustantaja, kirjakauppias.',
   'Elfving': 'Johan Fredrik Elfving (1801 - 1891), lääkäri. Lönnrotin opiskelutoveri. Lönnrotin kirjeiden "Major", "Majori".',
-  'Essen': 'Carl Gustav von Essen (1815 - 1895), tiedemies, pappi. Kuului virsikirjakomiteaan ja tutki virsiä yhdessä' +
+  'Essen': 'Carl Gustav von Essen (1815 - 1895), käytännöllisen teologian professori, pappi. Kuului virsikirjakomiteaan ja tutki virsiä yhdessä' +
   ' Lönnrotin kanssa. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3186" target="_blank">Kansallisbiografia</a>.',
   'Flander': 'Carl Peter Flander (1806 - 1887), asessori Paltamossa.',
   'Böningh': 'Gustav Friedrich von Böningh (1806 - 1891), virolainen konsuli.',

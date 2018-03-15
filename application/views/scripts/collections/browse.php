@@ -507,8 +507,27 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Finska Litteratursällskapet":
             $years = '1831 - 1880';
             break;
-
-
+          case "Lönnrot &gt; Aschans Bokhandel":
+            $years = '1849 - 1850';
+            break;
+          case "Lönnrot &gt; Forsström, Carl Johan":
+            $years = '1853';
+            break;
+          case "Lönnrot &gt; Lagerborg, Robert Wilhelm":
+            $years = '1833 - 1840';
+            break;
+          case "Lönnrot &gt; Monell, Gregor":
+            $years = '1855 - 1882';
+            break;
+          case "Lönnrot &gt; Piponius, Jakobina":
+            $years = '1849 - 1850';
+            break;
+          case "Lönnrot &gt; Rafn, Carl Christian":
+            $years = '1834 - 1842';
+            break;
+          case "Lönnrot &gt; Durchman, Anders":
+            $years = '1833 - 1850';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>

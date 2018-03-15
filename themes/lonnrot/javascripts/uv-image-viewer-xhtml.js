@@ -34,7 +34,7 @@ $(document).ready(function() {
       var st_after = $('.textFrame').text().substring(first, first+15);
 
       // key + ending, exceptions for 'Borg'
-      var borg = ['Borgå','Borgm.','Borgmestar','Borgmestare','Borgoensi','Borgmäst.','Borgmestarilla','Borgesmän'];
+      var borg = ['Borgå','Borgm','Borgmestar','Borgmestare','Borgmestaren','Borgoensi','Borgmäst','Borgmestarilla','Borgesmän'];
 
       // key + ending, exceptions for 'Frans'
       var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna'];
@@ -53,7 +53,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Zachris') >= 0 || st_before.indexOf('Länsman') >= 0
-        || st_before.indexOf('OrdensLedam. M.') >= 0)) {
+        || st_before.indexOf('Ledam. M.') >= 0)) {
         str = '';
       } else if (key == 'Roos' && (st_before.indexOf('A. J.') >= 0 || st_before.indexOf('Höfdingan') >= 0
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0 || st_before.indexOf('Ida') >= 0)) {
@@ -69,13 +69,13 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Europaeus' && st_before.indexOf('Prosten') >= 0) {
         str = '';
-      } else if (key == 'Lindfors' && (st_before.indexOf('Rector') >= 0 || st_before.indexOf('Conrector') >= 0)) {
+      } else if (key == 'Lindfors' && (st_before.indexOf('Rector') >= 0 || st_before.indexOf('Conrector') >= 0 || st_before.indexOf('Phil') >= 0)) {
         str = '';
       } else if (key == 'Elfving' && st_before.indexOf('Axel') >= 0) {
         str = '';
       } else if (key == 'Korhonen' && st_before.indexOf('Elsa') >= 0) {
         str = '';
-      } else if (key == 'Flander' && (st_before.indexOf('Fr.') >= 0 || st_before.indexOf('Stud.') >= 0)) {
+      } else if (key == 'Flander' && (st_before.indexOf('Fr.') >= 0 || st_before.indexOf('Stud.') >= 0 || st_before.indexOf('Borgm') >= 0)) {
         str = '';
       } else if (key == 'Runeberg' && st_before.indexOf('Fru') >= 0) {
         str = '';
@@ -100,6 +100,10 @@ $(document).ready(function() {
       } else if (key == 'Porthan' && key + ending == 'Porthansmonumentet') {
         str = '';
       } else if (key == 'Morgonbladet' && st_before.indexOf('Helsingfors') >= 0) {
+        str = '';
+      } else if (key == 'Tähti' && st_after.indexOf('taivahi') >= 0) {
+        str = '';
+      } else if (key == 'Lindström' && key + ending == 'Lindströmar') {
         str = '';
       } else {
         str = key + ending;
