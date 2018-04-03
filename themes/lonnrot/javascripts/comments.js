@@ -303,7 +303,7 @@ var comments = {
   'Kyrkoherden Aejmelaeus': 'Carl Aejmelaeus (1796 - 1870), Pyhäjoen kirkkoherra',
   'Bjugg': 'Lorenz Johan Bjugg (1768 - 1839), apteekkari. Toimi Hämeenlinnan apteekkarina vuodesta 1795.' +
   ' Lönnrot oli Bjuggin apteekkioppilas.',
-  'Bäckvall': 'Johan Bäckvall (1817 - 1883), pappi. Oli mukana <em>Mehiläisen</em> ja <em>Oulun Wiikko-Sanomien' +
+  'Bäckvall': 'Johan Bäckvall (1817 - 1883), pappi. Oli mukana <em>Mehiläisen</em> ja <em>Oulun Wiikko-Sanomien</em>' +
   ' toimitustyössä. Bäckvall avusti myös Lönnrotin sanakirjatyötä.',
   'Cannelin': 'Gustaf Cannelin (1815 - 1885), lehtori, rovasti. Avusti Lönnrotia sanakirjatyössä.',
   'Claës Collan': 'Claës Collan (1816 - 1901), pappi, opettaja.',
