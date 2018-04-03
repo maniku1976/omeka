@@ -83,7 +83,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Maria' && (st_after.indexOf('Holm') >= 0 || st_after.indexOf('Nissinen') >= 0
         || st_after.indexOf('Tervonen') >= 0 || st_after.indexOf('Piponius') >= 0 || st_after.indexOf('Pipponius') >= 0
-        || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.IndexOf('Elfving, ') >= 0)) {
+        || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.indexOf('Elfving, ') >= 0)) {
         str = '';
       } else if (key == 'Frans' && (frans.includes(key + ending) || st_after.indexOf('J. Rabbe') >= 0 || st_after.indexOf('Johan Rabbe') >= 0
         || st_after.indexOf('och Atte') >= 0 || st_after.indexOf('Munkin') >= 0 || st_after.indexOf('Muck') >= 0
