@@ -59,7 +59,8 @@ $(document).ready(function() {
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0 || st_before.indexOf('Ida') >= 0)) {
         str = '';
       } else if (key == 'Ståhlberg' && (st_before.indexOf('F. A.') >= 0 || st_before.indexOf('Länsman') >= 0
-        || st_before.indexOf('Kronof') >= 0 || st_before.indexOf('J. G.') >= 0)) {
+        || st_before.indexOf('Kronof') >= 0 || st_before.indexOf('J. G.') >= 0 || st_before.indexOf('C. B.') >= 0
+        || st_before.indexOf('C.B.') >= 0)) {
         str = '';
       } else if (key == 'Ticklén' && (st_before.indexOf('Pehr') >= 0 || st_before.indexOf('Prosten') >= 0
         || st_before.indexOf('G.') >= 0)) {
