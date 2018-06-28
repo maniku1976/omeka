@@ -4120,6 +4120,9 @@ msgstr ""
 msgid "Lönnrot &gt; Finnish Literature Society"
 msgstr ""
 
+msgid "Lönnrot &gt; University rector"
+msgstr ""
+
 msgid "Letters sent by Lönnrot to Carl Axel Gottlund"
 msgstr ""
 

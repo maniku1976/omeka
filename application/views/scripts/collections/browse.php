@@ -528,6 +528,18 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Durchman, Anders":
             $years = '1833 - 1850';
             break;
+          case "Lönnrot &gt; University rector":
+            $years = '1828 - 1832';
+            break;
+          case "Lönnrot &gt; Kejserliga Finska Hushållningssällskapet i Åbo":
+            $years = '1857 - 1859';
+            break;
+          case "Lönnrot &gt; Malmström, Karl-Robert":
+            $years = '1872 - 1875';
+            break;
+          case "Lönnrot &gt; Jalava, Antti":
+            $years = '1873';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
