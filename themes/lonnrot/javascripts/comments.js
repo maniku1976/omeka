@@ -335,7 +335,10 @@ var comments = {
   'Gosman': 'Carl E. Gosman (s. 1807), Kajaanin postimestari.',
   'Grot': 'Jakov Karlovits Grot (1812 - 1893), venäläinen tiedemies. Lönnrot tutustui Grotiin yliopiston riemujuhlan yhteydessä 1840.' +
   'Grot otettiin Suomalaisen Kirjallisuuden Seuran jäseneksi. Teki Suomessa tunnetuksi venäläistä kirjallisuutta ja kulttuuria.',
-  'Forssell': 'M. Forssell, helsinkiläinen kauppias.',
+  'Handlanden Forssell': 'M. Forssell, helsinkiläinen kauppias.',
+  'Handl. Forssell': 'M. Forssell, helsinkiläinen kauppias.',
+  'Handl. M. Forssell': 'M. Forssell, helsinkiläinen kauppias.',
+  'Kauppamies Forssell': 'M. Forssell, helsinkiläinen kauppias.',
   'Anna Ingman': 'Anna Ingman (1851 - 1930), pianonsoiton opettaja, musiikkiarvostelija. Anna Ingman oli sisarensa Evan kanssa' +
   ' Lönnrotin holhouksessa vuodesta 1858. Tyttöjen hoitajana toimi Amalia Perander.',
   'Anna och Eva': 'Anna Ingman (1851 - 1930), pianonsoiton opettaja, musiikkiarvostelija. Eva Ingman (1853 - 1914), taidemaalari.' +
@@ -400,7 +403,9 @@ var comments = {
   'Maria Piponius': 'Maria Lönnrot (Piponius) (1823 - 1868), Lönnrotin vaimo.',
   'Maria Pipponius': 'Maria Lönnrot (Piponius) (1823 - 1868), Lönnrotin vaimo.',
   'Frans': 'Frans Fredrik Lönnrot (1830 - 1907), pappi. Lönnrotin veljen, Henrik Johan Lönnrotin poika.',
-  'Gabriel': 'Gabriel Martin Lönnrot (1805 - 1876), Lönnrotin veli, "Kaappa".',
+  'Gabriel Martin Lönnrot': 'Gabriel Martin Lönnrot (1805 - 1876), Lönnrotin veli, "Kaappa".',
+  'Gabriel Lönnrot': 'Gabriel Martin Lönnrot (1805 - 1876), Lönnrotin veli, "Kaappa".',
+  'G. M. Lönnrot': 'Gabriel Martin Lönnrot (1805 - 1876), Lönnrotin veli, "Kaappa".',
   'Henric Johan': 'Henrik Johan Lönnrot (1793 - 1838), räätäli. Lönnrotin veli, sisaruksista vanhin.',
   'Henri\u00E7 Johan': 'Henrik Johan Lönnrot (1793 - 1838), räätäli. Lönnrotin veli, sisaruksista vanhin.',
   'Jurva': 'Karl Adolf Jurva, opettaja Sammatissa vuodet 1866 - 1872.',
