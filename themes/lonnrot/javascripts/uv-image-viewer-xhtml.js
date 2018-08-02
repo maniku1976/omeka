@@ -41,7 +41,7 @@ $(document).ready(function() {
       var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna','Fransk'];
 
       // Exceptions for certain strings appearing before or after key or key + ending forming certain strings
-      if (key == 'Ilmoni' && !endings.includes(ending)) {
+      if (key == 'Ilmoni' && endings.indexOf(ending) < 0) {
         str = key;
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {
         str = '';
@@ -50,7 +50,7 @@ $(document).ready(function() {
       } else if (key == 'Hedberg' && key + ending == 'Hedbergiläisyyden') {
         str = '';
       } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0
-        || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || borg.includes(key + ending)))  {
+        || st_before.indexOf('Dompr.') >= 0 || st_after.indexOf('Aron') >= 0 || borg.indexOf(key + ending) >= 0))  {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Zachris') >= 0 || st_before.indexOf('Länsman') >= 0
@@ -85,7 +85,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Maria' && (st_after.indexOf('Holm') >= 0 || st_after.indexOf('Nissinen') >= 0
         || st_after.indexOf('Tervonen') >= 0 || st_after.indexOf('Piponius') >= 0 || st_after.indexOf('Pipponius') >= 0
-        || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.indexOf('Elfving, ') >= 0 ||
+        || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.indexOf('Elfving, ') >= 0
         || st_before.indexOf('J.') >= 0 || st_after.indexOf('Johanin') >= 0)) {
         str = '';
       } else if (key == 'Frans' && (frans.includes(key + ending) || st_after.indexOf('J. Rabbe') >= 0 || st_after.indexOf('Johan') >= 0
