@@ -501,7 +501,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Finnish Literature Society":
             $years = '1831 - 1880';
             break;
-          case "Lönnrot &gt; Suomalaisen Kirjallisuuden Seura":
+          case __('Lönnrot &gt; Finnish Literature Society'):
             $years = '1831 - 1880';
             break;
           case "Lönnrot &gt; Finska Litteratursällskapet":
@@ -528,7 +528,7 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Durchman, Anders":
             $years = '1833 - 1850';
             break;
-          case "Lönnrot &gt; University rector":
+          case __('Lönnrot &gt; University rector'):
             $years = '1828 - 1832';
             break;
           case "Lönnrot &gt; Kejserliga Finska Hushållningssällskapet i Åbo":

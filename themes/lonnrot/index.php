@@ -1,4 +1,5 @@
-<?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col')); ?>
+<?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col'));
+?>
 
 <div id="primary">
   <p style="text-align:center;"><img src="<?php echo img('OMEKA_tunnuskuva_sinetti_pyorea.png'); ?>" /></p>

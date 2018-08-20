@@ -47,6 +47,8 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Cajan' && key + ending == 'Cajander') {
         str = '';
+      } else if (key == 'Asp' && key + ending == 'Aspar') {
+        str = '';
       } else if (key == 'Hedberg' && key + ending == 'Hedbergiläisyyden') {
         str = '';
       } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0

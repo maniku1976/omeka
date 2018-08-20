@@ -169,6 +169,8 @@ class SolrSearch_Helpers_Index
       }
     }
 
+    error_reporting(E_ALL);
+ini_set('display_errors', 1);
     self::indexItem($fields, $item, $doc);
 
     // Tags:
@@ -192,6 +194,7 @@ class SolrSearch_Helpers_Index
   // File metadata
   foreach ($item->getFiles() as $file) {
     self::indexItem($fields, $file, $doc);
+
   }
   return $doc;
 

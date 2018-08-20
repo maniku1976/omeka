@@ -32,7 +32,7 @@ RewriteRule .* - [L]
 
 RewriteRule ^install/.*$ install/install.php [L]
 RewriteRule ^admin/.*$ admin/index.php [L]
-RewriteRule .* index.php
+RewriteRule .*$ index.php
 
 # -------------- #
 # Access Control #
