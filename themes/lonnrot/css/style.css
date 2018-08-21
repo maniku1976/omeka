@@ -2654,6 +2654,7 @@ th {
   /* Frame for displaying transcription on items show.php */
 
   .textFrame {
+    position: relative;
     color: #484848;
     width: 100%;
     height: 775px;
@@ -2662,6 +2663,7 @@ th {
     border: 1px solid #eee;
     border-radius: 0px;
   }
+
   .textFrame p {
     text-align: left;
   }
@@ -2701,7 +2703,7 @@ th {
 
   /* Tooltip for popup comments */
 
-  a.bt {
+  span.bt {
     font-size: 1em;
     text-decoration: none;
     cursor: pointer;
@@ -2728,26 +2730,23 @@ th {
     font-size:16px;
   }
 
-  a.tooltip {
+  span.tooltip {
     outline:none;
     display:inline-block;
+    position: relative;
   }
 
-  a.tooltip strong {
+  span.tooltip strong {
     line-height:30px;
   }
 
-  a.tooltip:hover {
+  span.tooltip:hover {
     text-decoration:none;
   }
 
-  a.tooltip + span {
+  span.tooltip span {
     display:none;
     padding:14px;
-    position:absolute;
-    margin-left:-8%;
-    margin-top:20px;
-    width: auto;
     line-height:16px;
     text-align: left;
     color:#111;
@@ -2755,15 +2754,16 @@ th {
     background:#fffAF0;
   }
 
-  a.tooltip:hover + span {
-    display:inline;
+  span.tooltip:hover span, span.tooltip span:hover {
+    display:inline-block;
+    position:absolute;
+    top:10px;
+    left:5px;
+    width: 300px;
+    z-index: 3;
   }
 
-  a.tooltip + span:hover {
-    display:inline;
-  }
-
-  a.tooltip + span em span {
+  span.tooltip span em span {
     font-style: normal;
   }
 
@@ -2785,7 +2785,7 @@ th {
   }
 
   /*CSS3 extras*/
-  a.tooltip span
+  span.tooltip span
   {
     border-radius:4px;
     box-shadow: 5px 5px 8px #CCC;

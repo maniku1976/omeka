@@ -120,9 +120,24 @@ $(document).ready(function() {
       $('.textFrame')
       .html($('.textFrame')
       .html()
-      .replace(str, '<a class="comm tooltip bt" href="#">' + str + '</a><span>' + value + '</span>'));
+      .replace(str, '<span class="comm tooltip bt" href="#">' + str + '<span>' + value + '</span></span>'));
     }
 
+  });
+
+  // Adjust position for popups close to container edges
+  $('.textFrame').find('span.tooltip').each(function() {
+    $(this).hover(function() {
+      if ($(this).position().left >= 200 && $(this).position().left <= 230) {
+        $(this).find('span').css('left','-30px');
+      } else if ($(this).position().left > 230) {
+        $(this).find('span').css('left','-200px');
+      }
+
+      if ($(this).position().top > 580) {
+        $(this).find('span').css('top','-100px');
+      }
+    });
   });
 
   // Variable page count, initialized to 1

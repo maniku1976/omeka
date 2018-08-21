@@ -85,4 +85,5 @@ $(document).ready(function() {
   // Hide page break elements
   $('#exhibit3b').find('.pb').hide();
 
+
 });
