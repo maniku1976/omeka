@@ -2730,21 +2730,21 @@ th {
     font-size:16px;
   }
 
-  span.tooltip, a.tooltip {
+  span.tooltip {
     outline:none;
     display:inline-block;
     position: relative;
   }
 
-  span.tooltip strong, a.tooltip strong {
+  span.tooltip strong {
     line-height:30px;
   }
 
-  span.tooltip:hover, a.tooltip:hover {
+  span.tooltip:hover {
     text-decoration:none;
   }
 
-  span.tooltip span, a.tooltip + span {
+  span.tooltip span {
     display:none;
     padding:14px;
     line-height:16px;
@@ -2754,7 +2754,7 @@ th {
     background:#fffAF0;
   }
 
-  span.tooltip:hover span, span.tooltip span:hover, a.tooltip:hover + span, a.tooltip span:hover {
+  span.tooltip:hover span, span.tooltip span:hover {
     display:inline-block;
     position:absolute;
     top:10px;

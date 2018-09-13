@@ -20,7 +20,17 @@
     picked from TEI; add document types with translations -->
     <?php if ($description): ?>
         <p class="item-description">
-          <?php echo __('Date').": ".date('j.n.Y', strtotime($date)); ?><br />
+          <?php $date = metadata($item, array('Dublin Core', 'Date'));
+          $temp_date = $date;
+          if (substr_count($date, '-00') == 0) {
+            $temp_date = date('j.n.Y', strtotime($date));
+          } else if (substr_count($date, '-00') == 1) {
+            $temp_date = date('n.Y', strtotime(substr($date, 0, 7)));
+          } else if (substr_count($date, '-00') > 1) {
+            $temp_date = substr($date, 0, 4);
+          }
+          ?>
+          <?php echo __('Date').": ".$temp_date; ?><br />
           <?php $files = $item->Files;
           foreach($files as $file) {
             if ($file->getExtension() == 'xml') {

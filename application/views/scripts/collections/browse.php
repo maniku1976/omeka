@@ -540,6 +540,9 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Jalava, Antti":
             $years = '1873';
             break;
+          case "Lönnrot &gt; Zetterqvist, Carl Gustaf":
+            $years = '1845 - 1857';
+            break;
         }
         ?>
         <?php echo link_to_items_browse(__($title), array('collection' => metadata('collection', 'id'))); ?>
