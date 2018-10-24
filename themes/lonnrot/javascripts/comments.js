@@ -1,161 +1,193 @@
 /* List of commented words/terms/phrases for popups */
 
 var comments = {
+  'Ahrens': 'Eduard Ahrens (1803 - 1863), eestiläinen kielitieteilijä ja pappi',
+  'A. Almberg': 'Antti Jalava (1846 - 1909, e. Anton Almberg), FM, suomen kielen kääntäjä, kirjailija, suomentaja, Helsingin yliopiston' +
+  ' unkarin kielen ylimääräinen lehtori.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2894" target="_blank">Kansallisbiografia</a>',
+  'Avellan': 'Frans Wilhelm Avellan (1813 – 1878), Lönnrotin sijainen Kajaanissa, myöhempi lääketieteen tohtori ja Turun kaupunginlääkäri. SKS:n jäsen 1855.',
+  'Karl Collan': '1828 – 1871. FT, Helsingin yliopiston kirjastonhoitaja, oli suomen kielen käytön edistäjä, kirjailija ja itseoppinut säveltäjä.' +
+  ' Collanin sävellyksiä ovat Sylvian joululaulu, Savolaisen laulu ja Vaasan marssi. Vuonna 1854 hän keräsi SKS:lle kansanrunoja Savosta ja Karjalasta.' +
+  ' Collanin kaksiosainen ruotsinnos <em>Kalevalasta</em> ilmestyi vuosina 1864 ja 1868.' +
+  ' <a href="https://kansallisbiografia.fi/kansallisbiografia/henkilo/4433" target="_blank">Kansallisbiografia</a>',
+  'Dahl': 'Oskar Emil Dahl (1811–1890), FK, LKT, lääkintöylihallituksen kanslisti 1840, myöhemmin Tammisaaren piirilääkäri',
   'Castrén': 'Matias Alexander Castrén (1813 - 1852), siperialaisten kansojen parissa' +
   ' työskennellyt kielitieteilijä ja tutkimusmatkailija. Castrén ja Lönnrot tekivät yhteisen kielitieteellisen' +
   ' keruumatkan 1841 - 1842. Castrén julkaisi <em>Kalevalan</em> ruotsinnoksen vuonna 1841. Lönnrot hyödynsi <em>Kalevalassa</em>' +
   ' Castrénin keräämää vienankarjalaista loitsuaineistoa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
   'Castren': 'Matias Alexander Castrén (1813 - 1852), siperialaisten kansojen parissa' +
   ' työskennellyt kielitieteilijä ja tutkimusmatkailija. Castrén ja Lönnrot tekivät yhteisen kielitieteellisen' +
   ' keruumatkan 1841 - 1842. Castrén julkaisi <em>Kalevalan</em> ruotsinnoksen vuonna 1841. Lönnrot hyödynsi <em>Kalevalassa</em>' +
   ' Castrénin keräämää vienankarjalaista loitsuaineistoa. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
   'Castreini': 'Matias Alexander Castrén (1813 - 1852), siperialaisten kansojen parissa' +
   ' työskennellyt kielitieteilijä ja tutkimusmatkailija. Castrén ja Lönnrot tekivät yhteisen kielitieteellisen' +
   ' keruumatkan 1841 - 1842. Castrén julkaisi <em>Kalevalan</em> ruotsinnoksen vuonna 1841. Lönnrot hyödynsi <em>Kalevalassa</em>' +
   ' Castrénin keräämää vienankarjalaista loitsuaineistoa. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
   'Kastreini': 'Matias Alexander Castrén (1813 - 1852), siperialaisten kansojen parissa' +
   ' työskennellyt kielitieteilijä ja tutkimusmatkailija. Castrén ja Lönnrot tekivät yhteisen kielitieteellisen' +
   ' keruumatkan 1841 - 1842. Castrén julkaisi <em>Kalevalan</em> ruotsinnoksen vuonna 1841. Lönnrot hyödynsi <em>Kalevalassa</em>' +
   ' Castrénin keräämää vienankarjalaista loitsuaineistoa. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3164" target="_blank">Kansallisbiografia</a>',
   'Sjögren': 'Anders Johan Sjögren (1794 - 1855), kieli- ja kansatietelijä, suomen sukuisten kansojen parissa liikkunut' +
   ' tutkimusmatkailija. Sjögren keräsi runoja Venäjällä ja Vienan Karjalassa jo 1820-luvulla, mutta Lönnrot sai' +
   ' Sjögrenin muistiinpanot vasta 1840-luvun lopulla.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3634" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3634" target="_blank">Kansallisbiografia</a>',
   'Europaeus': 'David Emmanuel Daniel Europaeus (1820 - 1884), runonkerääjä,  kielitieteilijä ja lehtimies. Vuonna 1845' +
   ' Lönnrot otti Europaeuksen avustamaan sanakirjatyötään. Myöhemmin Europaeuksen runonkeruut kartuttivat merkittävästi' +
   ' <em>Kalevalan</em> uutta laitosta (1849).' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4434" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4434" target="_blank">Kansallisbiografia</a>',
   'Europ\u00E6us': 'David Emmanuel Daniel Europaeus (1820 - 1884), runonkerääjä,  kielitieteilijä ja lehtimies. Vuonna 1845' +
   ' Lönnrot otti Europaeuksen avustamaan sanakirjatyötään. Myöhemmin Europaeuksen runonkeruut kartuttivat merkittävästi' +
   ' <em>Kalevalan</em> uutta laitosta (1849).' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4434" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4434" target="_blank">Kansallisbiografia</a>',
   'Keckman': 'Carl Niklas Keckman (1793 - 1838), suomen kielen lehtori, toimittaja. Keckmanin luona pidettiin SKS:n' +
   ' perustamiskokous, ja Keckman toimi seuran esimiehenä 1831 ja sihteerinä 1831–1838.' +
   ' Keckmanin ja Lönnrotin välinen kirjeenvaihto käsitteli mm. suomen kieltä ja sen ortografiaa sekä <em>Kalevalan</em>' +
   ' kokoonpanoa. Keckman hoiti myös Lönnrotin kirjalähetyksiä, raha-asioita ja oikovedoksia Kajaaniin.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2902" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2902" target="_blank">Kansallisbiografia</a>',
   'Cajan': 'Johan Fredrik Cajan (1815 - 1877), pappi, historioitsija ja runonkerääjä. Lönnrot ja Cajan lähtivät' +
   ' yhdessä runonkeruumatkalle syyskuussa 1836. Cajan lähti paluumatkalle Uhtualta marraskuun lopussa, mutta' +
   ' Lönnrot jatkoi matkaansa toukokuuhun 1837 asti. ',
   'Rabbe': 'Frans Johan Rabbe (1801 - 1879), lääkäri, lääkintöylihallituksen kamreeri, kamarineuvos. Lönnrotin läheinen' +
   ' ystävä ja tukija hoiti Keckmanin kuoleman (1838) jälkeen Lönnrotin asioita Helsingistä käsin. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3591" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3591" target="_blank">Kansallisbiografia</a>',
   'Rabbi': 'Frans Johan Rabbe (1801 - 1879), lääkäri, lääkintöylihallituksen kamreeri, kamarineuvos. Lönnrotin läheinen' +
   ' ystävä ja tukija hoiti Keckmanin kuoleman (1838) jälkeen Lönnrotin asioita Helsingistä käsin. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3591" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3591" target="_blank">Kansallisbiografia</a>',
   'Kreutzwald': 'Friedrich Reinhold Kreutzwald (1803 - 1882), virolainen lääkäri, kansanvalistaja ja kirjailija.' +
   ' Kreutzwaldin eeposrunoelma <em>Kalevipoeg</em> (1853, 1857–1861) pohjautuu virolaisiin kansanrunoihin.',
-  'Ståhlberg': 'Carl Henrik Ståhlberg (1799 - 1878), opettaja, pappi. Toimi SKS:n' +
+  'Ståhlberg': 'Carl Henrik Ståhlberg (1799 - 1878), opettaja, pappi. Lauantaiseuran intellektuellipiirin jäsen, yksi' +
+  ' SKS:n ja Helsingfors Lyceumin perustajista, Viipurin Suomalaisen Kirjallisuusseuran perustaja, Pielaveden kirkkoherra. Toimi SKS:n' +
   ' sihteerinä 1839 - 1840. Ståhlberg oli mukana joillakin Lönnrotin keruumatkoilla ja huolehti <em>Mehiläisen</em> painatuksesta.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4612" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4612" target="_blank">Kansallisbiografia</a>',
   'Elmgren': 'Sven Gabriel Elmgren (1817 - 1897), kirjastonhoitaja, tieteellisten seurojen vaikuttaja, professori.' +
   ' Toimi SKS:n sihteerinä vuosina 1846–1861.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3220" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3220" target="_blank">Kansallisbiografia</a>',
   'Korhonen': 'Paavo Korhonen (Vihta-Paavo) (1775 - 1840), rautalammilainen rahvaanrunoilija, jonka Lönnrot tapasi' +
   ' keruumatkoillaan vuosina 1828 ja 1831. Lönnrot julkaisi Korhosen runoja <em>Kantele</em>-vihkoissa (1829 - 1831) ja' +
   ' <em>Mehiläisessä</em> sekä lisäksi kokoelman <em>Paawo Korhosen Wiisikymmentä runoa ja kuusi laulua</em> (1848).' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2903" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2903" target="_blank">Kansallisbiografia</a>',
   'Roos': 'Samuel Roos (1792 - 1878), lääkäri, kirjailija, suomen kielen kehittäjä. Lönnrot oli Roosin seuraaja' +
   ' Kajaanin piirilääkärin virassa.',
   'Warelius': 'Antero Warelius (1821 - 1904), Loimaan kirkkoherra, kirjailija, toimittaja, suomen kielen kehittäjä.' +
   ' Warelius oli yksi tärkeimmistä avustajista Lönnrotin sanakirjatyössä.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2855" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2855" target="_blank">Kansallisbiografia</a>',
   'Varelius': 'Antero Warelius (1821 - 1904), Loimaan kirkkoherra, kirjailija, toimittaja, suomen kielen kehittäjä.' +
   ' Warelius oli yksi tärkeimmistä avustajista Lönnrotin sanakirjatyössä.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2855" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2855" target="_blank">Kansallisbiografia</a>',
   'Ticklén': 'Johan Fredrik Ticklén (1802 - 1844), Raahen piirilääkäri, kirjastoamanuenssi. Ticklén oli yksi' +
   ' SKS:n perustajajäsenistä. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
   'Ticklen': 'Johan Fredrik Ticklén (1802 - 1844), Raahen piirilääkäri, kirjastoamanuenssi. Ticklén oli yksi' +
   ' SKS:n perustajajäsenistä. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
   'Tikleini': 'Johan Fredrik Ticklén (1802 - 1844), Raahen piirilääkäri, kirjastoamanuenssi. Ticklén oli yksi' +
   ' SKS:n perustajajäsenistä. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3664" target="_blank">Kansallisbiografia</a>',
   'Rein': 'Gabriel Rein (1800 - 1867), professori, kanslianeuvos. Rein oli yksi SKS:n' +
   ' perustajista, ja seuran esimies vuosina 1841–1853 ja 1863–1867. ' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3595" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3595" target="_blank">Kansallisbiografia</a>',
+  'Svedberg': 'Anders Svedberg (1832 – 1889). Itseoppinut ruotsinkielinen talollisen poika, kyläkirjuri, kiertokoulun- ja kansakoulunopettaja.' +
+  '  Svedberg kuului heränneisiin. Hän toimi talonpoikaissäädyn valtiopäivämiehenä ja avusti useita sanomalehtiä. Perusti' +
+  ' Munsalaan kansakoulun jo 1862.',
+  'Szinnyei': 'József Szinnyei (1857 – 1943).  Kielitieteilijä, professori, Unkarin tiedeakatemian jäsen. Opiskeli myös' +
+  ' Suomessa ja avioitui näyttelijä Hilma Rosendahlin kanssa. Julkaisi Antti Jalavan kanssa unkarin kielen oppikirjan 1880' +
+  ' sekä Suomalais-unkarilainen sanakirjan 1884. ”Jooseppi” Szinnyei oli SKS:n jäsen vuodesta 1881.',
+  'Tegnér': 'Esaias Tegnér (1782 – 1846). Ruotsalainen kirjailija, professori ja piispa. Norjaan sijoittuvan viikinkiaiheisen' +
+  ' runoteoksen <em>Frithiofs saga</em> (1825) kirjoittaja.',
+  'Ungern-Sternberg': 'Alexander von Ungern-Sternberg (1806 − 1869), Eestissä syntynyt ja pääosin Tartossa opiskellut, sittemmin' +
+  ' Saksaan siirtynyt balttiansaksalainen paroni. Kirjailija, runoilija, maalari.',
+  'Wahlberg': 'Peter/Pehr Fredrik Wahlberg (1800 − 1877), ruotsalainen tutkija, lääketieteen tohtori, professori ja piirtäjä.' +
+  ' Ruotsin Tiedeakatemian jäsen ja sen sihteeri.',
+  'kappalainen Wikman': 'Anders (Antti) Gabriel Wikman (1788 − 1876), SKS:n jäsen v:sta 1846. Längelmäen kappalainen, josta Martti' +
+  ' Rapola on kirjoittanut teoksen <em>Antti Wikmanin sanakirja</em> (1956).',
+  'kapellan (ell Sockneadjunkt) Wikman': 'Anders (Antti) Gabriel Wikman (1788 − 1876), SKS:n jäsen v:sta 1846. Längelmäen kappalainen, josta Martti' +
+  ' Rapola on kirjoittanut teoksen <em>Antti Wikmanin sanakirja</em> (1956).',
   'Arch. Törngren': 'Johan Agapetus Törngren (1772 - 1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
   ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
   ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
   'Archiater Törngren': 'Johan Agapetus Törngren (1772 - 1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
   ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
   ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
   'Ark. Törngren': 'Johan Agapetus Törngren (1772 - 1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
   ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
   ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
   'Professor Törngren': 'Johan Agapetus Törngren (1772 - 1859), professori, lääkintöylihallituksen pääjohtaja, arkkiatri.' +
   ' Lönnrot toimi Törngrenin perheen kotiopettajana Laukon kartanossa 1820-luvulla. Lönnrotilla oli perheeseen' +
   ' tiivis suhde koko elämänsä ajan, ja hän oli kirjeenvaihdossa Törngrenin vaimon, kartanonrouva Eva Agata Törngrenin kanssa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3672" target="_blank">Kansallisbiografia</a>',
   'Ahlqvist': 'August Engelbrekt Ahlqvist (1826 - 1889), suomen kielen ja kirjallisuuden professori, yliopiston rehtori,' +
   ' runoilija. Lönnrotin seuraaja suomen kielen ja kirjallisuuden professorin virassa. Ahlqvist teki runonkeruumatkoja' +
   ' eri puolilla Karjalaa 1840-luvulla.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3105" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3105" target="_blank">Kansallisbiografia</a>',
   'Oksanen': 'August Engelbrekt Ahlqvist (1826 - 1889), suomen kielen ja kirjallisuuden professori, yliopiston rehtori,' +
   ' runoilija. Lönnrotin seuraaja suomen kielen ja kirjallisuuden professorin virassa. Ahlqvist teki runonkeruumatkoja' +
   ' eri puolilla Karjalaa 1840-luvulla.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3105" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3105" target="_blank">Kansallisbiografia</a>',
   'Oksas': 'August Engelbrekt Ahlqvist (1826 - 1889), suomen kielen ja kirjallisuuden professori, yliopiston rehtori,' +
   ' runoilija. Lönnrotin seuraaja suomen kielen ja kirjallisuuden professorin virassa. Ahlqvist teki runonkeruumatkoja' +
   ' eri puolilla Karjalaa 1840-luvulla.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3105" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3105" target="_blank">Kansallisbiografia</a>',
   'Kuivalatar': 'Mateli Kuivalatar (Magdaleena Ikonen, o.s. Kuivalainen) (1771–1846), ilomantsilainen runonlaulaja.' +
   ' Lönnrot tapasi Kuivalattaren keruumatkallaan vuonna 1838 kuvaten tätä "oikiaksi runonlaulajaksi". Lönnrot nosti Kuivalattaren' +
   ' esiin myös <em>Kantelettaren</em> esipuheessa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4717" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4717" target="_blank">Kansallisbiografia</a>',
   'Gottlund': 'Carl Axel Gottlund (1796 - 1875), suomen kielen lehtori, kirjailija, kansanrunouden kerääjä ja' +
   ' julkaisija. Gottlundin <em>Pieniä runoja Suomen poijille ratoxi</em> (1813, 1821) oli ensimmäinen suomalainen' +
   ' kansanrunokokoelma. Gottlund oli Lönnrotin Kalevalan ankara kritisoija, jonka oma eeposrunoelma <em>Runola</em>' +
   ' (1840) sai tyrmistyneen vastaanoton.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2817" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2817" target="_blank">Kansallisbiografia</a>',
   'Ilmoni': 'Immanuel Ilmoni (1797 - 1856), lääketieteen professori. Lönnrotin osakuntatoveri yliopistossa. Yksi' +
   ' SKS:n perustajista.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3490" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3490" target="_blank">Kansallisbiografia</a>',
   'Akiander': 'Matthias Akiander (1802 - 1871), Helsingin yliopiston venäjän kielen professori, historiantutkija. Edisti monin tavoin' +
   ' suomen kieltä ja oli yksi SKS:n perustajajäsenistä. Akiander toimi seuran sihteerinä 1838 - 1839 sekä seuran tarkastusvaliokunnassa' +
   ' 1833 - 1862.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3107" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3107" target="_blank">Kansallisbiografia</a>',
   'Hwasser': 'Israel Hwasser (1790 - 1860), ruotsalainen lääketieteen professori, poliittinen vaikuttaja. Lääkärinä omaksui Friedrich' +
   ' Wilhelm von Schellingin (1775–1854) luonnonfilosofisia ajatuksia, jota Suomessa edusti Immanuel Ilmoni.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3487" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3487" target="_blank">Kansallisbiografia</a>',
   'Arwidsson': 'Adolf Ivar Arwidsson (1791 - 1858), poliitikko, kirjailija, historiantutkija, sanomalehtimies. Perusti 1821' +
   ' <em>Åbo Morgonbladin</em>. Poliittisten mielipiteidensä vuoksi joutui siirtymään Ruotsiin vuonna 1823.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3122" target="_blank">"Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3122" target="_blank">"Kansallisbiografia</a>',
   'Collan': 'Fabian Collan (1817 - 1851), historiantutkija, toimittaja, kirjailija. Toimi SKS:n sihteerinä 1841 - 1844. Collan' +
   ' innostui <em>Kalevalan</em> ansiosta tutkimaan suomalaista mytologiaa ja <em>Kantelettaren</em> ilmestyttyä' +
   ' hän piti ihailevan esitelmän lyyrisestä runoudesta Savo-karjalaisessa osakunnassa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4448" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4448" target="_blank">Kansallisbiografia</a>',
   'Kollaani': 'Fabian Collan (1817 - 1851), historiantutkija, toimittaja, kirjailija. Toimi SKS:n sihteerinä 1841 - 1844. Collan' +
   ' innostui <em>Kalevalan</em> ansiosta tutkimaan suomalaista mytologiaa ja <em>Kantelettaren</em> ilmestyttyä' +
   ' hän piti ihailevan esitelmän lyyrisestä runoudesta Savo-karjalaisessa osakunnassa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4448" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4448" target="_blank">Kansallisbiografia</a>',
   'Kollani': 'Fabian Collan (1817 - 1851), historiantutkija, toimittaja, kirjailija. Toimi SKS:n sihteerinä 1841 - 1844. Collan' +
   ' innostui <em>Kalevalan</em> ansiosta tutkimaan suomalaista mytologiaa ja <em>Kantelettaren</em> ilmestyttyä' +
   ' hän piti ihailevan esitelmän lyyrisestä runoudesta Savo-karjalaisessa osakunnassa.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4448" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4448" target="_blank">Kansallisbiografia</a>',
   'Grimm': 'Jacob Grimm (1785 - 1863), saksalainen filologi ja mytologi, joka kirjoitti veljensä Wilhelm Grimmin kanssa' +
   ' <em>Grimmin sadut</em>. Grimmin esitelmä "Suomalaisesta eepoksesta" vuonna 1845 Berliinin tiedeakatemiassa osoitti' +
-  ' <em>Kalevalan</em> kansainväliset yhteydet. Esitelmä painettiin ja julkaistiin ruotsiksi.',
+  ' <em>Kalevalan</em> kansainväliset yhteydet. Esitelmä painettiin ja julkaistiin ruotsiksi. SKS:n jäsen vuodesta 1834.',
+  'Grundström': 'Johan Josef Grundström (myös Groundstroem) (1800 – 1852), Kattilan, Soikkolan ja Novasolkan kirkkoherra Inkerinmaalla.' +
+  ' Hänen luonaan Lönnrot kuuli vatjalaislaulajaa Anna Ivanovkaa palatessaan Vironmatkaltaan Suomeen loppuvuodesta 1844.',
+  'Leuzon Le Duc': 'Louis-Antoine Léouzon Le Duc (1815–1889), 1840- ja 1850-luvuilla Suomessa asunut ranskalainen kotiopettaja, toimittaja' +
+  ' ja diplomaatti, <em>Kalevalan</em> ranskantaja',
   'Kainulai': 'Juhana Kainulainen (Johana) (1788 - 1847), kesälahtelainen runonlaulaja ja tietäjä. Lönnrot tapasi Kainulaisen' +
   ' ensimmäisellä keruumatkallaan 1828 kuvaten myöhemmin vain Arhippa Perttusen olleen yhtä vaikuttava laulajamestari kuin Kainulainen.',
   'Perttunen': 'Arhippa Perttunen (1769 - 1841), vuokkiniemeläinen runonlaulaja, jonka Lönnrot tapasi viidennellä keruumatkallaan 1834.' +
   ' Perttusen runotekstit vaikuttivat merkittävästi <em>Kalevalan</em> valmistumiseen. Arhippa Perttusta on pidetty runonlaulajan' +
   ' arkkityyppinä, joka on innoittanut erilaisiin taiteellisiin ja tieteellisiin tulkintoihin.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4720" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4720" target="_blank">Kansallisbiografia</a>',
   'Reinholm': 'Henrik August Reinholm (1819 - 1883), kansanrunouden ja -tietouden kerääjä. Keräsi kansanrunoja 1840-luvun keruumatkoilla' +
   ' Karjalassa ja Inkerissa. Runojen lisäksi tallensi ja keräsi läpi elämänsä tietoa eri aloilta. Reinholm oli ensimmäinen' +
   ' varsinainen suurkerääjä.' +
-  ' <a style="font-weight:bold;" href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3598" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3598" target="_blank">Kansallisbiografia</a>',
   'Kiljander': 'Karl Mårten Kiljander (1817 - 1879), pappi, suomentaja. Kiljander oli Lönnrotin tavoin mukana vuoden 1863 virsikirjakomiteassa.',
   'Lindfors': 'Mårten Johan Lindfors (1800 - 1869), lääkäri, opettaja. Lindfros kuului Lauantaiseuraan ja oli tekemässä aloitetta SKS:n perustamiseksi.',
+  'P. Phil. Lindforss': 'Petter Filip Lindfors (1802 – 1868), FM, FT, Savonlinnan piirilääkäri vuodesta 1832 alkaen',
   'Linsén': 'Johan Gabriel Linsén (1785 - 1848), kaunopuheisuuden ja runousopin professori, kirjailija. Linsén toimi' +
   ' vuosina 1833 - 1841 SKS:n esimiehenä. <em>Kalevalan</em> ilmestyttyä Linsén lausui seuran vuosikokouksessa:' +
   ' "Suomi voi sanoa itselleen: Myös minulla on historia!".' +
@@ -164,7 +196,7 @@ var comments = {
   ' vuosina 1833 - 1841 SKS:n esimiehenä. <em>Kalevalan</em> ilmestyttyä Linsén lausui seuran vuosikokouksessa:' +
   ' "Suomi voi sanoa itselleen: Myös minulla on historia!".' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3538" target="_blank">Kansallisbiografia</a>',
-  'Ganander': 'Christfried Ganander (1741 - 1790), rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
+  'Ganander': 'Christfried Ganander (1741 - 1790), Rantsilan kappalainen, sanakirjan tekijä, kansankulttuurin tallentaja.' +
   ' Lönnrot piti Gananderin teosta <em>Mythologia Fennica</em> (1789) merkittävänä suomalaisen kansanuskon hakuteoksena. Ganander' +
   ' toimitti myös suomalais-ruotsalais-latinalaisen sanakirjan <em>Nytt Finskt Lexicon</em> (1787, julk. 1997).' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" target="_blank">Kansallisbiografia</a>',
@@ -172,6 +204,19 @@ var comments = {
   ' Lönnrot piti Gananderin teosta <em>Mythologia Fennica</em> (1789) merkittävänä suomalaisen kansanuskon hakuteoksena. Ganander' +
   ' toimitti myös suomalais-ruotsalais-latinalaisen sanakirjan <em>Nytt Finskt Lexicon</em> (1787, julk. 1997).' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" target="_blank">Kansallisbiografia</a>',
+  'Hagen': 'August Matthias Hagen (1794 – 1878), balttiansaksalainen taitelija ja Tarton yliopiston piirustuksen professori, jonka' +
+  ' luona Lönnrot asui Tartossa 1844',
+  'Hupel': 'August Wilhelm Hupel (1737 – 1819), pastori ja kielitieteilijä, joka julkaisi mm. eestinkielisen lääkärikirjan (1871)' +
+  ' ja eestin kieliopin (1780)',
+  'Ingerman': 'Frand Ludvig Ingerman (1819 – 1874), turkulaisen kauppiaan poika, Karjalohjan kirkkoherra',
+  'Krank': 'Jakob Krank (Kranck, 1822 – 1899), SKS:n jäsen vuodesta 1847, tuomari, valtiopäivämies',
+  'Kämtz': 'Ludvig Friedrich Kämtz (1801 – 1867), saksalainen fyysikko, Tarton yliopiston fysiikan professori 1841–1865',
+  'Laurell': 'Axel Adolf Laurell (1801–1852), SKS:n jäsen 1831, Lauantaiseuran jäsen, Helsingfors Lyceumin perustaja, Helsingin yliopiston' +
+  ' dogmatiikan professori, joka auttoi Léuzon le Ducia tämän <em>Kalevalan</em> ranskannoshankkeessa. SKS:n jäsen 1831.'
+  + ' <a href="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3523" target="_blank">Kansallisbiografia</a>',
+  'Lille': 'Bengt Olof Lille (1807 – 1875), Lauantaiseuran jäsen, kirkkohistorian professori ja nykyaikaisen kirkkohistorian Suomeen' +
+  ' tuonut tutkija, joka käytti Kalevalaa kirkkohistoriallisten luentojensa lähteenä. Suomenkielentaitoinen Lille oli yksi SKS:n perustajista.' +
+  '  <a href="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3532" target="_blank">Kansallisbiografia</a>',
   'Haartman': 'Carl Daniel von Haartman (1792 - 1877) toimi lääkintöhallituksen ylijohtajana vuodesta 1837 lähtien. Haartman uudisti' +
   ' lääkärien toimintaa monella tavalla ja otti osaa aikansa keskusteluun lasten imettämisestä.' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/7589" target="_blank">Kansallisbiografia</a>',
@@ -187,8 +232,10 @@ var comments = {
   'Barck': 'Christian Evert Barck (1795 - 1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
   'Bark': 'Christian Evert Barck (1795 - 1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
   'Barkki': 'Christian Evert Barck (1795 - 1855) oli ruotsinmaalainen kustantaja. Perusti Oulun Wiikko-Sanomat 1829 ja Ouluun kirjapainon.',
-  'Bergenheim': 'Edward Bergenheim (1798 - 1884) oli opettaja ja arkkipiispa. Lönnrotin ja Bergenheimin kirjeenvaihto koski lähinnä' +
-  ' virsikirjauudistusta.' + ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  'Bergenheim': 'Edvard Bergenheim (1798–1884), opettaja, FM, nimitettiin ilman suoritettuja teologisia tutkintoja Suomen arkkipiispaksi, mitä' +
+  ' virkaa hän hoiti 1850–1884. SKS:n jäsen vuodesta 1846. Bergenheim oli suomalaisen virsikirjan uudistamisen aloittaneen komitean puheenjohtaja,' +
+  ' Elias Lönnrot puolestaan teki yhden suurtöistään suomenkielisen virsikirjakomitean sihteerinä.' +
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3133" target="_blank">Kansallisbiografia</a>',
   'Hedberg': 'Anders Erik (Antus) Hedberg (1804 - 1837) oli lääkäri, joka toimi mm. Oulun piirilääkärinä.',
   'Johansson': 'Gustaf Johansson (1844 - 1930) oli dogmatiikan ja siveysopin professori sekä myöhemmin arkkipiispa.',
   'Sophie Louise Perander': 'Sophie Louise Perander  (1824 - 1883) oli Lönnrotin lasten hoitaja. Hän myös puhtaaksikirjoitti Lönnrotin uutta' +
@@ -402,6 +449,23 @@ var comments = {
   'Maria': 'Maria Ulrika Lönnrot (1852 - 1874), Lönnrotin tytär.',
   'Maria Piponius': 'Maria Lönnrot (Piponius) (1823 - 1868), Lönnrotin vaimo.',
   'Maria Pipponius': 'Maria Lönnrot (Piponius) (1823 - 1868), Lönnrotin vaimo.',
+  'Elina': 'Elina Sofia Lönnrot (1858 – 1876), vuodesta 1874 Helsingin suomalaisen tyttökoulun oppilas. Elias Lönnrotin tytär.' +
+  ' Tyttären kuoltua Lönnrot lahjoitti hänen muistokseen rahaa Sammatin kirkon korjaukseen ja pitäjän vaivaisille.',
+  'Masing': 'Otto Wilhelm Masing (1763 – 1832), eestiläinen pastori, julkaisija, eestifiili (ym.)',
+  'Nordberg': 'Gustaf Nordberg (1801 – 1886), SKS:n jäsen vuodesta 1847, komissiomaanmittari',
+  'Rafn': 'Carl Christian Rafn (1795 – 1864), tanskalainen historioitsija ja saagojen tutkija, julkaisi ensimmäisen viikinkien' +
+  ' Amerikan-matkoja käsitelleen tieteellisen tutkimuksen 1837. Perusti <em>Det Kongelige nordiske Oldskriftselskabin</em> Rasmus Raskin kanssa.',
+  ' Rask': 'Rasmus Kristian Rask (1787 – 1832) ansioitunut tanskalainen lingvisti ja filologi Kööpenhaminan yliopistossa',
+  'Schartau': 'Gustava Schartau (1783 – 1849) useiden keitto- ja kotitalouskirjojen laatija ja toimittaja. Lönnrot toimitti suomeksi' +
+  ' Schartaun teoksen <em>Välmenta råd i missvext-år</em> nimellä <em>Hyväntahtoisia Neuvoja Katovuosina</em> (1834).',
+  'Schultén': 'Nathanael Gerhard af Schultén nuorempi (1794 – 1860), Helsingin yliopiston matematiikan professori, yksi Suomen' +
+  ' Tiedeseuran perustajista',
+  'Selander': 'Nils Haqvin Selander (1804–1870), tähtitieteilijä, Ruotsin Kuninkaallisen Tiedeakatemian jäsen, Kieltäytyi tarjotusta' +
+  ' Helsingin yliopiston tähtitieteen professuurista 1837.',
+  'Selin': 'Gustaf Selin (1836–1862). Isak Gustaf Selinin ja Lönnrotin Maria-vaimon sisaren Catharina Christinan poika. Äitinsä' +
+  ' kuoltua hän oli 16-vuotiaasta kasvattina Lönnroteilla. Isältään perityn omaisuuden turvin hän saattoi taloudellisesti huolettomana' +
+  ' aloittaa yliopisto-opinnot 1855. Selinin nuoruudenrakkaus ja kihlattu oli torpantyttö. Lönnrotit vastustivat avioliittoa, ja kihlaus' +
+  ' purkautui kesällä 1862. Selin teki itsemurhan lokakuussa 1862.',
   'Frans': 'Frans Fredrik Lönnrot (1830 - 1907), pappi. Lönnrotin veljen, Henrik Johan Lönnrotin poika.',
   'Gabriel Martin Lönnrot': 'Gabriel Martin Lönnrot (1805 - 1876), Lönnrotin veli, "Kaappa".',
   'Gabriel Lönnrot': 'Gabriel Martin Lönnrot (1805 - 1876), Lönnrotin veli, "Kaappa".',
@@ -444,9 +508,9 @@ var comments = {
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5788" target="_blank">Kansallisbiografia</a>.',
   'Frenkkell': 'Johan Christoffer Frenckell (1789 - 1844), kustantaja.' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5788" target="_blank">Kansallisbiografia</a>.',
-  'Fellman': 'Jakob Fellman (1795 - 1875), pappi, tiedemies. Keräsi saamelaista kansanperinnettä ja kokosi' +
-  ' ensimmäisen saamenkielisen aapisen.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4435" target="_blank">Kansallisbiografia</a>.',
+  'Fellman': 'Jakob Fellman (1795–1875), Utsjoen, sittemmin Lappajärven kirkkoherra, aikansa paras Lapin-tuntija, saamen kielen aseman edistäjä,' +
+  ' ensimmäinen saamenkielisen kirjallisuuden julkaisija Suomessa, mytologiaperinteen sekä kieli- ja kasvitieteellisen aineiston kerääjä.' +
+  ' SKS:n jäsen vuodesta 1834. <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/4435" target="_blank">Kansallisbiografia</a>.',
   'Friman': 'Johan Alexander Friman (1819 - 1875), piirilääkäri.',
   'Boreniu': 'Aksel August Borenius (Lähteenkorva, 1846 - 1931), kansanrunoudentutkija ja -kerääjä. Toimi' +
   ' Suomalaisen Kirjallisuuden Seuran kirjaston hoitajana 1876 - 1879 sekä vuodesta 1879 kansakoulujen ylitarkastajana.' +
@@ -465,7 +529,7 @@ var comments = {
   'Savolin': 'Emil Joakim Savolin (1846 - 1919), pappi. Avusti Lönnrotia sanakirjatyössä.',
   'Saxa': 'Carl Saxa (1796 - 1849), pappi, suomentaja. Toimi <em>Oulun Wiikko-Sanomien</em> ja <em>Mehiläisen</em> avustajana.',
   'Sirén': 'Carl Wilhelm Sirén (1795 - 1866), pappi.',
-  'Siren': 'Carl Wilhelm Sirén (1795 - 1866), pappi.',
+  'Siren': 'Carl Wilhelm Sirén (1795 - 1866), pappi, Pietarin Pyhän Marian suomenkielisen seurakunnan kirkkoherra.',
   'Skogman': 'Daniel Johan Skogman (1792 - 1878), oululainen apteekkari.',
   'Strömborg': 'Johan Elias Strömborg (1833 - 1900), opettaja, Runeberg-tutkija.' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2951" target="_blank">Kansallisbiografia</a>.',
