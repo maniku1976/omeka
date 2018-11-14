@@ -80,6 +80,8 @@ class UniversalViewer_View_Helper_IiifManifest extends Zend_View_Helper_Abstract
         if ($elementName == 'XML File' || strpos($elementName, 'Image') !== false) {
           $values = str_replace('http://localhost/uploads/', '', $values);
         }
+
+
         // Translations for metadata elements, from language files
         $elementName = str_replace('Title', __('Title'), $elementName);
         $elementName = str_replace('Subject', __('Subject'), $elementName);
@@ -113,7 +115,12 @@ class UniversalViewer_View_Helper_IiifManifest extends Zend_View_Helper_Abstract
     ? $elementTexts['Dublin Core']['Title'][0]
     : __('[Untitled]');
 
+    // replace URL with URN in record citation
     $description = metadata($record, 'citation', array('no_escape' => true));
+    if (isset($elementTexts['Dublin Core']['Identifier'][1])) {
+      $description = substr($description, 0, strpos($description, 'http'));
+      $description .= '<a href="'.$elementTexts['Dublin Core']['Identifier'][1].'">'.$elementTexts['Dublin Core']['Identifier'][1].'</a>.';
+    }
 
     // Thumbnail of the whole work.
     // TODO Use index of the true representative file.
