@@ -213,7 +213,7 @@
           } else if (substr_count($doc->$date, '-00') > 1) {
             $temp_date = substr($doc->$date, 0, 4);
           }
-          if (is_array($doc->number)) {
+          if (is_array($doc->$number)) {
             echo $doc->$number[0]." - ".$title.", ".$temp_date;
           } else {
             echo $doc->$number." - ".$title.", ".$temp_date;

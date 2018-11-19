@@ -104,7 +104,7 @@ class UniversalViewer_View_Helper_IiifManifest extends Zend_View_Helper_Abstract
           $metadata[] = (object) array(
             'label' => $elementName,
             'value' => count($values) > 1
-            ? $values
+            ? $values[0]
             :  reset($values),
           );
         }
