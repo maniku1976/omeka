@@ -35,7 +35,7 @@ $(document).ready(function() {
 
       // key + ending, exceptions for 'Borg'
       var borg = ['Borgå','Borgm','Borgmestar','Borgmestare','Borgmestaren','Borgoensi','Borgmäst','Borgmestarilla','Borgesmän',
-      'Borgmästarinnan','Borgmästaren', 'Borgmästaretjänsten','Borgen'];
+      'Borgmästarinnan','Borgmästaren', 'Borgmästaretjänsten','Borgen','Borgmestaria'];
 
       // key + ending, exceptions for 'Frans'
       var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna','Fransk'];
