@@ -6,7 +6,7 @@ $collectionTitle = strip_formatting(metadata('collection', array('Dublin Core', 
 
 <h1><?php echo $collectionTitle; ?></h1>
 
-<p><?php echo metadata('collection', array('Dublin Core', 'Description')); ?></p>
+<p><?php echo metadata('collection', array('Dublin Core', 'Relation')); ?></p>
 
 <?php echo pagination_links(); ?>
 

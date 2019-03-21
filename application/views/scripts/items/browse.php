@@ -25,7 +25,7 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
 <div style="float:left;width:100%;">
   <?php echo item_search_filters(); ?>
   <span style="font-size: 20px;display:inline;">
-    <?php echo __("%s letters", $total_results); ?>
+    <?php echo __("%s letters", $total_results); ?> 
     <!-- buttons for downloading TEI files as zip, transcriptions as plain text -->
     <form class="zip" method='post' action=''>
       <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
@@ -42,6 +42,20 @@ $sortLinks[__('Recipient')] = 'Dublin Core,Title';
     <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>
 
+<div id="collection-link">
+  <?php 
+  $coll = '';
+  foreach (loop('items') as $item) {
+    $collection = get_collection_for_item($item);
+    if ($collection && strpos(item_search_filters(), metadata($collection, array('Dublin Core', 'Title'))) !== false) {
+      $coll = metadata($collection, array('Dublin Core','Relation'));
+    }
+  }
+  if ($coll !== null) {
+    echo '&#8594; '.__('Collection').': '.$coll.' &#8592;';
+  }
+  ?>
+</div>
 <?php echo pagination_links(); ?>
 <?php endif; ?>
 

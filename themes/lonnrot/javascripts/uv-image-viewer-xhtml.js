@@ -43,6 +43,8 @@ $(document).ready(function() {
       // Exceptions for certain strings appearing before or after key or key + ending forming certain strings
       if (key == 'Ilmoni' && endings.indexOf(ending) < 0) {
         str = key;
+      } else if (key == 'Ingerman' && key + ending == 'Ingermanland') {
+        str = '';
       } else if (key == 'Ilmoni' && key + ending == 'Ilmoniemen') {
         str = '';
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {

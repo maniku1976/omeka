@@ -20152,3 +20152,24 @@ Stack trace:
 #8 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
 #9 /var/www/html/omeka/index.php(23): Omeka_Application->run()
 #10 {main}
+2019-03-21T09:29:26+02:00 ERR (3): Omeka_View_Exception: Näkymään ei ole asetettu collection muuttujaa. in /var/www/html/omeka/application/views/helpers/GetCurrentRecord.php:27
+Stack trace:
+#0 /var/www/html/omeka/application/libraries/Zend/View/Abstract.php(349): Omeka_View_Helper_GetCurrentRecord->getCurrentRecord('collection')
+#1 /var/www/html/omeka/application/views/helpers/Metadata.php(53): Zend_View_Abstract->__call('getCurrentRecor...', Array)
+#2 /var/www/html/omeka/application/libraries/Zend/View/Abstract.php(349): Omeka_View_Helper_Metadata->metadata('collection', Array, Array)
+#3 /var/www/html/omeka/application/libraries/globals.php(2033): Zend_View_Abstract->__call('metadata', Array)
+#4 /var/www/html/omeka/application/views/scripts/items/browse.php(15): metadata('collection', Array)
+#5 /var/www/html/omeka/application/libraries/Omeka/View.php(117): include('/var/www/html/o...')
+#6 /var/www/html/omeka/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/var/www/html/o...')
+#7 /var/www/html/omeka/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(912): Zend_View_Abstract->render(NULL)
+#8 /var/www/html/omeka/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(933): Zend_Controller_Action_Helper_ViewRenderer->renderScript('items/browse.ph...', NULL)
+#9 /var/www/html/omeka/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(972): Zend_Controller_Action_Helper_ViewRenderer->render()
+#10 /var/www/html/omeka/application/libraries/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#11 /var/www/html/omeka/application/libraries/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#12 /var/www/html/omeka/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#13 /var/www/html/omeka/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#14 /var/www/html/omeka/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#15 /var/www/html/omeka/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#16 /var/www/html/omeka/application/libraries/Omeka/Application.php(79): Zend_Application->run()
+#17 /var/www/html/omeka/index.php(23): Omeka_Application->run()
+#18 {main}

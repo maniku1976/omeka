@@ -1812,6 +1812,13 @@ th {
     font-weight: bold;
   }
 
+  #collection-link {
+    margin-bottom: 1em;
+  }
+  #collection-link a {
+    font-size: 20px !important;
+  }
+
   #search-filters ul, #item-filters ul {
     padding-left: 0;
     list-style-type: none;
