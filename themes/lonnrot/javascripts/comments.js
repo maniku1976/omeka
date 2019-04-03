@@ -270,10 +270,10 @@ var comments = {
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3502" target="_blank">Kansallisbiografia</a>',
   'Herm. Kellgren': 'Abraham Herman August Kellgren (1822 - 1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845 - 1846.' +
   ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3502" target="_blank">Kansallisbiografia</a>',
   'Doktor Kellgren': 'Abraham Herman August Kellgren (1822 - 1856). Toimi Suomalaisen Kirjallisuuden Seuran sihteerinä 1845 - 1846.' +
   ' Nimitettiin itämaisten kielten professoriksi 1854. Kellgren toimitti myös <em>Suometarta</em> ja <em>Fosterländskt Albumia</em>.' +
-  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3133" target="_blank">Kansallisbiografia</a>',
+  ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3502" target="_blank">Kansallisbiografia</a>',
   'A. W. Ingman': 'Anders Wilhelm Ingman (1819 - 1877) oli pappi, eksegetiikan prosessori ja suomalaisuusmies. Ingmanin kiinnostus' +
   ' suomen kieltä ja <em>Kalevalaa</em> kohtaan vei hänet Lönnrotin läheisyyteen.' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/3492" target="_blank">Kansallisbiografia</a>',
