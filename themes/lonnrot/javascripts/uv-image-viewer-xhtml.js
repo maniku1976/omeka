@@ -49,6 +49,8 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Ilmoni' && key + ending == 'Ilmoniemen') {
         str = '';
+      } else if (key == 'Dahl' && (key + ending == 'Dahlberg' || key + ending == 'Dahlbergi')) {
+        str = '';
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {
         str = '';
       } else if (key == 'Cajan' && key + ending == 'Cajander') {
