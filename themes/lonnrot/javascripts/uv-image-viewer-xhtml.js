@@ -45,6 +45,8 @@ $(document).ready(function() {
         str = key;
       } else if (key == 'Krank' && (key + ending == 'Kranke' || key + ending == 'Krankheiten')) {
         str = '';
+      } else if (key == 'Jurva' && st_before.indexOf('Petteri R.') >= 0)
+        str = '';
       } else if (key == 'Ingerman' && key + ending == 'Ingermanland') {
         str = '';
       } else if (key == 'Ilmoni' && key + ending == 'Ilmoniemen') {
