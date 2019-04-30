@@ -43,7 +43,7 @@ $(document).ready(function() {
       // Exceptions for certain strings appearing before or after key or key + ending forming certain strings
       if (key == 'Ilmoni' && endings.indexOf(ending) < 0) {
         str = key;
-      } else if (key == 'Krank' && (key + ending == 'Kranke' || key + ending == 'Krankheiten')) {
+      } else if (key == 'Krank' && (key + ending == 'Kranke' || key + ending == 'Krankheiten' || key + ending == 'Krankaa')) {
         str = '';
       } else if (key == 'Jurva' && st_before.indexOf('Petteri R.') >= 0)
         str = '';
