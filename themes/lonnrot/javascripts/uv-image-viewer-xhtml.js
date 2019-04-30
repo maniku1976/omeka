@@ -57,7 +57,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Cajan' && key + ending == 'Cajander') {
         str = '';
-      } else if (key == 'Asp' && (key + ending == 'Aspar' || st_before.indexOf('Hofrätts-Rådet') >= 0)) {
+      } else if (key == 'Asp' && (key + ending == 'Aspar' || key + ending == 'Aspelund' || st_before.indexOf('Hofrätts-Rådet') >= 0)) {
         str = '';
       } else if (key == 'Hedberg' && (key + ending == 'Hedbergiläisyyden' || st_before.indexOf('J. V.') >= 0 || st_before.indexOf('prosten') >= 0)) {
         str = '';
