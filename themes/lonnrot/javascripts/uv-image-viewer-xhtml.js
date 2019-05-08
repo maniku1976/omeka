@@ -55,7 +55,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {
         str = '';
-      } else if (key == 'Cajan' && key + ending == 'Cajander') {
+      } else if (key == 'Cajan' && (key + ending == 'Cajander' || key + ending == 'Cajana')) {
         str = '';
       } else if (key == 'Asp' && (key + ending == 'Aspar' || key + ending == 'Aspelund' || st_before.indexOf('Hofrätts-Rådet') >= 0)) {
         str = '';
