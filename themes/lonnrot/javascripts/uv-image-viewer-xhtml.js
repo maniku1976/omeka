@@ -98,7 +98,8 @@ $(document).ready(function() {
       } else if (key == 'Maria' && (st_after.indexOf('Holm') >= 0 || st_after.indexOf('Nissinen') >= 0
         || st_after.indexOf('Tervonen') >= 0 || st_after.indexOf('Piponius') >= 0 || st_after.indexOf('Pipponius') >= 0
         || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.indexOf('Elfving, ') >= 0
-        || st_before.indexOf('J.') >= 0 || st_after.indexOf('Johanin') >= 0 || st_after.indexOf('Sparf') >= 0)) {
+        || st_before.indexOf('J.') >= 0 || st_after.indexOf('Johanin') >= 0 || st_after.indexOf('Sparf') >= 0
+        || st_after.indexOf('seuraa') >= 0)) {
         str = '';
       } else if (key == 'Elina' && (st_after.indexOf('Neitsy') >= 0 || st_after.indexOf('neion') >= 0 || st_after.indexOf('neito') >= 0)) {
         str = '';
