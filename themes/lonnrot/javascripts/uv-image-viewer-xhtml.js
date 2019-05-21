@@ -53,7 +53,8 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Dahl' && (key + ending == 'Dahlberg' || key + ending == 'Dahlbergi')) {
         str = '';
-      } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms')) {
+      } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms'
+        || key + ending == 'Reinholm')) {
         str = '';
       } else if (key == 'Cajan' && (key + ending == 'Cajander' || key + ending == 'Cajana')) {
         str = '';
