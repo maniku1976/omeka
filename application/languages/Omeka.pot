@@ -4108,7 +4108,10 @@ msgstr ""
 msgid "Lönnrot to Planting"
 msgstr ""
 
-msgid "Diverse letters"
+msgid "Diverse letters, sent"
+msgstr ""
+
+msgid "Diverse letters, received"
 msgstr ""
 
 msgid "Lists of recipients"
@@ -4528,6 +4531,7 @@ msgstr ""
 msgid "Small collections of letters"
 msgstr ""
 
+msgid "Small collections of letters, received
 msgid "Lists of letters sent to multiple recipients"
 msgstr ""
 
