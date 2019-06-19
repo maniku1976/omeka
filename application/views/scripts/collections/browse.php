@@ -285,8 +285,11 @@ $sortLinks[__('Date Added')] = 'added';
           case "Lönnrot &gt; Jurva, Karl Adolf":
             $years = '1872 - 1873';
             break;
-          case "Diverse letters":
-            $years = '1826 - 1884';
+          case "Diverse letters, sent":
+            $years = '1823-';
+            break;
+         case "Diverse letters, received":
+            $years = '1823-';
             break;
           case "Lists of recipients":
             $years = '1826 - 1884';
