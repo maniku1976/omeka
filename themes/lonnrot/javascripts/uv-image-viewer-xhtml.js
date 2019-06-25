@@ -45,7 +45,7 @@ $(document).ready(function() {
         str = key;
       } else if (key == 'Krank' && (key + ending == 'Kranke' || key + ending == 'Krankheiten' || key + ending == 'Krankaa')) {
         str = '';
-      } else if (key == 'Jurva' && st_before.indexOf('Petteri R.') >= 0)
+      } else if (key == 'Jurva' && st_before.indexOf('Petteri R.') >= 0) {
         str = '';
       } else if (key == 'Ingerman' && key + ending == 'Ingermanland') {
         str = '';
@@ -67,7 +67,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Zachris') >= 0 || st_before.indexOf('Länsman') >= 0
-        || st_before.indexOf('Ledam. M.') >= 0 || st_before.indexOf('Eric') >= 0 || st_before.indexOf('Ja\u00C7ob') >= 0)) {
+        || st_before.indexOf('Ledam. M.') >= 0 || st_before.indexOf('Alrik') >= 0 || st_before.indexOf('Eric') >= 0 || st_before.indexOf('Ja\u00C7ob') >= 0)) {
         str = '';
       } else if (key == 'Roos' && (st_before.indexOf('A. J.') >= 0 || st_before.indexOf('Höfdingan') >= 0
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0 || st_before.indexOf('Ida') >= 0)) {
