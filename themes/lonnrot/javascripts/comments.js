@@ -501,7 +501,6 @@ var comments = {
   ' Kreutzwaldin kanssa Viron oppineiden seuran. Keräsi <em>Kalevalan</em> innoittamana kansanrunoja.',
   'Faehlmann': 'Friedrich Robert Faehlmann (1798 - 1850), virolainen lääkäri, kielitieteilijä. Perusti' +
   ' Kreutzwaldin kanssa Viron oppineiden seuran. Keräsi <em>Kalevalan</em> innoittamana kansanrunoja.',
-  'Zitting': 'Joachim Zitting (1806 - 1876), Kreikan kirjallisuuden lehtori Kuopiossa.',
   'Frenckell': 'Johan Christoffer Frenckell (1789 - 1844), kustantaja.' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5788" target="_blank">Kansallisbiografia</a>.',
   'Fren\u00E7kell': 'Johan Christoffer Frenckell (1789 - 1844), kustantaja.' +
