@@ -80,7 +80,7 @@ $(document).ready(function() {
         || st_before.indexOf('G.') >= 0 || st_before.indexOf('Erik') >= 0)) {
         str = '';
       } else if (key == 'Collan' && (st_before.indexOf('Claës') >= 0 || st_before.indexOf('Studerande') >= 0
-        || st_before.indexOf('Doktor') >= 0 || key + ending == 'Collander')) {
+        || st_before.indexOf('Doktor') >= 0 || st_before.indexOf('Apotekari A.') >= 0 || key + ending == 'Collander')) {
         str = '';
       } else if (key == 'Europaeus' && st_before.indexOf('Prosten') >= 0) {
         str = '';
