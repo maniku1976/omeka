@@ -132,7 +132,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Keckmann' && st_before.indexOf('Samuel') >= 0) {
         str = '';
-      } else if (key == 'Johansson' && st_before.indexOf('J. V.') >= 0) {
+      } else if (key == 'Johansson' && (st_before.indexOf('J. V.') >= 0 || st_before.indexOf('A:W: ') >= 0)) {
         str = '';
       } else {
         str = key + ending;
