@@ -1995,10 +1995,19 @@ function browse_sort_links($links, $wrapperTags = array())
 function body_tag($attributes = array())
 {
     $attributes = apply_filters('body_tag_attributes', $attributes);
+    /* Google Analytics scripts need to be added after opening body tag */
     if ($attributes = tag_attributes($attributes)) {
-        return "<body ". $attributes . ">\n";
+        return "<body ". $attributes . ">\n".
+        "<!-- Google Tag Manager (noscript) -->".
+        "<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-MBCFHXJ'
+        height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>".
+        "<!-- End Google Tag Manager (noscript) -->\n";
     }
-    return "<body>\n";
+        return "<body>\n".
+        "<!-- Google Tag Manager (noscript) -->".
+        "<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-MBCFHXJ'
+        height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>".
+        "<!-- End Google Tag Manager (noscript) -->\n";
 }
 
 /**

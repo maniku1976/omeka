@@ -48,4 +48,3 @@ $collectionTitle = strip_formatting(metadata('collection', array('Dublin Core', 
 <?php fire_plugin_hook('public_collections_show', array('view' => $this, 'collection' => $collection)); ?>
 
 <?php echo foot(); ?>
-<script type="text/javascript" src="//eu1.snoobi.com/snoop.php?tili=codicesfennici_fi"></script>

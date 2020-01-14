@@ -49,9 +49,15 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Ingerman' && key + ending == 'Ingermanland') {
         str = '';
+      } else if (key == 'Neovius' && st_before.indexOf('Thure') >= 0) {
+        str = '';
+      } else if (key == 'Wasenius' && st_before.indexOf('Johan') >= 0) {
+        str = '';
       } else if (key == 'Ilmoni' && key + ending == 'Ilmoniemen') {
         str = '';
-      } else if (key == 'Dahl' && (key + ending == 'Dahlberg' || key + ending == 'Dahlbergi')) {
+      } else if (key == 'Dahl' && (key + ending == 'Dahlberg' || key + ending == 'Dahlbergi' || 
+        key + ending == 'Dahlbergille' || key + ending == 'Dahlbergila' || key + ending == 'Dahlbergiltä' || 
+        key + ending == 'Dahlbergin')) {
         str = '';
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms'
         || key + ending == 'Reinholm')) {
