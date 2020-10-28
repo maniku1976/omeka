@@ -2,7 +2,7 @@
 ?>
 
 <div id="primary">
-  <p style="text-align:center;"><img src="<?php echo img('OMEKA_tunnuskuva_sinetti_pyorea.png'); ?>" /></p>
+  <p style="text-align:center;"><img src="<?php echo img('OMEKA_tunnuskuva_sinetti_pyorea.png'); ?>" alt="Lönnrotin sinetti" /></p>
   <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
     <p id="front-page">
     </p>

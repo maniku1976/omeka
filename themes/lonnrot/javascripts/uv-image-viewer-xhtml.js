@@ -35,47 +35,62 @@ $(document).ready(function() {
 
       // key + ending, exceptions for 'Borg'
       var borg = ['Borgå','Borgm','Borgmestar','Borgmestare','Borgmestaren','Borgoensi','Borgmäst','Borgmestarilla','Borgesmän',
-      'Borgmästarinnan','Borgmästaren', 'Borgmästaretjänsten','Borgen','Borgmestaria','Borgströmin','Borgesman'];
+      'Borgmästarinnan','Borgmästaren', 'Borgmästaretjänsten','Borgen','Borgmestaria','Borgströmin','Borgesman', 
+      'Borgströmska', 'Borgström', 'Borgströms', 'Borgo'];
 
       // key + ending, exceptions for 'Frans'
-      var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna','Fransk'];
+      var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna','Fransk',
+      'Fransmännen','Franskan','Franskt'];
 
       // Exceptions for certain strings appearing before or after key or key + ending forming certain strings
       if (key == 'Ilmoni' && endings.indexOf(ending) < 0) {
         str = key;
-      } else if (key == 'Krank' && (key + ending == 'Kranke' || key + ending == 'Krankheiten' || key + ending == 'Krankaa')) {
+      } else if (key == 'Krank' && (key + ending == 'Kranke' || key + ending == 'Krankheiten' 
+        || key + ending == 'Krankaa' || key + ending == 'Krankan' || st_before.indexOf('Robert') >= 0)) {
         str = '';
       } else if (key == 'Jurva' && st_before.indexOf('Petteri R.') >= 0) {
         str = '';
-      } else if (key == 'Ingerman' && key + ending == 'Ingermanland') {
+      } else if (key == 'Ingerman' && (key + ending == 'Ingermanland' || key + ending == 'Ingermanlands')) {
         str = '';
-      } else if (key == 'Neovius' && st_before.indexOf('Thure') >= 0) {
+      } else if (key == 'Neovius' && (st_before.indexOf('Thure') >= 0 || st_before.indexOf('Adolf') >= 0)) {
         str = '';
-      } else if (key == 'Wasenius' && st_before.indexOf('Johan') >= 0) {
+      } else if (key == 'Wasenius' && (st_before.indexOf('Johan') >= 0 || st_before.indexOf('Valfrid') >= 0)) {
         str = '';
       } else if (key == 'Ilmoni' && key + ending == 'Ilmoniemen') {
         str = '';
       } else if (key == 'Dahl' && (key + ending == 'Dahlberg' || key + ending == 'Dahlbergi' || 
         key + ending == 'Dahlbergille' || key + ending == 'Dahlbergila' || key + ending == 'Dahlbergiltä' || 
-        key + ending == 'Dahlbergin')) {
+        key + ending == 'Dahlbergin' || key + ending == 'Dahlström')) {
         str = '';
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms'
-        || key + ending == 'Reinholm')) {
+        || key + ending == 'Reinholm' || key + ending == 'Reinholmin' || key + ending == 'Reinhold' 
+        || key + ending == 'Reinholdt' || st_before.indexOf('Emmi') >= 0 )) {
+        str = '';
+      } else if (key == 'Reinholm' && st_before.indexOf('Maalari') >= 0) {
         str = '';
       } else if (key == 'Porthan' && st_before.indexOf('Heders') >= 0) {
         str = '';
-      } else if (key == 'Cajan' && (key + ending == 'Cajander' || key + ending == 'Cajana')) {
+      } else if (key == 'Cajan' && (key + ending == 'Cajander' || key + ending == 'Cajana' 
+        || key + ending == 'Cajanus' || key + ending == 'Cajanaresa')) {
         str = '';
       } else if (key == 'Asp' && (key + ending == 'Aspar' || key + ending == 'Aspelund' || st_before.indexOf('Hofrätts-Rådet') >= 0)) {
         str = '';
-      } else if (key == 'Hedberg' && (key + ending == 'Hedbergiläisyyden' || st_before.indexOf('J. V.') >= 0 || st_before.indexOf('prosten') >= 0)) {
+      } else if (key == 'Hedberg' && (key + ending == 'Hedbergiläisyyden' 
+        || st_before.indexOf('J. V.') >= 0 || st_before.indexOf('prosten') >= 0
+        || st_before.indexOf('Fredr.') >= 0)) {
         str = '';
       } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0
-        || st_before.indexOf('Dompr.') >= 0 || st_before.indexOf('Wilhelm') >= 0 || borg.indexOf(key + ending) >= 0))  {
+        || st_before.indexOf('Dompr.') >= 0 || st_before.indexOf('Wilhelm') >= 0 
+        || st_before.indexOf('Pastor') >= 0 || st_before.indexOf('Lehtorin') >= 0
+        || st_before.indexOf('E. W.') >= 0 || st_before.indexOf('L.') >= 0
+        || borg.indexOf(key + ending) >= 0))  {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Zachris') >= 0 || st_before.indexOf('Länsman') >= 0
-        || st_before.indexOf('Ledam. M.') >= 0 || st_before.indexOf('Alrik') >= 0 || st_before.indexOf('Eric') >= 0 || st_before.indexOf('Ja\u00C7ob') >= 0)) {
+        || st_before.indexOf('Ledam. M.') >= 0 || st_before.indexOf('Alrik') >= 0 
+        || st_before.indexOf('Eric') >= 0 || st_before.indexOf('Ja\u00C7ob') >= 0 
+        || st_before.indexOf('Kaptén') >= 0 || st_before.indexOf('Vallesm') >= 0 
+        || st_before.indexOf('systerson') >= 0)) {
         str = '';
       } else if (key == 'Roos' && (st_before.indexOf('A. J.') >= 0 || st_before.indexOf('Höfdingan') >= 0
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0 || st_before.indexOf('Ida') >= 0)) {
@@ -92,7 +107,10 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Europaeus' && st_before.indexOf('Prosten') >= 0) {
         str = '';
-      } else if (key == 'Lindfors' && (st_before.indexOf('Rector') >= 0 || st_before.indexOf('Conrector') >= 0 || st_before.indexOf('Phil') >= 0)) {
+      } else if (key == 'Lindfors' && (st_before.indexOf('Rector') >= 0 
+        || st_before.indexOf('Conrector') >= 0 || st_before.indexOf('Phil') >= 0
+        || st_before.indexOf('seminaristen') >= 0 || st_before.indexOf('August') >= 0
+        || st_before.indexOf('Kaarle') >= 0 || st_before.indexOf('Evert E.') >= 0)) {
         str = '';
       } else if (key == 'Elfving' && st_before.indexOf('Axel') >= 0) {
         str = '';
@@ -114,13 +132,17 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Frans' && (frans.includes(key + ending) || st_after.indexOf('J. Rabbe') >= 0 || st_after.indexOf('Johan') >= 0
         || st_after.indexOf('och Atte') >= 0 || st_after.indexOf('Munkin') >= 0 || st_after.indexOf('Muck') >= 0
-        || st_after.indexOf('Becker') >= 0 || st_after.indexOf('von Becker') >= 0 || st_after.indexOf('Wilhelm') > 0)) {
+        || st_after.indexOf('Becker') >= 0 || st_after.indexOf('Be\u00C7ker') >= 0 || st_after.indexOf('von Becker') >= 0 || st_after.indexOf('Wilhelm') > 0)) {
         str = '';
-      } else if (key == 'Selin' && st_before.indexOf('Carin') >= 0) {
+      } else if (key == 'Selin' && (st_before.indexOf('Carin') >= 0
+        || st_before.indexOf('frouva') >= 0
+        || key + ending == 'Selinsfastrar')) {
         str = '';
-      } else if (key == 'Lagi' && st_before.indexOf('Prostinnan') >= 0) {
+      } else if (key == 'Lagi' && (st_before.indexOf('Prostinnan') >= 0
+        || st_before.indexOf('Wilh.') >= 0 || st_before.indexOf('Doctorinnan') >= 0)) {
         str = '';
-      } else if (key == 'Mellin' && (st_before.indexOf('Fru') >= 0 || st_before.indexOf('Mamsell') >= 0 || st_before.indexOf('Robert') >= 0)) {
+      } else if (key == 'Mellin' && (st_before.indexOf('Fru') >= 0 || st_before.indexOf('Mamsell') >= 0 
+        || st_before.indexOf('Robert') >= 0 || st_before.indexOf('Rob.') >= 0)) {
         str = '';
       } else if (key == 'Friman' && st_before.indexOf('Skolläraren') >= 0) {
         str = '';
@@ -132,7 +154,8 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Tähti' && st_after.indexOf('taivahi') >= 0) {
         str = '';
-      } else if (key == 'Lindström' && key + ending == 'Lindströmar') {
+      } else if (key == 'Lindström' && (key + ending == 'Lindströmar'
+        || st_before.indexOf('Eva') >= 0 || st_before.indexOf('Alex.') >= 0)) {
         str = '';
       } else if (key == 'Grot' && key + ending == 'Grotii') {
         str = '';
@@ -140,14 +163,31 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Keckmann' && st_before.indexOf('Samuel') >= 0) {
         str = '';
-      } else if (key == 'Johansson' && (st_before.indexOf('J. V.') >= 0 || st_before.indexOf('A:W: ') >= 0)) {
+      } else if (key == 'Johansson' && (st_before.indexOf('J. V.') >= 0 
+        || st_before.indexOf('A:W: ') >= 0 || st_before.indexOf('Josua') >= 0)) {
+        str = '';
+      } else if (key == 'Asp' && (key + ending == 'Aspelin' || key + ending == 'Aspelins')) {
+        str = '';
+      } else if (key == 'Ehrström' && st_before.indexOf('Prof') >= 0) {
+        str = '';
+      } else if (key == 'Sirén' && st_before.indexOf('Olga') >= 0) {
+        str = '';
+      } else if (key == 'Laurell' && st_before.indexOf('Evert') >= 0) {
+        str = '';
+      } else if (key == 'Planting' && st_before.indexOf('Mi\u00C7hel') >= 0) {
+        str = '';
+      } else if (key == 'Strömborg' && st_before.indexOf('G. J.') >= 0) {
+        str = '';
+      } else if (key == 'Avellan' && st_before.indexOf('Edvin') >= 0) {
+        str = '';
+      } else if (key == 'Karsten' && st_before.indexOf('Major') >= 0) {
         str = '';
       } else {
         str = key + ending;
       }
 
       // insert popup
-      $('.textFrame')
+      $('.textFrame') 
       .html($('.textFrame')
       .html()
       .replace(str, '<span class="comm tooltip bt" href="#">' + str + '<span>' + value + '</span></span>'));
@@ -176,7 +216,7 @@ $(document).ready(function() {
   // Arrow back disabled at start
   $('#btPrevXML').addClass('disabled-arrow');
 
-  // Browse backwards
+  // Browse backwards, mouse click
   $('#btPrevXML').click(function() {
     if (i == 0) {
       $('#btPrevXML').addClass('disabled-arrow');
@@ -207,7 +247,40 @@ $(document).ready(function() {
     i--;
   });
 
-  // Browse forward
+  // Browse backwards, enter
+  $('#btPrevXML').keypress(function(e) {
+    if (i == 0) {
+      $('#btPrevXML').addClass('disabled-arrow');
+      return false;
+    } else {
+      $('#btPrevXML').removeClass('disabled-arrow');
+      $('#btNextXML').removeClass('disabled-arrow');
+    }
+
+    if (e.which == 13) {
+    // get current and previous page; hide current, show previous, hide others
+    var current = $('#exhibit3b').find('.page:eq(' + i + ')');
+    var prev = current.prev();
+
+    current.hide();
+    if (prev) {
+      prev.show().prevAll().hide();
+    }
+
+    // Find UniversalViewer back button
+    var bt = $("#exhibit3a").find('iframe').contents().find("div.paging.btn.prev");
+    var prevClass = prev.find('.pb').attr('class');
+    var currentClass = current.find('.pb').attr('class');
+    // Trigger back button if previous page is not for same picture as current one
+    if (prevClass.slice(0, -1) != currentClass.slice(0, -1)) {
+      bt.trigger("click");
+    }
+    // Decrease page count by 1
+    i--;
+    }
+  });
+
+  // Browse forward, mouse click
   $('#btNextXML').click(function() {
 
     if (i == $('#exhibit3b').find('.pb').length-1) {
@@ -241,6 +314,45 @@ $(document).ready(function() {
     }
     // Increase page count by 1
     i++;
+  });
+
+  // browse forward, enter
+  $('#btNextXML').keypress(function(e) {
+
+    if (i == $('#exhibit3b').find('.pb').length-1) {
+      $('#btNextXML').addClass('disabled-arrow');
+      return false;
+    } else {
+      $('#btNextXML').removeClass('disabled-arrow');
+      $('#btPrevXML').removeClass('disabled-arrow');
+    }
+
+    if (e.which == 13) {
+    // Find current and next page
+    var current = $('#exhibit3b').find('.page:eq(' + i + ')');
+    var next = current.next();
+
+    // Find UniversalViewer's forward button
+    var nextBt = $("#exhibit3a").find('iframe').contents().find("div.paging.btn.next");
+
+    // Hide current page, show next page, hide other pages
+    current.hide();
+    if (next) {
+      next.show().siblings('.page').hide();
+    }
+
+    // Trigger UniversalViewer's next button if next page is not for same image as current page
+    var nextClass = next.find('.pb').attr('class');
+    var currentClass = current.find('.pb').attr('class');
+    if (typeof next != undefined && nextClass.slice(0, -1) != currentClass.slice(0, -1)) {
+      nextBt.trigger('click');
+    } else if (typeof next == undefined) {
+      return false;
+    }
+    // Increase page count by 1
+    i++;
+
+    }
   });
 
 });

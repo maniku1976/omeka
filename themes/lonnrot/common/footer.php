@@ -11,7 +11,8 @@
                 <p><?php echo $copyright; ?></p>
             <?php endif; ?>
             <p style="width:100%;display:inline-block;">
-              <?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?>
+              <span><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></span>
+              <a id="accessibility" href="http://lonnrot.finlit.fi/omeka/saavutettavuus"><?php echo __('Accessibility');?></a>
               <?php if (!current_user()) : ?>
                 <a id="login_link" href="http://lonnrot.finlit.fi/omeka/users/login"><?php echo __('Researchers').' >>'; ?></a>
               <?php else: ?>
@@ -19,7 +20,6 @@
                 <a id="logout_link" href="http://lonnrot.finlit.fi/omeka/users/logout"><?php echo __('Log Out'); ?></a>
               <?php endif ?>
             </p>
-
         </div>
 
         <?php fire_plugin_hook('public_footer', array('view' => $this)); ?>

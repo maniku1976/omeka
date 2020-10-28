@@ -584,6 +584,10 @@ th {
     clear: both;
   }
 
+  .record p {
+    color: #6E6E6E;
+  }
+
   .secondary-nav + .exhibit {
     margin-top: -1px;
   }
@@ -1589,8 +1593,12 @@ th {
   #recent-items .view-items-link {
     clear: both;
   }
+
+  #recent-items div p {
+    color: #6E6E6E !important;
+  }
   #recent-items h2 {
-    color: #999;
+    color: #6E6E6E;
     text-transform: uppercase;
     font-size: 1em;
   }
@@ -1602,7 +1610,7 @@ th {
     border-top: 1px solid #eee;
   }
   #recent-items .item-description {
-    color: #999;
+    color: #6E6E6E;
     text-transform: uppercase;
     font-size: .8em;
   }
@@ -1814,9 +1822,11 @@ th {
 
   #collection-link {
     margin-bottom: 1em;
+    color: #6E6E6E;
   }
   #collection-link a {
     font-size: 20px !important;
+    color: #6E6E6E !important;
   }
 
   #search-filters ul, #item-filters ul {
@@ -2001,13 +2011,17 @@ th {
     padding-bottom: 0 !important;
   }
   #collection-list .collection-description p {
-    color: #999;
+    color: #6E6E6E;
   }
   #collection-list .collection .view-items-link a {
     color: #333;
   }
   #collection-list .collection .image img {
     border: 1px solid #eee;
+  }
+
+  .collection-description {
+    color: ##6E6E6E !important;
   }
 
   div.collection {
@@ -2039,7 +2053,24 @@ th {
     float: left;
   }*/
   footer a {
-    color: #999 !important;
+    color: #6E6E6E;
+    margin-right: 16px;
+  }
+
+  #footer-text p {
+    text-transform: uppercase;
+    color: #6E6E6E;
+  }
+
+  #footer-text p a#accessibility {
+    margin-left: 2em;
+    color: #6E6E6E;
+  }
+
+  #footer-text p span {
+    display: inline;
+    margin-left: 16px;
+    color: #6E6E6E;
   }
   footer a:hover {
     color: #666 !important;
@@ -2218,7 +2249,7 @@ th {
   }
 
   a:link {
-    color: #888;
+    color: #484848 !important;
   }
   a:visited {
     color: #fff;
@@ -2424,6 +2455,10 @@ th {
   #sort-links ul {
     /*margin-top: 1.125em;
     padding-top: 0.75em;*/
+  }
+
+  #sort-links ul li a {
+    color: #6E6E6E !important;
   }
 
   #sort-links span, #sort-links li {
@@ -2842,7 +2877,7 @@ th {
   }
 
   .item-meta {
-    color: #999;
+    color: #6E6E6E;
     text-transform: uppercase;
     font-size: .8em;
   }
@@ -2999,14 +3034,14 @@ th {
     float:right;
     margin-right:16px;
     text-transform: uppercase;
-    color: #999;
+    color: #6E6E6E;
   }
 
   #logged_in {
     float:right;
     margin-right:16px;
     text-transform: uppercase;
-    color: #999;
+    color: #6E6E6E;
   }
 
   #logout_link {
@@ -3014,7 +3049,7 @@ th {
     margin-right:25px;
     cursor:pointer;
     text-transform: uppercase;
-    color: #999;
+    color: #6E6E6E;
   }
 
   #commentary {
@@ -3032,7 +3067,17 @@ th {
     cursor: pointer;
   }
 
+  .facet-count {
+    color: #6E6E6E;
+  }
 
+  #num-found {
+    color: #6E6E6E !important;
+  }
+
+  .flaw__wcag {
+    margin-bottom: 1em;
+  }
 
 
   /* @end */

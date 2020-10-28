@@ -4632,3 +4632,7 @@ msgstr ""
 #: plugins/SolrSearch/views/shared/results/index.php:85
 msgid "Export to table"
 msgstr ""
+
+#: footer links
+msgid "Accessibility"
+msgstr ""

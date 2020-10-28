@@ -444,7 +444,6 @@ var comments = {
   'Alop\u00E6us': 'Carl Henrik Alopaeus (1825 - 1892), piispa, valtiopäivämies.' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/5836" target="_blank">Kansallisbiografia</a>.',
   'Ida': 'Ida Karolina Lönnrot (1855 - 1915), Lönnrotin tytär.',
-  'Thekla': 'Tekla Natalia Lönnrot (1860 - 1879), Lönnrotin tytär.',
   'Tekla': 'Tekla Natalia Lönnrot (1860 - 1879), Lönnrotin tytär.',
   'Maria': 'Maria Ulrika Lönnrot (1852 - 1874), Lönnrotin tytär.',
   'Maria Piponius': 'Maria Lönnrot (Piponius) (1823 - 1868), Lönnrotin vaimo.',

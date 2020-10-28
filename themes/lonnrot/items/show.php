@@ -37,8 +37,8 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
   <div id="exhibit3b">
     <!-- Buttons for showing/hiding transcription markings and commentaries, download link for TEI -->
     <span style="display:inline;float:left;">
-      <input type="checkbox" onclick="toggleMarkingsXML()" checked/><?php echo __('Markings');?>&nbsp;&nbsp;
-      <input type="checkbox" onclick="toggleCommentsXML()" checked/><?php echo __('Definitions');?>&nbsp;&nbsp;
+      <input tabindex="0" type="checkbox" onclick="toggleMarkingsXML()" checked/><?php echo __('Markings');?>&nbsp;&nbsp;
+      <input tabindex="0" type="checkbox" onclick="toggleCommentsXML()" checked/><?php echo __('Definitions');?>&nbsp;&nbsp;
       <?php if (metadata('item', array('Item Type Metadata', 'Commentary')) !== null): ?>
         <a id="commentary-button"><i class="fa fa-arrow-down" aria-hidden="true"></i>
           <?php echo __('Commentaries');?>
@@ -53,8 +53,8 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
     </span>
     <!-- Buttons for moving back and forth in pictures and transcription-->
     <span style="float:right;">
-      <a id="btPrevXML" title="<?php echo __('Previous Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-left"></i></a>
-      <a id="btNextXML" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-right"></i></a>
+      <a tabindex="0" id="btPrevXML" title="<?php echo __('Previous Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-left"></i></a>
+      <a tabindex="0" id="btNextXML" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-right"></i></a>
     </span>
     <!-- Frame for displaying commentaries -->
     <!-- Frame for displaying transcription -->
