@@ -551,7 +551,6 @@ var comments = {
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/2599" target="_blank">Kansallisbiografia</a>.',
   'Herman Carger': 'Johan Herman Carger (1766 - 1832), Oulun piirilääkäri 1817 - 1832.',
   'Saxbäck': 'Gustaf Adolf Saxbäck (1805 - 1877), pappi, virsirunoilija.',
-  'Hisinger': 'C. A. Hisinger (1816 - 1902), luonnonsuojelija.',
   'Reinhold von Becker': 'Reinhold von Becker (1788 - 1858), suomen kielen kehittäjä, professori. Laati suomen kieliopin' +
   ' ja toimi <em>Turun Wiikko-Sanomien</em> toimittajana. Kirjoitti runonkeruumatkan pohjalta artikkelin Väinämöisestä (1820),' +
   ' jonka tulkitsi historialliseksi sankariksi. Lönnrotin opettaja ja innoittaja.' +

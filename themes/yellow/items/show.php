@@ -40,7 +40,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')),'body
       <a id="btNextXML" title="<?php echo __('Next Page'); ?>" style="cursor:pointer;"><i class="fa fa-arrow-right"></i></a>
     </span>
     <!-- Frame for displaying transcription -->
-    <div class="textFrame">
+    <div class="textFrame" tabindex="0">
       <?php
       // Load TEI file attached to item, load XSL stylesheet, transform TEI to XHTML
       $files = $item->Files;
