@@ -2915,6 +2915,11 @@ th {
   #locale_lang_code:hover {
     background: #333;
     color: #fff;
+    border: 2px solid #111 !important;
+  }
+
+  #locale_lang_code:focus {
+    border: 2px solid #111 !important;
   }
 
   /* disables arrow keys in show.php as necessary */

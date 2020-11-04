@@ -164,7 +164,7 @@ class SwitchLanguagePlugin extends Omeka_Plugin_AbstractPlugin
 
       switch ($show_way) {
       case 'm_n': //drop-down Menu + language Name
-	echo get_view()->formSelect('locale_lang_code', $current_locale_code, array('onchange' => "this.form.submit()"), array_map("ucfirst", $language_name));
+	echo get_view()->formSelect('locale_lang_code', $current_locale_code, array('onchange' => "this.form.submit()", 'tabindex' => "0"), array_map("ucfirst", $language_name));
 	break;
       case 'm_c': //drop-down Menu + language Code
 	echo get_view()->formSelect('locale_lang_code', $current_locale_code, array('onchange' => "this.form.submit()"), array_map("strtoupper",$language_code));

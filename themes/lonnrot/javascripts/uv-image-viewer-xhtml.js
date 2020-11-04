@@ -34,24 +34,27 @@ $(document).ready(function() {
       var st_after = $('.textFrame').text().substring(first, first+15);
 
       // key + ending, exceptions for 'Borg'
-      var borg = ['Borgå','Borgm','Borgmestar','Borgmestare','Borgmestaren','Borgoensi','Borgmäst','Borgmestarilla','Borgesmän',
+      var borg = ['Borgå','Borgm','Borgmestar','Borgmestarn','Borgmestare','Borgmestaren','Borgoensi','Borgmäst','Borgmestarilla','Borgesmän',
       'Borgmästarinnan','Borgmästaren', 'Borgmästaretjänsten','Borgen','Borgmestaria','Borgströmin','Borgesman', 
-      'Borgströmska', 'Borgström', 'Borgströms', 'Borgo'];
+      'Borgströmska', 'Borgström', 'Borgströms','Borgo','Borgoossa','Borgoon','Borgå-stifts','Borgåstifts','Borgenärerna',
+      'Borgarmålet','Borgmästar','Borgmästare','Borgo','Borgmästartjensten','Borgesmännen','Borgesmannen','Borgoënsis'];
 
       // key + ending, exceptions for 'Frans'
-      var frans = ['Fransyska','Fransyskt','Franska','Fransos','Fransoser','Fransoserna','Fransk',
+      var frans = ['Fransyska','Fransyskan','Fransyskt','Franskan','Franska','Fransos','Fransoser','Fransoserna','Fransk',
       'Fransmännen','Franskan','Franskt'];
 
       // Exceptions for certain strings appearing before or after key or key + ending forming certain strings
       if (key == 'Ilmoni' && endings.indexOf(ending) < 0) {
         str = key;
       } else if (key == 'Krank' && (key + ending == 'Kranke' || key + ending == 'Krankheiten' 
-        || key + ending == 'Krankaa' || key + ending == 'Krankan' || st_before.indexOf('Robert') >= 0)) {
+        || key + ending == 'Krankaa' || key + ending == 'Krankan' || st_before.indexOf('Robert') >= 0
+        || key + ending == 'Krankh' || st_before.indexOf('Juhana') >= 0 || st_before.indexOf('Robert') >= 0
+        || st_before.indexOf('maan') >= 0)) {
         str = '';
       } else if (key == 'Jurva' && st_before.indexOf('Petteri R.') >= 0) {
         str = '';
       } else if (key == 'Ingerman' && (key + ending == 'Ingermandland' || key + ending == 'Ingermandlands'
-        || key + ending == 'Ingermandlandin')) {
+        || key + ending == 'Ingermandlandin') || key + ending == 'Ingermannaland') {
         str = '';
       } else if (key == 'Neovius' && (st_before.indexOf('Thure') >= 0 || st_before.indexOf('Adolf') >= 0)) {
         str = '';
@@ -61,41 +64,48 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Dahl' && (key + ending == 'Dahlberg' || key + ending == 'Dahlbergi' || 
         key + ending == 'Dahlbergille' || key + ending == 'Dahlbergila' || key + ending == 'Dahlbergiltä' || 
-        key + ending == 'Dahlbergin' || key + ending == 'Dahlström')) {
+        key + ending == 'Dahlbergin' || key + ending == 'Dahlström' || st_before.indexOf('Nummen') >= 0
+        || key + ending == 'Dahlb' || key + ending == 'Dahlbergs' || key + ending == 'Dahlbergilla' 
+        || key + ending == 'Dahlberginki')) {
         str = '';
       } else if (key == 'Rein' && (key + ending == 'Reine' || key + ending == 'Reinholm' || key + ending == 'Reinholms'
         || key + ending == 'Reinholm' || key + ending == 'Reinholmin' || key + ending == 'Reinhold' 
-        || key + ending == 'Reinholdt' || st_before.indexOf('Emmi') >= 0 || key + ending == 'Reinh')) {
+        || key + ending == 'Reinholdt' || st_before.indexOf('Emmi') >= 0 || key + ending == 'Reinh'
+        || key + ending == 'Reinholdin' || st_before.indexOf('Th.') >= 0)) {
         str = '';
       } else if (key == 'Reinholm' && st_before.indexOf('Maalari') >= 0) {
         str = '';
       } else if (key == 'Porthan' && st_before.indexOf('Heders') >= 0) {
         str = '';
       } else if (key == 'Cajan' && (key + ending == 'Cajander' || key + ending == 'Cajana' 
-        || key + ending == 'Cajanus' || key + ending == 'Cajanaresa')) {
+        || key + ending == 'Cajanus' || key + ending == 'Cajanaresa' || key + ending == 'Cajanernas' 
+        || key + ending == 'Cajaneborgs' || key + ending == 'Cajanensis')) {
         str = '';
       } else if (key == 'Asp' && (key + ending == 'Aspar' || key + ending == 'Aspelund' || st_before.indexOf('Hofrätts-Rådet') >= 0)) {
         str = '';
       } else if (key == 'Hedberg' && (key + ending == 'Hedbergiläisyyden' 
         || st_before.indexOf('J. V.') >= 0 || st_before.indexOf('prosten') >= 0
-        || st_before.indexOf('Fredr.') >= 0)) {
+        || st_before.indexOf('Fredr.') >= 0 || st_before.indexOf('F. G.') >= 0)) {
         str = '';
       } else if (key == 'Borg' && (st_before.indexOf('Aron') >= 0 || st_before.indexOf('A.') >= 0
         || st_before.indexOf('Dompr.') >= 0 || st_before.indexOf('Wilhelm') >= 0 
         || st_before.indexOf('Pastor') >= 0 || st_before.indexOf('Lehtorin') >= 0
-        || st_before.indexOf('E. W.') >= 0 || st_before.indexOf('L.') >= 0
-        || borg.indexOf(key + ending) >= 0))  {
+        || st_before.indexOf('E. W.') >= 0 || st_before.indexOf('L.') >= 0 || st_before.indexOf('Fredr.')
+        || st_after.indexOf('Vicarius') >= 0 || borg.indexOf(key + ending) >= 0))  {
         str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Zachris') >= 0 || st_before.indexOf('Länsman') >= 0
         || st_before.indexOf('Ledam. M.') >= 0 || st_before.indexOf('Alrik') >= 0 
         || st_before.indexOf('Eric') >= 0 || st_before.indexOf('Ja\u00C7ob') >= 0 
         || st_before.indexOf('Kaptén') >= 0 || st_before.indexOf('Vallesm') >= 0 
-        || st_before.indexOf('systerson') >= 0)) {
+        || st_before.indexOf('systerson') >= 0 || st_before.indexOf('Kyrkoherde') >= 0
+        || st_before.indexOf('Juljus') >= 0 || st_before.indexOf('KronoLänsmannen') >= 0 
+        || st_before.indexOf('Alrik') >= 0 || st_before.indexOf('HäradsHöfd.') >= 0)) {
         str = '';
       } else if (key == 'Roos' && (st_before.indexOf('A. J.') >= 0 || st_before.indexOf('Höfdingan') >= 0
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0 || st_before.indexOf('Ida') >= 0
-        || key + ending == 'Roosens')) {
+        || key + ending == 'Roosens' || st_before.indexOf('Ivar') >= 0 || st_before.indexOf('A. B.') >= 0
+        || st_before.indexOf('Hkdf') >= 0)) {
         str = '';
       } else if (key == 'Ståhlberg' && (st_before.indexOf('F. A.') >= 0 || st_before.indexOf('Länsman') >= 0
         || st_before.indexOf('Kronof') >= 0 || st_before.indexOf('J. G.') >= 0 || st_before.indexOf('C. B.') >= 0
@@ -105,7 +115,8 @@ $(document).ready(function() {
         || st_before.indexOf('G.') >= 0 || st_before.indexOf('Erik') >= 0 || st_before.indexOf('Sanmarck') >= 0)) {
         str = '';
       } else if (key == 'Collan' && (st_before.indexOf('Claës') >= 0 || st_before.indexOf('Studerande') >= 0
-        || st_before.indexOf('Doktor') >= 0 || st_before.indexOf('Apotekari A.') >= 0 || key + ending == 'Collander')) {
+        || st_before.indexOf('Doktor') >= 0 || st_before.indexOf('Apotekari A.') >= 0 || key + ending == 'Collander'
+        || st_before.indexOf('Karl') >= 0)) {
         str = '';
       } else if (key == 'Europaeus' && st_before.indexOf('Prosten') >= 0) {
         str = '';
@@ -118,29 +129,35 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Korhonen' && st_before.indexOf('Elsa') >= 0) {
         str = '';
-      } else if (key == 'Flander' && (st_before.indexOf('Fr.') >= 0 || st_before.indexOf('Stud.') >= 0 || st_before.indexOf('Borgm') >= 0)) {
+      } else if (key == 'Flander' && (st_before.indexOf('Fr.') >= 0 || st_before.indexOf('Stud.') >= 0 
+      || st_before.indexOf('Borgm') >= 0 || key + ending == 'Flandern')) {
         str = '';
       } else if (key == 'Runeberg' && st_before.indexOf('Fru') >= 0) {
         str = '';
-      } else if (key == 'Ida' && st_after.indexOf('Roos') >= 0) {
+      } else if (key == 'Ida' && (st_after.indexOf('Roos') >= 0 || key + ending == 'Idag')) {
         str = '';
       } else if (key == 'Maria' && (st_after.indexOf('Holm') >= 0 || st_after.indexOf('Nissinen') >= 0
         || st_after.indexOf('Tervonen') >= 0 || st_after.indexOf('Piponius') >= 0 || st_after.indexOf('Pipponius') >= 0
         || st_after.indexOf('Magdalenae') >= 0 || st_before.indexOf('Diakonissan') >= 0 || st_before.indexOf('Elfving, ') >= 0
         || st_before.indexOf('J.') >= 0 || st_after.indexOf('Johanin') >= 0 || st_after.indexOf('Sparf') >= 0
-        || st_after.indexOf('seuraa') >= 0)) {
+        || st_after.indexOf('seuraa') >= 0 || key + ending == 'Marianpäivän' || st_before.indexOf('diakonissan') >= 0
+        || st_before.indexOf('Jungfru') >= 0 || st_after.indexOf('Magdalenae') >= 0 || st_after.indexOf('Ulrica') >= 0
+        || st_before.indexOf('kusin,') >= 0 || st_before.indexOf('Storfurstinnan') >= 0
+        || st_before.indexOf('(Svägerska?)') >= 0 || st_before.indexOf('Anna') >= 0)) {
         str = '';
-      } else if (key == 'Elina' && (st_after.indexOf('Neitsy') >= 0 || st_after.indexOf('neion') >= 0 || st_after.indexOf('neito') >= 0)) {
+      } else if (key == 'Elina' && (st_after.indexOf('Neitsy') >= 0 || st_after.indexOf('neion') >= 0 
+        || st_after.indexOf('neito') >= 0 || key + ending == 'Elinaikuinen')) {
         str = '';
       } else if (key == 'Frans' && (frans.includes(key + ending) || st_after.indexOf('J. Rabbe') >= 0 || st_after.indexOf('Johan') >= 0
         || st_after.indexOf('och Atte') >= 0 || st_after.indexOf('Munkin') >= 0 || st_after.indexOf('Muck') >= 0
-        || st_after.indexOf('Becker') >= 0 || st_after.indexOf('Be\u00C7ker') >= 0 || st_after.indexOf('von Becker') >= 0 || st_after.indexOf('Wilhelm') > 0)) {
+        || st_after.indexOf('Becker') >= 0 || st_after.indexOf('Be\u00C7ker') >= 0 || st_after.indexOf('von Becker') >= 0 
+        || st_after.indexOf('Wilhelm') > 0 || st_after.indexOf('Schauman') >= 0)) {
         str = '';
       } else if (key == 'Selin' && (st_before.indexOf('Carin') >= 0
         || st_before.indexOf('frouva') >= 0
         || key + ending == 'Selinsfastrar')) {
         str = '';
-      } else if (key == 'Lagi' && (st_before.indexOf('Prostinnan') >= 0
+      } else if (key == 'Lagi' && (st_before.indexOf('Prostinnan') >= 0 || st_before.indexOf('Prosten') >= 0
         || st_before.indexOf('Wilh.') >= 0 || st_before.indexOf('Doctorinnan') >= 0)) {
         str = '';
       } else if (key == 'Mellin' && (st_before.indexOf('Fru') >= 0 || st_before.indexOf('Mamsell') >= 0 
@@ -154,10 +171,10 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Morgonbladet' && st_before.indexOf('Helsingfors') >= 0) {
         str = '';
-      } else if (key == 'Tähti' && st_after.indexOf('taivahi') >= 0) {
+      } else if (key == 'Tähti' && (st_after.indexOf('taivahi') >= 0 || key + ending == 'Tähtimies')) {
         str = '';
-      } else if (key == 'Lindström' && (key + ending == 'Lindströmar'
-        || st_before.indexOf('Eva') >= 0 || st_before.indexOf('Alex.') >= 0)) {
+      } else if (key == 'Lindström' && (key + ending == 'Lindströmar' || st_before.indexOf('Eva') >= 0 
+      || st_before.indexOf('Alex.') >= 0 || key + ending == 'Lindströmskan')) {
         str = '';
       } else if (key == 'Grot' && key + ending == 'Grotii') {
         str = '';
@@ -180,9 +197,19 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Strömborg' && st_before.indexOf('G. J.') >= 0) {
         str = '';
+      } else if (key == 'Strömberg' && st_before.indexOf('vikarien') >= 0) {
+        str = '';
       } else if (key == 'Avellan' && st_before.indexOf('Edvin') >= 0) {
         str = '';
       } else if (key == 'Karsten' && st_before.indexOf('Major') >= 0) {
+        str = '';
+      } else if (key == 'Lille' && key + ending == 'Lilleputs') {
+        str = '';
+      } else if (key == 'Bark' && key + ending == 'Barkerna') {
+        str = '';
+      } else if (key == 'Kanava' && (key + ending == 'Kanavat' || st_before.indexOf('Marinskaja') >= 0)) {
+        str = '';
+      } else if (key == 'Fabritius' && (st_before.indexOf('apteekari') >= 0 || st_after.indexOf('mamselli') >= 0)) {
         str = '';
       } else {
         str = key + ending;
