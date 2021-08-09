@@ -348,8 +348,8 @@ var comments = {
   'Bisi': 'Eric Bisi (1819 - 1868), sanomalehtikirjoittaja, lukkari. Toimi lukkarina Suomussalmella 1838 - 1868.' +
   ' <a href="http://kansallisbiografia.fi/kansallisbiografia/henkilo/492" target="_blank">Kansallisbiografia</a>',
   'Kyrkoherden Aejmelaeus': 'Carl Aejmelaeus (1796 - 1870), Pyhäjoen kirkkoherra',
-  'Bjugg': 'Lorenz Johan Bjugg (1768 - 1839), apteekkari. Toimi Hämeenlinnan apteekkarina vuodesta 1795.' +
-  ' Lönnrot oli Bjuggin apteekkioppilas.',
+  'Bjugg': 'Gustaf Albrekt Bjugg (1800 - 1848), apteekkari. Toimi Hämeenlinnan apteekkarina vuosina 1829 - 1847.' +
+  ' Lönnrot oli farmasian oppilaana Hämeenlinnan apteekissa Bjuggin äidin, Maria Albertina Bjuggin, alaisuudessa vuosina 1820 - 1822.',
   'Bäckvall': 'Johan Bäckvall (1817 - 1883), pappi. Oli mukana <em>Mehiläisen</em> ja <em>Oulun Wiikko-Sanomien</em>' +
   ' toimitustyössä. Bäckvall avusti myös Lönnrotin sanakirjatyötä.',
   'Cannelin': 'Gustaf Cannelin (1815 - 1885), lehtori, rovasti. Avusti Lönnrotia sanakirjatyössä.',

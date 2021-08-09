@@ -93,6 +93,8 @@ $(document).ready(function() {
         || st_before.indexOf('E. W.') >= 0 || st_before.indexOf('L.') >= 0 || st_before.indexOf('Fredr.')
         || st_after.indexOf('Vicarius') >= 0 || borg.indexOf(key + ending) >= 0))  {
         str = '';
+      } else if (key == 'Saima' && st_after.indexOf('Kanawa') >= 0) {
+        str = '';
       } else if (key == 'Castrén' && (st_before.indexOf('Ulric') >= 0 || st_before.indexOf('Ulrik') >= 0
         || st_before.indexOf('Zacharias') >= 0 || st_before.indexOf('Zachris') >= 0 || st_before.indexOf('Länsman') >= 0
         || st_before.indexOf('Ledam. M.') >= 0 || st_before.indexOf('Alrik') >= 0 
@@ -100,7 +102,8 @@ $(document).ready(function() {
         || st_before.indexOf('Kaptén') >= 0 || st_before.indexOf('Vallesm') >= 0 
         || st_before.indexOf('systerson') >= 0 || st_before.indexOf('Kyrkoherde') >= 0
         || st_before.indexOf('Juljus') >= 0 || st_before.indexOf('KronoLänsmannen') >= 0 
-        || st_before.indexOf('Alrik') >= 0 || st_before.indexOf('HäradsHöfd.') >= 0)) {
+        || st_before.indexOf('Alrik') >= 0 || st_before.indexOf('HäradsHöfd.') >= 0
+        || st_before.indexOf('Kaptén') >= 0)) {
         str = '';
       } else if (key == 'Roos' && (st_before.indexOf('A. J.') >= 0 || st_before.indexOf('Höfdingan') >= 0
         || st_before.indexOf('Hhfd.') >= 0 || st_before.indexOf('Hhofd') >= 0 || st_before.indexOf('Ida') >= 0
@@ -123,7 +126,8 @@ $(document).ready(function() {
       } else if (key == 'Lindfors' && (st_before.indexOf('Rector') >= 0 
         || st_before.indexOf('Conrector') >= 0 || st_before.indexOf('Phil') >= 0
         || st_before.indexOf('seminaristen') >= 0 || st_before.indexOf('August') >= 0
-        || st_before.indexOf('Kaarle') >= 0 || st_before.indexOf('Evert E.') >= 0)) {
+        || st_before.indexOf('Kaarle') >= 0 || st_before.indexOf('Evert E.') >= 0
+        || st_before.indexOf('Fru') >= 0)) {
         str = '';
       } else if (key == 'Elfving' && st_before.indexOf('Axel') >= 0) {
         str = '';
@@ -161,7 +165,7 @@ $(document).ready(function() {
         || st_before.indexOf('Wilh.') >= 0 || st_before.indexOf('Doctorinnan') >= 0)) {
         str = '';
       } else if (key == 'Mellin' && (st_before.indexOf('Fru') >= 0 || st_before.indexOf('Mamsell') >= 0 
-        || st_before.indexOf('Robert') >= 0 || st_before.indexOf('Rob.') >= 0)) {
+        || st_before.indexOf('Robert') >= 0 || st_before.indexOf('Rob.') >= 0 || st_before.indexOf('R.') >= 0)) {
         str = '';
       } else if (key == 'Friman' && st_before.indexOf('Skolläraren') >= 0) {
         str = '';
@@ -191,7 +195,7 @@ $(document).ready(function() {
         str = '';
       } else if (key == 'Sirén' && st_before.indexOf('Olga') >= 0) {
         str = '';
-      } else if (key == 'Laurell' && st_before.indexOf('Evert') >= 0) {
+      } else if (key == 'Laurell' && (st_before.indexOf('Evert') >= 0 || st_before.indexOf('Gustaf') >= 0)) {
         str = '';
       } else if (key == 'Planting' && st_before.indexOf('Mi\u00C7hel') >= 0) {
         str = '';
